@@ -1,0 +1,335 @@
+{
+  "pools": [
+    {
+      "name": "ice_dragon_cave",
+      "rolls": {
+        "min": 1,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 58,
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30,
+              "treasure": true
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 32,
+                "max": 64
+              }
+            }
+          ],
+          "weight": 72
+        },
+        {
+          "type": "item",
+          "name": "iceandfire:sapphire_gem",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ],
+          "weight": 33
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 25
+              }
+            }
+          ],
+          "weight": 85
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 64
+              }
+            }
+          ],
+          "weight": 95
+        },
+        {
+          "type": "item",
+          "name": "minecraft:skeleton_skull",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 22
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 23
+        },
+        {
+          "type": "item",
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 10,
+                "max": 50
+              }
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "item",
+          "name": "appflux:core_256k",
+          "weight": 24,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "thermal:upgrade_augment_3",
+          "weight": 45,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "thermal:upgrade_augment_2",
+          "weight": 45,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "thermal:upgrade_augment_1",
+          "weight": 45,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "thermal:cinnabar",
+          "weight": 55,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 64
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "industrialupgrade:energy_tools/nanopickaxe",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "industrialupgrade:energy_tools/nanoaxe",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "industrialupgrade:energy_tools/nanoshovel",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "industrialupgrade:energy_tools/nano_bow",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ae2:logic_processor",
+          "weight": 54,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ae2:calculation_processor",
+          "weight": 54,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "ae2:engineering_processor",
+          "weight": 54,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 16,
+                "max": 32
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:totem_of_undying",
+          "weight": 28,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "born_in_chaos_v1:krampuss_bag",
+          "weight": 68,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "born_in_chaos_v1:bagof_candy",
+          "weight": 68,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "forestry:bee_queen_ge",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{ForgeCaps:{Parent:{analyzed:0b,genome:{\"forestry:activity\":{active:\"forestry:activity_metaturnal\",inactive:\"forestry:activity_metaturnal\"},\"forestry:bee_effect\":{active:\"forestry:bee_effect_misanthrope\",inactive:\"forestry:bee_effect_misanthrope\"},\"forestry:bee_species\":{active:\"lexlav:lunar_bee\",inactive:\"lexlav:lunar_bee\"},\"forestry:cave_dwelling\":{active:\"forestry:trued\",inactive:\"forestry:trued\"},\"forestry:fertility\":{active:\"forestry:0i\",inactive:\"forestry:0i\"},\"forestry:flower_type\":{active:\"forestry:flower_type_end\",inactive:\"forestry:flower_type_end\"},\"forestry:humidity_tolerance\":{active:\"forestry:tolerance_both_2\",inactive:\"forestry:tolerance_both_2\"},\"forestry:lifespan\":{active:\"forestry:2147483647i\",inactive:\"forestry:2147483647i\"},\"forestry:pollination\":{active:\"forestry:5id\",inactive:\"forestry:5id\"},\"forestry:speed\":{active:\"forestry:1.0f\",inactive:\"forestry:1.0f\"},\"forestry:temperature_tolerance\":{active:\"forestry:tolerance_both_2\",inactive:\"forestry:tolerance_both_2\"},\"forestry:territory\":{active:\"forestry:9_6_9\",inactive:\"forestry:9_6_9\"},\"forestry:tolerates_rain\":{active:\"forestry:trued\",inactive:\"forestry:trued\"}},health:2147483647,max_health:2147483647,pristine:1b}}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
