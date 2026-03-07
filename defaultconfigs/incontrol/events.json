@@ -1,0 +1,347 @@
+[
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "born_in_chaos_v1:lifestealer_true_form",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "vampire_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§c§lПОХИТИТЕЛЬ ЖИЗНИ ПОБЕЖДЁН!\",\"color\":\"white\"}",
+      "/schedule function phase_reset:clear_vampire_boost 300s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "born_in_chaos_v1:krampus",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "holiday_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§c§lКРАМПУС ПОБЕЖДЁН!\",\"color\":\"white\"}",
+      "/schedule function phase_reset:clear_holiday_boost 300s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "alexscaves:luxtructosaurus",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "lux_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§6§lЛЮКСТРУКТОЗАВР ПОБЕЖДЁН! МИР НИКОГДА НЕ БУДЕТ ПРЕЖНИМ!\",\"color\":\"white\"}"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "alexscaves:hullbreaker",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "aquatic_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§3§lКОРАБЛЕКРУШИТЕЛЬ ПОБЕЖДЁН!\",\"color\":\"white\"}",
+      "/schedule function phase_reset:clear_aquatic_boost 300s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "born_in_chaos_v1:sir_pumpkinhead",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "pumpkin_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§6§lСЭР ТЫКВОГОЛОВЫЙ ПОБЕЖДЁН!\",\"color\":\"white\"}",
+      "/schedule function phase_reset:clear_pumpkin_boost 300s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "graveyard:lich",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "skeleton_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§5§lЛИЧ ПОБЕЖДЁН!\",\"color\":\"white\"}",
+      "/schedule function phase_reset:clear_necromancer_boost 3000s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "alexscaves:tremorsaurus",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "dinosaur_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§2§lТРЕМОРЗАВР ПОБЕЖДЁН!\",\"color\":\"white\"}",
+      "/schedule function phase_reset:clear_dinosaur_boost 300s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "mowziesmobs:foliaath",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "plant_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§2§lРОСЛОЛИСТ ПОБЕЖДЁН!\",\"color\":\"white\"}",
+      "/schedule function phase_reset:clear_plant_boost 300s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "born_in_chaos_v1:lord_pumpkinhead",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "global_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§6§lЛОРД ТЫКВОГОЛОВЫЙ ПОБЕЖДЁН!\",\"color\":\"light_purple\"}",
+      "/schedule function phase_reset:clear_global_boost 7200s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "alexscaves:tremorzilla",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "global_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§2§lТРЕМОРЗИЛЛА ПОБЕЖДЁН!\",\"color\":\"light_purple\"}",
+      "/schedule function phase_reset:clear_global_boost 7200s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "alexsmobs:void_worm",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "global_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§8§lЧЕРВЯК ПУСТОТЫ ПОБЕЖДЁН!\",\"color\":\"light_purple\"}",
+      "/schedule function phase_reset:clear_global_boost 7200s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "alexscaves:atlatitan",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "dinosaur_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§6§lАТЛАТИТАН ПОБЕЖДЁН!\",\"color\":\"white\"}",
+      "/schedule function phase_reset:clear_dinosaur_boost 300s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "alexscaves:forsaken",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "cave_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§8§lЗАБЫТЫЙ ПОБЕЖДЁН!\",\"color\":\"white\"}",
+      "/schedule function phase_reset:clear_cave_boost 3000s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "mowziesmobs:umvuthi",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "mowzie_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§6§lУМВУТИ ПОБЕЖДЁН!\",\"color\":\"white\"}",
+      "/schedule function phase_reset:clear_mowzie_boost 300s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "mowziesmobs:frostmaw",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "ice_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§b§lМОРОЗНАЯ ПАСТЬ ПОБЕЖДЕНА!\",\"color\":\"white\"}",
+      "/schedule function phase_reset:clear_ice_boost 3008s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "mowziesmobs:sculptor",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "mowzie_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§7§lСКУЛЬПТОР ПОБЕЖДЁН!\",\"color\":\"white\"}",
+      "/schedule function phase_reset:clear_mowzie_boost 300s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "aquamirae:maze_mother",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "aquatic_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§3§lМАТЬ ЛАБИРИНТА ПОБЕЖДЕНА!\",\"color\":\"white\"}",
+      "/schedule function phase_reset:clear_aquatic_boost 3000s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "iceandfire:sea_serpent",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "aquatic_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§3§ЛЕВИАФАН ПОБЕЖДЁН!\",\"color\":\"dark_aqua\"}",
+      "execute as @e[type=iceandfire:sea_serpent,tag=!phase_aquatic_leader] run tag @s add phase_aquatic_leader",
+      "/schedule function phase_reset:clear_aquatic_boost 3000s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "aquamirae:captain_cornelia",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "aquatic_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§d§lКАПИТАН КОРНЕЛИИ ПОБЕЖДЕН!\",\"color\":\"white\"}",
+      "/schedule function phase_reset:clear_aquatic_boost 300s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "iceandfire:fire_dragon",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "dragon_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§c§lОГНЕННЫЙ ДРАКОН ПОБЕЖДЁН!\",\"color\":\"white\"}",
+      "/schedule function phase_reset:clear_dragon_boost 300s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "iceandfire:ice_dragon",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "dragon_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§b§lЛЕДЯНОЙ ДРАКОН ПОБЕЖДЁН!\",\"color\":\"white\"}",
+      "/schedule function phase_reset:clear_dragon_boost 300s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "iceandfire:lightning_dragon",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "dragon_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§e§lГРОЗОВОЙ ДРАКОН ПОБЕЖДЁН!\",\"color\":\"white\"}",
+      "/schedule function phase_reset:clear_dragon_boost 300s"
+    ]
+  },
+  {
+    "on": "mob_killed",
+    "parameters": {
+      "mob": "iceandfire:hydra",
+      "player": true
+    },
+    "phase": {
+      "add": true,
+      "names": "giant_boost"
+    },
+    "command": [
+      "tellraw @a {\"text\":\"§2§lГИДРА ПОБЕЖДЕНА!\",\"color\":\"white\"}",
+      "/schedule function phase_reset:clear_giant_boost 300s"
+    ]
+  }
+]
