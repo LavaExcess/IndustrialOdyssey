@@ -1,0 +1,60 @@
+{
+	icon: "aquamirae:treasure_pouch"
+	id: "0AB1A0FAD8AD6A2C"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 64, item: "minecraft:cooked_beef", weight: 70.0f }
+		{ count: 64, item: "minecraft:iron_ingot", weight: 65.0f }
+		{ count: 64, item: "minecraft:copper_ingot", weight: 65.0f }
+		{ count: 64, item: "thermal:tin_ingot", weight: 65.0f }
+		{ count: 32, item: "thermal:invar_ingot", weight: 50.0f }
+		{ count: 32, item: "thermal:electrum_ingot", weight: 50.0f }
+		{ count: 32, item: "thermal:signalum_ingot", weight: 40.0f }
+		{ count: 32, item: "thermal:lumium_ingot", weight: 30.0f }
+		{ count: 32, item: "thermal:enderium_ingot", weight: 20.0f }
+		{ count: 32, item: "thermal:cinnabar", weight: 40.0f }
+		{ count: 16, item: "minecraft:golden_apple", weight: 30.0f }
+		{ count: 64, item: "thermal:fluid_duct", weight: 50.0f }
+		{ count: 64, item: "thermal:energy_duct", weight: 50.0f }
+		{ count: 32, item: "thermal:upgrade_augment_1", weight: 30.0f }
+		{ count: 16, item: "thermal:upgrade_augment_2", weight: 25.0f }
+		{ count: 8, item: "thermal:upgrade_augment_3", weight: 5.0f }
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "thermal:energy_cell"
+				tag: {
+					BlockEntityTag: {
+						Energy: 0
+						EnergyMax: 1000000
+						EnergyRecv: 1000
+						EnergySend: 1000
+					}
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "thermal:fluid_cell"
+				tag: {
+					BlockEntityTag: {
+						TankInv: [{
+							Amount: 0
+							Capacity: 32000
+							FluidName: "minecraft:empty"
+							Tank: 0b
+						}]
+					}
+				}
+			}
+			weight: 10.0f
+		}
+		{ count: 4, item: "thermal:machine_frame", weight: 10.0f }
+	]
+	title: "Thermal"
+}

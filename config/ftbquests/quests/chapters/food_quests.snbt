@@ -1,0 +1,2733 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "food_quests"
+	group: "127FCDB3BF44B5FC"
+	icon: "alexscaves:sack_of_sating"
+	id: "0D16772BEDD3F441"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6000000000000001"
+				"6000000000000002"
+				"6000000000000003"
+				"6000000000000004"
+				"6000000000000005"
+				"6000000000000006"
+				"6000000000000007"
+				"6000000000000008"
+				"6000000000000009"
+				"600000000000000A"
+				"600000000000000B"
+				"600000000000000C"
+				"600000000000000D"
+				"600000000000000E"
+				"600000000000000F"
+				"6000000000000010"
+				"6000000000000011"
+				"6000000000000012"
+				"6000000000000013"
+				"6000000000000014"
+				"6000000000000015"
+				"6000000000000016"
+				"6000000000000017"
+				"6000000000000018"
+				"6000000000000019"
+				"600000000000001A"
+				"600000000000001B"
+				"600000000000001C"
+				"600000000000001D"
+				"600000000000001E"
+			]
+			icon: "alexscaves:sack_of_sating"
+			id: "2A42DE5E69CCF5BB"
+			rewards: [{
+				id: "1BA46AB63ED15A69"
+				type: "xp"
+				xp: 5000
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6A3DAC40AEC9E048"
+				type: "checkmark"
+			}]
+			title: "&dК бою готов!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5000000000000001"
+			rewards: [{
+				id: "670F8A7A6DB38E78"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5F40FCDC636B4C18"
+				item: "aquamirae:cooked_spinefish"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			id: "5000000000000002"
+			rewards: [{
+				id: "293391D2597C8F94"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "342AC30A4A48FBB6"
+				item: "aquamirae:esca"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			id: "5000000000000003"
+			rewards: [{
+				id: "6FF1C7284F392A07"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0CB12C11C82DA220"
+				item: "aquamirae:poseidons_breakfast"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "5000000000000004"
+			rewards: [{
+				id: "01B8820E84771BF6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5B20DBA67454F157"
+				item: "aquamirae:sea_stew"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5000000000000001"
+				"5000000000000002"
+				"5000000000000003"
+				"5000000000000004"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6000000000000001"
+			rewards: [
+				{
+					id: "155389A0B275A0B8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29FDA4A67398957A"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6F31E3D8186C995F"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "5000000000000005"
+			rewards: [{
+				id: "6BDE02A085685E00"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "04C5A7F719270E93"
+				item: "aquamirae:sea_casserole"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			id: "5000000000000006"
+			rewards: [{
+				id: "2E5B9409B6407369"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "315DB80CB14564CC"
+				item: "minecraft:cooked_porkchop"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "5000000000000007"
+			rewards: [{
+				id: "665A0D9E66584F11"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "68FA147E998EE7EF"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "5000000000000008"
+			rewards: [{
+				id: "7E742E4F2D7B4E2A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "191B289B710BB23A"
+				item: "minecraft:baked_potato"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5000000000000005"
+				"5000000000000006"
+				"5000000000000007"
+				"5000000000000008"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6000000000000002"
+			rewards: [
+				{
+					id: "12425B59FB0C6492"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "384EA20115F059B5"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "72B23B73720FC6D0"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "5000000000000009"
+			rewards: [{
+				id: "3593DBBBE94E4E25"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "298D1F79108EB063"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			id: "500000000000000A"
+			rewards: [{
+				id: "3802D3E24410A883"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1CD69E51B9FCC153"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			id: "500000000000000B"
+			rewards: [{
+				id: "7FD4DEF70A308918"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1A4FF21511626D5F"
+				item: "minecraft:glow_berries"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			id: "500000000000000C"
+			rewards: [{
+				id: "4309E47621551FB0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2D8B3A7349364B88"
+				item: "minecraft:melon_slice"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5000000000000009"
+				"500000000000000A"
+				"500000000000000B"
+				"500000000000000C"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6000000000000003"
+			rewards: [
+				{
+					id: "05129A1733B7435A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2743A8AB7E4DD47B"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "16F3A8B5420D4272"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			id: "500000000000000D"
+			rewards: [{
+				id: "7C843729D0416690"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5E6F082E82E7D459"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			id: "500000000000000E"
+			rewards: [{
+				id: "1E65BDB86BD6C4EB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "481BE67FAB55765F"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			id: "500000000000000F"
+			rewards: [{
+				id: "73DE7340EB7756FC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "33AF546D71CCE966"
+				item: "quark:cooked_crab_leg"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			id: "5000000000000010"
+			rewards: [{
+				id: "6FAB441824A37A2F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "73E3468FC1E516B7"
+				item: "upgrade_aquatic:cooked_perch"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"500000000000000D"
+				"500000000000000E"
+				"500000000000000F"
+				"5000000000000010"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6000000000000004"
+			rewards: [
+				{
+					id: "7A311671644DB251"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79290B8B6048576F"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3EB0E2799DAE41C0"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			id: "5000000000000011"
+			rewards: [{
+				id: "2422CED15DA22450"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "22E6345A13A6048C"
+				item: "upgrade_aquatic:cooked_lionfish"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			id: "5000000000000012"
+			rewards: [{
+				id: "3F554E05F8CFCEFD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2C6E6AD7FB5018C4"
+				item: "upgrade_aquatic:cooked_pike"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			id: "5000000000000013"
+			rewards: [{
+				id: "426EAFFD982007FE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "26206BF13D8BD5A3"
+				item: "minecraft:cooked_salmon"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			id: "5000000000000014"
+			rewards: [{
+				id: "25C900B0ACF7BA5F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "20D5F48390217AB4"
+				item: "minecraft:cooked_cod"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5000000000000011"
+				"5000000000000012"
+				"5000000000000013"
+				"5000000000000014"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6000000000000005"
+			rewards: [
+				{
+					id: "643F07B6A0D70A77"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34C90DEFAD59AA2C"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "12F650536A726BC0"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			id: "5000000000000015"
+			rewards: [{
+				id: "5D2D5622C0D3F5BF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4CA26771E089180A"
+				item: "minecraft:cooked_rabbit"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			id: "5000000000000016"
+			rewards: [{
+				id: "3B96226E555DC80D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "18AF81CDB78E6668"
+				item: "minecraft:cooked_chicken"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "5000000000000017"
+			rewards: [{
+				id: "020A8C80CDE94A55"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "687F2467AA694405"
+				item: "minecraft:cooked_mutton"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			id: "5000000000000018"
+			rewards: [{
+				id: "1AFFC2857D4FAF3A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "11FB12C4E1BB0114"
+				item: "alexsmobs:cooked_catfish"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5000000000000015"
+				"5000000000000016"
+				"5000000000000017"
+				"5000000000000018"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6000000000000006"
+			rewards: [
+				{
+					id: "78D6A95165C39B22"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03D3FA836A8D9592"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3298BDFD8C5399D1"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "5000000000000019"
+			rewards: [{
+				id: "7BBE7E42AEC5B89E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4817F54FFEE2B28E"
+				item: "alexsmobs:flying_fish"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			id: "500000000000001A"
+			rewards: [{
+				id: "3DEA4E3085BDF0EB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0C1910F33DAB28AC"
+				item: "alexsmobs:gongylidia"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			id: "500000000000001B"
+			rewards: [{
+				id: "06B7F6088537790F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "31BFB4394DD0A35E"
+				item: "alexsmobs:kangaroo_burger"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			id: "500000000000001C"
+			rewards: [{
+				id: "6DEF8C2F835C6ED0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1FAB1574AF5B4BF9"
+				item: "alexsmobs:cooked_moose_ribs"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"5000000000000019"
+				"500000000000001A"
+				"500000000000001B"
+				"500000000000001C"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6000000000000007"
+			rewards: [
+				{
+					id: "0E6A6E980F2AD842"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75D2BA2983030A63"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "53B2B7F8991D3AD5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			id: "500000000000001D"
+			rewards: [{
+				id: "18CC585B5E256720"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "588FA1EB7B38D15D"
+				item: "alexsmobs:cooked_lobster_tail"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			id: "500000000000001E"
+			rewards: [{
+				id: "1A3FFADDE042C813"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4BCF3C3C59568FB8"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			id: "500000000000001F"
+			rewards: [{
+				id: "049F94CD909AD26B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "34EF7893A5BD8B86"
+				item: "minecraft:spider_eye"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			id: "5000000000000020"
+			rewards: [{
+				id: "15082BA13F518FF1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "411CE95D8B432B03"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"500000000000001D"
+				"500000000000001E"
+				"500000000000001F"
+				"5000000000000020"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6000000000000008"
+			rewards: [
+				{
+					id: "78A7D4680E7C0B91"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "617B51FD1275AF0A"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "69761EC7DA008220"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			id: "5000000000000021"
+			rewards: [{
+				id: "3C526BE1B563424D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E4AA5596C9C086F"
+				item: "deeperdarker:bloom_berries"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			id: "5000000000000022"
+			rewards: [{
+				id: "17467506EE01ECD2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0FBD15325FB3EC42"
+				item: "forestry:honeyed_slice"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			id: "5000000000000023"
+			rewards: [{
+				id: "632834E512597687"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D1F7ABA48424364"
+				item: "forestry:ambrosia"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			id: "5000000000000024"
+			rewards: [{
+				id: "49D4A2FAE91E1F60"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "43CB545EFCBAF37B"
+				item: "forestry:fruit_cherry"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"5000000000000021"
+				"5000000000000022"
+				"5000000000000023"
+				"5000000000000024"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6000000000000009"
+			rewards: [
+				{
+					id: "33FF2763A8A7A85F"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09F80C099B643763"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1B5E2D155B169312"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			id: "5000000000000025"
+			rewards: [{
+				id: "5C359C2BF97B545A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1A27404A14676B99"
+				item: "forestry:fruit_walnut"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "5000000000000026"
+			rewards: [{
+				id: "1B7750FBE65C7F71"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "728662BC3D8155C4"
+				item: "forestry:fruit_chestnut"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			id: "5000000000000027"
+			rewards: [{
+				id: "3EAFEC0069548B43"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "28A235E4E2B86F77"
+				item: "forestry:fruit_lemon"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			id: "5000000000000028"
+			rewards: [{
+				id: "7E4273E6DA35ABEB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "38C4B3E180AF6848"
+				item: "forestry:fruit_plum"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5000000000000025"
+				"5000000000000026"
+				"5000000000000027"
+				"5000000000000028"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "600000000000000A"
+			rewards: [
+				{
+					id: "7832E84297B07525"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D8378182A3DA397"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6E54959E8A9F4603"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "5000000000000029"
+			rewards: [{
+				id: "00AFD37AAA653690"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "48A412B0E7B6B6FE"
+				item: "forestry:fruit_dates"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			id: "500000000000002A"
+			rewards: [{
+				id: "6ADD352863F5A0ED"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "20A635CAA30C70F3"
+				item: "biomeswevegone:white_puffball_stew"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			id: "500000000000002B"
+			rewards: [{
+				id: "19C8B4C4BB89E484"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "509DFDE488ED8473"
+				item: "biomeswevegone:allium_oddion_soup"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			id: "500000000000002C"
+			rewards: [{
+				id: "5B11716D83898968"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5F2599056EEA71E5"
+				item: "biomeswevegone:blueberry_pie"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"5000000000000029"
+				"500000000000002A"
+				"500000000000002B"
+				"500000000000002C"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "600000000000000B"
+			rewards: [
+				{
+					id: "662904238E3CC84D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B385BA29140263A"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2713A3030FBF41F1"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "500000000000002D"
+			rewards: [{
+				id: "347155E131A06143"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A24ABE5CE118E16"
+				item: "biomeswevegone:blueberries"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			id: "500000000000002E"
+			rewards: [{
+				id: "2BDC54063C810F9A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "710633161E9B3C2E"
+				item: "biomeswevegone:green_apple_pie"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			id: "500000000000002F"
+			rewards: [{
+				id: "6C96D5A1E2E68DD1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "66935FD7297C5E17"
+				item: "biomeswevegone:green_apple"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			id: "5000000000000030"
+			rewards: [{
+				id: "461FF9786D6478D0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "67BBD72126928292"
+				item: "biomeswevegone:cooked_yucca_fruit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"500000000000002D"
+				"500000000000002E"
+				"500000000000002F"
+				"5000000000000030"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "600000000000000C"
+			rewards: [
+				{
+					id: "74D52F11196E03AE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "591CE09C8B8DC400"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3383C829E1161879"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "5000000000000031"
+			rewards: [{
+				id: "72F1C70C358D73CC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "585CC6AAE295C4C3"
+				item: "biomeswevegone:blooming_oddion"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "5000000000000032"
+			rewards: [{
+				id: "265E07E43A2D34F5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "41ACEB6002173B4E"
+				item: "biomeswevegone:baobab_fruit"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "5000000000000033"
+			rewards: [{
+				id: "622058EFA2C6E046"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2A597C873954B2C5"
+				item: "born_in_chaos_v1:caramel_pepper"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "5000000000000034"
+			rewards: [{
+				id: "5A7393DB2FE6CC56"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0BFAA62F693D74AF"
+				item: "born_in_chaos_v1:chocolate_heart"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5000000000000031"
+				"5000000000000032"
+				"5000000000000033"
+				"5000000000000034"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "600000000000000D"
+			rewards: [
+				{
+					id: "58E60C2CC85EADB8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09A1C11D8DE17089"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0C7C00E7E1400C1F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "5000000000000035"
+			rewards: [{
+				id: "7CB6F89562702DBF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "03E99AE8B2954C94"
+				item: "born_in_chaos_v1:mint_ice_cream"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "5000000000000036"
+			rewards: [{
+				id: "0A7EE8FD3DF8395C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "60417F6F46A77698"
+				item: "born_in_chaos_v1:smoked_monster_flesh"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "5000000000000037"
+			rewards: [{
+				id: "0411FBC271138DA5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "40B2C3F8704AB177"
+				item: "born_in_chaos_v1:smoked_fish"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "5000000000000038"
+			rewards: [{
+				id: "04099F1050090440"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3B784DE716BBF190"
+				item: "born_in_chaos_v1:smoked_flesh"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5000000000000035"
+				"5000000000000036"
+				"5000000000000037"
+				"5000000000000038"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "600000000000000E"
+			rewards: [
+				{
+					id: "7BB1FAC57077C063"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2648C18BF09E608A"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "292F465E5D3646D5"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "5000000000000039"
+			rewards: [{
+				id: "21661B84F03D9CCF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6EE57F0B0F719BC1"
+				item: "born_in_chaos_v1:coffee_candy"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "500000000000003A"
+			rewards: [{
+				id: "6B604D2DA165DB86"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5B68FBFF76E8621B"
+				item: "born_in_chaos_v1:gummy_vampire_teeth"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "500000000000003B"
+			rewards: [{
+				id: "48955CAECDF238A7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0F99167DB4DE3CF7"
+				item: "born_in_chaos_v1:fried_maggot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "500000000000003C"
+			rewards: [{
+				id: "211051451B52B2BB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "30384F99FEB87ED9"
+				item: "born_in_chaos_v1:transforming_easter_cake"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5000000000000039"
+				"500000000000003A"
+				"500000000000003B"
+				"500000000000003C"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "600000000000000F"
+			rewards: [
+				{
+					id: "454BA8AC1C73CD9C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49ACD646E775D8C4"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "632E9BD83AA2E530"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "500000000000003D"
+			rewards: [{
+				id: "31CDB10C9F4DE05D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "27BE39C6F9B5BEDC"
+				item: "born_in_chaos_v1:spiritual_gingerbread"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "500000000000003E"
+			rewards: [{
+				id: "3E0467A06D58EE35"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "54C4C1A65971AB95"
+				item: "born_in_chaos_v1:creepy_cookies_with_milk"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "500000000000003F"
+			rewards: [{
+				id: "2B4F867B8967B7E1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2249A6C52F45AD94"
+				item: "born_in_chaos_v1:eternal_candy"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "5000000000000040"
+			rewards: [{
+				id: "310A614932E69D8B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4EEDD7EBACA3F3F5"
+				item: "born_in_chaos_v1:magical_holiday_candy"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"500000000000003D"
+				"500000000000003E"
+				"500000000000003F"
+				"5000000000000040"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6000000000000010"
+			rewards: [
+				{
+					id: "4C2B2B7E1216E5C3"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "021C431EC2561D1B"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2F0749DF979E1C59"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "5000000000000041"
+			rewards: [{
+				id: "1A7A6C8375F11EB9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3BAF490300DC38CB"
+				item: "born_in_chaos_v1:holiday_candy"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "5000000000000042"
+			rewards: [{
+				id: "0F006E7BED79B914"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D8EF0671958043F"
+				item: "industrialupgrade:raspberry"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "5000000000000043"
+			rewards: [{
+				id: "1055BD8AAECB3429"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "61B2990DC235B214"
+				item: "industrialupgrade:corn"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "5000000000000044"
+			rewards: [{
+				id: "031F8C37DB7CD6DC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "30D60FB090BF40C3"
+				item: "industrialupgrade:hops"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5000000000000041"
+				"5000000000000042"
+				"5000000000000043"
+				"5000000000000044"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6000000000000011"
+			rewards: [
+				{
+					id: "049385F4FCC1A74E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AD6ADABCA72A18D"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "417571216A30AA1C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "5000000000000045"
+			rewards: [{
+				id: "62E30689D0266943"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E180BED4C2B3E8C"
+				item: "alexscaves:sweetish_fish_red"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "5000000000000046"
+			rewards: [{
+				id: "1BBE07BF7A2F899F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "123EF4E1255F2085"
+				item: "alexscaves:sweetish_fish_green"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "5000000000000047"
+			rewards: [{
+				id: "688A8338D81BCDEC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1BEB8A1B08EA0921"
+				item: "alexscaves:sweetish_fish_yellow"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "5000000000000048"
+			rewards: [{
+				id: "3D9197C761F06258"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1ED8638C9049521B"
+				item: "alexscaves:sweetish_fish_blue"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5000000000000045"
+				"5000000000000046"
+				"5000000000000047"
+				"5000000000000048"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6000000000000012"
+			rewards: [
+				{
+					id: "3DB7AB3A2AA87C65"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53A53E29FCCE868B"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "44F2A4AFB9C12587"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "5000000000000049"
+			rewards: [{
+				id: "4D65B65FA47A8658"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "147A07CCC7243C7A"
+				item: "alexscaves:sweetish_fish_pink"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "500000000000004A"
+			rewards: [{
+				id: "0A6614FDA58AA807"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "04367BCAE0A6CF97"
+				item: "alexscaves:caramel_apple"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "500000000000004B"
+			rewards: [{
+				id: "4B107EB24CBB99A5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "59BBED3EF9E778ED"
+				item: "alexscaves:caramel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "500000000000004C"
+			rewards: [{
+				id: "74C64BA9612F13F7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "01E66CED4B7ABE9E"
+				item: "alexscaves:gumball_pile"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5000000000000049"
+				"500000000000004A"
+				"500000000000004B"
+				"500000000000004C"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6000000000000013"
+			rewards: [
+				{
+					id: "7CD3781368792D2D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0EC45183C17571FE"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "02B1FBC834D725DE"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "500000000000004D"
+			rewards: [{
+				id: "6F37DA517FC9E883"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "23D542A184D70292"
+				item: "alexscaves:sharpened_candy_cane"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "500000000000004E"
+			rewards: [{
+				id: "25C9BCCC9A6CEE30"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "33E51E907070B89D"
+				item: "alexscaves:dinosaur_nugget"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			id: "500000000000004F"
+			rewards: [{
+				id: "771D818080976056"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "317F1D56DA24697D"
+				item: "alexscaves:pine_nuts"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "5000000000000050"
+			rewards: [{
+				id: "6F239F538CF8AA35"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "750C11D9084DB95F"
+				item: "alexscaves:cooked_trilocaris_tail"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"500000000000004D"
+				"500000000000004E"
+				"500000000000004F"
+				"5000000000000050"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6000000000000014"
+			rewards: [
+				{
+					id: "3583CCA0595704A8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E94224BFFDBE067"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3F0C6317FFE27A96"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "5000000000000051"
+			rewards: [{
+				id: "06C778B010810BD5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0218D8A630006962"
+				item: "forestry:fruit_feijoa"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			id: "5000000000000052"
+			rewards: [{
+				id: "5398A502D1ADB27B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D70AA1DB50BCB1B"
+				item: "forestry:fruit_olive"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			id: "5000000000000053"
+			rewards: [{
+				id: "301C4374809000B9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0C2C57EA6D31B135"
+				item: "forestry:fruit_coconut"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			id: "5000000000000054"
+			rewards: [{
+				id: "2C2DF363857B0BFE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4D88DC0C96AE1E28"
+				item: "forestry:fruit_orange"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5000000000000051"
+				"5000000000000052"
+				"5000000000000053"
+				"5000000000000054"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6000000000000015"
+			rewards: [
+				{
+					id: "66250CE4EF7F2188"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B523952232EED66"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7409FB8E548C2395"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "5000000000000055"
+			rewards: [{
+				id: "4FE0A30943485368"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "75233212DD00646F"
+				item: "forestry:fruit_pear"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			id: "5000000000000056"
+			rewards: [{
+				id: "69662547F4B7ACEF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "77617B7B60C135D3"
+				item: "forestry:fruit_papaya"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			id: "5000000000000057"
+			rewards: [{
+				id: "7F3CA748C582115A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4207C637FB0CF779"
+				item: "alexscaves:lanternfish"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			id: "5000000000000058"
+			rewards: [{
+				id: "5AF3F24C56C65C81"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "547149D24D47DE09"
+				item: "alexscaves:cooked_lanternfish"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5000000000000055"
+				"5000000000000056"
+				"5000000000000057"
+				"5000000000000058"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6000000000000016"
+			rewards: [
+				{
+					id: "6B39B5A6BD437322"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CE17427774F415F"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "02E6A901E298588E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "5000000000000059"
+			rewards: [{
+				id: "3F57818BD55752AF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "01566501D9065EB0"
+				item: "alexscaves:green_soylent"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			id: "500000000000005A"
+			rewards: [{
+				id: "3E191332D871A43D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "55925191837FCDB2"
+				item: "alexscaves:slam"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			id: "500000000000005B"
+			rewards: [{
+				id: "79776E5328729247"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "562EF1617D5D9245"
+				item: "alexscaves:spelunkie"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			id: "500000000000005C"
+			rewards: [{
+				id: "5A819AA16F14C36A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "05B10C6B5098C756"
+				item: "alexscaves:cooked_radgill"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"5000000000000059"
+				"500000000000005A"
+				"500000000000005B"
+				"500000000000005C"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6000000000000017"
+			rewards: [
+				{
+					id: "7BDCB3714A9C1E33"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43BC354DEEF0AD2E"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2171F18C1A526991"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			id: "500000000000005D"
+			rewards: [{
+				id: "324218A65C1DDB89"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "091645A56C3EC3CB"
+				item: "alexscaves:primordial_soup"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "500000000000005E"
+			rewards: [{
+				id: "1C6A91EF8D06AA34"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "079253B5917F5F46"
+				item: "alexscaves:seething_stew"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "500000000000005F"
+			rewards: [{
+				id: "00A11EC867AA267E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "57D0A00B5CE161F5"
+				item: "alexscaves:serene_salad"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "5000000000000060"
+			rewards: [{
+				id: "7E7EE35FBD75AA6D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "66A75F07D5A21E40"
+				item: "alexscaves:sundae"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"500000000000005D"
+				"500000000000005E"
+				"500000000000005F"
+				"5000000000000060"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6000000000000018"
+			rewards: [
+				{
+					id: "58D6478097490CE0"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AA6E19054DCC134"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0A64A9CD27852A7B"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "5000000000000061"
+			rewards: [{
+				id: "6497DC03FAF8C249"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2446CA58EA59447E"
+				item: "alexscaves:hot_chocolate_bottle"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "5000000000000062"
+			rewards: [{
+				id: "1ADD2BC260CA5FCD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "152270D945BCDE70"
+				item: "alexscaves:purple_soda_bottle"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "5000000000000063"
+			rewards: [{
+				id: "5795B76EB0E90C68"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3FE8498A6A8C0B69"
+				item: "alexscaves:vesper_wing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "5000000000000064"
+			rewards: [{
+				id: "0BC2872F83C1A6FA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5EC13FB0D8083E9B"
+				item: "alexscaves:vesper_stew"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5000000000000061"
+				"5000000000000062"
+				"5000000000000063"
+				"5000000000000064"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "6000000000000019"
+			rewards: [
+				{
+					id: "11F703075A216269"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06142EAC463D1044"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7CD9629777B328E8"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "5000000000000065"
+			rewards: [{
+				id: "05C0B98122188BB0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "091987986D062B8F"
+				item: "alexscaves:deep_sea_sushi_roll"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			id: "5000000000000066"
+			rewards: [{
+				id: "2458B0B4899743CF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "24D600E95C768C18"
+				item: "alexscaves:cooked_mussel"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			id: "5000000000000067"
+			rewards: [{
+				id: "08A86E5BAC75F1C7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "234B96F44AC70E9B"
+				item: "alexscaves:sea_pig"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "5000000000000068"
+			rewards: [{
+				id: "34522A708FE6D78C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "43424977274BCBF1"
+				item: "alexscaves:cooked_tripodfish"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5000000000000065"
+				"5000000000000066"
+				"5000000000000067"
+				"5000000000000068"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "600000000000001A"
+			rewards: [
+				{
+					id: "6B4BDACD12B766EB"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20189934F2CE5D26"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1714E802EDB8FCFF"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "5000000000000069"
+			rewards: [{
+				id: "1DF472073752C924"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "704927CD2268DA4D"
+				item: "alexscaves:small_peppermint"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			id: "500000000000006A"
+			rewards: [{
+				id: "5A89340BDCDDB7A6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "01FFD4889EB248E8"
+				item: "alexscaves:large_peppermint"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			id: "500000000000006B"
+			rewards: [{
+				id: "70830E2459C9C673"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0C859789B5445FA5"
+				item: "alexscaves:gingerbread_crumbs"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "500000000000006C"
+			rewards: [{
+				id: "42103B4026BC9312"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7AA03F829D55A89D"
+				item: "alexscaves:peppermint_powder"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5000000000000069"
+				"500000000000006A"
+				"500000000000006B"
+				"500000000000006C"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "600000000000001B"
+			rewards: [
+				{
+					id: "02F1529FAB311AEB"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "318DE7B78B7BD37D"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "51F7000A41492557"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "500000000000006D"
+			rewards: [{
+				id: "2D558ACBBEFDFFA7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1F6618400C9F6674"
+				item: "alexscaves:gelatin_pink"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "500000000000006E"
+			rewards: [{
+				id: "6C64F08E930BE276"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0F53717C037C196F"
+				item: "alexscaves:gelatin_blue"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "500000000000006F"
+			rewards: [{
+				id: "1118AE0EC08197CA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7DE92ED522556DF6"
+				item: "alexscaves:gelatin_yellow"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			id: "5000000000000070"
+			rewards: [{
+				id: "1757CFC7ED60BABA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "69B52AEA93494106"
+				item: "alexscaves:gelatin_green"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"500000000000006D"
+				"500000000000006E"
+				"500000000000006F"
+				"5000000000000070"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "600000000000001C"
+			rewards: [
+				{
+					id: "620E224A544B123A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "260655CB48B92A9A"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4EE9B9CB8AE6F0E8"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "5000000000000071"
+			rewards: [{
+				id: "1CD71D89EE803CD4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7C43372520E1F894"
+				item: "alexscaves:gelatin_red"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "5000000000000072"
+			rewards: [{
+				id: "26D5597D61D9491D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0CB6E43AE0E82107"
+				item: "alexscaves:lollipop_bunch"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "5000000000000073"
+			rewards: [{
+				id: "64C1BFA878659840"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7E38A2BF754A5C5D"
+				item: "alexscaves:candy_cane"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "5000000000000074"
+			rewards: [{
+				id: "288E9575E38ACCC6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3074E71925C00370"
+				item: "alexscaves:giant_sweetberry"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5000000000000071"
+				"5000000000000072"
+				"5000000000000073"
+				"5000000000000074"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "600000000000001D"
+			rewards: [
+				{
+					id: "3FF1BE445442A729"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67672837A85EC5FF"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5AFFE4EEF97CEB5E"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "5000000000000075"
+			rewards: [{
+				id: "16A23C6171CAAC5A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "74568C500EE92A21"
+				item: "alexscaves:sweetberry_ice_cream"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "5000000000000076"
+			rewards: [{
+				id: "29792F4354B3BBD2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "60AF5F0E9C011558"
+				item: "alexscaves:vanilla_ice_cream"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "5000000000000077"
+			rewards: [{
+				id: "5A2C78DCA7CE564B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "607F09DF358984DB"
+				item: "alexscaves:chocolate_ice_cream"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "5000000000000078"
+			rewards: [{
+				id: "5BB317829F7CED7F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E41AF7ECAAE37A3"
+				item: "alexscaves:licoroot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5000000000000075"
+				"5000000000000076"
+				"5000000000000077"
+				"5000000000000078"
+			]
+			icon: "minecraft:experience_bottle"
+			id: "600000000000001E"
+			rewards: [
+				{
+					id: "48494A2FF7BE4B7A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "645EBE8501928AC0"
+					table_id: 5561029699553636693L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "30985B442BA9BA8A"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter_groups_6489874184484817335.title}"
+}

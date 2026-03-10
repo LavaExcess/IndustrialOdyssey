@@ -1,0 +1,2407 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "thermal_expansion"
+	group: "43F397064768B66D"
+	icon: "thermal:machine_frame"
+	id: "658721DF03EC997D"
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["47A6ACAA667AD14A"]
+			description: ["Thermal Series — это модульная серия модов, которая добавляет в ваш Minecraft богатое сочетание магии и технологий!"]
+			icon: "thermal:upgrade_augment_3"
+			id: "2C50B0E024C3D92E"
+			rewards: [
+				{
+					id: "38C94F47D174E8AC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44DABAC969F58811"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "3F17D354ADBF4737"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "3AFA27A173E61110"
+				type: "checkmark"
+			}]
+			title: "Добро пожаловать в &9Thermal Series&r!"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			description: [
+				"Краснокаменная печь использует RF/FE вместо угля для переплавки предметов."
+				""
+				"Как и все механизмы в Thermal Series, эту машину можно улучшать с помощью улучшений, чтобы увеличить скорость каждого процесса."
+			]
+			id: "22BC123D486CC3E3"
+			rewards: [
+				{
+					id: "3CCE7672025861F0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "735AF78FACBF39C6"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "384B58C12D8B80B8"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			subtitle: "Электрическая печь"
+			tasks: [{
+				id: "288B38C43A7C6D48"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			title: "Краснокаменная печь"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22BC123D486CC3E3"]
+			description: ["Дробилка разбивает сырые руды в пыль и имеет 25%% шанс создать дополнительную пыль."]
+			id: "55C8DD9A754545BD"
+			rewards: [
+				{
+					id: "3E45FAAFAC9F1441"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06E0F4CA136F10B7"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "1109BAFD848192D7"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			subtitle: "Превращает руды в пыль"
+			tasks: [{
+				id: "06665E87CB134F3C"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55C8DD9A754545BD"]
+			description: [
+				"Индукционная печь соединяет материалы для создания новых сплавов."
+				""
+				"Это также полезно при переплавке Древнего мусора в Незеритовый лом."
+			]
+			id: "452F51995AD0461C"
+			rewards: [
+				{
+					id: "037B7FA1379ECF71"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "463BDF3F5D1FE435"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "54A14C8F2889DC3F"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			subtitle: "Создатель сплавов"
+			tasks: [{
+				id: "63C10CF0EF19F2C8"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: ["Рамка механизма необходима для создания различных машин в Thermal Series."]
+			id: "5F385CBA98795C62"
+			rewards: [
+				{
+					id: "2D9417CDC17051C2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "521ADE787416BD6E"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "6F59212286D5C997"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Базовая рамка для механизмов"
+			tasks: [{
+				id: "3EC446E752907C94"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "3DA93308D19BA85F"
+			rewards: [
+				{
+					id: "7B486676D43EF92A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E54953088990128"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "30D9B36967969FAC"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Вырабатывает энергию, сжигая предметы!"
+			tasks: [{
+				id: "4BEE939AC38768ED"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: ["Примечание: работает с Древесным маслом, Креозотовым маслом и Очищенным топливом."]
+			hide_dependency_lines: true
+			id: "7FE2EED58AB791E8"
+			rewards: [
+				{
+					id: "3637A17ACC08049B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71C0AC22165A9665"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "037D9A908FDE9C07"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Вырабатывает энергию, используя жидкое топливо!"
+			tasks: [{
+				id: "6E5C2E9D729210C9"
+				item: "thermal:dynamo_compression"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "2F71FCE4E576C977"
+			rewards: [
+				{
+					id: "60232CD86BC3E5AB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54A78249836FE280"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "72A0232B93879D57"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Вырабатывает энергию, используя лаву!"
+			tasks: [{
+				id: "52A52D9AC73D57A6"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "72C1C2CE02DCBDFF"
+			rewards: [
+				{
+					id: "2845562DB5F87C6B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58D811B81CC1025D"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "67AFB3CA72E80AF2"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Вырабатывает энергию, используя самоцветы!"
+			tasks: [{
+				id: "7B973B2B2EED7921"
+				item: "thermal:dynamo_lapidary"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: [""]
+			hide_dependency_lines: true
+			id: "2EAE9EDE6EFA59F0"
+			rewards: [
+				{
+					id: "12A6B0E17901A5F6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00DF5B4A50DE942B"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "477FE0F9C5F61947"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Вырабатывает энергию, используя зачарованные предметы!"
+			tasks: [{
+				id: "0E3CDD1130A56248"
+				item: "thermal:dynamo_disenchantment"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "40ADAB71DB70EF32"
+			rewards: [
+				{
+					id: "4D9E7D35E9512B14"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "149538658A3B595A"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "72100EB5B5D64B56"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Вырабатывает энергию, используя еду?"
+			tasks: [{
+				id: "795A2D642A7B7D50"
+				item: "thermal:dynamo_gourmand"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: [
+				"Это базовое улучшение для всех машин и предметов."
+				""
+				"Примечание: Хотя в машину можно установить несколько базовых улучшений, действует только самое высокое."
+			]
+			hide_dependency_lines: true
+			id: "76084BE1BBCF941F"
+			rewards: [
+				{
+					id: "73AB1B33A77FD844"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "778E0B6924F9DEE4"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "1EA393E6B2238512"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Базовое улучшение 1-го уровня"
+			tasks: [{
+				id: "3EE6189C5B2FDD2F"
+				item: "thermal:upgrade_augment_1"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: [
+				"Это улучшение 2-го уровня для предметов и машин Thermal Series."
+				""
+				"Примечание: Хотя в машину можно установить несколько базовых улучшений, действует только самое высокое."
+			]
+			hide_dependency_lines: true
+			id: "246CD1925FD6761C"
+			rewards: [
+				{
+					id: "14C8EBD8F92AA688"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29D9AB6738FAA080"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "3716A7FD08080583"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Базовое улучшение 2-го уровня"
+			tasks: [{
+				id: "6AD321AC8D6BFDAD"
+				item: "thermal:upgrade_augment_2"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: ["Примечание: Хотя в машину можно установить несколько базовых улучшений, действует только самое высокое."]
+			hide_dependency_lines: true
+			id: "034FC4BCCCD7D154"
+			rewards: [
+				{
+					id: "4D75BC228AA31872"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "620500CC4A92DE45"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "3EEF09B3FC721EDA"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Базовое улучшение 3-го уровня"
+			tasks: [{
+				id: "5237B4381DA7BE1B"
+				item: "thermal:upgrade_augment_3"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			description: [
+				"Может превращать некоторые блоки в жидкости."
+				""
+				"Это полезно для получения лавы из булыжника, незеррака и т.д."
+			]
+			id: "0897F7A3203E45AF"
+			rewards: [
+				{
+					id: "2DEE2ED406FCAD74"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "375EF87BB332A057"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "6F7995D86AD63792"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3D2DFF6062AED26E"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			description: [
+				"Этот механизм работает как Ботанический горшок, Садовая колба и т.д."
+				""
+				"При подаче воды и семян он будет выращивать семена внутри механизма и автоматически выводить продукты в механизм."
+			]
+			id: "648B483B128A32F5"
+			rewards: [
+				{
+					id: "729C4DCBC9D708AF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F0E56A7794AFF8B"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "4D66D0F166EE0B8D"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "61287BF539F0C5FC"
+				item: "thermal:machine_insolator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			hide_dependency_lines: true
+			id: "66321E1F01C36567"
+			rewards: [
+				{
+					id: "5010BD3B6D7E02C9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CC9BFDED5CC17D1"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "2D2A09FD7568E4D2"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7A3BCB9C631D8FAD"
+				item: "thermal:machine_sawmill"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: ["Про-совет: ты можешь зачаровать их на &9Вместимость&r, чтобы увеличить хранилище!"]
+			hide_dependency_lines: true
+			id: "037E566ACC83FE07"
+			rewards: [
+				{
+					id: "12B6E8B4237B78C9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09AA093C4AD12C5F"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "0C314B0F52399B60"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "64186CC4330A70D8"
+				item: {
+					Count: 1
+					id: "thermal:energy_cell"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+							EnergySend: 1000
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Хранение энергии"
+			x: -1.25d
+			y: 1.9499999999999997d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "4389E906A2A74867"
+			rewards: [
+				{
+					id: "5BE6BB1729EC08DE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "520764F8BBDECE0A"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "17C7C2D709900CB6"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "694DB377E094D28E"
+				item: {
+					Count: 1
+					id: "thermal:fluid_cell"
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								Amount: 0
+								Capacity: 32000
+								FluidName: "minecraft:empty"
+								Tank: 0b
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Хранение жидкостей"
+			x: 5.25d
+			y: 1.9499999999999997d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "483C1F4D099369A2"
+			rewards: [
+				{
+					id: "5660BD6CFC4D0DFF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DB300F9FA94C708"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "5B5CFBED53F166E8"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Позволяет хранить опыт"
+			tasks: [{
+				id: "66656B02B957573F"
+				item: "thermal:xp_storage_augment"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "6D35E56FC874C841"
+			rewards: [
+				{
+					id: "198599C46CFBF695"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A5429E3C40B191B"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "1ECF37844170390A"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1726C6AB09496E0C"
+				item: "thermal:item_filter_augment"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "234CD79746FCAA18"
+			rewards: [
+				{
+					id: "52A142C46FE154FD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CCD548DE4F1E5D0"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "6F13CBD46324BD00"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Уничтожает побочные продукты"
+			tasks: [{
+				id: "784D4494897AF202"
+				item: "thermal:machine_null_augment"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			description: ["Этот механизм в основном используется для извлечения красителей из цветов или для разделения рудных смесей обратно на компоненты."]
+			id: "3475E12711B6BB98"
+			rewards: [
+				{
+					id: "65D3E06E07F056B4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FBB3168E56CDEEA"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "64DB290837F39821"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Разделяет предметы на компоненты крафта"
+			tasks: [{
+				id: "2183800CED355EEB"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			description: [
+				"Создаёт «Пресс-формы» с помощью литейных форм."
+				""
+				"Пластины, шестерни и т.д."
+			]
+			hide_dependency_lines: true
+			id: "5963FBEB78A79668"
+			rewards: [
+				{
+					id: "05EE1B51C2C41AB2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B41CBAC0B6951A8"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "630C7502CCBFBF05"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0C6725EA57E7D9EE"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			description: [
+				"Превращает предметы из жидкости в твёрдое состояние, некоторым требуются литейные формы."
+				""
+				"Также есть рецепт яйца призыва пчелы, который она может создать."
+			]
+			id: "469443A3BA0C3BEE"
+			rewards: [
+				{
+					id: "1C58D7BB0C66CDD6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1020E315B179F231"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "12457EC7354FC7BF"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "66AF5C07727A5B39"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			description: ["Может превращать жидкости в предметы или другие полезные жидкости."]
+			hide_dependency_lines: true
+			id: "627D6FDC3D8C42F6"
+			rewards: [
+				{
+					id: "621D85AA964D95EA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1629D5AB6CFCFD3A"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "1EF9C8ECE661AFCB"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3B188F7D7009093C"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			description: [
+				"Работает как коксовая печь, но упрощённо."
+				""
+				"Помести «топливо», например уголь, и она произведёт угольный кокс и побочный продукт."
+			]
+			hide_dependency_lines: true
+			id: "5ECC93FB8F676E3F"
+			rewards: [
+				{
+					id: "4689D3FF231293C4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CA69AF39B296D34"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "6ECF50EFEE9AC788"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "76A0C32FB86A089D"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			description: ["Соединяет жидкости с предметами"]
+			hide_dependency_lines: true
+			id: "469663FE3DA932EF"
+			rewards: [
+				{
+					id: "3B5166E41B8232DA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44699AD3BF273C7F"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "3BEBED2ECA839340"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "05867D444D20EABE"
+				item: "thermal:machine_bottler"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			description: ["Может создавать «Жидкие» зелья, которые затем можно разлить по бутылкам."]
+			hide_dependency_lines: true
+			id: "1BCE8D02CDD13838"
+			rewards: [
+				{
+					id: "77788CA8E4C54C9A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2957ED4948F09A1C"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "3035386C2D8C93DE"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "70EF981620DADB32"
+				item: "thermal:machine_brewer"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F385CBA98795C62"]
+			hide_dependency_lines: true
+			id: "7AAEFA2A349D3F82"
+			rewards: [
+				{
+					id: "0A5FB1841A5397E9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40873F7D98954733"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "47180FF0D185409D"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Автоматический верстак!"
+			tasks: [{
+				id: "72EC640A6F6C69C1"
+				item: "thermal:machine_crafter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide_dependency_lines: true
+			id: "17E5421030EC345E"
+			rewards: [
+				{
+					id: "7B902629907E93C6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3338D608F4F7316B"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "0F14C282D5F58A83"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "7F19C77BF4E54E23"
+				item: {
+					Count: 1
+					id: "thermal:slime_grenade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide_dependency_lines: true
+			id: "466419BE13B2FD6B"
+			rewards: [
+				{
+					id: "1295B7C6656DCA7B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E7CE3D5804C3984"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "64D844DC55062FA6"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "2953A293E8A3799B"
+				item: "thermal:fire_grenade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide_dependency_lines: true
+			id: "4C60E56E22848E84"
+			rewards: [
+				{
+					id: "451DF445C11A6117"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "122624E1B7D63DA0"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "36B4E06CA1D1DC7E"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "68E6D967DABBEDC7"
+				item: {
+					Count: 1
+					id: "thermal:redstone_grenade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide_dependency_lines: true
+			id: "01A37A358F4E1C04"
+			rewards: [
+				{
+					id: "7B14CBC49CA4F77E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63DFF0EB40E214FE"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "2F3CBE261C8CF71C"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "3AA82BC8020DD25B"
+				item: {
+					Count: 1
+					id: "thermal:glowstone_grenade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide_dependency_lines: true
+			id: "5CB392505E3A8A73"
+			rewards: [
+				{
+					id: "47D262F96FA9AF7D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3909EE91367ADB47"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "3364867A44E0A0DF"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "734CA448FCD5F0FA"
+				item: "thermal:lightning_grenade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "775100B36355D634"
+			rewards: [
+				{
+					id: "67CAF0613710BB65"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B959CC48FAA53DB"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "1FC48A4780BECB9E"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "34CE3510345D9E97"
+					item: "thermal:basalz_powder"
+					type: "item"
+				}
+				{
+					id: "0E4D8CCCAC565FB9"
+					item: "thermal:blitz_powder"
+					type: "item"
+				}
+				{
+					id: "2EE4AA085957D382"
+					item: "thermal:blizz_powder"
+					type: "item"
+				}
+				{
+					id: "1CC6B9C89BEA9262"
+					item: "thermal:phytogro"
+					type: "item"
+				}
+				{
+					id: "091F08A2069DDDB8"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					id: "647109D05CD26770"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			title: "Очень удобные гранаты"
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide_dependency_lines: true
+			id: "68E4C006C253F895"
+			rewards: [
+				{
+					id: "757AEC3788ED7FBC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40CB264206940EB4"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "39B7FAEE421644A0"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "05E69378D60D2B8F"
+				item: "thermal:ice_grenade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide_dependency_lines: true
+			id: "6698698FF0D6C88C"
+			rewards: [
+				{
+					id: "2B2928A1EB2A37D4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DD59DC3C8489C3D"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "0A1C8D3D33EFE2E9"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "23BD05C6456097DF"
+				item: "thermal:earth_grenade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide_dependency_lines: true
+			id: "5918DE6BD2248972"
+			rewards: [
+				{
+					id: "1FF5AC8C72D8D4D5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1575300190617BE3"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "4BF1F31DBC9C8D2A"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "5FB009BBC0DD5B8B"
+				item: {
+					Count: 1
+					id: "thermal:ender_grenade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide_dependency_lines: true
+			id: "6D691F281AD63BBA"
+			rewards: [
+				{
+					id: "66AB547831AC4610"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5580E7B9C412747E"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "65B79BFCDEC60E7E"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "242323EF509F0111"
+				item: "thermal:explosive_grenade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["775100B36355D634"]
+			hide_dependency_lines: true
+			id: "337AE10599BA4F58"
+			rewards: [
+				{
+					id: "70A05FC942755191"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1237A61F43E9483E"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "3DB74D4C796082FB"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 4L
+				id: "78CE7AB5CD977073"
+				item: "thermal:phyto_grenade"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "1E24ECB864C70CA7"
+			rewards: [
+				{
+					id: "5FA2894806165200"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35A5D85131940D5D"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "506966A1DD4FBC14"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C332D9FDE2A1B4B"
+				item: "thermal:device_composter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "5D4B762BF2B7FBFC"
+			rewards: [
+				{
+					id: "71A86D14B0CC0D8E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69458DDCB023E502"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "572D873F6DC260C2"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1400E0769A47D1A4"
+				item: "thermal:device_soil_infuser"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			id: "13CDCE59419CE93D"
+			rewards: [
+				{
+					id: "5FC60985664EAA83"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66B50C5280B27E82"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "393C5C7888FA8AAF"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "041CA741168BE8E7"
+				item: "thermal:device_xp_condenser"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: ["The &6Aqueous Accumulator&r creates an &o&binfinite water source&r when placed between two &9Water&r source blocks."]
+			id: "38927231CC75A693"
+			rewards: [
+				{
+					id: "696D2F9385FC1431"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78EA85C97DAC3B53"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "1FF96B042C8A9A16"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "369080242A149963"
+				item: "thermal:device_water_gen"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: [
+				"&6Igneous Extruder&r can produce several types of &7Stone&r."
+				""
+				"Place &o&b1&r &eLava&r source block on one side, and &o&b1&r &9Water&r source block on the other to generate cobblestone. Check the &dJEI&r to see the other kinds of stone you can create!"
+			]
+			id: "2B80E4B53C19B90A"
+			rewards: [
+				{
+					id: "73B9A71646D1DE7A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D707B0AA89FA7EF"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "55F42AEAED7B2E6E"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "443B0BE63D5F19C5"
+				item: "thermal:device_rock_gen"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "1614F88098B6C392"
+			rewards: [
+				{
+					id: "071A43ACFA50CA64"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28690E4519DAEEDB"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "41166C9F50C2E7B8"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31C7A94C3C2BD7E2"
+				item: "thermal:device_collector"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "7D9AB50A41F60628"
+			rewards: [
+				{
+					id: "7FDF5FBA40F2A4C2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58EAE477F6087CB4"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "71679BF55514A9AE"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C72BFBF0256C418"
+				item: {
+					Count: 1
+					id: "thermal:device_hive_extractor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: ["&6Decoctive Deffuser&r can be used to spreads &dPotion Effects&r to an area."]
+			hide_dependency_lines: true
+			id: "62B7B50F811DB8EF"
+			rewards: [
+				{
+					id: "0B3B163E1B16E4D5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "657D0CD2682FADB2"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "6B685CF9B14892E7"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			subtitle: "Spreads Potion Effects to an area"
+			tasks: [{
+				id: "6246F549067542F0"
+				item: "thermal:device_potion_diffuser"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "478D30FD3445BA25"
+			rewards: [
+				{
+					id: "435AABB19C21B081"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0092FA604BB34FB8"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "2271C23B6BBDF62F"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DB1AE5931A771C7"
+				item: "thermal:device_tree_extractor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "27652872E0A597F1"
+			rewards: [
+				{
+					id: "2F4D77E905A05EC5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B628AD27721BB8C"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "2B2519E0042FC672"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3E437CABAF5E82C7"
+				item: {
+					Count: 1
+					id: "thermal:device_fisher"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			id: "6349795EB7EEA91D"
+			rewards: [
+				{
+					id: "08322DC1ED7EED15"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02FB63CF6973F89D"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "400F86DFD16A8405"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6666ED336EDA3949"
+				item: "thermal:device_nullifier"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["62B7B50F811DB8EF"]
+			hide_until_deps_complete: true
+			id: "7EECFC75C0C33AD3"
+			rewards: [
+				{
+					id: "72FA29DDE0E2A756"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "447237DA2817BC78"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "152A51C28532A3D2"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Amplifies Potion Effect"
+			tasks: [{
+				id: "0D90CB34AAE7E59F"
+				item: "thermal:potion_amplifier_augment"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.25d
+		}
+		{
+			dependencies: ["62B7B50F811DB8EF"]
+			hide_until_deps_complete: true
+			id: "7B1411602C9BA98D"
+			rewards: [
+				{
+					id: "0143A27AC38DB855"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DB7A1CAB268DBD0"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "62EAB567EBE7390B"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			subtitle: "Increases Duration of Potion Effect"
+			tasks: [{
+				id: "5B2BC09A892796F2"
+				item: "thermal:potion_duration_augment"
+				type: "item"
+			}]
+			x: -6.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			id: "75211647C7AD9691"
+			rewards: [
+				{
+					id: "48633E961CE3BB36"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68D026A90EE0DF4E"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "1B33225CDD364FB8"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "68C1556B7F15B738"
+				item: {
+					Count: 1
+					id: "thermal:fluid_reservoir"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["75211647C7AD9691"]
+			hide_until_deps_complete: true
+			id: "7F44CB700DDF1964"
+			optional: true
+			rewards: [
+				{
+					id: "6C0943234A4DB2EA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DF2BCEF3327B132"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "28D92637BA7C054C"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "52D02A5EDF96F433"
+				item: {
+					Count: 1
+					id: "thermal:potion_quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["75211647C7AD9691"]
+			hide_until_deps_complete: true
+			id: "73F411272DB4C8A9"
+			optional: true
+			rewards: [
+				{
+					id: "0D4BCE3D0A1EAB1E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "496E958CAC346107"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "48E2D041ED5A3CD1"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "5FC95450A45DFED6"
+				item: {
+					Count: 1
+					id: "thermal:potion_infuser"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["27652872E0A597F1"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "39AC8EE470E124F9"
+			optional: true
+			rewards: [
+				{
+					id: "11C6F7F08F0FCA55"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A0BD8CD2895B093"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "2345FB361CBD136D"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "79215DBCB03F97C2"
+					item: {
+						Count: 1
+						id: "thermal:diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D144E865F02BE1D"
+					item: {
+						Count: 1
+						id: "thermal:diving_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42DD8477BE248711"
+					item: {
+						Count: 1
+						id: "thermal:diving_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B4F5134634047EF"
+					item: {
+						Count: 1
+						id: "thermal:diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -5.25d
+		}
+		{
+			dependencies: ["7D9AB50A41F60628"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "4B8E7B9DDA29FB59"
+			optional: true
+			rewards: [
+				{
+					id: "020C757E67F3FBEA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "333AE7160DCBC2F5"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "2208AF3AB3F51718"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "4B34E8442215663F"
+					item: {
+						Count: 1
+						id: "thermal:beekeeper_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33E053FCC16EAD48"
+					item: {
+						Count: 1
+						id: "thermal:beekeeper_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "567657917997143F"
+					item: {
+						Count: 1
+						id: "thermal:beekeeper_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "678541F6E0F17528"
+					item: {
+						Count: 1
+						id: "thermal:beekeeper_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -5.25d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "7BB08C03EE57E36B"
+			optional: true
+			rewards: [
+				{
+					id: "69046663A1018B7E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1713212E177E5A00"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "0C5A8D38CBC6ACA2"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "084451E7C2C0FDAA"
+					item: {
+						Count: 1
+						id: "thermal:hazmat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E7076E25FD656C3"
+					item: {
+						Count: 1
+						id: "thermal:hazmat_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "587CFC8DEB967DA7"
+					item: {
+						Count: 1
+						id: "thermal:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14F6DDCA59202FC9"
+					item: {
+						Count: 1
+						id: "thermal:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -5.25d
+		}
+		{
+			dependencies: ["2C50B0E024C3D92E"]
+			description: ["&6Energetic Infuser&r charges the items placed inside."]
+			id: "27173F39706C7206"
+			rewards: [
+				{
+					id: "7ACCCD409CB3CE5D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3227178712400964"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "4C82358070081D39"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16276167112963A4"
+				item: "thermal:charge_bench"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E9E451AA51A09E5"]
+			id: "47C80C7C796517DE"
+			rewards: [
+				{
+					id: "49B0F5AA75BF0A0A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E5651FEB994B5D3"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "01496C6162777115"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "400654F628D7268B"
+				item: {
+					Count: 1
+					id: "thermal:flux_saw"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3E9E451AA51A09E5"]
+			id: "2D4EE8D7053BB226"
+			rewards: [
+				{
+					id: "2DD8B1025B52EE84"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4234904CF4E5CC77"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "55047A7A3C419370"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "50408E0802FE3F73"
+				item: {
+					Count: 1
+					id: "thermal:flux_magnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E9E451AA51A09E5"]
+			id: "6331A66594E2EE7B"
+			rewards: [
+				{
+					id: "6CD4F6DA467D08A6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53D344444DE89B5D"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "0370A7068650F1DA"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3DAA6B1E19EFDFB0"
+				item: {
+					Count: 1
+					id: "thermal:flux_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["27173F39706C7206"]
+			description: [
+				"&9Flux Capacitor&r can be &denchant&r with &6Holding&r to increase the storage!"
+				""
+				"&aHolding I&r - &b750.00k RF&r"
+				"&aHolding II&r - &b1.00M RF&r"
+				"&aHolding III&r - &b1.25M RF&r"
+				"&aHolding IV&r - &b1.50M RF&r "
+			]
+			id: "3E9E451AA51A09E5"
+			rewards: [
+				{
+					id: "1215D793507315A8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "341180468B9EC6D8"
+					table_id: 770574010494577196L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "10C34A03F74F0559"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0681270E67EBA964"
+				item: {
+					Count: 1
+					id: "thermal:flux_capacitor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+	]
+	title: "{ftbquests.chapter_groups_6489874184484817332.title}"
+}

@@ -1,0 +1,953 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0D5E7267C8F6781C"
+	group: "43F397064768B66D"
+	icon: "industrialupgrade:cyclotron/cyclotron_controller"
+	id: "0D5E7267C8F6781C"
+	images: [
+		{
+			height: 2.0d
+			image: "kubejs:textures/quests/quantum_transformer.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:textures/quests/quantum_miner.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:textures/quests/cyclotron.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: -4.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["230A05D9F6749A2D"]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest1.description1}"]
+			id: "6D5F9B7D63438D20"
+			rewards: [{
+				count: 10
+				id: "5244F23C14B7FFCD"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "78557B180921C3E9"
+				item: {
+					Count: 1
+					id: "industrialupgrade:basemachine3/per_alloy_smelter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6D5F9B7D63438D20"]
+			id: "5F83299909C82609"
+			rewards: [{
+				count: 8
+				id: "361C382DA42724E0"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E06DBAD8D3DDECB"
+				item: "industrialupgrade:alloyingot/nimonic"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["48AE841CBCA4CB93"]
+			id: "2126C53D9E3D0756"
+			rewards: [{
+				count: 10
+				id: "232634F44B0B57E8"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24EEFE99B79116A3"
+				item: "industrialupgrade:alloyingot/superalloy_rene"
+				type: "item"
+			}]
+			x: -6.9d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6D5F9B7D63438D20"]
+			id: "48AE841CBCA4CB93"
+			rewards: [{
+				count: 10
+				id: "69C1594B959F5D2A"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A3409C5935CBC6C"
+				item: "industrialupgrade:alloyingot/superalloy_haynes"
+				type: "item"
+			}]
+			x: -5.25d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5F83299909C82609"
+				"6295AF3FE8018D2D"
+				"1E0CB454140D7FCE"
+			]
+			description: [
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest5.description1}"
+				""
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest5.description2}"
+				""
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest5.description3}"
+				""
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest5.description4}"
+				""
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest5.description5}"
+				""
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest5.description6}"
+				""
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest5.description7}"
+			]
+			id: "20127426A7DDBD5B"
+			rewards: [
+				{
+					count: 15
+					id: "6D274CF0D2F69DB1"
+					item: "libraryferret:gold_coins_jtl"
+					type: "item"
+				}
+				{
+					id: "599182A965222FBE"
+					item: "industrialupgrade:special/singularity"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "30EC56CD1A3DBE9E"
+					item: "industrialupgrade:cyclotron/cyclotron_controller"
+					type: "item"
+				}
+				{
+					id: "6D84E1E4E13B64AC"
+					item: "industrialupgrade:cyclotron/cyclotron_bombardment_chamber"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "01DD1AF9798E2108"
+					item: "industrialupgrade:cyclotron/cyclotron_particle_accelerator"
+					type: "item"
+				}
+				{
+					id: "23A801F9FEABF94F"
+					item: "industrialupgrade:cyclotron/cyclotron_quantum"
+					type: "item"
+				}
+				{
+					id: "66CBB33DA7D4C07A"
+					item: "industrialupgrade:cyclotron/cyclotron_positrons"
+					type: "item"
+				}
+				{
+					id: "79FF2D0CC3EA3EE0"
+					item: "industrialupgrade:cyclotron/cyclotron_cryogen"
+					type: "item"
+				}
+				{
+					id: "586B714741503031"
+					item: "industrialupgrade:cyclotron/cyclotron_coolant"
+					type: "item"
+				}
+				{
+					id: "06C920F5A6920C60"
+					item: "industrialupgrade:cyclotron/cyclotron_electrostatic_deflector"
+					type: "item"
+				}
+				{
+					count: 39L
+					id: "3407D90E00787472"
+					item: "industrialupgrade:cyclotron/cyclotron_casing"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5F83299909C82609"]
+			id: "3FFF7F5AE391C2B5"
+			rewards: [{
+				count: 12
+				id: "0BA6D6E8202E6221"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "487B5F4FC1526576"
+				item: "industrialupgrade:research_lens/lens_7"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5F83299909C82609"]
+			id: "59211AD12AC1CBAE"
+			rewards: [{
+				count: 15
+				id: "4983F0C2AD44ACFC"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65DBEAE67F466C6B"
+				item: "industrialupgrade:wind_turbine/wind_turbine_controller"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5F83299909C82609"]
+			id: "04C66B531204C12A"
+			rewards: [{
+				count: 15
+				id: "2BA619C884E5E9DC"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "195000C44B85610F"
+				item: "industrialupgrade:hydro_turbine/hydro_turbine_controller"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5F83299909C82609"]
+			id: "1EE6B96B55A2C8C5"
+			rewards: [{
+				count: 5
+				id: "31D9E15F50DD413D"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "157C94AD1CD526FE"
+				item: "industrialupgrade:tools/reactor_data_item"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["09811BD74649C2D1"]
+			id: "62FB641DFAD2A2CC"
+			rewards: [{
+				count: 8
+				id: "1C2E4462981934FE"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76EEB3F8C0FE9286"
+				item: "industrialupgrade:crafting_elements/crafting_641_element"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"2126C53D9E3D0756"
+				"5F83299909C82609"
+			]
+			description: [
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest11.description1}"
+				""
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest11.description2}"
+			]
+			id: "2CE2E82D139ADA34"
+			rewards: [{
+				count: 6
+				id: "3CCB01F180CF863E"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "187852CD98878263"
+				item: "industrialupgrade:crafting_elements/crafting_623_element"
+				type: "item"
+			}]
+			x: -6.9d
+			y: -4.0d
+		}
+		{
+			dependencies: ["607A3A9D11601B49"]
+			id: "63569797FB817FCD"
+			rewards: [{
+				count: 12
+				id: "4E133E172C942408"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FE9D05F22AFED27"
+				item: {
+					Count: 1
+					id: "industrialupgrade:basemachine3/quantum_transformer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6D5F9B7D63438D20"]
+			description: [
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest13.description1}"
+				""
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest13.description2}"
+				""
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest13.description3}"
+			]
+			hide_dependency_lines: true
+			id: "607A3A9D11601B49"
+			rewards: [{
+				count: 10
+				id: "4B0F864E252AACEC"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57597EA8759C51CB"
+				item: {
+					Count: 1
+					id: "industrialupgrade:basemachine/neutron_generator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"20127426A7DDBD5B"
+				"62FB641DFAD2A2CC"
+			]
+			id: "0551699C5C130814"
+			rewards: [{
+				count: 8
+				id: "6BEF8E02BB6747D0"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F562537181245D1"
+				item: "industrialupgrade:crafting_elements/crafting_647_element"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"0551699C5C130814"
+				"63569797FB817FCD"
+			]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest15.description1}"]
+			id: "32307E6560E75401"
+			rewards: [{
+				count: 3
+				id: "06AE970FD17BF78A"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "4F2CA2402AF0D427"
+				item: "industrialupgrade:crafting_elements/crafting_646_element"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6D5F9B7D63438D20"]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest16.description1}"]
+			hide_dependency_lines: true
+			id: "626DB08B1AB445BB"
+			rewards: [{
+				count: 15
+				id: "416BBA659CA7DE8A"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EE303A3A482A6A3"
+				item: "industrialupgrade:basemachine3/quantum_miner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["626DB08B1AB445BB"]
+			id: "09811BD74649C2D1"
+			rewards: [{
+				count: 10
+				id: "3103C0E1CCD35555"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6DBFB5DF0F8CC67F"
+					item: "industrialupgrade:crafting_elements/crafting_639_element"
+					type: "item"
+				}
+				{
+					id: "4887FE350C4CD06E"
+					item: "industrialupgrade:crafting_elements/crafting_640_element"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["32307E6560E75401"]
+			description: [
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest18.description1}"
+				""
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest18.description2}"
+				""
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest18.description3}"
+				""
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest18.description4}"
+			]
+			id: "4CBBA560E59B5C9D"
+			rewards: [{
+				count: 5
+				id: "030B3FA5F771D1F7"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1DDBDFA406202962"
+					item: {
+						Count: 1
+						id: "industrialupgrade:basemachine/quantum_quarry"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3EE3FC496221C976"
+					item: "industrialupgrade:analyzermodule"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4CBBA560E59B5C9D"]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest19.description1}"]
+			id: "2F77DC8F9EA7016A"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "30C90025E7B3205F"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52170E459AA40B9A"
+				item: "industrialupgrade:quarrymodules/kar1"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4CBBA560E59B5C9D"]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest20.description1}"]
+			id: "78EC4AB3989AC6EE"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "7604BF704FA30F80"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D90366697FD9023"
+				item: "industrialupgrade:quarrymodules/kar2"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4CBBA560E59B5C9D"]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest21.description1}"]
+			id: "246A31936C58EB59"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "04FDC36A9F7173C4"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "193A0EE70CE0A18A"
+				item: "industrialupgrade:quarrymodules/kar3"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4CBBA560E59B5C9D"]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest22.description1}"]
+			id: "51AECFE6E27C482A"
+			optional: true
+			rewards: [{
+				count: 6
+				id: "684A0BC99B179682"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64402F10AB24F9F2"
+				item: "industrialupgrade:quarrymodules/for3"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4CBBA560E59B5C9D"]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest23.description1}"]
+			id: "23B50ECCBD9B8FCB"
+			optional: true
+			rewards: [{
+				count: 6
+				id: "3382377831C1EE59"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18C7BEDEFF34C2B4"
+				item: "industrialupgrade:quarrymodules/ef4"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4CBBA560E59B5C9D"]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest24.description1}"]
+			id: "37A793D86CA4D761"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "22F5FF45A8B20991"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66D55904D2FD02C6"
+				item: "industrialupgrade:quarrymodules/per"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4CBBA560E59B5C9D"]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest25.description1}"]
+			id: "1DEF64F6CB4828DC"
+			rewards: [{
+				count: 8
+				id: "3CF2982C8DE99356"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C705E4B1624F607"
+				item: {
+					Count: 1
+					id: "industrialupgrade:basemachine/adv_quantum_quarry"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1DEF64F6CB4828DC"]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest26.description1}"]
+			id: "0486F00796A549BD"
+			rewards: [{
+				count: 10
+				id: "7FF1C6633B17D735"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C1EF52CE053718F"
+				item: {
+					Count: 1
+					id: "industrialupgrade:basemachine/imp_quantum_quarry"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0486F00796A549BD"]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest27.description1}"]
+			id: "227EA4F8F939A90D"
+			rewards: [{
+				count: 15
+				id: "76119BDB5089AC76"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E6E5DF9FEF821C3"
+				item: {
+					Count: 1
+					id: "industrialupgrade:basemachine/per_quantum_quarry"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6D5F9B7D63438D20"]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest28.description1}"]
+			hide_dependency_lines: true
+			id: "22AF031235DB0EA3"
+			rewards: [{
+				count: 5
+				id: "34F45A66B92BB022"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "56DFC89DD4479338"
+				item: "industrialupgrade:solid/aer_solidmatter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6D5F9B7D63438D20"]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest29.description1}"]
+			hide_dependency_lines: true
+			id: "549E0DD5351BA984"
+			rewards: [{
+				count: 5
+				id: "0513D45D0525474B"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4648987B4A8541BC"
+				item: "industrialupgrade:solid/aqua_solidmatter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6D5F9B7D63438D20"]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest30.description1}"]
+			hide_dependency_lines: true
+			id: "1072F3E43089919F"
+			rewards: [{
+				count: 5
+				id: "4B51C01B88EEB2BC"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A962D7CCAFB203C"
+				item: "industrialupgrade:solid/earth_solidmatter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6D5F9B7D63438D20"]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest31.description1}"]
+			hide_dependency_lines: true
+			id: "5114C50A90359617"
+			rewards: [{
+				count: 5
+				id: "451751AACE0D9993"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71B8A474D42C4D75"
+				item: "industrialupgrade:solid/end_solidmatter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6D5F9B7D63438D20"]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest32.description1}"]
+			hide_dependency_lines: true
+			id: "05C6D269A602CF90"
+			rewards: [{
+				count: 8
+				id: "24B1E9D66F4DAAC5"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51664035B4E0CB57"
+				item: "industrialupgrade:solid/solidmatter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D5F9B7D63438D20"]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest33.description1}"]
+			hide_dependency_lines: true
+			id: "0B9ABB0329F3FC08"
+			rewards: [{
+				count: 5
+				id: "4D8EE355DDC0A046"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "252EA27BC9DD6BD6"
+				item: "industrialupgrade:solid/nether_solidmatter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6D5F9B7D63438D20"]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest34.description1}"]
+			hide_dependency_lines: true
+			id: "59E36D587F32D23F"
+			rewards: [{
+				count: 5
+				id: "64A98DA30E98E492"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A081114C69E4483"
+				item: "industrialupgrade:solid/night_solidmatter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D5F9B7D63438D20"]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest35.description1}"]
+			hide_dependency_lines: true
+			id: "04B5D650F5C1F963"
+			rewards: [{
+				count: 5
+				id: "133D718D742706C7"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4383622530D78C24"
+				item: "industrialupgrade:solid/sun_solidmatter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1072F3E43089919F"
+				"0B9ABB0329F3FC08"
+				"549E0DD5351BA984"
+				"22AF031235DB0EA3"
+				"59E36D587F32D23F"
+				"04B5D650F5C1F963"
+				"5114C50A90359617"
+				"05C6D269A602CF90"
+			]
+			id: "685F56580025FCC8"
+			rewards: [{
+				count: 12
+				id: "7679A9D5D44A3641"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2475FC88903BA1DF"
+				item: "industrialupgrade:combiner_solid_matter/combiner_solid_matter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["685F56580025FCC8"]
+			description: [
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest37.description1}"
+				""
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest37.description2}"
+				""
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest37.description3}"
+			]
+			id: "35772A172DBBC401"
+			rewards: [
+				{
+					count: 5
+					id: "0C665487E2CF0C6F"
+					item: "libraryferret:diamond_coins_jtl"
+					type: "item"
+				}
+				{
+					id: "68497370100501B3"
+					item: "industrialupgrade:special/void_matter"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "32F49B5EF337157C"
+				item: {
+					Count: 1
+					id: "industrialupgrade:converter_matter/converter_matter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E0CB454140D7FCE"]
+			description: [
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest38.description1}"
+				""
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest38.description2}"
+				""
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest38.description3}"
+			]
+			id: "6295AF3FE8018D2D"
+			rewards: [{
+				count: 10
+				id: "2F3FE4C858F9FC79"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20E83E03B486F88A"
+				item: {
+					Count: 1
+					id: "industrialupgrade:basemachine3/positronconverter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["35772A172DBBC401"]
+			description: [
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest39.description1}"
+				""
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest39.description2}"
+				""
+				"{ftbquests.chapter.0D5E7267C8F6781C.quest39.description3}"
+			]
+			id: "1E0CB454140D7FCE"
+			rewards: [{
+				count: 12
+				id: "16C3B7EEB5FA100C"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1805FE258CBFF091"
+				item: "industrialupgrade:basemachine3/neutronseparator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2CE2E82D139ADA34"]
+			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest40.description1}"]
+			id: "742E9E5F49008FEC"
+			rewards: [{
+				count: 8
+				id: "25F6577223A43370"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "0DA26D9AFC5221D0"
+				item: "industrialupgrade:crafting_elements/crafting_620_element"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+	]
+	title: "{ftbquests.chapter.0D5E7267C8F6781C.title}"
+}

@@ -1,0 +1,2190 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5A0B30A41D65CC21"
+	group: "43F397064768B66D"
+	icon: "industrialupgrade:blockresource/steam_machine"
+	id: "5A0B30A41D65CC21"
+	images: [
+		{
+			height: 2.0d
+			image: "kubejs:textures/quests/blast.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:textures/quests/steam_boiler_multi.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:textures/quests/bio_boiler.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.0d
+			y: -19.5d
+		}
+		{
+			height: 4.0d
+			image: "ad_astra:textures/painting/moon.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 3.0d
+			y: -22.5d
+		}
+		{
+			height: 2.0d
+			image: "ad_astra:textures/painting/earth.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: -14.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["06B830549A3C8654"]
+			description: [
+				"&7В этой главе вы освоите основы паровой индустрии: создадите &eпаровые машины&7, научитесь генерировать и использовать &bпар&7 для производства энергии и обработки материалов."
+				""
+				"&7Паровые механизмы — это первый шаг к настоящей &6индустриализации&7 вашего мира!"
+			]
+			id: "53DDED12CC3B3480"
+			rewards: [{
+				count: 3
+				id: "7A5E7F1F6D837636"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "4F6130436CC406E9"
+				title: "Прочтите введение в паровые технологии"
+				type: "checkmark"
+			}]
+			title: "&l&6⚙️ ДОБРО ПОЖАЛОВАТЬ В МИР ПАРОВЫХ ТЕХНОЛОГИЙ! ⚙️"
+			x: 2.5d
+			y: -5.75d
+		}
+		{
+			dependencies: ["53DDED12CC3B3480"]
+			description: [
+				"&7Это &eпервая машина&7 для подогрева жидкостей с помощью пара."
+				"&7Использует &bпар&7 для нагрева жидкостей до &eумеренных температур&7 (&bдо 100°C&7)."
+				""
+				"&7Применяется для:"
+				"&e▪ Начальных химических процессов"
+				"&e▪ Приготовления горячей воды&7 для систем отопления"
+			]
+			id: "58312F80E2A33485"
+			rewards: [{
+				count: 5
+				id: "210245F6DE05A6E3"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17133BC6383D964B"
+				item: "industrialupgrade:primal_fluid_heater/primal_fluid_heater"
+				type: "item"
+			}]
+			title: "&l&6Примитивный нагреватель жидкостей"
+			x: 2.5d
+			y: -3.2500000000000004d
+		}
+		{
+			dependencies: ["58312F80E2A33485"]
+			description: [
+				"Вы успешно создали свой первый паровой механизм!"
+				"Теперь начинается настоящая паровая эра."
+				""
+				"В этом разделе вы освоите различные паровые машины для производства энергии, обработки материалов и химических процессов."
+				""
+				"Каждая машина открывает новые возможности для автоматизации и расширения производства."
+			]
+			id: "6EE4767EFFEAF973"
+			rewards: [{
+				count: 3
+				id: "58C4D4BA872625BF"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [{
+				id: "77184314F362D788"
+				type: "checkmark"
+			}]
+			title: "&l&6Начало паровой эры"
+			x: 0.65d
+			y: -3.2500000000000004d
+		}
+		{
+			dependencies: ["6EE4767EFFEAF973"]
+			id: "6921F4309C50FBF2"
+			rewards: [{
+				count: 4
+				id: "7ECEF0ABDB076DB7"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A8FC231D5A93624"
+				item: "industrialupgrade:charged_redstone"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"6921F4309C50FBF2"
+				"4EA1021C7450D313"
+			]
+			id: "6030B6A23B9EE68E"
+			rewards: [{
+				count: 5
+				id: "06D80B05B1B54BA0"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1379886ADC3DEF7C"
+				item: {
+					Count: 1
+					id: "industrialupgrade:battery/advanced_re_battery"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6030B6A23B9EE68E"]
+			description: [
+				"&7Это устройство преобразует энергию пара в электричество."
+				"&7Генерирует &bпостоянный ток&7, который можно использовать для питания различных механизмов и электронных схем."
+			]
+			id: "505AEADB803F080E"
+			rewards: [{
+				count: 6
+				id: "4E00CADE535C8CEF"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "796B2FB01C8789AA"
+				item: "industrialupgrade:basemachine3/steam_ampere_generator"
+				type: "item"
+			}]
+			title: "&l&6Паровой генератор тока"
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"6030B6A23B9EE68E"
+				"505AEADB803F080E"
+			]
+			description: [
+				"&7Использует электричество, выработанное из пара, для разложения воды на составляющие."
+				"&7Получаемые газы (&bводород &7и &bкислород&7) применяются в химической промышленности и как топливо."
+			]
+			id: "29CBB7A813B115E3"
+			rewards: [{
+				count: 6
+				id: "61F7955B6A626C58"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C098512594C44DC"
+				item: "industrialupgrade:basemachine3/steam_electrolyzer"
+				type: "item"
+			}]
+			title: "&l&6Паровой электролизер"
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["58312F80E2A33485"]
+			description: [
+				"&7Улучшенная версия примитивного нагревателя. Отличается большей эффективностью и способностью достигать более высоких температур."
+				"&7Используется для продвинутых химических процессов и промышленного нагрева."
+			]
+			id: "00ADCA6E7BFA7180"
+			rewards: [{
+				count: 5
+				id: "1CD9E02B10FDFE28"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "47773F21C559C562"
+				item: "industrialupgrade:basemachine3/steam_fluid_heater"
+				type: "item"
+			}]
+			title: "&l&6Паровой нагреватель жидкостей"
+			x: 4.5d
+			y: -3.2500000000000004d
+		}
+		{
+			dependencies: ["6EE4767EFFEAF973"]
+			description: [
+				"&7Это устройство предназначено для смешивания различных жидкостей и растворов, запуская начальные химические реакции."
+				"&7Краеугольный камень для создания сложных составов и дальнейшего прогресса в химии."
+			]
+			id: "2AA662E7E64C3CA4"
+			rewards: [{
+				count: 5
+				id: "3CDA3AE518ABD95B"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "616B4235072C6D54"
+				item: "industrialupgrade:primal_fluid_integrator/primal_fluid_integrator"
+				type: "item"
+			}]
+			title: "&l&6Примитивный интегратор жидкостей"
+			x: 0.65d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2AA662E7E64C3CA4"]
+			id: "1151AC1C81BBA035"
+			rewards: [{
+				count: 5
+				id: "51572785FB498841"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40A6FFA1F0066673"
+				item: {
+					Count: 1
+					id: "industrialupgrade:itemcell/itemcell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "industrialupgrade:iufluidsulfuroxide"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Производство оксида серы"
+			x: 0.65d
+			y: -5.75d
+		}
+		{
+			dependencies: [
+				"29CBB7A813B115E3"
+				"2063DBC325C761F3"
+			]
+			icon: {
+				Count: 1
+				id: "industrialupgrade:itemcell/itemcell"
+				tag: {
+					Fluid: {
+						Amount: 1000
+						FluidName: "industrialupgrade:iufluidsulfurtrioxide"
+					}
+				}
+			}
+			id: "15354EFC545C1C5F"
+			rewards: [{
+				count: 5
+				id: "21EA91BBDA17260F"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24D9A62692CEB70B"
+				item: {
+					Count: 1
+					id: "industrialupgrade:itemcell/itemcell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "industrialupgrade:iufluidsulfurtrioxide"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Производство триоксида серы"
+			x: 0.65d
+			y: -8.0d
+		}
+		{
+			dependencies: ["15354EFC545C1C5F"]
+			id: "11DAD05C9CEE6A27"
+			rewards: [{
+				count: 6
+				id: "3B75BBBCBD9CD7C1"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "300566998F67277F"
+				item: {
+					Count: 1
+					id: "industrialupgrade:itemcell/itemcell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "industrialupgrade:iufluidsulfuricacid"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Производство серной кислоты"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["11DAD05C9CEE6A27"]
+			id: "1DDF37CC6EDAE3D0"
+			rewards: [{
+				count: 6
+				id: "064AFDBA310DEFAF"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "338F061B7FFF5634"
+				item: {
+					Count: 1
+					id: "industrialupgrade:itemcell/itemcell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "industrialupgrade:iufluidcoppersulfate"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Производство сульфата меди"
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1DDF37CC6EDAE3D0"]
+			id: "7ACF5A65FAF87E4A"
+			rewards: [{
+				count: 5
+				id: "740F9537E73EA2F2"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C9E459134A0683A"
+				item: "industrialupgrade:crafting_elements/crafting_487_element"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["304213037D82F4F5"]
+			id: "1046F552EBB7FC73"
+			rewards: [{
+				count: 4
+				id: "31940003A9A24EFA"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "62AC2004F99D468D"
+					item: "industrialupgrade:primal_programming_table/primal_programming_table"
+					type: "item"
+				}
+				{
+					id: "5F135A20C47F154B"
+					item: "industrialupgrade:crafting_elements/crafting_488_element"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"7ACF5A65FAF87E4A"
+				"0D4CA47A54948245"
+			]
+			id: "4C14EAA4368607C4"
+			rewards: [{
+				count: 5
+				id: "73FC424D6F589DA0"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B7662E60BFF7E19"
+				item: "industrialupgrade:electronics_assembler/electronics_assembler"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["62A95317D70313B5"]
+			id: "27EDDFF4179C2496"
+			rewards: [{
+				count: 5
+				id: "7B17C125581446D3"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "776CA41C625BD3FA"
+				item: "industrialupgrade:primal_soldering_mechanism/primal_soldering_mechanism"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"1046F552EBB7FC73"
+				"27EDDFF4179C2496"
+				"4C14EAA4368607C4"
+			]
+			id: "2FC45DEC412F5866"
+			rewards: [{
+				count: 6
+				id: "7C1450D33BB66520"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "79215C920DC3E746"
+				item: {
+					Count: 1
+					id: "industrialupgrade:crafting_elements/crafting_272_element"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -12.6d
+		}
+		{
+			dependencies: [
+				"6EE4767EFFEAF973"
+				"58312F80E2A33485"
+			]
+			description: [
+				"&7Разные паровые механизмы требуют разного давления для оптимальной работы. Этот преобразователь позволяет адаптировать давление пара под конкретные нужды."
+				"&7Регулярно проверяйте показатели, чтобы избежать аварий и простоев."
+			]
+			id: "57DF8F3C73D18210"
+			rewards: [{
+				count: 5
+				id: "6163AB73B08FD442"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "20B84473F2A1D4E8"
+				item: "industrialupgrade:basemachine3/steampressureconverter"
+				type: "item"
+			}]
+			title: "&l&6Преобразователь давления пара"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A363FE35A7D5A99"]
+			id: "4EA1021C7450D313"
+			rewards: [{
+				count: 4
+				id: "33093CF459B8A893"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F2EAEE5EFC4B0E8"
+				item: "industrialupgrade:crafting_elements/crafting_476_element"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["505AEADB803F080E"]
+			id: "521E23F189D70A42"
+			rewards: [{
+				count: 5
+				id: "681EDE72103A0115"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "49FE261C2417B8D4"
+				item: "industrialupgrade:basemachine3/steam_crystal_charge"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["29CBB7A813B115E3"]
+			id: "62A576EC914BDEB6"
+			rewards: [{
+				count: 5
+				id: "253306B975E3EE94"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "521AD9EB3C184D06"
+				item: "industrialupgrade:crafting_elements/crafting_498_element"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["29CBB7A813B115E3"]
+			description: [
+				"&7Эта машина подготавливает руду к дальнейшей переработке, выполняя дробление, первичную промывку и сортировку."
+				"&7Позволяет увеличить выход полезных компонентов и снизить энергозатраты на последующих этапах."
+			]
+			id: "10315993E2F2BC71"
+			rewards: [{
+				count: 5
+				id: "5EB2CF3A1E2CCA72"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78B5890BF1EC12CF"
+				item: "industrialupgrade:basemachine3/steam_handler_ore"
+				type: "item"
+			}]
+			title: "&l&6Паровой обработчик руды"
+			x: -1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"10315993E2F2BC71"
+				"62A576EC914BDEB6"
+			]
+			id: "190421B2C6F24F05"
+			rewards: [{
+				count: 5
+				id: "089E9BE253D84FD1"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F8765E8FA6F1BE3"
+				item: "industrialupgrade:crafting_elements/crafting_499_element"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["190421B2C6F24F05"]
+			id: "095B396BA2C63291"
+			rewards: [{
+				count: 6
+				id: "438A3292DF0049AF"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E1AC73552B6E618"
+				item: "industrialupgrade:crafting_elements/crafting_502_element"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6EE4767EFFEAF973"]
+			id: "6A363FE35A7D5A99"
+			rewards: [{
+				count: 4
+				id: "6A66C1E51C310E86"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00D5C7338A206039"
+				item: {
+					Count: 1
+					id: "industrialupgrade:basemachine3/steam_sharpener"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.2500000000000004d
+		}
+		{
+			dependencies: ["095B396BA2C63291"]
+			description: [
+				"&7Сталь — основной конструкционный материал, получаемый путем легирования железа углеродом и другими элементами."
+				"&7Она сочетает в себе прочность и упругость, что делает её идеальной для создания инструментов, механизмов и несущих конструкций."
+			]
+			id: "22A5BE86FE11146E"
+			rewards: [{
+				count: 4
+				id: "71CB354761178991"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "3624C5BBE825ED90"
+				item: "industrialupgrade:itemingots/steel_ingot"
+				type: "item"
+			}]
+			title: "&l&6Стальной слиток"
+			x: -1.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["22A5BE86FE11146E"]
+			description: [
+				"{ftbquests.chapter.100A225B6AEDABCD.quest17.description1}"
+				""
+				"{ftbquests.chapter.100A225B6AEDABCD.quest17.description2}"
+			]
+			id: "4649483D49F85ED3"
+			rewards: [{
+				count: 5
+				id: "392689F74B70A0B8"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D0AEF9E1EFF593E"
+				item: {
+					Count: 1
+					id: "industrialupgrade:energy/steel_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["22A5BE86FE11146E"]
+			id: "0C690D4BACF3CD63"
+			rewards: [{
+				count: 5
+				id: "2A99BE20D2E965E3"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01E85965D2E940C4"
+				item: "industrialupgrade:refractory_furnace/refractory_furnace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["22A5BE86FE11146E"]
+			id: "002B210F489EBC45"
+			rewards: [{
+				count: 5
+				id: "2882DDE7E892B274"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "033A2D1C4AF4D97F"
+				item: "industrialupgrade:basemachine3/steel_tank"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["22A5BE86FE11146E"]
+			id: "043AFA4E6DBEF77F"
+			rewards: [{
+				count: 5
+				id: "24E04FA68CA18F81"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CDE216375ED2571"
+				item: {
+					Count: 1
+					id: "industrialupgrade:basemachine3/steam_converter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["0C690D4BACF3CD63"]
+			id: "601E077C23BBD34D"
+			rewards: [{
+				count: 5
+				id: "786662B712DE0784"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54BF0A479E56DD5A"
+				item: "industrialupgrade:mini_smeltery/mini_smeltery"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["22A5BE86FE11146E"]
+			id: "5DB0F8ACC7E07B4A"
+			rewards: [{
+				count: 5
+				id: "264DB8DBE39FACC0"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4E95B3995B02C561"
+				item: "industrialupgrade:crafting_elements/crafting_504_element"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["1D9388C9AEE7C8DD"]
+			id: "08EBC8AF4E908B6B"
+			rewards: [{
+				count: 6
+				id: "6B3F0B23B5012E78"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "02EEBE1E247B4FB7"
+				item: "industrialupgrade:blockresource/machine"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["7ACF5A65FAF87E4A"]
+			id: "0D4CA47A54948245"
+			rewards: [{
+				count: 5
+				id: "4E5FE9787E8F647C"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2E312B0BAFC96F3F"
+					item: "industrialupgrade:crafting_elements/crafting_495_element"
+					type: "item"
+				}
+				{
+					id: "4EB3170247CD34B1"
+					item: "industrialupgrade:primal_laser_polisher/primal_laser_polisher"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["2FC45DEC412F5866"]
+			id: "6832425C3C364C82"
+			invisible: true
+			rewards: [{
+				count: 6
+				id: "5108D8B8B8FBF556"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				id: "5E15A79ACFE38E28"
+				item: "industrialupgrade:crafting_elements/crafting_276_element"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -12.6d
+		}
+		{
+			dependencies: ["637E1140C97558B9"]
+			description: [
+				"&7Сложная многоблочная структура для массового производства стали."
+				""
+				"&7Структура печи состоит из контроллера, загрузочных и выпускных устройств, нагревателей и конструкционных элементов."
+			]
+			id: "18A02E732052CB8C"
+			rewards: [{
+				count: 3
+				id: "7BCCCB88855585D1"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7A4E45F8671E9FD1"
+					item: "industrialupgrade:blastfurnace/blast_furnace_main"
+					type: "item"
+				}
+				{
+					id: "00E427FFCCF76158"
+					item: "industrialupgrade:blastfurnace/blast_furnace_input"
+					type: "item"
+				}
+				{
+					id: "32030DF99BA3E35D"
+					item: "industrialupgrade:blastfurnace/blast_furnace_heat"
+					type: "item"
+				}
+				{
+					id: "2AD18DA8411DA3DA"
+					item: "industrialupgrade:blastfurnace/blast_furnace_output"
+					type: "item"
+				}
+				{
+					id: "1544F17F56105216"
+					item: "industrialupgrade:blastfurnace/blast_furnace_input_fluid"
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "5B7B7A9C7DAEF6A1"
+					item: "industrialupgrade:blastfurnace/blast_furnace_part"
+					type: "item"
+				}
+			]
+			title: "&l&6Доменная печь"
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2FC45DEC412F5866"]
+			id: "637E1140C97558B9"
+			rewards: [{
+				count: 5
+				id: "5A1964C7BA40E79B"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21D7A902DECC0C8E"
+				item: "industrialupgrade:basemachine3/fluid_heat"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6EE4767EFFEAF973"]
+			description: [
+				"&7Автоматически добывает ресурсы из земли в заданном радиусе."
+				"&7Для работы требует стабильного пароснабжения и периодического обслуживания. Автоматически сортирует добытые материалы."
+			]
+			id: "092C40F96BCE4D94"
+			rewards: [{
+				count: 6
+				id: "50285D798F67C0A0"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "61629A74E87BF8FB"
+				item: "industrialupgrade:basemachine3/steam_quarry"
+				type: "item"
+			}]
+			title: "&l&6Паровой карьер"
+			x: 0.65d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DB0F8ACC7E07B4A"]
+			id: "3D8AB993A420D360"
+			optional: true
+			rewards: [{
+				count: 7
+				id: "1BA175433837CA8D"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45DA2EE0BE605260"
+				item: "industrialupgrade:basemachine3/adv_steam_quarry"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["5DB0F8ACC7E07B4A"]
+			id: "50A4CADBB7E45FF0"
+			rewards: [{
+				count: 4
+				id: "624D61F32B2834E8"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50F087BACCE0AA57"
+				item: "industrialupgrade:cultivated_peat"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -17.5d
+		}
+		{
+			dependencies: [
+				"50A4CADBB7E45FF0"
+				"043AFA4E6DBEF77F"
+			]
+			id: "5C3E16DB25F83EC8"
+			rewards: [{
+				count: 5
+				id: "39D6D3D244B729C2"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B097D4A230DCF22"
+				item: "industrialupgrade:basemachine3/steam_peat_generator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["5C3E16DB25F83EC8"]
+			id: "1082EFE89F384BF5"
+			rewards: [{
+				id: "445B757EDD3D4A9D"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EFC1E31532A21C2"
+				item: "industrialupgrade:crafting_elements/crafting_64_element"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["637E1140C97558B9"]
+			description: [
+				"&7Сердце любой паровой системы, предназначенное для генерации и распределения пара."
+				"&7Сложная многоблочная структура, включающая в себя контроллер, резервуары для воды, нагревательные элементы и теплообменники."
+				"&7Требует стабильного водоснабжения, топлива и соблюдения правил безопасности для предотвращения аварий."
+			]
+			id: "6297DB1C408E121F"
+			rewards: [{
+				count: 3
+				id: "73DFA2C8DB9A5BD6"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "69256E096684994C"
+					item: "industrialupgrade:steam_boiler/steam_boiler_controller"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "535C947695FC8F49"
+					item: "industrialupgrade:steam_boiler/steam_boiler_tank"
+					type: "item"
+				}
+				{
+					id: "770AC8D2654361DE"
+					item: "industrialupgrade:steam_boiler/steam_boiler_heater"
+					type: "item"
+				}
+				{
+					id: "047B50714B8A00FD"
+					item: "industrialupgrade:steam_boiler/steam_boiler_heat_exchanger"
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "1CC77551249CEDCE"
+					item: "industrialupgrade:steam_boiler/steam_boiler_casing"
+					type: "item"
+				}
+				{
+					id: "3EEC842EFB34750D"
+					item: "industrialupgrade:crafting_elements/crafting_599_element"
+					type: "item"
+				}
+			]
+			title: "&l&6Паровой котел"
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["077E079C1645AFE2"]
+			id: "6CC7FA8C77B40D27"
+			rewards: [{
+				count: 5
+				id: "4AAB4BF22FDB12FF"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74192CE5CF3C959D"
+				item: "industrialupgrade:basemachine3/bio_gearing"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["077E079C1645AFE2"]
+			id: "2C06E8AD4CE3A8B4"
+			rewards: [{
+				count: 5
+				id: "00D7CA93955B1DD8"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E23DAA1031A50BA"
+				item: "industrialupgrade:basemachine3/bio_furnace"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["077E079C1645AFE2"]
+			id: "0C4039C693949601"
+			rewards: [{
+				count: 5
+				id: "35C6B28754DBE7EC"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6728E28A20A88C5F"
+				item: "industrialupgrade:basemachine3/bio_centrifuge"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["5DB0F8ACC7E07B4A"]
+			id: "51EBBA41108FD69B"
+			rewards: [{
+				count: 6
+				id: "2A6EDEA614DCB23B"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CD6B014D3DA81C9"
+				item: "industrialupgrade:tank_iu/tank_iu"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["505AEADB803F080E"]
+			id: "206A4B818BC7F99E"
+			rewards: [{
+				count: 4
+				id: "41980DC28A671F06"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "524C475A9D1D063F"
+				item: "industrialupgrade:wiring/ampere"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1151AC1C81BBA035"]
+			id: "2063DBC325C761F3"
+			rewards: [{
+				count: 5
+				id: "43A09D04B630D11D"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73A450A6884E19D8"
+				item: "industrialupgrade:gas_chamber/primal_gas_chamber"
+				type: "item"
+			}]
+			x: 0.65d
+			y: -6.9d
+		}
+		{
+			dependencies: ["53DDED12CC3B3480"]
+			description: [
+				"&7Использует энергию пара для перекачивания жидкостей."
+				"&7Применяется для водоснабжения, перекачки химикатов и осушения территорий."
+			]
+			id: "6406CEAA80A2D901"
+			rewards: [{
+				count: 5
+				id: "1BF2906284025D9C"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "2BB57B623F3B3EE3"
+				item: "industrialupgrade:basemachine3/steam_pump"
+				type: "item"
+			}]
+			title: "&l&6Паровой насос"
+			x: 4.5d
+			y: -5.75d
+		}
+		{
+			dependencies: ["22A5BE86FE11146E"]
+			id: "09C5245AB32C95B3"
+			rewards: [{
+				count: 5
+				id: "0934DA4C5B08A02C"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1EF316B2422212EC"
+					item: "industrialupgrade:block_strong_anvil/block_strong_anvil"
+					type: "item"
+				}
+				{
+					id: "69B38E319A06F6A9"
+					item: {
+						Count: 1
+						id: "industrialupgrade:obsidian_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["57DF8F3C73D18210"]
+			id: "08634A2D6957E8DB"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "6E3F7C4517D8F983"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "302C06D7CB844D60"
+				item: "industrialupgrade:basemachine3/steam_extractor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1B01E1B16CB7DF60"]
+			dependency_requirement: "one_completed"
+			description: ["&7Топливные баки хранят жидкое &cракетное топливо&7, необходимое для работы ракетного двигателя. Для базовой ракеты потребуется два бака, чтобы обеспечить достаточный запас топлива для полёта на Луну и обратно. Убедитесь, что они правильно подключены к двигателю."]
+			hide_until_deps_complete: true
+			id: "4EE82272D412DB9C"
+			rewards: [{
+				id: "667209CD8B1B1E85"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "22A6EB743446800A"
+				item: "ad_astra:steel_tank"
+				type: "item"
+			}]
+			title: "&l&6Топливные баки"
+			x: 4.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["1B01E1B16CB7DF60"]
+			description: ["&7Давайте подготовим основные части для полёта в космос. Носовой обтекатель — это передняя часть ракеты, которая рассекает воздух (а впоследствии — космическую среду) и защищает полезную нагрузку от аэродинамического нагрева."]
+			id: "59753336427A57A6"
+			rewards: [{
+				id: "6E1B4203A02ACF8D"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C9E552FF109985E"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			title: "&l&6Носовой обтекатель"
+			x: 4.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["7148FF0A0F2F9890"]
+			description: [
+				"Вы успешно достигли &l&7Луны&r — естественного спутника &2&lЗемли.&r Это безвоздушное тело с низкой гравитацией, покрытое реголитом и усеянное кратерам&rи. "
+				""
+				"&cБудьте осторожны:&r здесь нет атмосферы, а значит, нет кислорода для дыхания и защиты от радиации и микрометеоритов."
+			]
+			id: "47A6ACAA667AD14A"
+			rewards: [
+				{
+					id: "3D40AA4D5C681EC2"
+					item: "libraryferret:gold_coins_jtl"
+					type: "item"
+				}
+				{
+					id: "74A97E21C2B52887"
+					item: "libraryferret:emerald_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "18E4F1919AF13979"
+				type: "dimension"
+			}]
+			title: "&l&6Маленький гигантский скачок"
+			x: 3.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["1B01E1B16CB7DF60"]
+			description: [
+				"Вы не можете дышать на &l&7Луне&r без &3Кислорода&r. Вообще, вы не можете дышать нигде без &3Кислорода&r. Угадайте, чего нет на &l&7Луне&r?"
+				""
+				"Итак, давайте сделаем немного. Начните с создания &dКислородного загрузчика&r и подайте ему воду и энергию. Это преобразует воду в &3Кислород&r для нашего использования."
+				""
+				"Чтобы собрать его, поместите &3Кислородный баллон&r, пустое ведро или &6Космический скафандр&r внутрь."
+				""
+				"&6Совет: &7&oВсегда полезно иметь при себе запасной Кислород... на всякий случай."
+			]
+			hide_until_deps_complete: true
+			icon: "ad_astra:oxygen_loader"
+			id: "6CE8C3410296E977"
+			min_width: 300
+			rewards: [
+				{
+					id: "62FF6DA8DA2C53C5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "27AE8750365D8966"
+					item: "libraryferret:gold_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D926F7974EA410B"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			title: "&l&6Подготовка кислорода"
+			x: 2.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["1B01E1B16CB7DF60"]
+			description: ["&7Ракетные стабилизаторы (плавники) обеспечивают устойчивость ракеты во время полёта в атмосфере. Без них ракета будет беспорядочно вращаться и может разрушиться. Вам понадобится четыре штуки для базовой конфигурации."]
+			hide_until_deps_complete: true
+			id: "2F520B59F10123D2"
+			rewards: [{
+				id: "111B377E81944F4F"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "313DDCE3C70B036C"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			title: "&l&6Ракетные стабилизаторы"
+			x: 5.0d
+			y: -17.5d
+		}
+		{
+			dependencies: [
+				"59753336427A57A6"
+				"2F520B59F10123D2"
+				"4EE82272D412DB9C"
+				"2CCB9C223585FA23"
+				"6CE8C3410296E977"
+				"086223FF8861479F"
+				"75BD9E93A6143DC7"
+				"72EC381A9B79EF64"
+				"25AA43AA22D9329C"
+			]
+			description: [
+				"Вам стоит взять несколько полных &6кислородных баллонов&r, много еды, душевые факелы или светокамень, оружие и инструменты. Я бы рекомендовал взять &nкамень пути&r, чтобы вам не понадобилась лишняя ракета для возвращения на Землю. Как только у вас будет всё это, вы готовы к запуску! Заберитесь в ракету и нажмите Пробел!"
+				""
+				"Присядьте и нажмите ПКМ, чтобы открыть её интерфейс. Там вы можете залить &c&lтопливо&r. Она может хранить до трёх вёдер, поэтому будет разумно иметь при себе запас. Остаться в космосе — худшее, что может с вами случиться."
+				""
+				"Нажмите ПКМ, чтобы войти в ракету. После удержания Пробела некоторое время вы запуститесь и получите доступ к системе выбора планеты."
+				""
+				"После выбора местоположения вы спуститесь на планету в спускаемом аппарате. Нажмите Пробел, чтобы замедлиться. Убедитесь, что вы не ударитесь о землю слишком быстро, иначе аппарат взорвётся, оставив вас в затруднительном положении."
+				""
+				"&7Информация о Луне:"
+				"&7Гравитация: &b1,625 м/с²"
+				"&7Кислород: &cнет"
+				"&7Температура: &b-160 °C"
+				""
+				"              &l&aПОРА В КОСМОС!"
+			]
+			id: "7148FF0A0F2F9890"
+			rewards: [
+				{
+					id: "264BE22E4BD9663F"
+					item: "libraryferret:gold_coins_jtl"
+					type: "item"
+				}
+				{
+					id: "78BCCEEA44D485AA"
+					item: "libraryferret:diamond_coins_jtl"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "76C26ADF57608504"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&l&6Мы летим на Луну!!!"
+			x: 3.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["1B01E1B16CB7DF60"]
+			description: ["&7Стальной ракетный двигатель — это сердце вашей ракеты. Он сжигает &cракетное топливо&7, создавая мощную тягу, необходимую для преодоления земной гравитации и выхода в космос. Без надёжного двигателя вы никуда не улетите."]
+			hide_until_deps_complete: true
+			id: "2CCB9C223585FA23"
+			rewards: [{
+				id: "4D31D1F025636E25"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E4A4A70072E9777"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			title: "&l&6Стальной двигатель"
+			x: 5.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["1B01E1B16CB7DF60"]
+			description: [
+				"&7Если вы планируете отправиться в космос, вам понадобится новый комплект снаряжения для путешествия."
+				""
+				"&7Для вашего первого полёта на &3Луну&r &7вам нужно будет создать полный &n&aКосмический скафандр.&r &7На &3Луне&r &7холодно и нет кислорода, поэтому без скафандра вы долго не продержитесь."
+			]
+			hide_until_deps_complete: true
+			id: "086223FF8861479F"
+			rewards: [
+				{
+					id: "45882951E2B3695C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4F2B1BA6FE0600F3"
+					item: "libraryferret:gold_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1645E38B9254D660"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CCE98B05AA6111E"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7059377306B67AE6"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B7EFFD09E4B0DB5"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&l&6Облачаемся в скафандр"
+			x: 2.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["1B01E1B16CB7DF60"]
+			description: [
+				"&7Ракете нужно с чего-то взлетать, поэтому нам понадобится создать &aСтартовую площадку&r."
+				""
+				"&7Чтобы использовать её, установите её в любом месте, откуда вы хотите взлететь, с чистым видом на небо. Как только у вас будет Ракета, вы можете разместить её в центре Стартовой площадки. Площадка стабилизирует ракету во время предстартовой подготовки и обеспечивает безопасный отрыв от земли."
+			]
+			hide_until_deps_complete: true
+			id: "75BD9E93A6143DC7"
+			rewards: [{
+				id: "1B963A3FA937AA93"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "420BD0F655854B7A"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			title: "&l&6Стартовая площадка"
+			x: 3.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["1B01E1B16CB7DF60"]
+			description: ["&7Ракетное топливо — специальная высокоэнергетическая жидкость, получаемая из нефти и других углеводородов с помощью нефтеперерабатывающего завода. Одно ведро такого топлива содержит огромное количество энергии, необходимой для космических полётов. Всегда берите с собой запас топлива на случай непредвиденных обстоятельств."]
+			hide_until_deps_complete: true
+			id: "72EC381A9B79EF64"
+			rewards: [{
+				id: "28C827AD0BB657E3"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37B838D2ABF21CC5"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			title: "&l&6Ракетное топливо"
+			x: 1.0d
+			y: -17.5d
+		}
+		{
+			dependencies: [
+				"22A5BE86FE11146E"
+				"6832425C3C364C82"
+			]
+			description: [
+				"&7Добро пожаловать в &dAd Astra&r!"
+				"&7Этот мод отправит тебя в путешествие к звёздам, а значит, ты сможешь построить свой &eСОБСТВЕННЫЙ КОСМИЧЕСКИЙ КОРАБЛЬ!!!"
+				""
+				"&7Чтобы попасть в космос, тебе понадобится что-то прочнее железа для постройки корабля."
+				""
+				"&7Если хочешь оторваться от земли, тебе потребуется много &7&l&nстали&r!"
+			]
+			hide_details_until_startable: false
+			id: "1B01E1B16CB7DF60"
+			tasks: [{
+				id: "1C29C609327B4A85"
+				title: "Пора в Космос"
+				type: "checkmark"
+			}]
+			title: "&l&6Пора в космос!"
+			x: 3.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["1B01E1B16CB7DF60"]
+			id: "25AA43AA22D9329C"
+			rewards: [{
+				count: 3
+				id: "49670643CFE0FF10"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C8AF47C53C81549"
+				item: "ad_astra:fuel_refinery"
+				type: "item"
+			}]
+			title: "&l&6Топливный завод"
+			x: 1.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["47A6ACAA667AD14A"]
+			description: [
+				"&7Как только вы исследуете Луну и соберёте достаточно Деша, вы сможете создавать &dКосмические станции&r &7вокруг планет!"
+				""
+				"&7Это предварительно собранные конструкции, которые служат мини-базой в галактике. Что-то вроде дома вдали от дома. Космические станции обеспечивают безопасное место для отдыха, хранения ресурсов и подготовки к дальнейшим экспедициям в глубокий космос."
+			]
+			hide_until_deps_complete: true
+			icon: "ad_astra:space_painting"
+			id: "509BB6BF39848F5B"
+			optional: true
+			rewards: [
+				{
+					id: "5B3BFFEBFC315D1B"
+					item: "libraryferret:gold_coins_jtl"
+					type: "item"
+				}
+				{
+					id: "3E7FA0F9DED89AAA"
+					item: "libraryferret:diamond_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "2EF04DC642F0A0AA"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			title: "&l&6Космические станции"
+			x: 0.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["509BB6BF39848F5B"]
+			description: [
+				"&7Её выработка энергии зависит от расстояния планеты до солнца и тумана."
+				"&7Солнечные панели более эффективны, когда размещены ближе к солнцу."
+				""
+				"&7Они также производят больше энергии на орбите, потому что нет атмосферы, блокирующей свет. Используйте несколько панелей вместе для создания надёжной энергосистемы вашей космической станции или лунной базы."
+			]
+			id: "37D437BA68D6864C"
+			rewards: [
+				{
+					id: "56C2799476D03572"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "1957966E8B8AC65F"
+					item: "libraryferret:gold_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "64F2521F16C07397"
+				item: "ad_astra:solar_panel"
+				type: "item"
+			}]
+			title: "&l&6Солнечная панель"
+			x: -0.5d
+			y: -23.5d
+		}
+		{
+			dependencies: [
+				"509BB6BF39848F5B"
+				"29A64A556C101D83"
+				"37D437BA68D6864C"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&7Если вы хотите создать базу за пределами Земли, вам понадобится &3Кислород.&r"
+				""
+				"&6Распределитель кислорода&r — это машина, которая распределяет кислород в герметичной комнате. При подаче воды и энергии он автоматически распределяет кислород."
+				""
+				"&bВодяной насос&r качает воду из бесконечного источника воды под ним в Распределитель. Для создания герметичного помещения используйте герметизирующие люки, двери и стёкла."
+			]
+			id: "01B1F88F57961B10"
+			optional: true
+			rewards: [
+				{
+					id: "3A2CB1BDF8D9440E"
+					item: "libraryferret:gold_coins_jtl"
+					type: "item"
+				}
+				{
+					id: "746BFC31771F91D4"
+					item: "libraryferret:emerald_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "469F37921FE70F08"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			title: "&l&6Кислород для ваших баз!"
+			x: -1.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["509BB6BF39848F5B"]
+			description: [
+				"&bВодяной насос&r &7необходим для бесконечной работы &aРаспределителя кислорода&r."
+				""
+				"&7Чтобы использовать его, разместите бесконечный источник воды ниже, затем установите &bВодяной насос&r &7над одним из блоков воды, а &aРаспределитель кислорода&r &7рядом с ним."
+				""
+				"&7Убедитесь, что вы подаёте достаточно энергии как &bВодяному насосу&r, &7так и &aРаспределителю кислорода&r. &7Эта система жизнеобеспечения критически важна для долгосрочного пребывания в космосе."
+			]
+			id: "29A64A556C101D83"
+			rewards: [
+				{
+					id: "496CCA723B67B909"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "7DB6F15A7031B131"
+					item: "libraryferret:gold_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "554F69A27BBC5A76"
+				item: "ad_astra:water_pump"
+				title: "Создайте &bВодяной насос"
+				type: "item"
+			}]
+			title: "&l&6Система водоснабжения"
+			x: -0.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["47A6ACAA667AD14A"]
+			dependency_requirement: "one_completed"
+			description: ["&6Ровер&r — это наземное транспортное средство, которое может ездить по сложному рельефу лун и планет. Он очень быстрый, имеет инвентарь на &9восемь предметов&r и два сиденья для нескольких пассажиров. Чтобы использовать его, заправьте его топливом, нажав Shift+ПКМ и поместив &aведра ракетного топлива&r в левый слот для ввода. Идеально подходит для исследования больших территорий Луны без необходимости постоянно использовать ракету."]
+			hide_until_deps_complete: true
+			id: "694646586C18C609"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "465BA134DD240761"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+				{
+					id: "6159D559D020E655"
+					item: "libraryferret:gold_coins_jtl"
+					type: "item"
+				}
+				{
+					id: "491E55F2609B64EF"
+					item: "libraryferret:diamond_coins_jtl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "451EC360A3F38231"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rover"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				title: "Создайте &cРовер"
+				type: "item"
+			}]
+			title: "&l&6Лунный вездеход"
+			x: 4.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["47A6ACAA667AD14A"]
+			description: [
+				"&7После приземления тебе нужно присесть и кликнуть ПКМ по &aпосадочному модулю&r, &7чтобы забрать ракету и стартовую площадку."
+				""
+				"На &7&lЛуне&r довольно пустынно, если не считать нескольких новых &2существ&r, которые могут захотеть с тобой поторговать. Ты также сможешь добывать &cДеш&r, который понадобится для &6Ракеты 2-го&r уровня и, возможно, для крутого &aровера&r."
+			]
+			id: "0728BBA93AF37C3F"
+			rewards: [{
+				count: 5
+				id: "361AB6F5A87330CC"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "6A6664CCB154C3DA"
+				item: "ad_astra:raw_desh"
+				type: "item"
+			}]
+			title: "&l&6Лунная добыча"
+			x: 5.5d
+			y: -24.0d
+		}
+		{
+			dependencies: ["2540B31567FF598C"]
+			id: "1D9388C9AEE7C8DD"
+			rewards: [{
+				count: 6
+				id: "16392C2547D5235C"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "307C050024FC8C33"
+				item: "ad_astra:desh_plate"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -21.0d
+		}
+		{
+			dependencies: ["0728BBA93AF37C3F"]
+			id: "2540B31567FF598C"
+			rewards: [{
+				count: 5
+				id: "16B8FC3B678A8C43"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "218364ADA0296597"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["47A6ACAA667AD14A"]
+			description: [
+				"Кто сказал, что на &7Луне&r нет &eСыра&r?! Ха!"
+				""
+				"&eСыр&r можно съесть сразу же, восстанавливая &n2 единицы голода&r / &n4 очка голода&r."
+				""
+				"Эта руда легко добывается &eКремниевой киркой&r."
+			]
+			hide_until_deps_visible: true
+			id: "33D6E68ED02850F8"
+			min_width: 240
+			rewards: [
+				{
+					id: "3469FD267A0B127A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "244FA29D0D11F6C9"
+					item: "ad_astra:yellow_flag"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Памятный сувенир с вашей первой космической экспедиции."
+			tasks: [{
+				id: "7C2433D8D5CA6CB7"
+				item: "ad_astra:cheese"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["47A6ACAA667AD14A"]
+			description: ["&eТрубопроводы&r подключаются к &dтрубам&r или &2кабелям&r в зависимости от того, что используется. Они полностью герметичны — воздух не может выйти наружу!"]
+			id: "76092227927A26CD"
+			rewards: [{
+				id: "55AF624651FED5C9"
+				item: "ad_astra:fluid_pipe_duct"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09CEDF70ADC1464D"
+				item: "ad_astra:fluid_pipe_duct"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["47A6ACAA667AD14A"]
+			description: [
+				"Когда вы добудете &6Деш&r, перед вами откроется более широкое окно возможностей."
+				""
+				"Теперь вы способны создавать &9трубы&r вокруг своих поселений."
+				""
+				"&5Жидкостные трубы из Деша&r могут передавать &nлюбые жидкости&r"
+				""
+				"Если вам нужна помощь в настройке сторон этих кабелей, вот удобный инструмент — &2Гаечный ключ&r!"
+			]
+			id: "7C42AC4BFB30BC68"
+			rewards: [{
+				id: "546A72E2418BF31F"
+				item: "ad_astra:desh_fluid_pipe"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A922DB6272B3FF7"
+				item: "ad_astra:desh_fluid_pipe"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["47A6ACAA667AD14A"]
+			description: [
+				"Когда вы добудете &6Деш&r, перед вами откроется более широкий спектр возможностей."
+				""
+				"Теперь вы способны создавать улучшенные &9кабели&r вокруг своих поселений."
+				""
+				"&5Кабели из Деша&r являются улучшенной версией &3стальных кабелей&r"
+				""
+				"Если вам нужна помощь в настройке сторон этих кабелей, вот удобный инструмент — &2Гаечный ключ&r!"
+			]
+			id: "6B177A0B4E218617"
+			min_width: 300
+			rewards: [{
+				id: "3C2762CB0A12ED86"
+				item: "ad_astra:desh_cable"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "32558DC232F12832"
+				item: "ad_astra:desh_cable"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["01B1F88F57961B10"]
+			hide_until_deps_visible: true
+			id: "44F54D1B5C3DA1D3"
+			rewards: [{
+				id: "635F88B0E1C9EF76"
+				item: "ad_astra:vent"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "69A5413255BE9AFD"
+				item: "ad_astra:vent"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["7ACF5A65FAF87E4A"]
+			id: "69A2F050812E3C24"
+			rewards: [{
+				count: 4
+				id: "77A3457952273F8F"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EAD0C77A886F6EB"
+				item: "industrialupgrade:itemdust/coal_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["69A2F050812E3C24"]
+			id: "54FE5BBD56D57D25"
+			rewards: [{
+				count: 4
+				id: "2018F3C4C66F0139"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60811934B6A4253C"
+				item: "industrialupgrade:crafting_elements/crafting_281_element"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["54FE5BBD56D57D25"]
+			id: "304213037D82F4F5"
+			rewards: [{
+				count: 4
+				id: "2C678E83C9114F6F"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "673B980D0BD16D96"
+				item: "industrialupgrade:crafting_elements/crafting_282_element"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7ACF5A65FAF87E4A"]
+			id: "62A95317D70313B5"
+			rewards: [{
+				count: 4
+				id: "07FB0D1B9BB839FF"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "71F79F000D95EBF9"
+					item: "industrialupgrade:crafting_elements/crafting_538_element"
+					type: "item"
+				}
+				{
+					id: "7FB9DFA5C6C5F376"
+					item: "industrialupgrade:crafting_elements/crafting_539_element"
+					type: "item"
+				}
+				{
+					id: "0221E1410196CF5C"
+					item: "industrialupgrade:crafting_elements/crafting_533_element"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["077E079C1645AFE2"]
+			id: "0719E79FCFA66E2D"
+			rewards: [{
+				count: 5
+				id: "46E278B7C52BE4F6"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "033D06CAE5F08608"
+				item: "industrialupgrade:basemachine3/bio_orewashing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["077E079C1645AFE2"]
+			id: "1558D2DF7EB77656"
+			rewards: [{
+				count: 5
+				id: "761A8031E2AD3420"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CE8A7202280DA7A"
+				item: "industrialupgrade:basemachine3/bio_rolling"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["077E079C1645AFE2"]
+			id: "512C9DAF1F72366B"
+			rewards: [{
+				count: 5
+				id: "6A7852733473F0B6"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CF62B39C95AAC3D"
+				item: "industrialupgrade:basemachine3/bio_extruder"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["077E079C1645AFE2"]
+			id: "1A1B3749806F287F"
+			rewards: [{
+				count: 5
+				id: "037356B7F96411B7"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B5FAAFFEB3341A1"
+				item: "industrialupgrade:basemachine3/bio_macerator"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["077E079C1645AFE2"]
+			id: "304A805249CF6627"
+			rewards: [{
+				count: 5
+				id: "551EC0FAD4367563"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63330F4798215C32"
+				item: "industrialupgrade:basemachine3/bio_compressor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["077E079C1645AFE2"]
+			id: "11C005D5AF334DBD"
+			rewards: [{
+				count: 5
+				id: "51551F7D26D15893"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AB21227343E94B5"
+				item: "industrialupgrade:basemachine3/bio_extractor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["077E079C1645AFE2"]
+			id: "6322C9A23CC3BBD5"
+			rewards: [{
+				count: 5
+				id: "733F8CCF308B1962"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D1D4CFE40220E2F"
+				item: "industrialupgrade:basemachine3/bio_cutting"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["077E079C1645AFE2"]
+			id: "5D3E3596EFB61C5E"
+			rewards: [{
+				count: 5
+				id: "40E00FCD424E875F"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EEF8034D1E88B80"
+				item: "industrialupgrade:basemachine3/steam_bio_generator"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["1082EFE89F384BF5"]
+			id: "077E079C1645AFE2"
+			rewards: [{
+				count: 5
+				id: "13D1655E5810D248"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			tasks: [{
+				id: "507A79041C29A5DD"
+				item: "industrialupgrade:blockresource/bio_machine"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -19.5d
+		}
+	]
+	title: "{ftbquests.chapter_groups_6489874184484817338.title}"
+}

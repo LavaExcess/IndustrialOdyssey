@@ -1,0 +1,6617 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "hostile_mobs_all"
+	group: ""
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "minecraft:diamond_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3E3B6C423E31C0E7"
+	images: [
+		{
+			height: 2.0d
+			image: "born_in_chaos_v1:textures/mob_effect/unity_with_darkness.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			color: 14537046
+			height: 2.0d
+			image: "kubejs:textures/tier_1.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -19.0d
+			y: 5.5d
+		}
+		{
+			color: 13295013
+			height: 2.0d
+			image: "kubejs:textures/tier_2.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -13.0d
+			y: 5.5d
+		}
+		{
+			color: 10280409
+			height: 2.0d
+			image: "kubejs:textures/tier_3.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			color: 12499677
+			height: 2.0d
+			image: "kubejs:textures/tier_4.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			color: 8436223
+			height: 2.0d
+			image: "kubejs:textures/tier_5.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 5.5d
+			y: 5.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: ["Зомби из ванильного Minecraft"]
+			icon: "minecraft:zombie_spawn_egg"
+			id: "25F21D24341F1155"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "088D4909FB39F359"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:zombie_spawn_egg"
+				id: "51C3094E83407357"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&2Зомби"
+			x: -11.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			description: ["Утопленник из ванильного Minecraft"]
+			icon: "minecraft:drowned_spawn_egg"
+			id: "39E35201490613FF"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "2C77A3AC74724667"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:drowned"
+				icon: "minecraft:drowned_spawn_egg"
+				id: "0D5402D0A98D2576"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&3Утопленник"
+			x: -11.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			description: ["Паук из ванильного Minecraft"]
+			icon: "minecraft:spider_spawn_egg"
+			id: "0276BB5D17E9CDA2"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "728125A1CD5E0CC5"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:spider"
+				icon: "minecraft:spider_spawn_egg"
+				id: "0D7B5F8A1669EB06"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Паук"
+			x: -13.5d
+			y: 13.0d
+		}
+		{
+			can_repeat: true
+			description: ["Пещерный паук из ванильного Minecraft"]
+			icon: "minecraft:cave_spider_spawn_egg"
+			id: "2965EC7CC686479D"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "61686AC70003D32E"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				icon: "minecraft:cave_spider_spawn_egg"
+				id: "34CEFB2F57222A2F"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&cПещерный паук"
+			x: -14.5d
+			y: 13.0d
+		}
+		{
+			can_repeat: true
+			description: ["Зоглин из ванильного Minecraft"]
+			icon: "minecraft:zoglin_spawn_egg"
+			id: "277C16B2EA2005DC"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "399478AD0251584D"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:zoglin"
+				icon: "minecraft:zoglin_spawn_egg"
+				id: "21B9821D3669549B"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&2Зоглин"
+			x: -12.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			description: ["Хаск из ванильного Minecraft"]
+			icon: "minecraft:husk_spawn_egg"
+			id: "2DB290B80724F496"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "659B507C2ED088D4"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:husk"
+				icon: "minecraft:husk_spawn_egg"
+				id: "7F0A0E22B18EEDFB"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Хаск"
+			x: -11.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			description: ["Бочковый зомби из Born in Chaos"]
+			icon: "born_in_chaos_v1:barrel_zombie_spawn_egg"
+			id: "6FE22FD2CA736675"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "77E4A11BAFD6C41D"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:barrel_zombie"
+				icon: "minecraft:barrel"
+				id: "43D1018ED91FB724"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Бочковый зомби"
+			x: -12.5d
+			y: 24.0d
+		}
+		{
+			can_repeat: true
+			description: ["Зомби-клоун из Born in Chaos"]
+			icon: "born_in_chaos_v1:zombie_clown_spawn_egg"
+			id: "1328A161BA3F2B63"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "3090D50FD41E9D23"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_clown"
+				icon: "born_in_chaos_v1:zombie_clown_spawn_egg"
+				id: "0233F71D47BAA878"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Зомби-клоун"
+			x: -14.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			description: ["Зомби-лесоруб из Born in Chaos"]
+			icon: "born_in_chaos_v1:zombie_lumberjack_spawn_egg"
+			id: "2D38C78AFBA1EECB"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "327E7A85F61B20B3"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_lumberjack"
+				icon: "born_in_chaos_v1:zombie_lumberjack_spawn_egg"
+				id: "7C14F376E8221539"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&2Зомби-лесоруб"
+			x: -11.5d
+			y: 19.0d
+		}
+		{
+			can_repeat: true
+			description: ["Зомби-рыбак из Born in Chaos"]
+			icon: "born_in_chaos_v1:zombie_fisherman_spawn_egg"
+			id: "6D1DA682FFE26DB5"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "2B7E492B8A34B2DE"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_fisherman"
+				icon: "born_in_chaos_v1:zombie_fisherman_spawn_egg"
+				id: "1616313E715D690A"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&3Зомби-рыбак"
+			x: -12.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: ["Разоритель из ванильного Minecraft"]
+			icon: "minecraft:pillager_spawn_egg"
+			id: "04237B4898633CC2"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "5C2F828DE5383867"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: "minecraft:pillager_spawn_egg"
+				id: "6A3F9DBD041173F4"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&7Разоритель"
+			x: -14.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			description: ["Опустошитель из ванильного Minecraft"]
+			icon: "minecraft:ravager_spawn_egg"
+			id: "43247B706B034E47"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "0635AFA9287E762B"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:ravager"
+				icon: "minecraft:ravager_spawn_egg"
+				id: "2684F57A1A0AA86B"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Опустошитель"
+			x: -12.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			description: ["Ведьма из ванильного Minecraft"]
+			icon: "minecraft:witch_spawn_egg"
+			id: "6607A10B5F635E72"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "715A88995D0F4120"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:witch"
+				icon: "minecraft:witch_spawn_egg"
+				id: "5D9023867722EC36"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&5Ведьма"
+			x: -12.5d
+			y: 13.0d
+		}
+		{
+			can_repeat: true
+			description: ["Эндермен из ванильного Minecraft"]
+			icon: "minecraft:enderman_spawn_egg"
+			id: "2FB052E0B9A84F7F"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "1CB9EB8A58BA88E0"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:enderman"
+				icon: "minecraft:enderman_spawn_egg"
+				id: "5D6143F7F60BA2D7"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&5Эндермен"
+			x: -11.5d
+			y: 13.0d
+		}
+		{
+			can_repeat: true
+			description: ["Гаст из ванильного Minecraft"]
+			icon: "minecraft:ghast_spawn_egg"
+			id: "0932BFB069580621"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "37B1852DA7076712"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:ghast"
+				icon: "minecraft:ghast_spawn_egg"
+				id: "14A40714B9873D9C"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&fГаст"
+			x: -14.5d
+			y: 16.0d
+		}
+		{
+			can_repeat: true
+			description: ["Визер-скелет из ванильного Minecraft"]
+			icon: "minecraft:wither_skeleton_spawn_egg"
+			id: "5BE3421EDAFAF2EF"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "17BFA7ABA4B114D5"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: "minecraft:wither_skeleton_spawn_egg"
+				id: "3430E9D6A543EEDB"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Визер-скелет"
+			x: -14.5d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			description: ["&7Дверной рыцарь из Born in Chaos"]
+			icon: "born_in_chaos_v1:door_knight_spawn_egg"
+			id: "3A3FCB6EC2FB9882"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "52589FA2A992166F"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:door_knight"
+				icon: "minecraft:iron_door"
+				id: "653FDC1BCE9375E1"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&7Дверной рыцарь"
+			x: -13.5d
+			y: 16.0d
+		}
+		{
+			can_repeat: true
+			description: ["Темный вихрь из Born in Chaos"]
+			icon: "born_in_chaos_v1:dark_vortex_spawn_egg"
+			id: "6B79F34588C53A2A"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "2DDB4071C0D6414F"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:dark_vortex"
+				icon: "born_in_chaos_v1:dark_vortex_spawn_egg"
+				id: "5F8F72508AA4EEC7"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Темный вихрь"
+			x: -13.5d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			description: ["Помощник Крампуса из Born in Chaos"]
+			icon: "born_in_chaos_v1:krampus_henchman_spawn_egg"
+			id: "47A2D3A90CFC0155"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "611C44AABF61462C"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:krampus_henchman"
+				icon: "born_in_chaos_v1:krampus_henchman_spawn_egg"
+				id: "551FE6EC713EB819"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&6Помощник Крампуса"
+			x: -13.5d
+			y: 17.0d
+		}
+		{
+			can_repeat: true
+			description: ["Дух тыквы из Born in Chaos"]
+			icon: "born_in_chaos_v1:pumpkin_spirit_spawn_egg"
+			id: "05A1BE2AEDE324D1"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "790F4CCE102803C1"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:pumpkin_spirit"
+				icon: "born_in_chaos_v1:pumpkin_spirit_spawn_egg"
+				id: "31AD16C86E9316A5"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Дух тыквы"
+			x: -12.5d
+			y: 14.0d
+		}
+		{
+			can_repeat: true
+			description: ["Опаленный дух из Born in Chaos"]
+			icon: "born_in_chaos_v1:seared_spirit_spawn_egg"
+			id: "7C4D0E6CD765AFAE"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "1A52C12F74E773E6"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:seared_spirit"
+				icon: "born_in_chaos_v1:seared_spirit_spawn_egg"
+				id: "2D82466435029E44"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&cОпаленный дух"
+			x: -12.5d
+			y: 16.0d
+		}
+		{
+			can_repeat: true
+			description: ["Алмазный термит из Born in Chaos"]
+			icon: "born_in_chaos_v1:diamond_termite_spawn_egg"
+			id: "7E9F93783BFE7C1D"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "1A92F9AC4387AC0B"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:diamond_termite"
+				icon: "born_in_chaos_v1:diamond_termite_spawn_egg"
+				id: "66F9526F983A5919"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&bАлмазный термит"
+			x: -12.5d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			description: ["Огненный свет из Born in Chaos"]
+			icon: "born_in_chaos_v1:firelight_spawn_egg"
+			id: "3D149DB7D9D7C1C3"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "46F261BF66357F4F"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:firelight"
+				icon: "born_in_chaos_v1:firelight_spawn_egg"
+				id: "349929AFC1324211"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Огненный свет"
+			x: -12.5d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			description: ["Тыквенный качок из Born in Chaos"]
+			icon: "born_in_chaos_v1:pumpkin_bruiser_spawn_egg"
+			id: "281F19B8D862C85A"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "7B2E85BCEBD0EBE9"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:pumpkin_bruiser"
+				icon: "born_in_chaos_v1:pumpkin_bruiser_spawn_egg"
+				id: "2AD59522341B7F52"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&6Тыквенный качок"
+			x: -12.5d
+			y: 17.0d
+		}
+		{
+			can_repeat: true
+			description: ["Краб с шипастой раковиной из Born in Chaos"]
+			icon: "born_in_chaos_v1:thornshell_crab_spawn_egg"
+			id: "54F6F0F1401B9FA9"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "254A58EA8D2DC49C"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:thornshell_crab"
+				icon: "born_in_chaos_v1:thornshell_crab_spawn_egg"
+				id: "6B7A6732C23B45CA"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&cКраб с шипастой раковиной"
+			x: -11.5d
+			y: 14.0d
+		}
+		{
+			can_repeat: true
+			description: ["Скелет-крипер из Graveyard"]
+			icon: "graveyard:skeleton_creeper_spawn_egg"
+			id: "5274D2D416E3B9F7"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "04136FE04121357E"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "graveyard:skeleton_creeper"
+				icon: "graveyard:creeper_skeleton"
+				id: "503612E9A574AD3F"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&cСкелет-крипер"
+			x: -11.5d
+			y: 16.0d
+		}
+		{
+			can_repeat: true
+			description: ["Безымянный повешенный из Graveyard"]
+			icon: "graveyard:nameless_hanged_spawn_egg"
+			id: "43BE7E5FD0AED5E5"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "2B17A97D6AE065F2"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "graveyard:nameless_hanged"
+				icon: "graveyard:nameless_hanged_spawn_egg"
+				id: "3A74672A5B8B273F"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Безымянный повешенный"
+			x: -13.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			description: ["Искажённый разоритель из Graveyard"]
+			icon: "graveyard:corrupted_pillager_spawn_egg"
+			id: "03F8A19B123E7029"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "561AF6AE320A512E"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "graveyard:corrupted_pillager"
+				icon: "graveyard:corrupted_pillager_spawn_egg"
+				id: "6C1A6F05ED55D16F"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&5Искажённый разоритель"
+			x: -11.5d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			description: ["Искажённый поборник из Graveyard"]
+			icon: "graveyard:corrupted_vindicator_spawn_egg"
+			id: "57BFD108F375CF75"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "321B7A914AABE5D8"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "graveyard:corrupted_vindicator"
+				icon: "graveyard:corrupted_vindicator_spawn_egg"
+				id: "32BA5650FDB0306E"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&5Искажённый поборник"
+			x: -11.5d
+			y: 17.0d
+		}
+		{
+			can_repeat: true
+			description: ["Гуль из Graveyard"]
+			icon: "graveyard:ghoul_spawn_egg"
+			id: "6DCD9874BDA5CFDE"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "252EB501F0416181"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "graveyard:ghoul"
+				icon: "graveyard:ghoul_spawn_egg"
+				id: "2A5EF8BAA73536B8"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&2Гуль"
+			x: -13.5d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			description: ["Скалк-пиявка из Deeper and Darker"]
+			icon: "deeperdarker:sculk_leech_spawn_egg"
+			id: "016BF9ED3615ACBE"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "0B1FB0B0968D2E7F"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "deeperdarker:sculk_leech"
+				icon: "deeperdarker:sculk_leech_spawn_egg"
+				id: "50534F1111E91F52"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&5Скалк-пиявка"
+			x: -14.5d
+			y: 26.0d
+		}
+		{
+			can_repeat: true
+			description: ["Тефра из Alex's Caves"]
+			icon: "minecraft:skeleton_horse_spawn_egg"
+			id: "7B81FF067B2C4297"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "2471A30C92091A36"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexscaves:tephra"
+				icon: "minecraft:skeleton_horse_spawn_egg"
+				id: "04A3EE876AA4D9D6"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&7Тефра"
+			x: -14.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			description: ["Разъедатель из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_corrodent"
+			id: "572CA49568A3C6B5"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "6B94B9C26BA0A64B"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexscaves:corrodent"
+				icon: "alexscaves:spawn_egg_corrodent"
+				id: "487F783300ABA533"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&cРазъедатель"
+			x: -14.5d
+			y: 27.0d
+		}
+		{
+			can_repeat: true
+			description: ["Забытый из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_forsaken"
+			id: "0687431E0E4688F1"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "7C9D1A516494681E"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				icon: "alexscaves:forsaken_idol"
+				id: "606AA62EDFEBD381"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&8Забытый"
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			description: ["Гроттокератопс из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_grottoceratops"
+			id: "04EA527F69CE9444"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "1BDE6AB575EF0F9F"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexscaves:grottoceratops"
+				icon: "alexscaves:spawn_egg_grottoceratops"
+				id: "51018A07CD9863EC"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&6Гроттокератопс"
+			x: -5.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			description: ["Крокодил из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_crocodile"
+			id: "7CE2EF4A8E90E8CE"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "2F24311299D49A92"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:crocodile"
+				icon: "alexsmobs:crocodile_egg"
+				id: "1DB0D82A47030F7C"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&2Крокодил"
+			x: -13.5d
+			y: 25.0d
+		}
+		{
+			can_repeat: true
+			description: ["Искажённая жаба из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_warped_toad"
+			id: "1D69D4DB1CBBDBA3"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "0214981AD918F7ED"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:warped_toad"
+				icon: "alexsmobs:warped_muscle"
+				id: "087F9E2074E66BFE"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&5Искажённая жаба"
+			x: -13.5d
+			y: 27.0d
+		}
+		{
+			can_repeat: true
+			description: ["Песчаный вихрь из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_guster"
+			id: "3ED6B19788B15508"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "5EC5FE6C5FD2F685"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:guster"
+				icon: "alexsmobs:spawn_egg_guster"
+				id: "267D9E0EE0D89F5E"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&eПесчаный вихрь"
+			x: -13.5d
+			y: 14.0d
+		}
+		{
+			can_repeat: true
+			description: ["Креветка-богомол из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_mantis_shrimp"
+			id: "2C9F35775B2533AF"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "781882CDC5EC7C5B"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:mantis_shrimp"
+				icon: "alexsmobs:spawn_egg_mantis_shrimp"
+				id: "35476A971F74DC44"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&cКреветка-богомол"
+			x: -12.5d
+			y: 26.0d
+		}
+		{
+			can_repeat: true
+			description: ["Мимик-осьминог из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_mimic_octopus"
+			id: "700CD0422567E57E"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "0E1BA594F113F7CD"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:mimic_octopus"
+				icon: "alexsmobs:spawn_egg_mimic_octopus"
+				id: "541EE7DF2EBA2A21"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Мимик-осьминог"
+			x: -12.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			description: ["Гривастый волк из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_maned_wolf"
+			id: "41721923D176215A"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "15B71A2C9DB4AEE2"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:maned_wolf"
+				icon: "alexsmobs:spawn_egg_maned_wolf"
+				id: "5F4859B8D6B35EA6"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Гривастый волк"
+			x: -11.5d
+			y: 26.0d
+		}
+		{
+			can_repeat: true
+			description: ["Древний страж из ванильного Minecraft"]
+			icon: "minecraft:elder_guardian_spawn_egg"
+			id: "0A30802FFF684BFA"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "52ACE0EAF0D78B72"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: "minecraft:elder_guardian_spawn_egg"
+				id: "52CDA784FF3C8753"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&bДревний страж"
+			x: -6.5d
+			y: 19.0d
+		}
+		{
+			can_repeat: true
+			description: ["Зомби-громила из Born in Chaos"]
+			icon: "born_in_chaos_v1:zombie_bruiser_spawn_egg"
+			id: "674CFE2912EB635C"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "57290A032B28C103"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_bruiser"
+				icon: "born_in_chaos_v1:zombie_bruiser_spawn_egg"
+				id: "76D20E28C75B4C65"
+				type: "kill"
+				value: 3L
+			}]
+			title: "&2Зомби-громила"
+			x: -7.5d
+			y: 19.0d
+		}
+		{
+			can_repeat: true
+			description: ["Скелет-крушитель из Born in Chaos"]
+			icon: "born_in_chaos_v1:skeleton_thrasher_spawn_egg"
+			id: "52771F7F0BF6498C"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "679E29A12A9CA875"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:skeleton_thrasher"
+				icon: "born_in_chaos_v1:skeleton_thrasher_spawn_egg"
+				id: "7E7874897435D7A0"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&8Скелет-крушитель"
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: ["Призыватель костей из Born in Chaos"]
+			icon: "born_in_chaos_v1:bonescaller_spawn_egg"
+			id: "1DBCF4495F77DA86"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "592601DEFF201253"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:bonescaller"
+				icon: "deeperdarker:soul_dust"
+				id: "3CE8646580C57476"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&fПризыватель костей"
+			x: -5.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			description: ["Похититель жизни из Born in Chaos"]
+			icon: "born_in_chaos_v1:lifestealer_spawn_egg"
+			id: "2A4D628C0CB6F0CE"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "51335CC2F80AA6C4"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:lifestealer_true_form"
+				icon: "born_in_chaos_v1:lifestealer_spawn_egg"
+				id: "6F01ADFBAF56E0CB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&cПохититель жизни"
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Дух-проводник из Born in Chaos"]
+			icon: "born_in_chaos_v1:spirit_guide_spawn_egg"
+			id: "0B1B6A97CDF9318F"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "1767E19CC986781C"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:spirit_guide"
+				icon: "born_in_chaos_v1:spirit_guide_spawn_egg"
+				id: "1E4B3063E0E7905F"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&bДух-проводник"
+			x: -12.5d
+			y: 21.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"&7&lЗимний дух возмездия"
+				""
+				"&c&lОн  наблюдает..."
+			]
+			icon: "born_in_chaos_v1:krampuss_bag"
+			id: "0BE6AA4D58B52834"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "092EC39125FB920F"
+				item: "libraryferret:netherite_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:krampus"
+				icon: "born_in_chaos_v1:krampuss_bag"
+				id: "5DFF938AD3890284"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4&lКРАМПУС"
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Миссионер из Born in Chaos"]
+			icon: "born_in_chaos_v1:missioner_spawn_egg"
+			id: "1BB6B2615FFA2C06"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "5C70BF125BDB6C08"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:missioner"
+				icon: "born_in_chaos_v1:missioner_spawn_egg"
+				id: "2F0007FDBE8E5254"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&7Миссионер"
+			x: -7.5d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			description: ["Кошмарный сталкер из Born in Chaos"]
+			icon: "born_in_chaos_v1:nightmare_stalker_spawn_egg"
+			id: "2C174F3F1D450BAA"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "213F4E7182080D81"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				icon: "born_in_chaos_v1:nightmare_stalker_spawn_egg"
+				id: "66A911A9513FD8D2"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&8Кошмарный сталкер"
+			x: -6.5d
+			y: 17.0d
+		}
+		{
+			can_repeat: true
+			description: ["Инфернальный дух из Born in Chaos"]
+			icon: "born_in_chaos_v1:infernal_spirit_spawn_egg"
+			id: "6747DAD6E3B5A68B"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "0DB028EA243B65F7"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:infernal_spirit"
+				icon: "born_in_chaos_v1:infernal_spirit_spawn_egg"
+				id: "52827F9833B11370"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&cИнфернальный дух"
+			x: -6.5d
+			y: 14.0d
+		}
+		{
+			can_repeat: true
+			description: ["Миссис Тыква из Born in Chaos"]
+			icon: "born_in_chaos_v1:mrs_pumpkin_spawn_egg"
+			id: "59DF16E63EAC6B21"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "1BFF9E76835112B8"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:mrs_pumpkin"
+				icon: "born_in_chaos_v1:mrs_pumpkin_spawn_egg"
+				id: "49D90F95825C641F"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&6Миссис Тыква"
+			x: -7.5d
+			y: 14.0d
+		}
+		{
+			can_repeat: true
+			description: ["Вожак ужасных гончих из Born in Chaos"]
+			icon: "born_in_chaos_v1:dire_hound_leader_spawn_egg"
+			id: "23A92B4973FF33FA"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "66A1526F5FB909ED"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:dire_hound_leader"
+				icon: "born_in_chaos_v1:dire_hound_leader_spawn_egg"
+				id: "75553E5F80E69C5E"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&4Вожак ужасных гончих"
+			x: -8.5d
+			y: 14.0d
+		}
+		{
+			can_repeat: true
+			description: ["Послушник из Graveyard"]
+			icon: "graveyard:acolyte_spawn_egg"
+			id: "677FF4F3792BC86E"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "7588D97334D741AF"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "graveyard:acolyte"
+				icon: "graveyard:acolyte_spawn_egg"
+				id: "08B2AAA157546511"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&7Послушник"
+			x: -8.5d
+			y: 13.0d
+		}
+		{
+			can_repeat: true
+			description: ["Призрак из Graveyard"]
+			icon: "graveyard:wraith_spawn_egg"
+			id: "7A1C009CEC106D33"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "70C38B5318DE9734"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "graveyard:wraith"
+				icon: "graveyard:wraith_spawn_egg"
+				id: "6EEA4129C3D5D15E"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&fПризрак"
+			x: -8.5d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			description: ["Ревенант из Graveyard"]
+			icon: "graveyard:revenant_spawn_egg"
+			id: "007B5C652B9D7A36"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "280CC451A8F771BB"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "graveyard:revenant"
+				icon: "graveyard:revenant_spawn_egg"
+				id: "24BE169C6A7A6112"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&cРевенант"
+			x: -7.5d
+			y: 13.0d
+		}
+		{
+			can_repeat: true
+			description: ["Скалк-щелкун из Deeper and Darker"]
+			icon: "deeperdarker:sculk_snapper_spawn_egg"
+			id: "02688D69FB681AD6"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "3843B964D3387955"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "deeperdarker:sculk_snapper"
+				icon: "deeperdarker:sculk_snapper_spawn_egg"
+				id: "2CA8A1EDF767BE92"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&5Скалк-щелкун"
+			x: -7.5d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			description: ["Разрушенный из Deeper and Darker"]
+			icon: "deeperdarker:shattered_spawn_egg"
+			id: "6A3CDBC2A1F3187E"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "69592D88EDEE4365"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				icon: "deeperdarker:soul_dust"
+				id: "447D0471A7836683"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&8Разрушенный"
+			x: -6.5d
+			y: 13.0d
+		}
+		{
+			can_repeat: true
+			description: ["Сталкер из Deeper and Darker"]
+			icon: "deeperdarker:stalker_spawn_egg"
+			id: "2A07FEDE5CFF2C1B"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "024C49F0E1953547"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				icon: "deeperdarker:stalker_spawn_egg"
+				id: "6E4B5B11AEA0FD43"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&8Сталкер"
+			x: -6.5d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			description: ["Скалк-сороконожка из Deeper and Darker"]
+			icon: "deeperdarker:sculk_centipede_spawn_egg"
+			id: "1D5498D13713B222"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "7F4258A676B543E9"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "deeperdarker:sculk_centipede"
+				icon: "deeperdarker:sculk_centipede_spawn_egg"
+				id: "353CF75AEFD1B926"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&5Скалк-сороконожка"
+			x: -5.5d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			description: ["Нотор из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_notor"
+			id: "67653BD36E3C8070"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "7E4ACBC36EA3404F"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexscaves:notor"
+				icon: "alexscaves:spawn_egg_notor"
+				id: "218683BB27EDF077"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&8Маячок"
+			x: -7.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: ["Глубинный рыцарь из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_deep_one"
+			id: "26B3343A3ECFC114"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "026F175E46314FE5"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexscaves:deep_one_knight"
+				icon: "alexscaves:spawn_egg_deep_one"
+				id: "026BC700D5161B2F"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&3Глубинный рыцарь"
+			x: -7.5d
+			y: 16.0d
+		}
+		{
+			can_repeat: true
+			description: ["Глубинный маг из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_deep_one_mage"
+			id: "50D5279E2CCF63BA"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "44172CB2A1ED84A4"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexscaves:deep_one_mage"
+				icon: "alexscaves:spawn_egg_deep_one_mage"
+				id: "36B112A0CEF03156"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&5Глубинный маг"
+			x: -8.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: ["Подземный фанатик из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_underzealot"
+			id: "2E98712E202D6CCE"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "74C2C9F6BF9E3057"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexscaves:underzealot"
+				icon: "alexscaves:spawn_egg_underzealot"
+				id: "3FD1C7DE4C39A693"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&cПодземный фанатик"
+			x: -8.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			description: ["Веспер из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_vesper"
+			id: "004583E01552AC5D"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "40ECE589F2910E15"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexscaves:vesper"
+				icon: "alexscaves:spawn_egg_vesper"
+				id: "5980B2674DC944DE"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&bВеспер"
+			x: -7.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			description: ["Валлумраптор из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_vallumraptor"
+			id: "38545E2588689DC3"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "3A00AD9F519195AE"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexscaves:vallumraptor"
+				icon: "alexscaves:spawn_egg_vallumraptor"
+				id: "6B1084491EC2258C"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&cВаллумраптор"
+			x: -6.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: ["Кораблекрушитель из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_hullbreaker"
+			id: "65947244EE9576E1"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "61B676C8DEC5A38E"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				icon: "alexscaves:spawn_egg_hullbreaker"
+				id: "6574A99BC73FB636"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&3Кораблекрушитель"
+			x: -6.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			description: ["Скальный роллер из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_rocky_roller"
+			id: "16D6A1DAE10904EC"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "51AB0D1BD2AE2A19"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:rocky_roller"
+				icon: "alexsmobs:spawn_egg_rocky_roller"
+				id: "44C06F7936BE6760"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&7Скальный роллер"
+			x: -6.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			description: ["Костяная змея из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_bone_serpent"
+			id: "6D5A82E7A4FED077"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "4248F7E990AF0750"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:bone_serpent"
+				icon: "alexsmobs:rattlesnake_rattle"
+				id: "0C0388D3998E4904"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&fКостяная змея"
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Призрак из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_spectre"
+			id: "7B02C0A2CF4B13E7"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "1C54189144DC017C"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:spectre"
+				icon: "alexsmobs:spawn_egg_spectre"
+				id: "5AC65C45B3A99543"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&fПризрак"
+			x: -7.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			description: ["Плащеносная акула из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_frilled_shark"
+			id: "20AB8D68FB112473"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "520536768DD4DE1F"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:frilled_shark"
+				icon: "alexsmobs:spawn_egg_frilled_shark"
+				id: "7030ED1846B0E1C8"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&3Плащеносная акула"
+			x: -13.5d
+			y: 21.0d
+		}
+		{
+			can_repeat: true
+			description: ["Искажённый лунарианин из Ad Astra"]
+			icon: "ad_astra:corrupted_lunarian_spawn_egg"
+			id: "398532665B49770F"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "22F0627D1E6478B4"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "ad_astra:corrupted_lunarian"
+				icon: "ad_astra:corrupted_lunarian_spawn_egg"
+				id: "1AF28DFCE49EB43C"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&8Искажённый лунарианин"
+			x: -7.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			description: ["Марсианский раптор из Ad Astra"]
+			icon: "ad_astra:martian_raptor_spawn_egg"
+			id: "330B1035817C8857"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "0D64B3A9FB6289DD"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "ad_astra:martian_raptor"
+				icon: "ad_astra:martian_raptor_spawn_egg"
+				id: "77F419997F89D1F7"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&cМарсианский ящер"
+			x: -11.5d
+			y: 21.0d
+		}
+		{
+			can_repeat: true
+			description: ["Звёздный ползун из Ad Astra"]
+			icon: "ad_astra:star_crawler_spawn_egg"
+			id: "78BAD43253DD9FE5"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "7424B4900579BF9D"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "ad_astra:star_crawler"
+				icon: "ad_astra:star_crawler_spawn_egg"
+				id: "034002816408C37D"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&bЗвёздный ползун"
+			x: -8.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: ["Пигро-главарь из Ad Astra"]
+			icon: "ad_astra:pygro_brute_spawn_egg"
+			id: "42B7A70D39486065"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "570608D6177A5EB3"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "ad_astra:pygro_brute"
+				icon: "ad_astra:pygro_brute_spawn_egg"
+				id: "3E832C9E8AF11E0C"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&cПигро-главарь"
+			x: -8.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			description: ["Лунарианин из Ad Astra"]
+			icon: "ad_astra:lunarian_spawn_egg"
+			id: "64CBFA0F98C8651D"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "2A82B3F8FDCFD4AD"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "ad_astra:lunarian"
+				icon: "ad_astra:lunarian_spawn_egg"
+				id: "55D992A4A87DDAE7"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&7Лунарианин"
+			x: -8.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			description: ["Верховный призыватель костей из Born in Chaos"]
+			icon: "born_in_chaos_v1:supreme_bonescaller_spawn_egg"
+			id: "50EA595A08940457"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "4ED8D18B12B24D72"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:supreme_bonescaller"
+				icon: "born_in_chaos_v1:supreme_bonescaller_spawn_egg"
+				id: "7F781761A12511A0"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&fВерховный призыватель костей"
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Павший рыцарь хаоса из Born in Chaos"]
+			icon: "born_in_chaos_v1:fallen_chaos_knight_spawn_egg"
+			id: "16CD6AB121F981F9"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "31ED2413C2594CA5"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:fallen_chaos_knight"
+				icon: "born_in_chaos_v1:fallen_chaos_knight_spawn_egg"
+				id: "5DAE1E7E2BD909A7"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&8Павший рыцарь хаоса"
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Мать-паучиха из Born in Chaos"]
+			icon: "born_in_chaos_v1:mother_spider_spawn_egg"
+			id: "000B0646BC6D105A"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "7D541FFB116ABA93"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:mother_spider"
+				icon: "born_in_chaos_v1:mother_spider_spawn_egg"
+				id: "0B97494EA9816627"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&8Мать-паучиха"
+			x: -5.5d
+			y: 17.0d
+		}
+		{
+			can_repeat: true
+			description: ["Сэр Тыквоголовый из Born in Chaos"]
+			icon: "born_in_chaos_v1:sir_pumpkinhead_spawn_egg"
+			id: "65836DAE27B291CD"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "30F1930F82FF3F52"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:sir_pumpkinhead"
+				icon: "born_in_chaos_v1:sir_pumpkinhead_spawn_egg"
+				id: "2AD874C739F25A12"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Сэр Тыквоголовый"
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Испорченный чемпион из Graveyard"]
+			icon: "graveyard:lich_spawn_egg"
+			id: "05935EBD7ACE076E"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "324F466C3A3D6A32"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "graveyard:lich"
+				icon: "graveyard:lich_spawn_egg"
+				id: "7E6FCFB827E58130"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5Испорченный чемпион"
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: ["Кошмар из Graveyard"]
+			icon: "graveyard:nightmare_spawn_egg"
+			id: "536A39705FCA8367"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "2D3683EC8977D210"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "graveyard:nightmare"
+				icon: "graveyard:nightmare_spawn_egg"
+				id: "1135FE61846BFFC9"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&8Кошмар"
+			x: -5.5d
+			y: 14.0d
+		}
+		{
+			can_repeat: true
+			description: ["Жнец из Graveyard"]
+			icon: "graveyard:reaper_spawn_egg"
+			id: "26D7629EA38B2FF0"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "340DC0A90A3F9A21"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "graveyard:reaper"
+				icon: "graveyard:reaper_spawn_egg"
+				id: "2395EBBC1CF47E51"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Жнец"
+			x: -13.5d
+			y: 20.0d
+		}
+		{
+			can_repeat: true
+			description: ["Кричащий червь из Deeper and Darker"]
+			icon: "deeperdarker:shriek_worm_spawn_egg"
+			id: "4513FBE0457C978A"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "2561F0D663E093D5"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "deeperdarker:shriek_worm"
+				icon: "deeperdarker:shriek_worm_spawn_egg"
+				id: "4E99E030D91FD3B1"
+				type: "kill"
+				value: 3L
+			}]
+			title: "&5Кричащий червь"
+			x: -5.5d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			description: ["Наблюдатель из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_watcher"
+			id: "2B564216B6DBEBD2"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "172AF96150A5ABFD"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexscaves:watcher"
+				icon: "alexscaves:spawn_egg_watcher"
+				id: "74C8A79A9ACE7284"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Смотритель"
+			x: -12.5d
+			y: 19.0d
+		}
+		{
+			can_repeat: true
+			description: ["Мозговик из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_brainiac"
+			id: "504C5D0E42116984"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "26A19AFE464800A7"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexscaves:brainiac"
+				icon: "alexscaves:spawn_egg_brainiac"
+				id: "4D33F4902E9F9842"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&dМозговик"
+			x: -14.5d
+			y: 19.0d
+		}
+		{
+			can_repeat: true
+			description: ["Ядрипер из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_nucleeper"
+			id: "34143FDCCD87A404"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "38D11FD485BB927F"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexscaves:nucleeper"
+				icon: "alexscaves:spawn_egg_nucleeper"
+				id: "1E3DEBD6FAE1CA5B"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&aЯдрипер"
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Релихейрус из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_relicheirus"
+			id: "42101818C6910D0A"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "0A5FB581F926CC69"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexscaves:relicheirus"
+				icon: "alexscaves:spawn_egg_relicheirus"
+				id: "29259FA14DD03BB9"
+				type: "kill"
+				value: 3L
+			}]
+			title: "&2Релихейрус"
+			x: -6.5d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			description: ["Обманщик из Mowzie's Mobs"]
+			icon: "mowziesmobs:bluff_spawn_egg"
+			id: "0BA21C40A02AD86C"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "7E112574EBC74238"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "mowziesmobs:bluff"
+				icon: "mowziesmobs:bluff_spawn_egg"
+				id: "7DEB668CF5D44CF0"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&6Обманщик"
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: ["Рослолист из Mowzie's Mobs"]
+			icon: "mowziesmobs:foliaath_spawn_egg"
+			id: "0983ABA929BFA3E2"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "4F36D60F84565A3F"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "mowziesmobs:foliaath"
+				icon: "mowziesmobs:foliaath_seed"
+				id: "57A4DE09D304B69E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2Рослолист"
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: ["Лавиафан из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_laviathan"
+			id: "2477A4E667E8E439"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "07415D61A5D78812"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "alexsmobs:laviathan"
+				icon: "alexsmobs:spawn_egg_laviathan"
+				id: "5EF4DCB5BEF083DE"
+				type: "kill"
+				value: 3L
+			}]
+			title: "&cЛавиафан"
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: ["Эндерофаг из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_enderiophage"
+			id: "5C98FF5CAEA72ED5"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "2AA8C188BF85DBA6"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:enderiophage"
+				icon: "alexsmobs:spawn_egg_enderiophage"
+				id: "73EA3F802EDD1078"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&5Эндерофаг"
+			x: -13.5d
+			y: 19.0d
+		}
+		{
+			can_repeat: true
+			description: ["Космач из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_cosmaw"
+			id: "64DD3BE68C12EC02"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "1025BBBF414E67C6"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:cosmaw"
+				icon: "alexsmobs:spawn_egg_cosmaw"
+				id: "2EA74B6DA30F0C9D"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Космач"
+			x: -19.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"&e&l📍 Призыв"
+				"&f• &fПКМ по &4Адской Тыкве &fс &dЭликсиром Трансмутации."
+			]
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:lord_pumpkinheads_hat_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4D3C4EA115565A72"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "5B00B39669D4748A"
+				item: "libraryferret:netherite_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:lord_pumpkinhead"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:lord_pumpkinheads_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6EE26CABAE70EE92"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6&lЛОРД ТЫКВОГОЛОВЫЙ"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"&l&2☢Треморзилла&r — несомненно мифическое существо, которое &cникто не видел во плоти&r.  "
+				"Этот динозавр был &aувеличен и усилен радиацией&r до смехотворных размеров.  "
+				""
+				"&fЯйцо &l&2☢Треморзиллы&r можно собрать из останков других легендарных монстров из самых отдалённых уголков Мироздания.  "
+				"Это &eсветящееся яйцо&r необычно: оно не вылупляется само в течение всего существования мира.  "
+				"Способ заставить его открыться затерялся в легендах, &cвозможно, связан с мощным взрывом&r.  "
+				""
+				"Несмотря на устрашающий внешний вид и силу, &l&2☢Треморзилла&r &2не испытывает злобы&r по отношению к другим живым существам — по крайней мере, поначалу.  "
+				"&l&cОсторожно:&r она быстро выходит из себя и настолько велика, что может случайно наступить на мелких существ и спровоцировать конфликт.  "
+				""
+				"{@pagebreak}"
+				"В бою &l&2☢Треморзилла&r использует:  "
+				"&a• огромные когти&r — удары по добыче  "
+				"&a• массивную пасть&r — кусает огромные куски  "
+				"&a• лапы&r — поднимает и опускает с силой  "
+				"&a• хвост&r — наносит сокрушительные удары  "
+				""
+				"&eСамая опасная атака&r — луч чистой энергии: массивные пластины на спине светятся зелёным, втягиваются в тело зверя, а затем Треморзилла запрокидывает голову и выпускает луч, способный &4расплавить почти всё&r на расстоянии до 100 блоков.  "
+				""
+				"&cВажно&r: только самые храбрые могут приручить &l&2☢Треморзиллу&r.  "
+				"Для этого нужно кормить её &4радиоактивным предметом&r, опасным даже для держателя.  "
+				"Если уничтожить предмет другим способом — он начнёт испускать опасную радиацию.  "
+				""
+				"Приручённая &l&2☢Треморзилла&r может:  "
+				"&2• следовать&r за игроком  "
+				"&2• оставаться на месте&r  "
+				"&2• бродить&r как сородичи-динозавры  "
+				"&2• позволять ездить верхом&r с контролем разрушительной дыхательной атаки  "
+				""
+				"&fТеория&r: ни одного живого &l&2☢Треморзиллу&r никто не видел, но их можно скрестить с другим видом, используя самые мощные взрывные устройства."
+			]
+			icon: "alexscaves:tremorzilla_egg"
+			id: "260BCC23E5C54C6B"
+			rewards: [{
+				count: 4
+				id: "0A3E79A85DF3FE21"
+				item: "libraryferret:netherite_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexscaves:tremorzilla"
+				icon: "alexscaves:tremorzilla_egg"
+				id: "44448B3515410A1F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&l&2☢СОТРЯСОЗИЛЛА&r"
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: ["&7Непробиваемый рыцарь "]
+			icon: "mowziesmobs:wroughtnaut_spawn_egg"
+			id: "51825EC9F69E67F6"
+			rewards: [{
+				auto: "enabled"
+				id: "7F35296B438A54C0"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "mowziesmobs:wrought_helmet"
+				id: "22768E8D62E86B29"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&7Железокованный"
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"&f• &fМесто: &bКорабль-призрак &fв биоме &3\"Ледяной лабиринт\""
+				"&f• &fНа корабле найдите &cкаюту капитана &fи убейте &cразбойника-хранителя."
+				"&f• &fЗаберите у разбойника &9Ракушечный горн &fи используйте его для призыва."
+			]
+			icon: {
+				Count: 1
+				id: "aquamirae:three_bolt_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0930867E06F71EAB"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "37C6DADC94FED602"
+				item: "libraryferret:netherite_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐⭐"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					Count: 1
+					id: "aquamirae:three_bolt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2A91ACC05A4DBF2E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&dПризрак капитана Корнелии"
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"&e&l📍 Условия призыва:"
+				"&fБросить &dТаинственного Червя &fв &5&lПустоту &l&5Края."
+			]
+			icon: "alexsmobs:void_worm_beak"
+			id: "4E297C4DCCBD892C"
+			rewards: [{
+				auto: "enabled"
+				count: 3
+				id: "5BF4769686C727AC"
+				item: "libraryferret:netherite_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: "alexsmobs:void_worm_beak"
+				id: "46CAD558C66C2E6F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5&lЧЕРВЬ ПУСТОТЫ"
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"&4&l🔥 ЛЮКСТРУКТОЗАВР&r — &7древнее проклятие&r, запечатанное в &6сердце первозданных вулканов&r."
+				"Этот &cтитан-нежить&r стал причиной &4великого вымирания&r целых видов динозавров Исконных пещер."
+				""
+				"&fЕго душа &7заключена&r в &6вулканическом ядре&r на протяжении &eтысячелетий&r, что сделало его &cнеуязвимым к огню&r."
+				"&e&l📍 Призыв:&r бросить &4Зловещий катализатор&r на вершину активного вулкана в биоме &6\"Огненные глубины\"&r."
+				"Это вызовет &4катаклизмическое извержение&r и пробудит &7спящего владыку лавы&r."
+				""
+				"{@pagebreak}"
+				"В бою &4&l🔥 ЛЮКСТРУКТОЗАВР&r использует:"
+				"&c• Сокрушающие лапы&r — удары, &4разрушающие целые слои блоков&r"
+				"&c• Хвост-бич&r — отбрасывает противников и &4ломает щиты&r"
+				"&c• Вулканический рёв&r — пробуждает силу вулкана, &6усиливая все атаки&r"
+				"&c• Прыжок разрушения&r — преодолевает большие расстояния, &4разрушая всё на пути&r"
+				""
+				"&e&l☢ Фаза ярости:&r при активации &6вулканической силы&r"
+				"• Тело покрывается &4каплями лавы&r"
+				"• Обретает способность &cизрыгать пламя&r"
+				"• Ударные волны создают &4разломы с магмой&r под ногами жертв"
+				"• Небо становится &4кроваво-красным&r, вулканы извергают &7летучую тефру&r"
+				""
+				"{@pagebreak}"
+				"&6&l🎯 Последствия победы:&r"
+				"&a• Люкструктозавр обращается в &7пепел&r"
+				"&a• Оставляет после себя &eТектонические осколки&r"
+				"&a• Первозданная магма &2отступает&r"
+				"&a• Из &6Янтарных монолитов&r возрождаются &2вымершие виды динозавров&r"
+				""
+				"&a&l🌍 ИЗМЕНЕНИЕ МИРА:&r"
+				"&fС падением &4Проклятия Вулканов&r &2весь мир Исконных пещер преобразится&r:"
+				"&e• Вулканическая энергия&r, &2очищенная от скверны&r, насытит землю — флора и фауна станут &aкрупнее и выносливее&r"
+				"&e• Пещеры наполнятся &6новыми редкими рудами&r и &bсветящимися аномалиями&r"
+				"&e• Даже обычные существа обретут &cчастицу былой мощи&r вымерших гигантов — &2они станут сильнее, но и мудрее&r"
+				"&e• Воздух наполнится &aдревней магией жизни&r, которая &2залечит шрамы&r, оставленные тысячелетиями извержений"
+				""
+				"💀Некоторые говорят, что &4Люкструктозавр&r — это &7душа самого первого вулкана&r,"
+				"принявшая форму &6величайшего хищника&r, чтобы &cочистить мир&r от слабых существ."
+				"Его поражение — не просто победа. Это &2возвращение утраченного баланса&r, &aновый рассвет&r для всей экосистемы пещер."
+				"Тот, кто победит его, навсегда останется в истории как &6Вулканоборец&r, изменивший саму &2суть этого мира&r."
+			]
+			icon: "alexscaves:dinosaur_nugget"
+			id: "09C47EAC5FE058E5"
+			rewards: [{
+				auto: "enabled"
+				count: 5
+				id: "48A530EFA5F1EA8A"
+				item: "libraryferret:netherite_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&4⭐⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				icon: "alexscaves:dinosaur_nugget"
+				id: "68D83A63E067FE36"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&c&l🔥ЛЮКСТРАКТОЗАВР"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"Путник, слышишь ли ты &bшёпот льда&f? Чувствуешь ли дрожь под ногами, не вызванную холодом? Это &bне просто пещера изо льда&f. Это чрево древнего существа, что старше самих гор."
+				""
+				"Они зовут её &5Матерью Лабиринта&f. Говорят, что когда-то она была &bдухом чистейших арктических вод&f, но что-то из самых тёмных глубин коснулось её, исказило. Теперь она плетёт из льда &bбесконечные коридоры-ловушки&f, собирая дань с тех, кто осмелится в них войти. Её драгоценная «шкура» — это &5кристаллизованная тоска по свету, Аметист Бездны&f. Тот, кто одолеет её &3леденящий душу взгляд &fи &4сокрушительную мощь&f, получит не просто ресурс, а &dосколок самой древней тайны океана&f."
+				""
+				"&cБудь осторожен. Она не охотится. Она просто стирает незваных гостей с лица своего мира. Чтобы бросить ей вызов, тебе понадобится оружие, верное как бумеранг &b(Трезубец с Верностью)&c, стальное сердце и готовность встретить свой конец в &3кромешной темноте подо льдом&c."
+			]
+			icon: "aquamirae:maze_mother_spawn_egg"
+			id: "52C1857929C36421"
+			rewards: [{
+				count: 2
+				id: "1B3AB909F9D56BA9"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: "aquamirae:maze_mother_spawn_egg"
+				id: "1662912C1C5C5F25"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5Мать лабиринта"
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			description: ["Лавиафан из Ice and Fire"]
+			icon: "iceandfire:spawn_egg_sea_serpent"
+			id: "325048C151155226"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "42BBCE78FD2B6A57"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "iceandfire:sea_serpent"
+				icon: "iceandfire:spawn_egg_sea_serpent"
+				id: "21D11AD4BF0217E0"
+				type: "kill"
+				value: 3L
+			}]
+			title: "&bЛевиафан"
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: ["Корова из ванильного Minecraft"]
+			icon: "minecraft:cow_spawn_egg"
+			id: "6E4CA413842D89BF"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "59964B904A0746A8"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:cow"
+				icon: "minecraft:cow_spawn_egg"
+				id: "0D6F5FED38E68884"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Корова"
+			x: -20.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: ["Свинья из ванильного Minecraft"]
+			icon: "minecraft:pig_spawn_egg"
+			id: "16A1F1C9F873C0E0"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "6B65BFE462CDB759"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:pig"
+				icon: "minecraft:pig_spawn_egg"
+				id: "5284E6C10DF43F88"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&dСвинья"
+			x: -19.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: ["Овца из ванильного Minecraft"]
+			icon: "minecraft:sheep_spawn_egg"
+			id: "6DC5105A0CEA46ED"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "3A51B9E69A8D056D"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:sheep"
+				icon: "minecraft:sheep_spawn_egg"
+				id: "13A5EC8892DBB18F"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&fОвца"
+			x: -18.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: ["Курица из ванильного Minecraft"]
+			icon: "minecraft:chicken_spawn_egg"
+			id: "3485A25BDB70589C"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "421FB97161A3323C"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:chicken"
+				icon: "minecraft:chicken_spawn_egg"
+				id: "42C4676B9AE6ED3A"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&fКурица"
+			x: -17.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: ["Кролик из ванильного Minecraft"]
+			icon: "minecraft:rabbit_spawn_egg"
+			id: "601239BA37D16556"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "057E2B831C937297"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:rabbit"
+				icon: "minecraft:rabbit_spawn_egg"
+				id: "44CD7BD73A1A9812"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&fКролик"
+			x: -20.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Лиса из ванильного Minecraft"]
+			icon: "minecraft:fox_spawn_egg"
+			id: "5AD9E7394FF940C4"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "12D31B7071D47C91"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:fox"
+				icon: "minecraft:fox_spawn_egg"
+				id: "166CA7659F05D1CF"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Лиса"
+			x: -18.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Панда из ванильного Minecraft"]
+			icon: "minecraft:panda_spawn_egg"
+			id: "395A4180E54E5F90"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "05C6D3F6A6C323C1"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:panda"
+				icon: "minecraft:panda_spawn_egg"
+				id: "1DA0FA19D526FC3B"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&fПанда"
+			x: -17.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Пчела из ванильного Minecraft"]
+			icon: "minecraft:bee_spawn_egg"
+			id: "553F067894A78C7D"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "1EECE7B03508E89A"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:bee"
+				icon: "minecraft:bee_spawn_egg"
+				id: "2CF5AF07AA786433"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&eПчела"
+			x: -20.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			description: ["Деревенский житель из ванильного Minecraft"]
+			icon: "minecraft:villager_spawn_egg"
+			id: "73C45E4AD181A636"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "7EBF1441E4E07A42"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:villager"
+				icon: "minecraft:villager_spawn_egg"
+				id: "3EFE84060542B346"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&aЖитель"
+			x: -19.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			description: ["Бродячий торговец из ванильного Minecraft"]
+			icon: "minecraft:wandering_trader_spawn_egg"
+			id: "78F73963A256E4C0"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "7FA4679EABDAA919"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:wandering_trader"
+				icon: "minecraft:wandering_trader_spawn_egg"
+				id: "0A4F44D757265239"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Торговец"
+			x: -18.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			description: ["Лама из ванильного Minecraft"]
+			icon: "minecraft:llama_spawn_egg"
+			id: "1316BBEB73446A0D"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "2A8F52B5D9F19AAC"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:llama"
+				icon: "minecraft:llama_spawn_egg"
+				id: "36574B3AD2E58687"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&eЛама"
+			x: -17.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			description: ["Черепаха из ванильного Minecraft"]
+			icon: "minecraft:turtle_spawn_egg"
+			id: "29C8F09420079D67"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "7A8765EDBDF0910E"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:turtle"
+				icon: "minecraft:turtle_spawn_egg"
+				id: "3D1670F3702EF3E6"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&aЧерепаха"
+			x: -20.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			description: ["Слон из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_elephant"
+			id: "1CFD21D22DC5B642"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "23B27EAC99AAA3A3"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:elephant"
+				icon: "alexsmobs:spawn_egg_elephant"
+				id: "7382BCF7FB5F1B7F"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Слон"
+			x: -19.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: ["Муравьед из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_anteater"
+			id: "5A9E47E34DF6A63F"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "294C3FC0D5E54D91"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:anteater"
+				icon: "alexsmobs:spawn_egg_anteater"
+				id: "159BD23931A54255"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Муравьед"
+			x: -18.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: ["Горилла из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_gorilla"
+			id: "3C319503781A7DC6"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "01F7071ED809BCC0"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:gorilla"
+				icon: "alexsmobs:spawn_egg_gorilla"
+				id: "1968F8B41BDF74D7"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Горилла"
+			x: -20.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			description: ["Обезьяна-капуцин из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_capuchin_monkey"
+			id: "1B5B6AF476C7AE35"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "05B6752D4A4BD468"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:capuchin_monkey"
+				icon: "alexsmobs:spawn_egg_capuchin_monkey"
+				id: "3FE5C83E4899F36D"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Обезьяна"
+			x: -19.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			description: ["Бизон из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_bison"
+			id: "5F76E4813180DE57"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "5062D0EA068D204B"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:bison"
+				icon: "alexsmobs:spawn_egg_bison"
+				id: "57BDEB0A012B620F"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Бизон"
+			x: -18.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			description: ["Лось из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_moose"
+			id: "3BEBC8DC3D99C346"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "43BBDA770EAAB144"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:moose"
+				icon: "alexsmobs:spawn_egg_moose"
+				id: "2B9273E260BE28ED"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Лось"
+			x: -17.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			description: ["Эму из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_emu"
+			id: "0C87598B56753E8B"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "5A6AA9F69FB92DE7"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:emu"
+				icon: "alexsmobs:spawn_egg_emu"
+				id: "394EDF6F7657508E"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&fЭму"
+			x: -13.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			description: ["Сахарная сумчатая летяга из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_sugar_glider"
+			id: "792BCE1E40810A21"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "7D781DC0C16B3CCE"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:sugar_glider"
+				icon: "alexsmobs:spawn_egg_sugar_glider"
+				id: "3CA5BFBD355DC57F"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&fСумчатая летяга"
+			x: -17.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: ["Скунс из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_skunk"
+			id: "1636B0CC81FB4C85"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "5257A1AA5DA3FA53"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:skunk"
+				icon: "alexsmobs:spawn_egg_skunk"
+				id: "5A7FE65A9FD9B5A7"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Скунс"
+			x: -19.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			description: ["Гиппокамп из Ice and Fire"]
+			icon: "iceandfire:spawn_egg_hippocampus"
+			id: "56441C217F6EB4AC"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "5B9BDD4042420763"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "iceandfire:hippocampus"
+				icon: "iceandfire:spawn_egg_hippocampus"
+				id: "20621265B30657C1"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&bГиппокамп"
+			x: -20.5d
+			y: 16.0d
+		}
+		{
+			can_repeat: true
+			description: ["Скелет из ванильного Minecraft"]
+			icon: "minecraft:skeleton_spawn_egg"
+			id: "377091949BA3365A"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "0C870A9D6664809E"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				icon: "minecraft:skeleton_spawn_egg"
+				id: "4C4E5A2907B56979"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Скелет"
+			x: -10.5d
+			y: 19.0d
+		}
+		{
+			can_repeat: true
+			description: ["Крипер из ванильного Minecraft"]
+			icon: "minecraft:creeper_spawn_egg"
+			id: "3205933EFAED91B2"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "31040D7618A7B8C4"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:creeper"
+				icon: "minecraft:creeper_spawn_egg"
+				id: "1064C2DB1EF66825"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&aКрипер"
+			x: -15.5d
+			y: 19.0d
+		}
+		{
+			can_repeat: true
+			description: ["Зомбифицированный пиглин из ванильного Minecraft"]
+			icon: "minecraft:zombified_piglin_spawn_egg"
+			id: "26E80A9744D450E5"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "2420AF5E1C3F121F"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:zombified_piglin"
+				icon: "minecraft:zombified_piglin_spawn_egg"
+				id: "5016BB0F937D032C"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Зомби-пиглин"
+			x: -13.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: ["Стрей из ванильного Minecraft"]
+			icon: "minecraft:stray_spawn_egg"
+			id: "4C5FE43D265CEE5B"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "2752B68A27FBD2C2"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:stray"
+				icon: "minecraft:stray_spawn_egg"
+				id: "613124F79AFB21D6"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&bСтрей"
+			x: -11.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: ["Хоглин из ванильного Minecraft"]
+			icon: "minecraft:hoglin_spawn_egg"
+			id: "04E4B6E1B113D2BC"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "17C367483474C1AC"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:hoglin"
+				icon: "minecraft:hoglin_spawn_egg"
+				id: "7DE9D935330FEEF5"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Хоглин"
+			x: -14.5d
+			y: 24.0d
+		}
+		{
+			can_repeat: true
+			description: ["Пиглин из ванильного Minecraft"]
+			icon: "minecraft:piglin_spawn_egg"
+			id: "37526F0B993252A8"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "160887758D3664F7"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:piglin"
+				icon: "minecraft:piglin_spawn_egg"
+				id: "7C3F2B08DD267C5D"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Пиглин"
+			x: -13.5d
+			y: 24.0d
+		}
+		{
+			can_repeat: true
+			description: ["Магмовый куб из ванильного Minecraft"]
+			icon: "minecraft:magma_cube_spawn_egg"
+			id: "2CCF0B8BF22DD39B"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "0374A5BC4B019299"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:magma_cube"
+				icon: "minecraft:magma_cube_spawn_egg"
+				id: "2EFFC0A7AA141BC0"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&cМагмовый куб"
+			x: -15.5d
+			y: 27.0d
+		}
+		{
+			can_repeat: true
+			description: ["Разлагающийся зомби из Born in Chaos"]
+			icon: "born_in_chaos_v1:decaying_zombie_spawn_egg"
+			id: "67733913EF40CC9A"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "41F5F8F02F9D7BF1"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:decaying_zombie_not_despawn"
+				icon: "born_in_chaos_v1:decaying_zombie_spawn_egg"
+				id: "100AF60E6C28547E"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&2Зомби из склепа"
+			x: -14.0d
+			y: 28.0d
+		}
+		{
+			can_repeat: true
+			description: ["Ужасная гончая из Born in Chaos"]
+			icon: "born_in_chaos_v1:dread_hound_spawn_egg"
+			id: "569FDF9DAF8DEEBB"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "36FD375352F142F9"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:dread_hound"
+				icon: "born_in_chaos_v1:dread_hound_spawn_egg"
+				id: "35FAE0F64B4DCA27"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&2Ужасная гончая"
+			x: -13.0d
+			y: 28.0d
+		}
+		{
+			can_repeat: true
+			description: ["Дряхлый скелет из Born in Chaos"]
+			icon: "born_in_chaos_v1:decrepit_skeleton_spawn_egg"
+			id: "564E6189B95F628F"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "3923748229C5455E"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:decrepit_skeleton"
+				icon: "graveyard:bone_remains"
+				id: "15DB2762DF78BFF8"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Дряхлый скелет"
+			x: -10.5d
+			y: 27.0d
+		}
+		{
+			can_repeat: true
+			description: ["Мертвецкая муха из Born in Chaos"]
+			icon: "born_in_chaos_v1:corpse_fly_spawn_egg"
+			id: "245516C28D5EAB23"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "7FBB38C46A202545"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:corpse_fly"
+				icon: "born_in_chaos_v1:corpse_fly_spawn_egg"
+				id: "49670D75AB2C015E"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&7Мертвецкая муха"
+			x: -12.5d
+			y: 22.0d
+		}
+		{
+			can_repeat: true
+			description: ["Мертвецкая рыба из Born in Chaos"]
+			icon: "born_in_chaos_v1:corpse_fish_spawn_egg"
+			id: "48147BDD8A9379FD"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "12E6E8E24C1CFC73"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:corpse_fish"
+				icon: "born_in_chaos_v1:corpse_fish_spawn_egg"
+				id: "15A8E51476E7F230"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&cМертвецкая рыба"
+			x: -12.5d
+			y: 20.0d
+		}
+		{
+			can_repeat: true
+			description: ["Роитель из Born in Chaos"]
+			icon: "born_in_chaos_v1:swarmer_spawn_egg"
+			id: "666B0D12CFA9A439"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "62BD6BAE8960C726"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:swarmer"
+				icon: "born_in_chaos_v1:swarmer_spawn_egg"
+				id: "1D90397289B5879F"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&9Роитель"
+			x: -14.5d
+			y: 22.0d
+		}
+		{
+			can_repeat: true
+			description: ["Малыш скелет из Born in Chaos"]
+			icon: "born_in_chaos_v1:baby_skeleton_spawn_egg"
+			id: "5EA93160DE2164E2"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "4EE470B519B51E88"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:baby_skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "5768144AA4DAB884"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Малыш скелет"
+			x: -10.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: ["Маленький паук из Born in Chaos"]
+			icon: "born_in_chaos_v1:baby_spider_spawn_egg"
+			id: "30C48EC30913DB75"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "4AA4D8ABA3548D76"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:baby_spider"
+				icon: "born_in_chaos_v1:baby_spider_spawn_egg"
+				id: "3796C11F7DDAD418"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Маленький паук"
+			x: -11.5d
+			y: 25.0d
+		}
+		{
+			can_repeat: true
+			description: ["Бамбуковый крипер из Creeper Overhaul"]
+			icon: "creeperoverhaul:bamboo_creeper_spawn_egg"
+			id: "23A1F7BD2055A7A2"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "76008CF01475B5BF"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "creeperoverhaul:bamboo_creeper"
+				icon: "creeperoverhaul:bamboo_creeper_spawn_egg"
+				id: "23FE8268781EEAAD"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&aБамбуковый крипер"
+			x: -11.5d
+			y: 27.0d
+		}
+		{
+			can_repeat: true
+			description: ["Пещерный крипер из Creeper Overhaul"]
+			icon: "creeperoverhaul:cave_creeper_spawn_egg"
+			id: "5ABE7D10A99FF67D"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "7B55046CB4DD1351"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "creeperoverhaul:cave_creeper"
+				icon: "creeperoverhaul:cave_creeper_spawn_egg"
+				id: "06053F3E7BE9C4A6"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&7Пещерный крипер"
+			x: -12.5d
+			y: 27.0d
+		}
+		{
+			can_repeat: true
+			description: ["Джунглевый крипер из Creeper Overhaul"]
+			icon: "creeperoverhaul:jungle_creeper_spawn_egg"
+			id: "0D8E4D40A29B1AF6"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "1F6FE5EF7BF657EA"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "creeperoverhaul:jungle_creeper"
+				icon: "creeperoverhaul:jungle_creeper_spawn_egg"
+				id: "31D9CBE0F91C07FC"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&aДжунглевый крипер"
+			x: -10.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: ["Сталактитовый крипер из Creeper Overhaul"]
+			icon: "creeperoverhaul:dripstone_creeper_spawn_egg"
+			id: "6952CE9A47BBE1E7"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "6B43759DEE233CF9"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "creeperoverhaul:dripstone_creeper"
+				icon: "creeperoverhaul:dripstone_creeper_spawn_egg"
+				id: "5B04499AA65BAA58"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&7Сталактитовый крипер"
+			x: -15.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: ["Крипер пустошей из Creeper Overhaul"]
+			icon: "creeperoverhaul:badlands_creeper_spawn_egg"
+			id: "66CF262B677AC313"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "36409469C57D55A2"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "creeperoverhaul:badlands_creeper"
+				icon: "creeperoverhaul:badlands_creeper_spawn_egg"
+				id: "656F98FE7A7CE4AB"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Крипер пустошей"
+			x: -14.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Пляжный крипер из Creeper Overhaul"]
+			icon: "creeperoverhaul:beach_creeper_spawn_egg"
+			id: "6EDE3E4BDFA1D015"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "4BA096FDE3A84072"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "creeperoverhaul:beach_creeper"
+				icon: "creeperoverhaul:beach_creeper_spawn_egg"
+				id: "7348026DA9C84CE2"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&eПляжный крипер"
+			x: -13.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Темнодубовый крипер из Creeper Overhaul"]
+			icon: "creeperoverhaul:dark_oak_creeper_spawn_egg"
+			id: "2CE8973154D397CE"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "0D4FB9AC2EA3C795"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "creeperoverhaul:dark_oak_creeper"
+				icon: "creeperoverhaul:dark_oak_creeper_spawn_egg"
+				id: "39114C09BCCE429D"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&5Темнодубовый крипер"
+			x: -12.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Пустынный крипер из Creeper Overhaul"]
+			icon: "creeperoverhaul:desert_creeper_spawn_egg"
+			id: "530BF05953F96774"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "272F97B335FBDF7B"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "creeperoverhaul:desert_creeper"
+				icon: "creeperoverhaul:desert_creeper_spawn_egg"
+				id: "7D2C9E8EDB693431"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Пустынный крипер"
+			x: -11.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Равнинный крипер из Creeper Overhaul"]
+			icon: "creeperoverhaul:hills_creeper_spawn_egg"
+			id: "4536F8E014C4846B"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "75E6C8BF2A869DFA"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "creeperoverhaul:hills_creeper"
+				icon: "creeperoverhaul:hills_creeper_spawn_egg"
+				id: "6CDD1E5E7A9E0BE3"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&aРавнинный крипер"
+			x: -11.5d
+			y: 22.0d
+		}
+		{
+			can_repeat: true
+			description: ["Снежный крипер из Creeper Overhaul"]
+			icon: "creeperoverhaul:snowy_creeper_spawn_egg"
+			id: "72C606AE70A9B14D"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "65A571451162CE2B"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "creeperoverhaul:snowy_creeper"
+				icon: "creeperoverhaul:snowy_creeper_spawn_egg"
+				id: "6A18B438209EC59B"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&fСнежный крипер"
+			x: -11.5d
+			y: 23.0d
+		}
+		{
+			can_repeat: true
+			description: ["Еловый крипер из Creeper Overhaul"]
+			icon: "creeperoverhaul:spruce_creeper_spawn_egg"
+			id: "15036A6238662206"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "76C6B7A652A8D58D"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "creeperoverhaul:spruce_creeper"
+				icon: "creeperoverhaul:spruce_creeper_spawn_egg"
+				id: "7F5F4062EA91EB56"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&2Еловый крипер"
+			x: -14.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: ["Болотный крипер из Creeper Overhaul"]
+			icon: "creeperoverhaul:swamp_creeper_spawn_egg"
+			id: "79E7EBC3C567D90E"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "151E0BDBEBFF89D0"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "creeperoverhaul:swamp_creeper"
+				icon: "creeperoverhaul:swamp_creeper_spawn_egg"
+				id: "27BE92E5207A545E"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&2Болотный крипер"
+			x: -13.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: ["Костяной бес из Born in Chaos"]
+			icon: "born_in_chaos_v1:bone_imp_spawn_egg"
+			id: "341AA6996D2120D0"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "3B02C838EC1178FF"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:bone_imp"
+				icon: "born_in_chaos_v1:bone_imp_spawn_egg"
+				id: "025F74FBD811C958"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&fКостяной бес"
+			x: -12.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: ["Кровавый слепень из Born in Chaos"]
+			icon: "born_in_chaos_v1:bloody_gadfly_spawn_egg"
+			id: "44B98D525FACE2DC"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "595BA5896ADCE3F7"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:bloody_gadfly"
+				icon: "born_in_chaos_v1:bloody_gadfly_spawn_egg"
+				id: "098101E18E6CC99A"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&cКровавый слепень"
+			x: -11.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: ["Ненасытная рыба из Born in Chaos"]
+			icon: "born_in_chaos_v1:glutton_fish_spawn_egg"
+			id: "5E2FEDCD3B7B0606"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "2FC879880FC01A89"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:glutton_fish"
+				icon: "born_in_chaos_v1:glutton_fish_spawn_egg"
+				id: "11EA3B442E7711AA"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&cНенасытная рыба"
+			x: -14.5d
+			y: 25.0d
+		}
+		{
+			can_repeat: true
+			description: ["Личинка из Born in Chaos"]
+			icon: "born_in_chaos_v1:maggot_spawn_egg"
+			id: "1C8C87B1FE692C49"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "252DC828DCD3FDF3"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:maggot"
+				icon: "born_in_chaos_v1:maggot_spawn_egg"
+				id: "0A732CF731D76A09"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Личинка"
+			x: -11.5d
+			y: 24.0d
+		}
+		{
+			can_repeat: true
+			description: ["Малыш скелет-прислужник из Born in Chaos"]
+			icon: "born_in_chaos_v1:baby_skeleton_minion_spawn_egg"
+			id: "0F030DF3B1C113C7"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "5E96D026D87F2153"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:baby_skeleton_minion"
+				icon: "born_in_chaos_v1:baby_skeleton_minion_spawn_egg"
+				id: "5C68D5FF494987D7"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Малыш скелет-прислужник"
+			x: -15.5d
+			y: 17.0d
+		}
+		{
+			can_repeat: true
+			description: ["Тыквенный дурак из Born in Chaos"]
+			icon: "born_in_chaos_v1:pumpkin_dunce_spawn_egg"
+			id: "7E4F6B268796E760"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "10FE00CAADD27E4D"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:pumpkin_dunce"
+				icon: "born_in_chaos_v1:pumpkin_dunce_spawn_egg"
+				id: "6A6F00EABEE69BC3"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Тыквенный дурак"
+			x: -10.5d
+			y: 17.0d
+		}
+		{
+			can_repeat: true
+			description: ["Серный крипер из Ad Astra"]
+			icon: "ad_astra:sulfur_creeper_spawn_egg"
+			id: "32970923705B076B"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "3499B1C1D855729F"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "ad_astra:sulfur_creeper"
+				icon: "ad_astra:sulfur_creeper_spawn_egg"
+				id: "40153A0A8F86E108"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Серный крипер"
+			x: -15.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Зомбифицированный моглер из Ad Astra"]
+			icon: "ad_astra:zombified_mogler_spawn_egg"
+			id: "76080E2BE07C1002"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "7B180B25E2CD8E36"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "ad_astra:zombified_mogler"
+				icon: "ad_astra:zombified_mogler_spawn_egg"
+				id: "22A77CB6AA5FFC6D"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&2Зомбифицированный моглер"
+			x: -10.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Зомбифицированный пигро из Ad Astra"]
+			icon: "ad_astra:zombified_pygro_spawn_egg"
+			id: "1F81F20C969A8CF1"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "1AD8E0EA60030AE7"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "ad_astra:zombified_pygro"
+				icon: "ad_astra:zombified_pygro_spawn_egg"
+				id: "6FCAD79ACBBCC961"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Зомбифицированный пигро"
+			x: -14.5d
+			y: 17.0d
+		}
+		{
+			can_repeat: true
+			description: ["Карамельный куб из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_caramel_cube"
+			id: "633E7E31FBA28B17"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "2458C10160E02A95"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexscaves:caramel_cube"
+				icon: "alexscaves:spawn_egg_caramel_cube"
+				id: "1006709F8305030A"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Карамельный куб"
+			x: -14.5d
+			y: 14.0d
+		}
+		{
+			can_repeat: true
+			description: ["Жвачный крипер из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_gumbeeper"
+			id: "5C7562342CBAEB08"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "0F8412D21FE13D1B"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexscaves:gumbeeper"
+				icon: "alexscaves:spawn_egg_gumbeeper"
+				id: "29B0D525061FDFAD"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&dЖвачный крипер"
+			x: -14.5d
+			y: 23.0d
+		}
+		{
+			can_repeat: true
+			description: ["Железная слизь из Alex's Caves"]
+			icon: "minecraft:slime_spawn_egg"
+			id: "081540BB3EF08BDE"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "0E9356D5A4A9ECA5"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexscaves:ferrouslime"
+				icon: "minecraft:slime_spawn_egg"
+				id: "0132F04BF6A01003"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&7Железная слизь"
+			x: -13.5d
+			y: 23.0d
+		}
+		{
+			can_repeat: true
+			description: ["Страж из ванильного Minecraft"]
+			icon: "minecraft:guardian_spawn_egg"
+			id: "384C083AEE66E653"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "41B40F755C0C9756"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:guardian"
+				icon: "minecraft:guardian_spawn_egg"
+				id: "22B708C576B1D976"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&3Страж"
+			x: -12.5d
+			y: 23.0d
+		}
+		{
+			can_repeat: true
+			description: ["Поборник из ванильного Minecraft"]
+			icon: "minecraft:vindicator_spawn_egg"
+			id: "6046A3FB53136385"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "0C3F31070E42DF32"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:vindicator"
+				icon: "minecraft:vindicator_spawn_egg"
+				id: "46ED307D81AB7156"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&7Поборник"
+			x: -15.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: ["Заклинатель из ванильного Minecraft"]
+			icon: "minecraft:evoker_spawn_egg"
+			id: "7F95372B7EF5C630"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "0D59D488827CC064"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:evoker"
+				icon: "minecraft:evoker_spawn_egg"
+				id: "26CE27485D176F2F"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&5Заклинатель"
+			x: -12.5d
+			y: 25.0d
+		}
+		{
+			can_repeat: true
+			description: ["Векс из ванильного Minecraft"]
+			icon: "minecraft:vex_spawn_egg"
+			id: "5AF1AED537E20F43"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "29A15D8971AF5E0D"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:vex"
+				icon: "minecraft:vex_spawn_egg"
+				id: "332BEFE1E0DFC7D7"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&fВекс"
+			x: -14.5d
+			y: 21.0d
+		}
+		{
+			can_repeat: true
+			description: ["Шалкер из ванильного Minecraft"]
+			icon: "minecraft:shulker_spawn_egg"
+			id: "480A9050B9603627"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "7848853E06777D7F"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:shulker"
+				icon: "minecraft:shulker_spawn_egg"
+				id: "4588F65B5AAC6D02"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&dШалкер"
+			x: -13.5d
+			y: 26.0d
+		}
+		{
+			can_repeat: true
+			description: ["Блейз из ванильного Minecraft"]
+			icon: "minecraft:blaze_spawn_egg"
+			id: "0277FF75BD681625"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "24C2DC9340AD3F00"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:blaze"
+				icon: "minecraft:blaze_spawn_egg"
+				id: "7EA42C28EA553CC6"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Блейз"
+			x: -14.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: ["Пиглин-главарь из ванильного Minecraft"]
+			icon: "minecraft:piglin_brute_spawn_egg"
+			id: "49A16A1AE6E2BE52"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "766CF2E72CAE96B7"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				icon: "minecraft:piglin_brute_spawn_egg"
+				id: "786F65CF5103C614"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&cПиглин-главарь"
+			x: -15.5d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			description: ["Скелет-подрывник из Born in Chaos"]
+			icon: "born_in_chaos_v1:skeleton_demoman_spawn_egg"
+			id: "349A523914DDBC88"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "095DC74901BFDAA8"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:skeleton_demoman"
+				icon: "minecraft:tnt"
+				id: "6537E95BC70F43A5"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Скелет-подрывник"
+			x: -13.5d
+			y: 22.0d
+		}
+		{
+			can_repeat: true
+			description: ["Сиамские скелеты из Born in Chaos"]
+			icon: "born_in_chaos_v1:siamese_skeletons_spawn_egg"
+			id: "6DD0D104577FD094"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "3CA6942B8213839B"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:siamese_skeletons"
+				icon: "born_in_chaos_v1:siamese_skeletons_spawn_egg"
+				id: "58216412B99B14AC"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Сиамские скелеты"
+			x: -11.5d
+			y: 20.0d
+		}
+		{
+			can_repeat: true
+			description: ["Беспокойный дух из Born in Chaos"]
+			icon: "born_in_chaos_v1:restless_spirit_spawn_egg"
+			id: "07B183B39029E9C9"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "6F7435636AF34C04"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:restless_spirit"
+				icon: "born_in_chaos_v1:restless_spirit_spawn_egg"
+				id: "38DAB6B6B252F343"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&fБеспокойный дух"
+			x: -13.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			description: ["Глубинный из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_deep_one"
+			id: "2CA63C2BFF886F37"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "4471E54ECA812B68"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexscaves:deep_one"
+				icon: "alexscaves:spawn_egg_deep_one"
+				id: "54897730EBD6F5FE"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&3Глубинный"
+			x: -14.5d
+			y: 20.0d
+		}
+		{
+			can_repeat: true
+			description: ["&7&l Доисторический титан пещер"]
+			icon: "alexscaves:spawn_egg_atlatitan"
+			id: "654F9E8AC1A69592"
+			rewards: [{
+				auto: "enabled"
+				id: "1AF7D340438AC3D1"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "alexscaves:atlatitan"
+				icon: "alexscaves:spawn_egg_atlatitan"
+				id: "4E725FADA053E970"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&6Атлатитан"
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Колибри из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_hummingbird"
+			id: "6EA639D1B323457C"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "455815B1CFA56830"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:hummingbird"
+				icon: "alexsmobs:spawn_egg_hummingbird"
+				id: "6C1490D5E12F0949"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&dКолибри"
+			x: -20.5d
+			y: 13.0d
+		}
+		{
+			can_repeat: true
+			description: ["Кенгуру из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_kangaroo"
+			id: "71E46B5B058D6A6B"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "5CA359E2E5C69B1C"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:kangaroo"
+				icon: "alexsmobs:spawn_egg_kangaroo"
+				id: "7FB0FB384D4078F3"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Кенгуру"
+			x: -19.5d
+			y: 13.0d
+		}
+		{
+			can_repeat: true
+			description: ["Страйдер из ванильного Minecraft"]
+			icon: "minecraft:strider_spawn_egg"
+			id: "60C3DD5163E163DE"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "5A9A1CD67B166082"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:strider"
+				icon: "minecraft:strider_spawn_egg"
+				id: "188A26F5148BBA13"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&cСтрайдер"
+			x: -18.5d
+			y: 13.0d
+		}
+		{
+			can_repeat: true
+			description: ["Лошадь из ванильного Minecraft"]
+			icon: "minecraft:horse_spawn_egg"
+			id: "5A16FDF4B06CC990"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "64AACA4FC0996AFB"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:horse"
+				icon: "minecraft:horse_spawn_egg"
+				id: "4A7189A1BE5D2EC0"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Лошадь"
+			x: -17.5d
+			y: 13.0d
+		}
+		{
+			can_repeat: true
+			description: ["Осёл из ванильного Minecraft"]
+			icon: "minecraft:donkey_spawn_egg"
+			id: "239AE491733CAC5F"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "2DE0802AE4BDC9ED"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:donkey"
+				icon: "minecraft:donkey_spawn_egg"
+				id: "2FBEB3DF161117CB"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&7Осёл"
+			x: -18.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			description: ["Дельфин из ванильного Minecraft"]
+			icon: "minecraft:dolphin_spawn_egg"
+			id: "6092B0508B200499"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "324114A8A3F03E5E"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:dolphin"
+				icon: "minecraft:dolphin_spawn_egg"
+				id: "2A34C918519A9F53"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&bДельфин"
+			x: -17.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			description: ["Полярный медведь из ванильного Minecraft"]
+			icon: "minecraft:polar_bear_spawn_egg"
+			id: "22621EEDFC50C22E"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "0AD238FFE4B709F3"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:polar_bear"
+				icon: "minecraft:polar_bear_spawn_egg"
+				id: "569B4F9A9ACE3C3F"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&fПолярный медведь"
+			x: -20.5d
+			y: 14.0d
+		}
+		{
+			can_repeat: true
+			description: ["Кошка из ванильного Minecraft"]
+			icon: "minecraft:cat_spawn_egg"
+			id: "083F2CF957A68483"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "0F927BDB68842190"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:cat"
+				icon: "minecraft:cat_spawn_egg"
+				id: "77ECEC063953EEFF"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Кошка"
+			x: -19.5d
+			y: 14.0d
+		}
+		{
+			can_repeat: true
+			description: ["Волк из ванильного Minecraft"]
+			icon: "minecraft:wolf_spawn_egg"
+			id: "3E91C1EB16CDC25F"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "6C9DC327F49A11FA"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:wolf"
+				icon: "minecraft:wolf_spawn_egg"
+				id: "5AAD886D529EB249"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Волк"
+			x: -18.5d
+			y: 14.0d
+		}
+		{
+			can_repeat: true
+			description: ["Оцелот из ванильного Minecraft"]
+			icon: "minecraft:ocelot_spawn_egg"
+			id: "694ECD17FEA0C481"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "6DDE8681AD751A84"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:ocelot"
+				icon: "minecraft:ocelot_spawn_egg"
+				id: "30A9062161A05C82"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&eОцелот"
+			x: -17.5d
+			y: 14.0d
+		}
+		{
+			can_repeat: true
+			description: ["Летучая мышь из ванильного Minecraft"]
+			icon: "minecraft:bat_spawn_egg"
+			id: "53078AB6F425B20C"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "7453FF79C2E9DAA3"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:bat"
+				icon: "minecraft:bat_spawn_egg"
+				id: "354494367996B7C6"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Летучая мышь"
+			x: -20.5d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			description: ["Попугай из ванильного Minecraft"]
+			icon: "minecraft:parrot_spawn_egg"
+			id: "331EFEF4985BE5A5"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "761B3A27B62AD2E2"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "minecraft:parrot"
+				icon: "minecraft:parrot_spawn_egg"
+				id: "23761F6E9FE0E34D"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&dПопугай"
+			x: -19.5d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			description: ["Террапин из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_terrapin"
+			id: "45F0CA25F51FB52C"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "06EF7F46164CD606"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:terrapin"
+				icon: "alexsmobs:spawn_egg_terrapin"
+				id: "217E29CDC82F6A9F"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&aТеррапин"
+			x: -17.5d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			description: ["Горбатый кит из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_cachalot_whale"
+			id: "2F1D02064D52F2E3"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "6FF48E65519DCFBC"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:cachalot_whale"
+				icon: "alexsmobs:spawn_egg_cachalot_whale"
+				id: "7DFC8F1C1BB0CBCF"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Горбатый кит"
+			x: -20.5d
+			y: 17.0d
+		}
+		{
+			can_repeat: true
+			description: ["Косатки из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_orca"
+			id: "40AB94433585769E"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "2BD7F8A0C976F8EE"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:orca"
+				icon: "alexsmobs:spawn_egg_orca"
+				id: "75A42673C4EB3C0A"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Косатки"
+			x: -19.5d
+			y: 17.0d
+		}
+		{
+			can_repeat: true
+			description: ["Рыба-капля из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_blobfish"
+			id: "602678C11BB1ACD1"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "09E317697D6F2E3A"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:blobfish"
+				icon: "alexsmobs:spawn_egg_blobfish"
+				id: "6F1643D594A17174"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&dРыба-капля"
+			x: -18.5d
+			y: 17.0d
+		}
+		{
+			can_repeat: true
+			description: ["Гигантский кальмар из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_giant_squid"
+			id: "6F6A389E65DE41AF"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "705D719C7551091A"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:giant_squid"
+				icon: "alexsmobs:spawn_egg_giant_squid"
+				id: "5CDBC3ECA3E5C99E"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&5Гигантский спрут"
+			x: -17.5d
+			y: 17.0d
+		}
+		{
+			can_repeat: true
+			description: ["Рыба-сом из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_catfish"
+			id: "6D7856E2CF486C24"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "4E9C3817FB6D4C7F"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:catfish"
+				icon: "alexsmobs:spawn_egg_catfish"
+				id: "722C62FA02853156"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Рыба-сом"
+			x: -20.5d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			description: ["Снежный барс из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_snow_leopard"
+			id: "24AB75869E3F2A29"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "12DE8027467097B2"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:snow_leopard"
+				icon: "alexsmobs:spawn_egg_snow_leopard"
+				id: "1E5AB4A5215CC7AD"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&fСнежный барс"
+			x: -19.5d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			description: ["Рыба-молот из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_hammerhead_shark"
+			id: "2456DD95A1125439"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "311CF1EE89DDB4B5"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:hammerhead_shark"
+				icon: "alexsmobs:spawn_egg_hammerhead_shark"
+				id: "491280146BEFF1A5"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&7Рыба-молот"
+			x: -18.5d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			description: ["Бразильская гадюка из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_anaconda"
+			id: "5F1DDEB57CC36214"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "7F0DC06E615A96BA"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:anaconda"
+				icon: "alexsmobs:spawn_egg_anaconda"
+				id: "30C95D0EBD913DB2"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&2Бразильская гадюка"
+			x: -17.5d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			description: ["Чайка из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_seagull"
+			id: "51E011294C3FF24D"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "1A109DC18E43A66C"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:seagull"
+				icon: "alexsmobs:spawn_egg_seagull"
+				id: "1948D9143F862221"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&fЧайка"
+			x: -19.0d
+			y: 19.0d
+		}
+		{
+			can_repeat: true
+			description: ["Сорока из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_blue_jay"
+			id: "02A59AA1EEAEAEA2"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "2C8F70346C79B53C"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:blue_jay"
+				icon: "alexsmobs:spawn_egg_blue_jay"
+				id: "5CE6AA6044CE7D19"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&9Сорока"
+			x: -19.5d
+			y: 16.0d
+		}
+		{
+			can_repeat: true
+			description: ["Тарантуловый ястреб из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_tarantula_hawk"
+			id: "256A8B70E7AB6C06"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "05C901CF25B0F70A"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:tarantula_hawk"
+				icon: "alexsmobs:spawn_egg_tarantula_hawk"
+				id: "003EF620F5666102"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&4Тарантуловый ястреб"
+			x: -10.5d
+			y: 21.0d
+		}
+		{
+			can_repeat: true
+			description: ["Иловые аллигаторы из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_alligator_snapping_turtle"
+			id: "4DA547ECF5D14A3F"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "122D3149C57026D7"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:alligator_snapping_turtle"
+				icon: "alexsmobs:spawn_egg_alligator_snapping_turtle"
+				id: "5A080C44D2607CEF"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&2Иловые аллигаторы"
+			x: -12.0d
+			y: 28.0d
+		}
+		{
+			can_repeat: true
+			description: ["Рыба-жаба из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_rain_frog"
+			id: "1EF92A6CC235BF80"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "6DCA2577D1E2E002"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:rain_frog"
+				icon: "alexsmobs:spawn_egg_rain_frog"
+				id: "571A57E7A7B5441F"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&aРыба-жаба"
+			x: -20.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: ["Многоножка из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_centipede"
+			id: "6F95B644792C4682"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "687447756A046C32"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:centipede"
+				icon: "alexsmobs:spawn_egg_centipede"
+				id: "0323DC0C4BE8A284"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&5Многоножка"
+			x: -18.5d
+			y: 16.0d
+		}
+		{
+			can_repeat: true
+			description: ["Австралийский дропбир из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_dropbear"
+			id: "7AD4A52E8DF79B2F"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "238CBB5F0DD5EF7E"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:dropbear"
+				icon: "alexsmobs:spawn_egg_dropbear"
+				id: "33EA8948E66CD841"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Австралийский дропбир"
+			x: -18.5d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			description: ["Опоссум из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_platypus"
+			id: "2AD8EEA355548640"
+			rewards: [{
+				auto: "enabled"
+				count: 4
+				id: "1707FC4420AE44B3"
+				item: "libraryferret:iron_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐&7⭐⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:platypus"
+				icon: "alexsmobs:spawn_egg_platypus"
+				id: "30F81ADF8D820F76"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Опоссум"
+			x: -17.5d
+			y: 16.0d
+		}
+		{
+			can_repeat: true
+			description: ["Пожиратель душ из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_soul_vulture"
+			id: "4A48963A91E85254"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "3EF26C0FE448F7E8"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:soul_vulture"
+				icon: "alexsmobs:spawn_egg_soul_vulture"
+				id: "248ADB2D06E4E0EC"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&5Пожиратель душ"
+			x: -15.5d
+			y: 21.0d
+		}
+		{
+			can_repeat: true
+			description: ["Вихревой червь из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_void_worm"
+			id: "354B33F8905936FE"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "5C8194E1E1BEB6C3"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: "alexsmobs:spawn_egg_void_worm"
+				id: "56C868CD27A2BB86"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&5Вихревой червь"
+			x: -10.5d
+			y: 22.0d
+		}
+		{
+			can_repeat: true
+			description: ["Эндерград из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_endergrade"
+			id: "4811FAE2F014B04E"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "1B0650A9D8BA24CC"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:endergrade"
+				icon: "alexsmobs:spawn_egg_endergrade"
+				id: "3E7285BDFA276D96"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&5Эндерград"
+			x: -15.5d
+			y: 22.0d
+		}
+		{
+			can_repeat: true
+			description: ["Страддлер из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_straddler"
+			id: "505FF8BC9A60619B"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "0A471C3D11804153"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:straddler"
+				icon: "alexsmobs:spawn_egg_straddler"
+				id: "2AA863D5CA50AF4C"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Страддлер"
+			x: -15.5d
+			y: 13.0d
+		}
+		{
+			can_repeat: true
+			description: ["Мангуст из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_mungus"
+			id: "5881811E342CA76E"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "3C8CDEAB43A34B12"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:mungus"
+				icon: "alexsmobs:spawn_egg_mungus"
+				id: "3FB9BE8C30AA9654"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Мангуст"
+			x: -15.5d
+			y: 24.0d
+		}
+		{
+			can_repeat: true
+			description: ["Банановый слизень из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_banana_slug"
+			id: "143D76C130AE1F08"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "2D70546DCD991507"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:banana_slug"
+				icon: "alexsmobs:spawn_egg_banana_slug"
+				id: "08D5E7B659541DD7"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&eБанановый слизень"
+			x: -10.5d
+			y: 24.0d
+		}
+		{
+			can_repeat: true
+			description: ["Тасманский дьявол из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_tasmanian_devil"
+			id: "2E196B6C5566D23C"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "3E002CC6BA32AFEE"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:tasmanian_devil"
+				icon: "alexsmobs:spawn_egg_tasmanian_devil"
+				id: "4D25DC1C4E0164CA"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Тасманский дьявол"
+			x: -10.5d
+			y: 13.0d
+		}
+		{
+			can_repeat: true
+			description: ["Мимикуб из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_mimicube"
+			id: "4C4091192BAF0603"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "0CA211E860DBA42D"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:mimicube"
+				icon: "alexsmobs:spawn_egg_mimicube"
+				id: "6F391ED912E690A1"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&dМимикуб"
+			x: -10.5d
+			y: 14.0d
+		}
+		{
+			can_repeat: true
+			description: ["Флаттер из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_flutter"
+			id: "74779FFB43F98000"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "5ABC9E24A894212F"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:flutter"
+				icon: "alexsmobs:spawn_egg_flutter"
+				id: "00774875409F5904"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&dФлаттер"
+			x: -15.5d
+			y: 14.0d
+		}
+		{
+			can_repeat: true
+			description: ["Гелада из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_gelada_monkey"
+			id: "23409460E9093572"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "0475B4E041A3B908"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:gelada_monkey"
+				icon: "alexsmobs:spawn_egg_gelada_monkey"
+				id: "76E9D450834D76EC"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Гелада"
+			x: -10.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			description: ["Тушканчик из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_jerboa"
+			id: "2F1927BDD8675267"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "4312BE5846FE5062"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:jerboa"
+				icon: "alexsmobs:spawn_egg_jerboa"
+				id: "292E41395B7EC698"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Тушканчик"
+			x: -15.5d
+			y: 20.0d
+		}
+		{
+			can_repeat: true
+			description: ["Тускалин из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_tusklin"
+			id: "0D9060C2832A8B06"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "407D62466A00976D"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:tusklin"
+				icon: "alexsmobs:spawn_egg_tusklin"
+				id: "3A785FFD8CC5DFA3"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Тускалин"
+			x: -10.5d
+			y: 20.0d
+		}
+		{
+			can_repeat: true
+			description: ["Кримзонный комар из Alex's Mobs"]
+			icon: "alexsmobs:spawn_egg_crimson_mosquito"
+			id: "46E8A7DB232FCA0F"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "03D3F15992CF39B5"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexsmobs:crimson_mosquito"
+				icon: "alexsmobs:spawn_egg_crimson_mosquito"
+				id: "62DA4239BE9F71D7"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&4Кримзонный комар"
+			x: -15.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			description: ["Тыквенная стража из Biomes We've Gone"]
+			icon: "biomeswevegone:pumpkin_warden_spawn_egg"
+			id: "09EAB34A368CF757"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "287098D20A53997C"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "biomeswevegone:pumpkin_warden"
+				icon: "biomeswevegone:pumpkin_warden_spawn_egg"
+				id: "2EB33B7A295F4D28"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Тыквенная стража"
+			x: -15.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			description: ["Алый преследователь из Born in Chaos"]
+			icon: "born_in_chaos_v1:scarlet_persecutor_spawn_egg"
+			id: "7C4CD717AF740D58"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "3B532F3B95CFC61A"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:scarlet_persecutor"
+				icon: "born_in_chaos_v1:scarlet_persecutor_spawn_egg"
+				id: "5DE1400D7F6438B7"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&cАлый преследователь"
+			x: -10.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			description: ["Дух хаоса из Born in Chaos"]
+			icon: "born_in_chaos_v1:spiritof_chaos_spawn_egg"
+			id: "0643E2A46BA84C7C"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "786D18BA5EBDC23D"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:spiritof_chaos"
+				icon: "born_in_chaos_v1:spiritof_chaos_spawn_egg"
+				id: "1B2A288679B2904B"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&5Дух хаоса"
+			x: -8.5d
+			y: 16.0d
+		}
+		{
+			can_repeat: true
+			description: ["Фантомный крипер из Born in Chaos"]
+			icon: "born_in_chaos_v1:phantom_creeper_spawn_egg"
+			id: "3C1F9F8600467AC0"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "7106B954C89AE131"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:phantom_creeper"
+				icon: "born_in_chaos_v1:phantom_creeper_spawn_egg"
+				id: "52247BCAF7A71AF2"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&fФантомный крипер"
+			x: -15.5d
+			y: 25.0d
+		}
+		{
+			can_repeat: true
+			description: ["Мистер Тыква из Born in Chaos"]
+			icon: "born_in_chaos_v1:mr_pumpkin_spawn_egg"
+			id: "3250BCF9FFCD76CA"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "557E86CA28220023"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:mr_pumpkin"
+				icon: "born_in_chaos_v1:mr_pumpkin_spawn_egg"
+				id: "32FB1BA23218D208"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Мистер Тыква"
+			x: -10.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			description: ["Сеньор Тыква из Born in Chaos"]
+			icon: "born_in_chaos_v1:senor_pumpkin_spawn_egg"
+			id: "21A57E0A707C407B"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "709F63972346E4CD"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "born_in_chaos_v1:senor_pumpkin"
+				icon: "born_in_chaos_v1:senor_pumpkin_spawn_egg"
+				id: "3E7339207655AB36"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Сеньор Тыква"
+			x: -15.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			description: ["Раджил из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_radgill"
+			id: "62682ACD9CC62175"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "1D794C55FC9C87F1"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexscaves:radgill"
+				icon: "alexscaves:spawn_egg_radgill"
+				id: "20B9A9C3C8658835"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&aРаджил"
+			x: -15.5d
+			y: 23.0d
+		}
+		{
+			can_repeat: true
+			description: ["Гроттол из Mowzie's Mobs"]
+			icon: "mowziesmobs:grottol_spawn_egg"
+			id: "522C33AD2FEBE273"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "525C8D0B49AD933F"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "mowziesmobs:grottol"
+				icon: "mowziesmobs:grottol_spawn_egg"
+				id: "23249AB7EE17BCD2"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&7Гроттол"
+			x: -10.5d
+			y: 23.0d
+		}
+		{
+			can_repeat: true
+			description: ["Нага из Mowzie's Mobs"]
+			icon: "mowziesmobs:naga_spawn_egg"
+			id: "7DF3ACA8D04F0F29"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "2A011576546AB125"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "mowziesmobs:naga"
+				icon: "mowziesmobs:naga_spawn_egg"
+				id: "45C31A8A30B542AE"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&2Нага"
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: ["Скульптор из Mowzie's Mobs"]
+			icon: "mowziesmobs:sculptor_spawn_egg"
+			id: "3B62CA94C4257DCD"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "7B2F474B0499B3E2"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "mowziesmobs:sculptor"
+				icon: "mowziesmobs:sculptor_spawn_egg"
+				id: "0DE1FA353B30D3AD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&7Скульптор"
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			description: ["Ледочерв из Mowzie's Mobs"]
+			icon: "mowziesmobs:frostmaw_spawn_egg"
+			id: "1D2F18BE7F66B4A8"
+			rewards: [{
+				auto: "enabled"
+				id: "0C3F6CAFD9303FFB"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: "mowziesmobs:frostmaw_spawn_egg"
+				id: "1F2E79F9BFD84CF8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&bЛедочерв"
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			description: ["Муравьиная королева из Ice and Fire"]
+			icon: "iceandfire:spawn_egg_myrmex_queen"
+			id: "7463DB4C2634F212"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "2FA194EFCB892104"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "iceandfire:myrmex_queen"
+				icon: "iceandfire:spawn_egg_myrmex_queen"
+				id: "31685A196C56B42D"
+				type: "kill"
+				value: 3L
+			}]
+			title: "&6Муравьиная королева"
+			x: -8.5d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			description: ["Муравьиный солдат из Ice and Fire"]
+			icon: "iceandfire:spawn_egg_myrmex_soldier"
+			id: "79A23DC48631E606"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "372ABF36443D4A95"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "iceandfire:myrmex_soldier"
+				icon: "iceandfire:spawn_egg_myrmex_soldier"
+				id: "65B5DE5B6AA592CF"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Муравьиный солдат"
+			x: -15.5d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			description: ["Муравьиный рабочий из Ice and Fire"]
+			icon: "iceandfire:spawn_egg_myrmex_worker"
+			id: "4F55DE5DA66AD865"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "5F019BD07B6F61AA"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "iceandfire:myrmex_worker"
+				icon: "iceandfire:spawn_egg_myrmex_worker"
+				id: "57DC7AADC2CCA744"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Муравьиный рабочий"
+			x: -15.5d
+			y: 16.0d
+		}
+		{
+			can_repeat: true
+			description: ["Циклоп из Ice and Fire"]
+			icon: "iceandfire:spawn_egg_cyclops"
+			id: "6C80EAFA04C84E40"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "1E26987023B6147F"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				icon: "iceandfire:spawn_egg_cyclops"
+				id: "5CC490FA328F9952"
+				type: "kill"
+				value: 3L
+			}]
+			title: "&6Циклоп"
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			description: ["Тролль из Ice and Fire"]
+			icon: "iceandfire:spawn_egg_troll"
+			id: "60589F637EB09E17"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "6466C0ED301DCDD9"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "iceandfire:troll"
+				icon: "iceandfire:spawn_egg_troll"
+				id: "74FEC486C8D0B3BF"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&2Тролль"
+			x: -5.5d
+			y: 13.0d
+		}
+		{
+			can_repeat: true
+			description: ["Кокатрис из Ice and Fire"]
+			icon: "iceandfire:spawn_egg_cockatrice"
+			id: "004D17ABFED5FECA"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "16528F08EA2C49AF"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "iceandfire:cockatrice"
+				icon: "iceandfire:spawn_egg_cockatrice"
+				id: "45DBB64D3357DD77"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&aВасилиск"
+			x: -5.5d
+			y: 16.0d
+		}
+		{
+			can_repeat: true
+			description: ["Стимфалийская птица из Ice and Fire"]
+			icon: "iceandfire:spawn_egg_stymphalian_bird"
+			id: "2C057078C0F5C01C"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "67D92A19DDFA4765"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "iceandfire:stymphalian_bird"
+				icon: "iceandfire:spawn_egg_stymphalian_bird"
+				id: "30C51D2C8CFC71CC"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&aСтимфалийская птица"
+			x: -10.5d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			description: ["Гидра из Ice and Fire"]
+			icon: "iceandfire:spawn_egg_hydra"
+			id: "28F33D323F5237F6"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "47C2D71639A46042"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "iceandfire:hydra"
+				icon: "iceandfire:spawn_egg_hydra"
+				id: "1B05C924BF50B3BC"
+				type: "kill"
+				value: 3L
+			}]
+			title: "&2Гидра"
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: ["Амфитера из Ice and Fire"]
+			icon: "iceandfire:spawn_egg_amphithere"
+			id: "318441912987123A"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "708C1650CE439899"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "iceandfire:amphithere"
+				icon: "iceandfire:spawn_egg_amphithere"
+				id: "561276E5154BA401"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&aАмфитера"
+			x: -6.5d
+			y: 16.0d
+		}
+		{
+			can_repeat: true
+			description: ["Гиппогриф из Ice and Fire"]
+			icon: "iceandfire:spawn_egg_hippogryph"
+			id: "71B9D8ED7932426D"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "1939C2B96CB1EDF1"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "iceandfire:hippogryph"
+				icon: "iceandfire:spawn_egg_hippogryph"
+				id: "538D5F6851B9BEC3"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&eГиппогриф"
+			x: -6.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			description: ["Сирена из Ice and Fire"]
+			icon: "iceandfire:spawn_egg_siren"
+			id: "59BC202A247EFA30"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "3DC84FACF654D620"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "iceandfire:siren"
+				icon: "iceandfire:spawn_egg_siren"
+				id: "7471076D9432435E"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&bСирена"
+			x: -10.5d
+			y: 25.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"&eОгненный дракон из Ice and Fire"
+				""
+				"Встречается на &cМеркурие&r и &cВенере&r"
+			]
+			icon: "iceandfire:fire_dragon_heart"
+			id: "08F2CC94241A4D7E"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "15B0C758DE62A9B1"
+				item: "libraryferret:netherite_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐⭐"
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				icon: "iceandfire:fire_dragon_heart"
+				id: "00C4439F82EF545A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4Огненный дракон"
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"&eЛедяной дракон из Ice and Fire"
+				""
+				"Встречается на &bГлацио"
+			]
+			icon: "iceandfire:ice_dragon_heart"
+			id: "5865F80BEE4A2C1D"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "7BB0828F4083F819"
+				item: "libraryferret:netherite_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐⭐"
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				icon: "iceandfire:ice_dragon_heart"
+				id: "5C69F40E132D296D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&bЛедяной дракон"
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"&eГрозовой дракон из Ice and Fire"
+				""
+				"Встречается в &5Энде"
+			]
+			icon: "iceandfire:lightning_dragon_heart"
+			id: "401652FDC1B1160F"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "4435AB1A3762BF29"
+				item: "libraryferret:netherite_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐⭐"
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				icon: "iceandfire:lightning_dragon_heart"
+				id: "602EFBA923101402"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&eГрозовой дракон"
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: ["Червь смерти из Ice and Fire"]
+			icon: "iceandfire:spawn_egg_death_worm"
+			id: "33DD4D1B8225AD68"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "56A71DAB204C3E2A"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "iceandfire:deathworm"
+				icon: "iceandfire:spawn_egg_death_worm"
+				id: "68EFEB58DD1B2868"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Червь смерти"
+			x: -10.5d
+			y: 16.0d
+		}
+		{
+			can_repeat: true
+			description: ["Пигро из Ad Astra"]
+			icon: "ad_astra:pygro_spawn_egg"
+			id: "1DDD041B95275CDD"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "26CB955EDB8E4075"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "ad_astra:pygro"
+				icon: "ad_astra:pygro_spawn_egg"
+				id: "58FCCADC83EF45D4"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&6Пигро"
+			x: -10.5d
+			y: 26.0d
+		}
+		{
+			can_repeat: true
+			description: ["Страж шахты из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_mine_guardian"
+			id: "154B4491665B8F55"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "161EED77785F902A"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexscaves:mine_guardian"
+				icon: "alexscaves:spawn_egg_mine_guardian"
+				id: "437C679E7A9CE28F"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&7Страж шахты"
+			x: -5.5d
+			y: 12.0d
+		}
+		{
+			can_repeat: true
+			description: ["Магнетрон из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_magnetron"
+			id: "68ECF102CC3D44C0"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "614F8194A2B4E8C0"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexscaves:magnetron"
+				icon: "alexscaves:spawn_egg_magnetron"
+				id: "05F5D8AE0BC661C9"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&5Магнетрон"
+			x: -15.5d
+			y: 26.0d
+		}
+		{
+			can_repeat: true
+			description: ["Халлбреакер из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_hullbreaker"
+			id: "2160AD121330B76C"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "72841D0B0D6FF8EF"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				icon: "alexscaves:spawn_egg_hullbreaker"
+				id: "27591128524F3E33"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&3Кораблекрушитель"
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: ["Валлумраптор из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_vallumraptor"
+			id: "3C291DBA0461E0C3"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "4B0E475947E22540"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexscaves:vallumraptor"
+				icon: "alexscaves:spawn_egg_vallumraptor"
+				id: "20A502911B2E27EF"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&6Валлумраптор"
+			x: -8.5d
+			y: 17.0d
+		}
+		{
+			can_repeat: true
+			description: ["Реличеирус из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_relicheirus"
+			id: "113D420E1E222C4D"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "63DA5D77B31CDA6B"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "alexscaves:relicheirus"
+				icon: "alexscaves:spawn_egg_relicheirus"
+				id: "33CD9543DCE1BA14"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&6Реличеирус"
+			x: -7.5d
+			y: 17.0d
+		}
+		{
+			can_repeat: true
+			description: ["Сотрясозавр из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_tremorsaurus"
+			id: "4865E6A4C2526D18"
+			rewards: [{
+				auto: "enabled"
+				id: "11B5E671F6EF012B"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "alexscaves:tremorsaurus"
+				icon: "alexscaves:spawn_egg_tremorsaurus"
+				id: "30FF94EF406A36B6"
+				type: "kill"
+				value: 3L
+			}]
+			title: "&6Сотрясозавр"
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			can_repeat: true
+			description: ["Боундроид из Alex's Caves"]
+			icon: "alexscaves:spawn_egg_boundroid"
+			id: "32A845A00E002255"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "39E5AC1ACC26956C"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "alexscaves:boundroid"
+				icon: "alexscaves:spawn_egg_boundroid"
+				id: "4CB1568AA173749B"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&7Боундроид"
+			x: -11.5d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			description: ["Хранитель из ванильного Minecraft"]
+			icon: "minecraft:warden_spawn_egg"
+			id: "24EFCBC831B4C18E"
+			rewards: [{
+				count: 2
+				id: "200DD5EEFE2D3C31"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "minecraft:warden_spawn_egg"
+				id: "2C77DDA0D31580DB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&3Хранитель"
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			description: ["&7Владыка небес Края, последний бастион между тобой и свободой"]
+			icon: "minecraft:dragon_head"
+			id: "088DDEA51607FBBD"
+			rewards: [{
+				count: 2
+				id: "1337D8ECFB4C2402"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "6D452ABF54A3C554"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&7Эндер-дракон"
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			can_repeat: true
+			description: ["Измученная Душа из Aquamirae"]
+			icon: "aquamirae:tortured_soul_spawn_egg"
+			id: "536AEB4B01D84F33"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "7A8AD07785F4BF82"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐&7⭐⭐"
+			tasks: [{
+				entity: "aquamirae:tortured_soul"
+				icon: "aquamirae:tortured_soul_spawn_egg"
+				id: "5FB48C62DDEE8DD0"
+				type: "kill"
+				value: 3L
+			}]
+			title: "&9Измученная Душа"
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			description: ["Угорь из Aquamirae"]
+			icon: "aquamirae:eel_spawn_egg"
+			id: "37A70FA10971C9BC"
+			rewards: [{
+				id: "237A210963E01EF8"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "aquamirae:eel"
+				icon: "aquamirae:eel_spawn_egg"
+				id: "478E4D20D85184F9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&3Угорь"
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			description: ["Пасть из Aquamirae"]
+			icon: "aquamirae:maw_spawn_egg"
+			id: "015D18EE1EB1964C"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "0262770540737820"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "aquamirae:maw"
+				icon: "aquamirae:maw_spawn_egg"
+				id: "62D1EDD29EC8D717"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&3Пасть"
+			x: -14.5d
+			y: 15.0d
+		}
+		{
+			can_repeat: true
+			description: ["Удильщик из Aquamirae"]
+			icon: "aquamirae:anglerfish_spawn_egg"
+			id: "657FA4C5B2AB5E0F"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "16568E1DE3B1ECFB"
+				item: "libraryferret:gold_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐&7⭐⭐⭐"
+			tasks: [{
+				entity: "aquamirae:anglerfish"
+				icon: "aquamirae:anglerfish_spawn_egg"
+				id: "7667A75D7C99AD37"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&8Удильщик"
+			x: -10.5d
+			y: 18.0d
+		}
+		{
+			can_repeat: true
+			description: ["Людопепелка из Mowzie's Mobs"]
+			icon: "mowziesmobs:umvuthi_spawn_egg"
+			id: "42648C0903B06D93"
+			rewards: [{
+				auto: "enabled"
+				count: 2
+				id: "54E910DD862188C1"
+				item: "libraryferret:emerald_coins_jtl"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&6⭐⭐⭐⭐&7⭐"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowziesmobs:umvuthi_spawn_egg"
+				id: "37AEB947FF9E948B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&eЛюдопепелка"
+			x: -2.5d
+			y: 11.0d
+		}
+	]
+	title: "&9&lВедьмачьи заказы"
+}
