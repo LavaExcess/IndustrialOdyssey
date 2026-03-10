@@ -1,0 +1,146 @@
+{
+	icon: "aquamirae:treasure_pouch"
+	id: "3CD5E3192369F580"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "aquamirae:terrible_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "aquamirae:terrible_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "aquamirae:terrible_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "aquamirae:terrible_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "savage_and_ravage:griefer_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "savage_and_ravage:griefer_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "savage_and_ravage:griefer_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "savage_and_ravage:griefer_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{ count: 64, item: "industrialforegoing:plastic", weight: 5.0f }
+		{ count: 32, item: "industrialforegoing:pink_slime_ingot", weight: 5.0f }
+		{
+			item: {
+				Count: 1
+				id: "industrialforegoing:processing_addon_1"
+				tag: {
+					TitaniumAugment: {
+						Processing: 2.0d
+					}
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "industrialforegoing:processing_addon_2"
+				tag: {
+					TitaniumAugment: {
+						Processing: 3.0d
+					}
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "industrialforegoing:speed_addon_1"
+				tag: {
+					TitaniumAugment: {
+						Speed: 2.0d
+					}
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "industrialforegoing:speed_addon_2"
+				tag: {
+					TitaniumAugment: {
+						Speed: 3.0d
+					}
+				}
+			}
+			weight: 4.0f
+		}
+		{ count: 32, item: "born_in_chaos_v1:dark_metal_ingot", weight: 10.0f }
+		{ count: 8, item: "born_in_chaos_v1:elixirof_ice_barrier", weight: 5.0f }
+		{ count: 8, item: "born_in_chaos_v1:elixirof_wither_resistance", weight: 5.0f }
+		{ count: 8, item: "born_in_chaos_v1:elixir_of_vampirism", weight: 5.0f }
+		{ count: 8, item: "minecraft:ender_pearl", weight: 10.0f }
+		{ count: 8, item: "minecraft:netherite_scrap", weight: 10.0f }
+		{ count: 16, item: "minecraft:emerald", weight: 10.0f }
+		{ count: 16, item: "minecraft:diamond", weight: 10.0f }
+		{ count: 64, item: "minecraft:iron_ingot", weight: 20.0f }
+		{ count: 64, item: "minecraft:copper_ingot", weight: 20.0f }
+		{ count: 64, item: "minecraft:gold_ingot", weight: 15.0f }
+	]
+	title: "IndFor"
+}

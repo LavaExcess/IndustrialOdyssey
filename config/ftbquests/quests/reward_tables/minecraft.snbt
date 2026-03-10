@@ -1,0 +1,170 @@
+{
+	icon: "aquamirae:treasure_pouch"
+	id: "758204BAE23A27DF"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "deeperdarker:warden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "aquamirae:fin_cutter"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 15.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "endermanoverhaul:corrupted_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "endermanoverhaul:corrupted_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:frost_troll_leather_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:frost_troll_leather_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:frost_troll_leather_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:frost_troll_leather_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 30.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "endermanoverhaul:badlands_hood"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "endermanoverhaul:savanna_hood"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "endermanoverhaul:snowy_hood"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "mowziesmobs:umvuthana_mask_faith"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "mowziesmobs:umvuthana_mask_rage"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "mowziesmobs:umvuthana_mask_fear"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "mowziesmobs:umvuthana_mask_fury"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 10.0f
+		}
+		{ item: "minecraft:totem_of_undying", weight: 40.0f }
+		{ count: 32, item: "ad_astra:raw_desh", weight: 30.0f }
+		{ count: 32, item: "thermal:steel_ingot", weight: 40.0f }
+		{ count: 8, item: "minecraft:netherite_ingot", weight: 50.0f }
+		{ count: 64, item: "minecraft:gold_ingot", weight: 65.0f }
+		{ count: 64, item: "minecraft:iron_ingot", weight: 70.0f }
+		{ count: 32, item: "thermal:invar_ingot", weight: 60.0f }
+		{ count: 64, item: "minecraft:redstone_block", weight: 50.0f }
+		{ count: 64, item: "minecraft:copper_ingot", weight: 70.0f }
+		{ count: 16, item: "minecraft:diamond", weight: 60.0f }
+		{ count: 64, item: "minecraft:bread", weight: 80.0f }
+		{ count: 32, item: "thermal:cinnabar", weight: 60.0f }
+	]
+	title: "Minecraft"
+}

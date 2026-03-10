@@ -1,0 +1,537 @@
+{
+	empty_weight: 96.0f
+	id: "0CB8558338E9F92D"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						analyzed: 0b
+						genome: {
+							"forestry:activity": {
+								active: "forestry:activity_metaturnal"
+								inactive: "forestry:activity_metaturnal"
+							}
+							"forestry:bee_effect": {
+								active: "forestry:bee_effect_misanthrope"
+								inactive: "forestry:bee_effect_misanthrope"
+							}
+							"forestry:bee_species": {
+								active: "lexlav:lunar_bee"
+								inactive: "lexlav:lunar_bee"
+							}
+							"forestry:cave_dwelling": {
+								active: "forestry:trued"
+								inactive: "forestry:trued"
+							}
+							"forestry:fertility": {
+								active: "forestry:0i"
+								inactive: "forestry:0i"
+							}
+							"forestry:flower_type": {
+								active: "forestry:flower_type_end"
+								inactive: "forestry:flower_type_end"
+							}
+							"forestry:humidity_tolerance": {
+								active: "forestry:tolerance_both_2"
+								inactive: "forestry:tolerance_both_2"
+							}
+							"forestry:lifespan": {
+								active: "forestry:2147483647i"
+								inactive: "forestry:2147483647i"
+							}
+							"forestry:pollination": {
+								active: "forestry:5id"
+								inactive: "forestry:5id"
+							}
+							"forestry:speed": {
+								active: "forestry:1.0f"
+								inactive: "forestry:1.0f"
+							}
+							"forestry:temperature_tolerance": {
+								active: "forestry:tolerance_both_2"
+								inactive: "forestry:tolerance_both_2"
+							}
+							"forestry:territory": {
+								active: "forestry:9_6_9"
+								inactive: "forestry:9_6_9"
+							}
+							"forestry:tolerates_rain": {
+								active: "forestry:trued"
+								inactive: "forestry:trued"
+							}
+						}
+						health: 2147483647
+						max_heath: 2147483647
+						pristine: 1b
+					}
+				}
+				id: "forestry:bee_queen_ge"
+				tag: {
+					ForgeCaps: {
+						Parent: {
+							analyzed: 0b
+							genome: {
+								"forestry:activity": {
+									active: "forestry:activity_metaturnal"
+									inactive: "forestry:activity_metaturnal"
+								}
+								"forestry:bee_effect": {
+									active: "forestry:bee_effect_misanthrope"
+									inactive: "forestry:bee_effect_misanthrope"
+								}
+								"forestry:bee_species": {
+									active: "lexlav:lunar_bee"
+									inactive: "lexlav:lunar_bee"
+								}
+								"forestry:cave_dwelling": {
+									active: "forestry:trued"
+									inactive: "forestry:trued"
+								}
+								"forestry:fertility": {
+									active: "forestry:0i"
+									inactive: "forestry:0i"
+								}
+								"forestry:flower_type": {
+									active: "forestry:flower_type_end"
+									inactive: "forestry:flower_type_end"
+								}
+								"forestry:humidity_tolerance": {
+									active: "forestry:tolerance_both_2"
+									inactive: "forestry:tolerance_both_2"
+								}
+								"forestry:lifespan": {
+									active: "forestry:2147483647i"
+									inactive: "forestry:2147483647i"
+								}
+								"forestry:pollination": {
+									active: "forestry:5id"
+									inactive: "forestry:5id"
+								}
+								"forestry:speed": {
+									active: "forestry:1.0f"
+									inactive: "forestry:1.0f"
+								}
+								"forestry:temperature_tolerance": {
+									active: "forestry:tolerance_both_2"
+									inactive: "forestry:tolerance_both_2"
+								}
+								"forestry:territory": {
+									active: "forestry:9_6_9"
+									inactive: "forestry:9_6_9"
+								}
+								"forestry:tolerates_rain": {
+									active: "forestry:trued"
+									inactive: "forestry:trued"
+								}
+							}
+							health: 2147483647
+							max_heath: 2147483647
+							pristine: 1b
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						analyzed: 0b
+						genome: {
+							"forestry:activity": {
+								active: "forestry:activity_metaturnal"
+								inactive: "forestry:activity_metaturnal"
+							}
+							"forestry:bee_effect": {
+								active: "forestry:bee_effect_misanthrope"
+								inactive: "forestry:bee_effect_misanthrope"
+							}
+							"forestry:bee_species": {
+								active: "lexlav:martian_bee"
+								inactive: "lexlav:martian_bee"
+							}
+							"forestry:cave_dwelling": {
+								active: "forestry:trued"
+								inactive: "forestry:trued"
+							}
+							"forestry:fertility": {
+								active: "forestry:0i"
+								inactive: "forestry:0i"
+							}
+							"forestry:flower_type": {
+								active: "forestry:flower_type_end"
+								inactive: "forestry:flower_type_end"
+							}
+							"forestry:humidity_tolerance": {
+								active: "forestry:tolerance_both_2"
+								inactive: "forestry:tolerance_both_2"
+							}
+							"forestry:lifespan": {
+								active: "forestry:2147483647i"
+								inactive: "forestry:2147483647i"
+							}
+							"forestry:pollination": {
+								active: "forestry:5id"
+								inactive: "forestry:5id"
+							}
+							"forestry:speed": {
+								active: "forestry:1.0f"
+								inactive: "forestry:1.0f"
+							}
+							"forestry:temperature_tolerance": {
+								active: "forestry:tolerance_both_2"
+								inactive: "forestry:tolerance_both_2"
+							}
+							"forestry:territory": {
+								active: "forestry:9_6_9"
+								inactive: "forestry:9_6_9"
+							}
+							"forestry:tolerates_rain": {
+								active: "forestry:trued"
+								inactive: "forestry:trued"
+							}
+						}
+						health: 2147483647
+						max_heath: 2147483647
+						pristine: 1b
+					}
+				}
+				id: "forestry:bee_queen_ge"
+				tag: {
+					ForgeCaps: {
+						Parent: {
+							analyzed: 0b
+							genome: {
+								"forestry:activity": {
+									active: "forestry:activity_metaturnal"
+									inactive: "forestry:activity_metaturnal"
+								}
+								"forestry:bee_effect": {
+									active: "forestry:bee_effect_misanthrope"
+									inactive: "forestry:bee_effect_misanthrope"
+								}
+								"forestry:bee_species": {
+									active: "lexlav:martian_bee"
+									inactive: "lexlav:martian_bee"
+								}
+								"forestry:cave_dwelling": {
+									active: "forestry:trued"
+									inactive: "forestry:trued"
+								}
+								"forestry:fertility": {
+									active: "forestry:0i"
+									inactive: "forestry:0i"
+								}
+								"forestry:flower_type": {
+									active: "forestry:flower_type_end"
+									inactive: "forestry:flower_type_end"
+								}
+								"forestry:humidity_tolerance": {
+									active: "forestry:tolerance_both_2"
+									inactive: "forestry:tolerance_both_2"
+								}
+								"forestry:lifespan": {
+									active: "forestry:2147483647i"
+									inactive: "forestry:2147483647i"
+								}
+								"forestry:pollination": {
+									active: "forestry:5id"
+									inactive: "forestry:5id"
+								}
+								"forestry:speed": {
+									active: "forestry:1.0f"
+									inactive: "forestry:1.0f"
+								}
+								"forestry:temperature_tolerance": {
+									active: "forestry:tolerance_both_2"
+									inactive: "forestry:tolerance_both_2"
+								}
+								"forestry:territory": {
+									active: "forestry:9_6_9"
+									inactive: "forestry:9_6_9"
+								}
+								"forestry:tolerates_rain": {
+									active: "forestry:trued"
+									inactive: "forestry:trued"
+								}
+							}
+							health: 2147483647
+							max_heath: 2147483647
+							pristine: 1b
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						analyzed: 0b
+						genome: {
+							"forestry:activity": {
+								active: "forestry:activity_metaturnal"
+								inactive: "forestry:activity_metaturnal"
+							}
+							"forestry:bee_effect": {
+								active: "forestry:bee_effect_ascension"
+								inactive: "forestry:bee_effect_ascension"
+							}
+							"forestry:bee_species": {
+								active: "lexlav:dragonbee"
+								inactive: "lexlav:dragonbee"
+							}
+							"forestry:cave_dwelling": {
+								active: "forestry:trued"
+								inactive: "forestry:trued"
+							}
+							"forestry:fertility": {
+								active: "forestry:0i"
+								inactive: "forestry:0i"
+							}
+							"forestry:flower_type": {
+								active: "forestry:flower_type_end"
+								inactive: "forestry:flower_type_end"
+							}
+							"forestry:humidity_tolerance": {
+								active: "forestry:tolerance_both_2"
+								inactive: "forestry:tolerance_both_2"
+							}
+							"forestry:lifespan": {
+								active: "forestry:2147483647i"
+								inactive: "forestry:2147483647i"
+							}
+							"forestry:pollination": {
+								active: "forestry:5id"
+								inactive: "forestry:5id"
+							}
+							"forestry:speed": {
+								active: "forestry:1.0f"
+								inactive: "forestry:1.0f"
+							}
+							"forestry:temperature_tolerance": {
+								active: "forestry:tolerance_both_2"
+								inactive: "forestry:tolerance_both_2"
+							}
+							"forestry:territory": {
+								active: "forestry:9_6_9"
+								inactive: "forestry:9_6_9"
+							}
+							"forestry:tolerates_rain": {
+								active: "forestry:trued"
+								inactive: "forestry:trued"
+							}
+						}
+						health: 2147483647
+						max_heath: 2147483647
+						pristine: 1b
+					}
+				}
+				id: "forestry:bee_queen_ge"
+				tag: {
+					ForgeCaps: {
+						Parent: {
+							analyzed: 0b
+							genome: {
+								"forestry:activity": {
+									active: "forestry:activity_metaturnal"
+									inactive: "forestry:activity_metaturnal"
+								}
+								"forestry:bee_effect": {
+									active: "forestry:bee_effect_ascension"
+									inactive: "forestry:bee_effect_ascension"
+								}
+								"forestry:bee_species": {
+									active: "lexlav:dragonbee"
+									inactive: "lexlav:dragonbee"
+								}
+								"forestry:cave_dwelling": {
+									active: "forestry:trued"
+									inactive: "forestry:trued"
+								}
+								"forestry:fertility": {
+									active: "forestry:0i"
+									inactive: "forestry:0i"
+								}
+								"forestry:flower_type": {
+									active: "forestry:flower_type_end"
+									inactive: "forestry:flower_type_end"
+								}
+								"forestry:humidity_tolerance": {
+									active: "forestry:tolerance_both_2"
+									inactive: "forestry:tolerance_both_2"
+								}
+								"forestry:lifespan": {
+									active: "forestry:2147483647i"
+									inactive: "forestry:2147483647i"
+								}
+								"forestry:pollination": {
+									active: "forestry:5id"
+									inactive: "forestry:5id"
+								}
+								"forestry:speed": {
+									active: "forestry:1.0f"
+									inactive: "forestry:1.0f"
+								}
+								"forestry:temperature_tolerance": {
+									active: "forestry:tolerance_both_2"
+									inactive: "forestry:tolerance_both_2"
+								}
+								"forestry:territory": {
+									active: "forestry:9_6_9"
+									inactive: "forestry:9_6_9"
+								}
+								"forestry:tolerates_rain": {
+									active: "forestry:trued"
+									inactive: "forestry:trued"
+								}
+							}
+							health: 2147483647
+							max_heath: 2147483647
+							pristine: 1b
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						analyzed: 0b
+						genome: {
+							"forestry:activity": {
+								active: "forestry:activity_metaturnal"
+								inactive: "forestry:activity_metaturnal"
+							}
+							"forestry:bee_effect": {
+								active: "forestry:bee_effect_misanthrope"
+								inactive: "forestry:bee_effect_misanthrope"
+							}
+							"forestry:bee_species": {
+								active: "lexlav:venusian_bee"
+								inactive: "lexlav:venusian_bee"
+							}
+							"forestry:cave_dwelling": {
+								active: "forestry:trued"
+								inactive: "forestry:trued"
+							}
+							"forestry:fertility": {
+								active: "forestry:0i"
+								inactive: "forestry:0i"
+							}
+							"forestry:flower_type": {
+								active: "forestry:flower_type_end"
+								inactive: "forestry:flower_type_end"
+							}
+							"forestry:humidity_tolerance": {
+								active: "forestry:tolerance_both_2"
+								inactive: "forestry:tolerance_both_2"
+							}
+							"forestry:lifespan": {
+								active: "forestry:2147483647i"
+								inactive: "forestry:2147483647i"
+							}
+							"forestry:pollination": {
+								active: "forestry:5id"
+								inactive: "forestry:5id"
+							}
+							"forestry:speed": {
+								active: "forestry:1.0f"
+								inactive: "forestry:1.0f"
+							}
+							"forestry:temperature_tolerance": {
+								active: "forestry:tolerance_both_2"
+								inactive: "forestry:tolerance_both_2"
+							}
+							"forestry:territory": {
+								active: "forestry:9_6_9"
+								inactive: "forestry:9_6_9"
+							}
+							"forestry:tolerates_rain": {
+								active: "forestry:trued"
+								inactive: "forestry:trued"
+							}
+						}
+						health: 2147483647
+						max_heath: 2147483647
+						pristine: 1b
+					}
+				}
+				id: "forestry:bee_queen_ge"
+				tag: {
+					ForgeCaps: {
+						Parent: {
+							analyzed: 0b
+							genome: {
+								"forestry:activity": {
+									active: "forestry:activity_metaturnal"
+									inactive: "forestry:activity_metaturnal"
+								}
+								"forestry:bee_effect": {
+									active: "forestry:bee_effect_misanthrope"
+									inactive: "forestry:bee_effect_misanthrope"
+								}
+								"forestry:bee_species": {
+									active: "lexlav:venusian_bee"
+									inactive: "lexlav:venusian_bee"
+								}
+								"forestry:cave_dwelling": {
+									active: "forestry:trued"
+									inactive: "forestry:trued"
+								}
+								"forestry:fertility": {
+									active: "forestry:0i"
+									inactive: "forestry:0i"
+								}
+								"forestry:flower_type": {
+									active: "forestry:flower_type_end"
+									inactive: "forestry:flower_type_end"
+								}
+								"forestry:humidity_tolerance": {
+									active: "forestry:tolerance_both_2"
+									inactive: "forestry:tolerance_both_2"
+								}
+								"forestry:lifespan": {
+									active: "forestry:2147483647i"
+									inactive: "forestry:2147483647i"
+								}
+								"forestry:pollination": {
+									active: "forestry:5id"
+									inactive: "forestry:5id"
+								}
+								"forestry:speed": {
+									active: "forestry:1.0f"
+									inactive: "forestry:1.0f"
+								}
+								"forestry:temperature_tolerance": {
+									active: "forestry:tolerance_both_2"
+									inactive: "forestry:tolerance_both_2"
+								}
+								"forestry:territory": {
+									active: "forestry:9_6_9"
+									inactive: "forestry:9_6_9"
+								}
+								"forestry:tolerates_rain": {
+									active: "forestry:trued"
+									inactive: "forestry:trued"
+								}
+							}
+							health: 2147483647
+							max_heath: 2147483647
+							pristine: 1b
+						}
+					}
+				}
+			}
+		}
+	]
+	title: "Божественные пчёлы"
+}
