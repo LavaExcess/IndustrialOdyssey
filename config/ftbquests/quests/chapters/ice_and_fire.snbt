@@ -1,0 +1,4903 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ice_and_fire"
+	group: "127FCDB3BF44B5FC"
+	icon: {
+		Count: 1
+		id: "iceandfire:dragon_skull_fire"
+		tag: { }
+	}
+	id: "39A24F846939340E"
+	images: [{
+		height: 4.0d
+		image: "iceandfire:textures/logo.png"
+		rotation: 0.0d
+		width: 4.0d
+		x: 4.5d
+		y: -9.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["081A90D678D85928"]
+			hide_until_deps_visible: true
+			id: "4D45DE1B53B194BF"
+			rewards: [
+				{
+					id: "6F456508BCCC8141"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "7FD4890966384B08"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25460E90CBD77713"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "274714255BD10F59"
+				item: {
+					Count: 1
+					id: "iceandfire:manuscript"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D45DE1B53B194BF"]
+			hide_until_deps_visible: true
+			id: "548CE3B927114C4A"
+			rewards: [
+				{
+					id: "66D220EE223FF2D0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "6C7D5B9ECA3F943A"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "115745F697AFD4FC"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1B37989199DE32F6"
+				item: {
+					Count: 1
+					id: "iceandfire:lectern"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3AEFE3EA2753AFA6"]
+			id: "4338263D9AD6EF0C"
+			rewards: [
+				{
+					id: "042433D529B5ED76"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "22372C8BC8BFD95B"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18F1A63487A6D058"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "21C475D449C8E42B"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonegg_red"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3AEFE3EA2753AFA6"]
+			id: "78DE93CC03F45921"
+			rewards: [
+				{
+					id: "7840E3CBC8354A8D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "50B4E33DDDA81B6F"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B8DC0EFF2CF0DD7"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "5D62310D781FC37B"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonegg_blue"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3AEFE3EA2753AFA6"]
+			id: "74A00818AFFA6764"
+			rewards: [
+				{
+					id: "17B2FFB44DC550A2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "6F3D26B3D99570B0"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50E3A30397318439"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "7315126B1867DD94"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonegg_amythest"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D45DE1B53B194BF"]
+			hide_until_deps_visible: true
+			id: "3AEFE3EA2753AFA6"
+			rewards: [
+				{
+					id: "584B687CF19E4BC2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "47B251F4F50176D2"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21A9D4289BF8FD85"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					entity: "iceandfire:fire_dragon"
+					id: "64D2A96380EDE4A4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "iceandfire:ice_dragon"
+					id: "53A01B8EA58D1B9E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "iceandfire:lightning_dragon"
+					id: "0CEA41D27D645DC9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0B8AF39B93EC5F4F"]
+			id: "7BF68C1AF247C3BE"
+			rewards: [
+				{
+					id: "4582CE483A2CAFDD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "5F63D2104E5ACBF9"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12F944B135AA6080"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "68EED5ADB110767B"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_silver_metal_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "290616C5440444E0"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_silver_metal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0941FB4F1C8E2045"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_silver_metal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CC9DBEAC8231F20"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_silver_metal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["548CE3B927114C4A"]
+			id: "0B8AF39B93EC5F4F"
+			rewards: [
+				{
+					id: "2A59E1F69B135ECC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "3A8EFDD93D89D137"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B1BE10DFCE08316"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0FF600F8C4DED312"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_copper_metal_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D1E72241B2D7601"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_copper_metal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31AF8933742E9F33"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_copper_metal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "102CCC4AB7B988AE"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_copper_metal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1D5864D214647772"]
+			id: "372914A9D0610C83"
+			rewards: [
+				{
+					id: "7E45D264C0D295C6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "115851C2B056C4E9"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48C31355ED7F0B89"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "338D6998AC5815D3"
+					item: {
+						Count: 1
+						id: "iceandfire:deathworm_yellow_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45AAAC27C5EB3E1A"
+					item: {
+						Count: 1
+						id: "iceandfire:deathworm_yellow_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6234BA1F22DD09C6"
+					item: {
+						Count: 1
+						id: "iceandfire:deathworm_yellow_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02FADF80B2C25ECC"
+					item: {
+						Count: 1
+						id: "iceandfire:deathworm_yellow_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["372914A9D0610C83"]
+			id: "06047B2AE5155F76"
+			rewards: [
+				{
+					id: "5A3AF4D79FA8EB31"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "12D33FC025A148B4"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E3723D11C29ED7C"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "60B4B3F8BE5C7C1C"
+					item: {
+						Count: 1
+						id: "iceandfire:myrmex_desert_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BC20B5323610696"
+					item: {
+						Count: 1
+						id: "iceandfire:myrmex_desert_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38374406301793A6"
+					item: {
+						Count: 1
+						id: "iceandfire:myrmex_desert_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BE357D342799019"
+					item: {
+						Count: 1
+						id: "iceandfire:myrmex_desert_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["06047B2AE5155F76"]
+			id: "358B759F214A9164"
+			rewards: [
+				{
+					id: "3FADA96EBAF8C3FB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "23336033DDC8D2FC"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7312BE73E62CD59F"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1B9122C71A9D8A6E"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_sapphire_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F62C13DDF22DB3F"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_sapphire_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6755A85EDE1528AE"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_sapphire_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "623511CAE3283A0B"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_sapphire_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["06047B2AE5155F76"]
+			id: "51CE4D12CB7B19A3"
+			rewards: [
+				{
+					id: "4AB7E98E52E6F5F2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "30E7397CC123D609"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73AE0AC8A9F80378"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5ED2BB46B65158DD"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_blue_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D6A42F00B31D8F0"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_blue_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CD93EC170ACA3F8"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_blue_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EA51403DD1C488F"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_blue_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7BF68C1AF247C3BE"]
+			id: "1D5864D214647772"
+			rewards: [
+				{
+					id: "21836CD7C7C6054D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "3F361F37894516EA"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "562D643A6F590A24"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7D31BE107BAB862A"
+					item: {
+						Count: 1
+						id: "iceandfire:forest_troll_leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65807692BA605E74"
+					item: {
+						Count: 1
+						id: "iceandfire:forest_troll_leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11BE499E2AF8D1B9"
+					item: {
+						Count: 1
+						id: "iceandfire:forest_troll_leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40E431083B8C2988"
+					item: {
+						Count: 1
+						id: "iceandfire:forest_troll_leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0E3083E39E276CC0"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "256FE2C9BF9F0832"
+			rewards: [
+				{
+					id: "0F6FC60AB672BC2B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "5DBC86ABB22A6836"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1197F5F0DCA4CF45"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "54ED4EE5375336AF"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_lightning"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0B8AF39B93EC5F4F"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "2CDD4FAAC9474C71"
+			rewards: [
+				{
+					id: "1674C0F8AEB9C06B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "6A2073C1CF897B0A"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27ADA630E90D26E5"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1CF652E2DD2FA2BC"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_ice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2CDD4FAAC9474C71"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "0E3083E39E276CC0"
+			rewards: [
+				{
+					id: "7618B7A391BAF4B9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "6CF6BFBE4EF2ED4A"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0ECDD5DE89A94106"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "08F4B43963AF1DD8"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonbone_sword_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["256FE2C9BF9F0832"]
+			hide_until_deps_visible: true
+			id: "4BDC842583BCA0EC"
+			rewards: [
+				{
+					id: "2D0C0A998A08944F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "34193B4700767719"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19DBBD601B24C285"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1EC2EE154724EDD9"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_lightning_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2CDD4FAAC9474C71"]
+			hide_until_deps_visible: true
+			id: "35FD3BA97613EEC0"
+			rewards: [
+				{
+					id: "139291FB5DB80938"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "164E106A36FBDA27"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "473B9CCA4BBDEC8E"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3E178AEBCAB456E6"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_ice_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0E3083E39E276CC0"]
+			hide_until_deps_visible: true
+			id: "3F35700F552969A4"
+			rewards: [
+				{
+					id: "66200B714A724B60"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "150422E1EA4895EE"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D696740ADA7D9C8"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "001BFF8BB93A87B6"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["457917A899EEE07E"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "56ADFF96F42F3D01"
+			rewards: [
+				{
+					id: "78CAB192C6100811"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "2BE5914FB77DFDD6"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0410960234BBCDA1"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "63F5F690D689DCC5"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_fire_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["56ADFF96F42F3D01"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "05E0F39350BA4772"
+			rewards: [
+				{
+					id: "3EB7C042FAEE477E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "6412FEDC122C47E7"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "515E0955958DDB5D"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "498B620A5B675D1E"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_lightning_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0B8AF39B93EC5F4F"]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			id: "457917A899EEE07E"
+			rewards: [
+				{
+					id: "57CC55E4A12DF622"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "405430447EEE1075"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39047DDD67D079F4"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5D8902CCCA62B27E"
+				item: {
+					Count: 1
+					id: "iceandfire:dragonsteel_ice_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5F7B4E456CD5AD52"]
+			description: [
+				"&dИнструменты из Драконьей стали&r — это инструменты, сделанные из слитков &6огненной&r, &bледяной&r или &eгрозовой&r Драконьей стали. Они &nочень прочные&r, полностью превосходя снаряжение из &0Незерита&r благодаря своим &o&bпассивным способностям&r и &o&bулучшенным характеристикам&r."
+				""
+				"Инструменты из &6огненной&r Драконьей стали наносят относительно &o&bбольшой урон&r, &o&bподжигая&r и &o&bотбрасывая&r цели. Инструменты из &bледяной&r Драконьей стали наносят относительно &nбольшой урон&r и &o&bзамораживают&r цели. Инструменты из &eгрозовой&r Драконьей стали наносят относительно &nбольшой урон&r и поражают цели &o&bмолнией&r."
+			]
+			hide_dependency_lines: true
+			id: "44117F70E9596B2B"
+			min_width: 320
+			rewards: [
+				{
+					id: "4338FACE47B3FB68"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "656573368718F734"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C548101BEDBA8C0"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4B58AD6B87C3A55D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonsteel_fire_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "243A5FE2300C83B6"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24391281CD9095B1"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0195F0095F73958E"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Инструменты из Драконьей стали"
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F7B4E456CD5AD52"]
+			description: [
+				"Основное назначение &dДраконьей брони&r — защищать дракона, который её носит, уменьшая получаемый урон в зависимости от использованного материала."
+				""
+				"Чтобы надеть броню, сначала откройте &o&bинвентарь дракона&r, нажав &eShift+ПКМ&r по его брюху."
+				""
+				"&dДраконья броня&r может быть скрафчена из блоков &6огненной&r, &bледяной&r или &eгрозовой&r Драконьей стали. Для крафта достаточного количества блоков, чтобы сделать &nполный комплект брони&r, требуется &o&b189&r слитков."
+			]
+			hide_dependency_lines: true
+			id: "79222FD515377830"
+			min_width: 320
+			rewards: [
+				{
+					id: "4662A692C910F680"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "643D9D2137D7684C"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "679BFB7E4A0BCDB0"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0F06D7E462C3DA96"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonarmor_dragonsteel_fire_head"
+					}
+					type: "item"
+				}
+				{
+					id: "28FA607B9BB8E9A4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonarmor_dragonsteel_fire_neck"
+					}
+					type: "item"
+				}
+				{
+					id: "4A904035CB0B06DC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonarmor_dragonsteel_fire_body"
+					}
+					type: "item"
+				}
+				{
+					id: "140BF893D4219CDF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonarmor_dragonsteel_fire_tail"
+					}
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5F7B4E456CD5AD52"]
+			description: [
+				"Сеты из Драконьей стали — &bЛедяной&r, &6Огненный&r или &eГрозовой&r — являются прямым улучшением &o&bсвоих костяных аналогов&r."
+				""
+				"Это означает, что &6огненные&r мечи из Драконьей стали имеют &nтот же&r эффект поджигания. Их &o&bбазовый урон&r намного выше, что делает &o&bковку&r стоящей всех хлопот."
+			]
+			id: "13F3473F3041F8BE"
+			min_width: 320
+			rewards: [
+				{
+					id: "77195E57F0E7C59C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "5F10B52D3D3ED295"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19C23B9F18DB86F7"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "020DE6BFBCDEE1BB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:dragonsteel_fire_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F7B4E456CD5AD52"]
+			description: [
+				"&5Броня из Драконьей стали&r — это броня, созданная из слитков &6огненной&r, &bледяной&r или &eгрозовой&r Драконьей стали."
+				""
+				"Она обеспечивает защиту от &o&bатак дыханием драконов&r."
+			]
+			hide_dependency_lines: true
+			id: "27158F9244EA2788"
+			min_width: 320
+			rewards: [
+				{
+					id: "6513317AF119C368"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "56F138539006F1FC"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7847549745DD6E4D"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0B8163CC79D96BCB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonsteel_fire_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65242A14D90B4D9E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonsteel_fire_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C3C724BB0741D1B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonsteel_fire_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "190DD10878E0A93B"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня из Драконьей стали"
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["586BC8112DF3B5FA"]
+			description: [
+				"Основное назначение &dДраконьей брони&r — защищать дракона, который её носит, уменьшая получаемый урон в зависимости от использованного материала."
+				""
+				"Чтобы надеть броню, сначала откройте &o&bинвентарь дракона&r, нажав &eShift+ПКМ&r по его брюху."
+				""
+				"&dДраконья броня&r может быть скрафчена из блоков &6огненной&r, &bледяной&r или &eгрозовой&r Драконьей стали. Для крафта достаточного количества блоков, чтобы сделать &nполный комплект брони&r, требуется &o&b189&r слитков."
+			]
+			hide_dependency_lines: true
+			id: "47FBF871DC42B9F0"
+			min_width: 320
+			rewards: [
+				{
+					id: "5DBBB53451858876"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "385DC4985E59F2FB"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BE0153E5FA11F5E"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2BB50C61CFDCF7EC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonarmor_dragonsteel_ice_head"
+					}
+					type: "item"
+				}
+				{
+					id: "4C060598F506EC3B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonarmor_dragonsteel_ice_neck"
+					}
+					type: "item"
+				}
+				{
+					id: "71A8630E47EE6B7F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonarmor_dragonsteel_ice_body"
+					}
+					type: "item"
+				}
+				{
+					id: "336AD3AD826B45AF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonarmor_dragonsteel_ice_tail"
+					}
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["586BC8112DF3B5FA"]
+			description: [
+				"Сеты из Драконьей стали — &bЛедяной&r, &6Огненный&r или &eГрозовой&r — являются прямым улучшением &o&bсвоих костяных аналогов&r."
+				""
+				"Это означает, что &bледяные&r мечи из Драконьей стали имеют эффект заморозки. Их &o&bбазовый урон&r намного выше, что делает &o&bковку&r стоящей всех хлопот."
+			]
+			id: "14B446040569CF12"
+			min_width: 320
+			rewards: [
+				{
+					id: "56AA8A9B0FC5599C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "5926C4F4D2065BDE"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BB6A9B839980140"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "00182983DB052CC2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:dragonsteel_ice_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["586BC8112DF3B5FA"]
+			description: [
+				"&5Броня из Драконьей стали&r — это броня, созданная из слитков &6огненной&r, &bледяной&r или &eгрозовой&r Драконьей стали."
+				""
+				"Она обеспечивает защиту от &o&bатак дыханием драконов&r."
+			]
+			hide_dependency_lines: true
+			id: "62638BBF2AB81B65"
+			min_width: 320
+			rewards: [
+				{
+					id: "391964ECBECDB281"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "2D7F16A9B190CD93"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1300B9433921A6DF"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6764550E33A8BB89"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonsteel_ice_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "252EC188505FE5C7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonsteel_ice_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40F9EF8BC3A1245D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonsteel_ice_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27422083033750AF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonsteel_ice_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня из Драконьей стали"
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["586BC8112DF3B5FA"]
+			description: [
+				"&dИнструменты из Драконьей стали&r — это инструменты, сделанные из слитков &6огненной&r, &bледяной&r или &eгрозовой&r Драконьей стали. Они &nчрезвычайно прочны&r, полностью превосходя снаряжение из &0Незерита&r благодаря своим &o&bпассивным способностям&r и &o&bулучшенным характеристикам&r."
+				""
+				"Инструменты из &bледяной&r Драконьей стали наносят относительно &nбольшой урон&r и &o&bзамораживают&r цели. "
+			]
+			hide_dependency_lines: true
+			id: "403F6D4DD0791D26"
+			min_width: 320
+			rewards: [
+				{
+					id: "0D256080E7CD915D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "7181E92B75C47882"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77AC3D7D6193118E"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "62CADCDBAA9522FA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonsteel_ice_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56F0C9ED878EED12"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17D7BC57B08E9D3F"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6012875D2914FEA5"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Инструменты из Драконьей стали"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2BFCFAF2EF10A54E"]
+			description: [
+				"&dИнструменты из Драконьей стали&r — это инструменты, сделанные из слитков &6огненной&r, &bледяной&r или &eгрозовой&r Драконьей стали. Они &nочень прочные&r, полностью превосходя снаряжение из &0Незерита&r благодаря своим &o&bпассивным способностям&r и &o&bулучшенным характеристикам&r."
+				""
+				"Инструменты из &6огненной&r Драконьей стали наносят относительно &o&bбольшой урон&r, &o&bподжигая&r и &o&bотбрасывая&r цели. Инструменты из &bледяной&r Драконьей стали наносят относительно &nбольшой урон&r и &o&bзамораживают&r цели. Инструменты из &eгрозовой&r Драконьей стали наносят относительно &nбольшой урон&r и поражают цели &o&bмолнией&r."
+			]
+			hide_dependency_lines: true
+			id: "27B5323C5BB49F13"
+			min_width: 320
+			rewards: [
+				{
+					id: "42DE1DB41017919D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "5AFD1A4EFD4DAC4D"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3ADDEA7715E4B48A"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3430B16A8D907830"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonsteel_lightning_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FD698BD9562DE0F"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19B46E5FE2660211"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01FB7BB9F6E85478"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Инструменты из Драконьей стали"
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BFCFAF2EF10A54E"]
+			description: [
+				"Основное назначение &dДраконьей брони&r — защищать дракона, который её носит, уменьшая получаемый урон в зависимости от использованного материала."
+				""
+				"Чтобы надеть броню, сначала откройте &o&bинвентарь дракона&r, нажав &eShift+ПКМ&r по его брюху."
+				""
+				"&dДраконья броня&r может быть скрафчена из блоков &6огненной&r, &bледяной&r или &eгрозовой&r Драконьей стали. Для крафта достаточного количества блоков, чтобы сделать &nполный комплект брони&r, требуется &o&b189&r слитков."
+			]
+			hide_dependency_lines: true
+			id: "7004E82094588EBB"
+			min_width: 320
+			rewards: [
+				{
+					id: "5D19133EC8F85D8B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "7523793DC390C648"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "320EB42213D356FF"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1D967B92490E8439"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonarmor_dragonsteel_lightning_head"
+					}
+					type: "item"
+				}
+				{
+					id: "6A3131582A002322"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonarmor_dragonsteel_lightning_neck"
+					}
+					type: "item"
+				}
+				{
+					id: "6F3E32777167185B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonarmor_dragonsteel_lightning_body"
+					}
+					type: "item"
+				}
+				{
+					id: "00F497242271FAF8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonarmor_dragonsteel_lightning_tail"
+					}
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2BFCFAF2EF10A54E"]
+			description: [
+				"&5Броня из Драконьей стали&r — это броня, сделанная из слитков &6огненной&r, &bледяной&r и &eгрозовой&r Драконьей стали."
+				""
+				"Она обеспечивает защиту от &o&bдыхательных атак драконов&r."
+			]
+			hide_dependency_lines: true
+			id: "59FAEE03C6A088F6"
+			min_width: 320
+			rewards: [
+				{
+					id: "1D44B40AA49FC655"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "4E570E02CD0F32D0"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22A48F5C3DC467AF"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7EB0842665A94EBA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonsteel_lightning_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D3097834AE87724"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonsteel_lightning_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F478F9039A9518A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonsteel_lightning_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F8D9AF90928043D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonsteel_lightning_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня из Драконьей стали"
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2BFCFAF2EF10A54E"]
+			description: [
+				"Сеты из Драконьей стали — &bЛедяной&r, &6Огненный&r или &eГрозовой&r — являются прямым улучшением &o&bсвоих костяных аналогов&r."
+				""
+				"&eГрозовые мечи&r поражают цели молнией. Их &o&bбазовый урон&r намного выше, что делает &o&bковку&r стоящей всех хлопот."
+			]
+			id: "6F46536FE6DBE744"
+			min_width: 320
+			rewards: [
+				{
+					id: "4B018CB1366FD9B9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "387652AAC7635937"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7844F10B5E74B1B5"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "718978BC9E6B3ED3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:dragonsteel_lightning_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["752042A08C0343CE"]
+			description: ["&5Слитки Драконьей стали&r — это мощный металл, создаваемый в &6Драконьей кузнице&r с использованием &3Дыхания дракона&r."]
+			id: "2BFCFAF2EF10A54E"
+			min_width: 320
+			rewards: [
+				{
+					id: "511CD0D5D2C6995E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "4D8CD2A06F296BB1"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E15F886DFACEA5C"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0864576AC8371698"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:dragonsteel_lightning_ingot"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["596E4BBBE5ECB9C5"]
+			description: ["&5Слитки Драконьей стали&r — это мощный металл, создаваемый в &6Драконьей кузнице&r с использованием &3Дыхания дракона&r."]
+			id: "586BC8112DF3B5FA"
+			min_width: 320
+			rewards: [
+				{
+					id: "237C74D94F1727EC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "1F4F037278813D46"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "018F5AAA723EEC27"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0A3BA92372E67F42"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:dragonsteel_ice_ingot"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["09882BA9CA9D8453"]
+			description: [
+				"&5Слитки Драконьей стали&r — это мощный металл, создаваемый в &6Драконьей кузнице&r с использованием &3Дыхания дракона&r."
+				""
+				"&6Слитки огненной Драконьей стали&r создаются из &o&bстального слитка&r и &o&bкрови огненного дракона&r в &6Огненной драконьей кузнице&r, питаемой драконом &o&b5&r, &o&b4&r, &o&b3&r или &o&b2 уровня&r — &6Огненным драконом&r. Для питания кузницы можно использовать как &nдикого&r, так и &nприрученного&r дракона."
+			]
+			id: "5F7B4E456CD5AD52"
+			min_width: 300
+			rewards: [
+				{
+					id: "5F3932D8D3F074CD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "3FA639E2CB1AF7B8"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E7A523281100D9C"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "291119A0B85E5C9D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:dragonsteel_fire_ingot"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["54761D5F9843BF91"]
+			description: [
+				"&dТухлое яйцо&r — это предмет, который &nкрайне редко&r (&o&b3.22%&r) &eКурица&r может снести &o&bвместо обычного яйца&r."
+				""
+				"Эти яйца &nнельзя&r использовать для приготовления &cТортов&r или для &o&bвысиживания цыплят&r. Однако, если его бросить, есть &o&b25%&r шанс прирученного &2Детёныша василиска&r, и &o&b3.125%&r шанс, что появится сразу &o&b4&r."
+				""
+				"Когда курица сносит &dТухлое яйцо&r, она издаёт болезненный крик, как будто &o&bполучила урон&r."
+			]
+			id: "05A7E9B1299D7219"
+			min_width: 300
+			rewards: [
+				{
+					id: "1B63CA89358AE58D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "2B92E2500C22FB22"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B1C7F21E9839BFA"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2C76D7A98BDB4E6E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:rotten_egg"
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&2Василиски&r — это кошмарные &o&bптицеподобные твари&r, которые рыщут по саваннам и &o&bвысасывают жизнь&r из всего, &nчто посмотрит на них&r пристальным взглядом."
+				""
+				"&2Василиски&r — это существа, внешне напоминающие &o&bдинозавра-дромеозаврида&r, с телом &9курицы&r, зубами и хвостом &aящерицы&r, крючковатым клювом и когтистыми чешуйчатыми руками. Они бывают &o&b4&r различных цветовых вариаций: Коричнево-зелёный петух (&nсамец&r) с &o&bзелёным хвостом&r (с тёмно-зелёными перьями на конце), Белая курица (&nсамка&r) с &o&bкоричневым хвостом&r, &5Птенец-самец&r с &o&bжёлтым пухом&r и &o&bзелёным хвостом&r, и &4Птенец-самка&r с &o&bбелым пухом&r и &o&bкоричневым хвостом&r."
+				""
+				"Детёнышей &2Василиски&r можно вылупить, бросив &3Тухлое яйцо&r."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "iceandfire:cockatrice"
+				}
+			}
+			id: "54761D5F9843BF91"
+			min_width: 350
+			rewards: [
+				{
+					id: "2DE190EB9607D22A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "3C4EC5343AC9E4A7"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AE9899CF7E162FC"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "iceandfire:cockatrice"
+				icon: "iceandfire:spawn_egg_cockatrice"
+				id: "1E45C7C4573B953A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.75d
+			y: -5.5d
+		}
+		{
+			dependencies: ["258C78455C763EA7"]
+			description: [
+				"The &5Cockatrice Scepter&r is a &o&2Legendary Weapon&r that &nwithers&r target when used and can target &o&bmultiple close entities&r."
+				""
+				"To do so &eRight-click&r and hold with the weapon on any entity. This weapon has a durability of &o&b700&r."
+			]
+			id: "25BBC91BCA52747E"
+			min_width: 300
+			rewards: [
+				{
+					id: "26663BEEAB8A4F83"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "57A0D36349A98D0E"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "171EA31AC4E6965F"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "31EF909E6ACC4895"
+				item: {
+					Count: 1
+					id: "iceandfire:cockatrice_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["54761D5F9843BF91"]
+			description: [
+				"&5Глаз василиска&r — это предмет, получаемый в качестве &nредкого выпадения&r (&o&b2.5%&r) с &eВасилиска&r, если он убит игроком."
+				""
+				"&5Глаз василиска&r используется для создания &6Скипетра василиска&r."
+			]
+			id: "258C78455C763EA7"
+			rewards: [
+				{
+					id: "7DEFC1118CDB2DD3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "2EA981DBE1D0C530"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "502261CE67104177"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "20D31091D8AAC312"
+				item: "iceandfire:cockatrice_eye"
+				type: "item"
+			}]
+			x: 11.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["752042A08C0343CE"]
+			description: ["&eКристалл призыва грозового дракона&r можно использовать, чтобы &o&bтелепортировать&r &o&bпривязанного&r &eГрозового дракона&r к себе, нажав &eПКМ&r."]
+			id: "2A58AD42BCAFD8E2"
+			min_width: 270
+			rewards: [
+				{
+					id: "4F4D39CC6ABDC9B0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "2C02B19A73EF1811"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B4CAB98CE0B787F"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "5B23E6674FBB4682"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:summoning_crystal_lightning"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["10A3EC802FAA1206"]
+			description: [
+				"&4Кровь дракона&r — это предмет, который можно получить, либо &nразлив по бутылкам&r &2Тушу мёртвого дракона&r (&o&bОбязательно должна быть с кожей&r), либо &nдобыв&r её из &9Склепа ужаса&r (&o&bВнутри склепа можно найти только Ледяную кровь дракона&r)."
+				""
+				"Её основное применение — создание &6Оружия из Крови дракона&r. Чтобы разлить по бутылкам &2Тушу мёртвого дракона&r, нажмите &eПКМ&r с пустыми бутылками. &nМаксимум&r &4Крови дракона&r, который можно получить с дракона &o&b3 уровня&r, составляет &o&b5-6&r. Это сильно отличается от драконов &o&b5 уровня&r, которые дают вам &o&b12&r &aсочных склянок&r крови."
+				""
+				"Вы &nне получите&r &dЧешую&r, &9Сердца дракона&r, &cПлоть&r, &3Яйца дракона&r (&o&b4+&r &2уровня&r), если вы &nполностью&r разольёте по бутылкам &4Кровь дракона&r. Если вы хотите получить &nкакие-либо дополнительные&r &dЧешуйки&r и другие предметы, оставьте для них место, &o&bне выцеживая столько крови&r, так как вам понадобится всего &o&b1-3&r, если вы находитесь на &o&bсередине игры&r."
+				""
+				"Когда вы достигнете &o&bконца игры&r, вам стоит начать &nполностью&r собирать &4Кровь дракона&r по бутылкам из-за &5Драконьей стали&r."
+			]
+			id: "752042A08C0343CE"
+			rewards: [
+				{
+					id: "094ADB09063931CE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "407A76A56BA09113"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52B9BC9D4F0C69BD"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6DD99A4A199CDD50"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:lightning_dragon_blood"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["752042A08C0343CE"]
+			description: [
+				"&3Драконий костяной меч&r можно &dулучшить&r с помощью &4Крови дракона&r на верстаке, чтобы получить варианты &6Пламенный&r, &bЛедяной&r или &eШоковый&r."
+				""
+				"&eГрозовой драконий костяной меч&r — это &o&2Легендарное оружие&r"
+				""
+				"&cУрон&r: &o&b+9.5&r и &o&b+4&r урона против &bЛедяных драконов&r и &6Огненных драконов&r"
+				"&aПрочность&r: &o&b2 000&r"
+				""
+				"Поражает цели &eмолнией&r."
+			]
+			id: "4374C6812B288DC4"
+			min_width: 310
+			rewards: [
+				{
+					id: "768EA10D7B556A4F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "4AA06EA981CF15CC"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55F94E2A445BE0E6"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "45E1BEE12E41FE41"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:dragonbone_sword_lightning"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["596E4BBBE5ECB9C5"]
+			description: ["&bКристалл призыва ледяного дракона&r можно использовать, чтобы &o&bтелепортировать&r &o&bпривязанного&r &bЛедяного дракона&r к себе, нажав &eПКМ&r."]
+			id: "44D34FC0F25E3719"
+			min_width: 270
+			rewards: [
+				{
+					id: "6992C583ACD53158"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "4AF1FCD4AF15827F"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14C31C0052473EB3"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "7DA3080F2B3E02F7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:summoning_crystal_ice"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E9CCB8DB588089C"]
+			description: [
+				"&4Кровь дракона&r — это предмет, который можно получить, либо &nразлив по бутылкам&r &2Тушу мёртвого дракона&r (&o&bОбязательно должна быть с кожей&r), либо &nдобыв&r её из &9Склепа ужаса&r (&o&bВнутри склепа можно найти только Ледяную кровь дракона&r)."
+				""
+				"Её основное применение — создание &6Оружия из Крови дракона&r. Чтобы разлить по бутылкам &2Тушу мёртвого дракона&r, нажмите &eПКМ&r с пустыми бутылками. &nМаксимум&r &4Крови дракона&r, который можно получить с дракона &o&b3 уровня&r, составляет &o&b5-6&r. Это сильно отличается от драконов &o&b5 уровня&r, которые дают вам &o&b12&r &aсочных склянок&r крови."
+				""
+				"Вы &nне получите&r &dЧешую&r, &9Сердца дракона&r, &cПлоть&r, &3Яйца дракона&r (&o&b4+&r &2уровня&r), если вы &nполностью&r разольёте по бутылкам &4Кровь дракона&r. Если вы хотите получить &nкакие-либо дополнительные&r &dЧешуйки&r и другие предметы, оставьте для них место, &o&bне выцеживая столько крови&r, так как вам понадобится всего &o&b1-3&r, если вы находитесь на &o&bсередине игры&r."
+				""
+				"Когда вы достигнете &o&bконца игры&r, вам стоит начать &nполностью&r собирать &4Кровь дракона&r по бутылкам из-за &5Драконьей стали&r."
+			]
+			id: "596E4BBBE5ECB9C5"
+			rewards: [
+				{
+					id: "445B2D04683544E5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "67F0EA6E9EE86ECB"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16D112C2D26F4310"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7FBEC95AA1D594A6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:ice_dragon_blood"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["596E4BBBE5ECB9C5"]
+			description: [
+				"&3Драконий костяной меч&r можно &dулучшить&r с помощью &4Крови дракона&r на верстаке, чтобы получить варианты &6Пламенный&r, &bЛедяной&r или &eШоковый&r."
+				""
+				"&bЛедяной драконий костяной меч&r — это &o&2Легендарное оружие&r"
+				""
+				"&cУрон&r: &o&b+9.5&r и &o&b+8&r урона &6Огненным драконам&r"
+				"&aПрочность&r: &o&b2 000&r"
+				""
+				"&9Замороживает&r врагов."
+			]
+			id: "668B64CA5C7C8280"
+			min_width: 300
+			rewards: [
+				{
+					id: "066CA591369B1C33"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "329D51DC911ECEA9"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34C0E57962079B58"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "2412808E16ABCE1F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:dragonbone_sword_ice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["09882BA9CA9D8453"]
+			description: ["&6Кристалл призыва огненного дракона&r можно использовать, чтобы &o&bтелепортировать&r &o&bпривязанного&r &6Огненного дракона&r к себе, нажав &eПКМ&r."]
+			id: "42178C8AE0F6403F"
+			min_width: 270
+			rewards: [
+				{
+					id: "17B93C047BD5C0C3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "36BB314AC84262E0"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F8DE5C97080755D"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "016600D915AF06DE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:summoning_crystal_fire"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1EE1729CD3AEBD42"]
+			description: [
+				"&4Кровь дракона&r — это предмет, который можно получить, либо &nразлив по бутылкам&r &2Тушу мёртвого дракона&r (&o&bОбязательно должна быть с кожей&r), либо &nдобыв&r её из &9Склепа ужаса&r (&o&bВнутри склепа можно найти только Ледяную кровь дракона&r)."
+				""
+				"Её основное применение — создание &6Оружия из Крови дракона&r. Чтобы разлить по бутылкам &2Тушу мёртвого дракона&r, нажмите &eПКМ&r с пустыми бутылками. &nМаксимум&r &4Крови дракона&r, который можно получить с дракона &o&b3 уровня&r, составляет &o&b5-6&r. Это сильно отличается от драконов &o&b5 уровня&r, которые дают вам &o&b12&r &aсочных склянок&r крови."
+				""
+				"Вы &nне получите&r &dЧешую&r, &9Сердца дракона&r, &cПлоть&r, &3Яйца дракона&r (&o&b4+&r &2уровня&r), если вы &nполностью&r разольёте по бутылкам &4Кровь дракона&r. Если вы хотите получить &nкакие-либо дополнительные&r &dЧешуйки&r и другие предметы, оставьте для них место, &o&bне выцеживая столько крови&r, так как вам понадобится всего &o&b1-3&r, если вы находитесь на &o&bсередине игры&r."
+				""
+				"Когда вы достигнете &o&bконца игры&r, вам стоит начать &nполностью&r собирать &4Кровь дракона&r по бутылкам из-за &5Драконьей стали&r."
+			]
+			id: "09882BA9CA9D8453"
+			min_width: 300
+			rewards: [
+				{
+					id: "357CF9EB57BDCBEA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "7F1C45CC6BBA7CED"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05B1604E3D485A6E"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5C404584B3F960AD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:fire_dragon_blood"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["09882BA9CA9D8453"]
+			description: [
+				"&3Драконий костяной меч&r можно &dулучшить&r с помощью &4Крови дракона&r на верстаке, чтобы получить варианты &6Пламенный&r, &bЛедяной&r или &eШоковый&r."
+				""
+				"&6Пламенный драконий костяной меч&r — это &o&2Легендарное оружие&r"
+				""
+				"&cУрон&r: &o&b+9.5&r и &o&b+8&r урона &bЛедяным драконам&r"
+				"&aПрочность&r: &o&b2 000&r"
+				""
+				"&eПоджигает&r, но не зажаривает добычу и отбрасывает врагов."
+			]
+			id: "2D16B44C7D383ED2"
+			min_width: 300
+			rewards: [
+				{
+					id: "655FF0FCACEAD754"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "744AC820C964B0A0"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1900AC80CE23506B"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "46211E84A1A68344"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:dragonbone_sword_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E8A99E032F0A61D"]
+			description: [
+				"&6Драконья кузница&r используется для создания соответствующих &dслитков Драконьей стали&r своего типа с помощью &o&bбутылочек с кровью дракона&r и &3стальных&r слитков."
+				""
+				"Когда дракон &o&b3+ уровня&r находится рядом с полностью построенной &6Драконьей кузницей&r, он &nавтоматически&r дышит на неё соответствующим дыханием и начинает процесс создания &dслитков Драконьей стали&r."
+				""
+				"Обратите внимание, что &nтип&r &4Крови дракона&r, &6Драконьей кузницы&r и &2Дракона&r &b&oдолжен совпадать&r."
+				""
+				"Важно отметить, что &6Драконья кузница&r — это не просто один крафтовый блок, а куб из блоков размером &o&b3x3x3&r. Требуемые блоки следующие: &o&b1&r &5Ядро драконьей кузницы&r, &o&b1&r &aВход драконьей кузницы&r (&o&bОтверстие драконьей кузницы&r), &o&b8&r &7Блоков костей дракона&r и &o&b17&r &9Кирпичей драконьей кузницы&r."
+				""
+				"Проверьте &bЛедяную драконью кузницу&r для получения дополнительной информации."
+			]
+			id: "1EE1729CD3AEBD42"
+			min_width: 300
+			rewards: [
+				{
+					id: "25370EF9C2251108"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "0FF29A6D1B2FFED3"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04E0F6248D92F792"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "271D0655DFDC38C1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonforge_fire_core_disabled"
+					}
+					type: "item"
+				}
+				{
+					id: "6D8E55A1B7236BEB"
+					item: "iceandfire:dragonforge_fire_input"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "364FB1FA9539C401"
+					item: "iceandfire:dragon_bone_block"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "226A24AF1EB2080F"
+					item: "iceandfire:dragonforge_fire_brick"
+					type: "item"
+				}
+			]
+			title: "&6Драконья кузница&r"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["40E40EAE5E9F826B"]
+			description: [
+				"&6Сердце дракона&r — это предмет, выпадающий &o&bпри убийстве дракона&r."
+				""
+				"&4Огненные драконы&r роняют сердце &o&bкрасного/оранжевого&r цвета, &bЛедяные драконы&r — &o&bголубого&r, а &5Грозовые драконы&r — &o&bфиолетового&r. Их основное применение — создание &3Драконьей кузницы&r. Кроме того, из них также можно сделать &o&bуникальный узор для знамени&r."
+			]
+			id: "4E8A99E032F0A61D"
+			min_width: 300
+			rewards: [
+				{
+					id: "53BDBA5FD2520DFD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "27034F7AAE9446C6"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0725389F7AE029A9"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7D894C9A604C81A7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:fire_dragon_heart"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4338263D9AD6EF0C"]
+			description: [
+				"&9Драконьи кирпичи&r можно скрафтить из &6Чешуи дракона&r, причём получаемые &9Драконьи кирпичи&r зависят от &nтипа чешуи&r (&4Огненной&r, &bЛедяной&r или &eГрозовой&r)."
+				""
+				"&9Драконьи кирпичи&r можно добывать &nлюбой&r киркой &o&bалмазного уровня или выше&r. При добыче &nбез&r кирки алмазного уровня или выше &nничего не выпадает&r."
+				""
+				"&9Драконьи кирпичи&r в основном используются для создания &5Драконьей кузницы&r."
+			]
+			id: "40E40EAE5E9F826B"
+			min_width: 300
+			rewards: [
+				{
+					id: "753E668BB1407A5C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "399ECED69429312A"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E4D5B99B7207287"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "21EAAB181975526E"
+				item: "iceandfire:dragonforge_fire_brick"
+				type: "item"
+			}]
+			title: "&9Драконьи кирпичи&r"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["78DE93CC03F45921"]
+			description: [
+				"&9Драконьи кирпичи&r можно скрафтить из &6Чешуи дракона&r, причём получаемые &9Драконьи кирпичи&r зависят от &nтипа чешуи&r (&4Огненной&r, &bЛедяной&r или &eГрозовой&r)."
+				""
+				"&9Драконьи кирпичи&r можно добывать &nлюбой&r киркой &o&bалмазного уровня или выше&r. При добыче &nбез&r кирки алмазного уровня или выше &nничего не выпадает&r."
+				""
+				"&9Драконьи кирпичи&r в основном используются для создания &5Драконьей кузницы&r."
+			]
+			id: "46F53F4EBEC22267"
+			rewards: [
+				{
+					id: "5866EA59701D9994"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "27BC619D03808BEC"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D7CEA2DCFF5B8CD"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "446E1539B246BB6D"
+				item: "iceandfire:dragonforge_ice_brick"
+				type: "item"
+			}]
+			title: "&9Драконьи кирпичи&r"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46F53F4EBEC22267"]
+			description: [
+				"&6Сердце дракона&r — это предмет, выпадающий &o&bпри убийстве дракона&r."
+				""
+				"&4Огненные драконы&r роняют сердце &o&bкрасного/оранжевого&r цвета, &bЛедяные драконы&r — &o&bголубого&r, а &5Грозовые драконы&r — &o&bфиолетового&r. Их основное применение — создание &3Драконьей кузницы&r. Кроме того, из них также можно сделать &o&bуникальный узор для знамени&r."
+			]
+			id: "569F7C8844F12952"
+			rewards: [
+				{
+					id: "11951ECB989A96DB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "23160C280F546FE6"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "054A4351160B982B"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6ACBBD5825CEC2CD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:ice_dragon_heart"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["569F7C8844F12952"]
+			description: [
+				"После правильной постройки вы можете поместить внутрь &3Стальные слитки&r и &4Кровь дракона&r. В зависимости от того, &o&bкакую кузницу&r вы использовали, будет создан &dДраконья сталь&r &o&bтого же типа&r, что и &6Драконья кузница&r."
+				""
+				"Когда вы будете готовы создать &3Драконью сталь&r, вам понадобится &2Дракон&r &o&b3+ уровня&r &nтого типа&r, &5Драконью сталь&r которого вы хотите &o&bполучить&r."
+				""
+				"&nРекомендуется&r строить &6Драконью кузницу&r подальше от базы, так как  &nвсё&r вокруг неё будет либо объято &cогнём&r, либо &9заморожено&r, в зависимости от типа кузницы&r."
+			]
+			id: "3E9CCB8DB588089C"
+			min_width: 300
+			rewards: [
+				{
+					id: "598814FB8CFBBE90"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "250EC3C50537AEAA"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "290D72094F325C65"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "140B68DC0D47D547"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonforge_ice_core_disabled"
+					}
+					type: "item"
+				}
+				{
+					id: "52D3CE0DF2DB9ACE"
+					item: "iceandfire:dragonforge_ice_input"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5F3F3372D6144914"
+					item: "iceandfire:dragon_bone_block"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "75035AF65004AFEA"
+					item: "iceandfire:dragonforge_ice_brick"
+					type: "item"
+				}
+			]
+			title: "&6Драконья кузница&r"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66764D2E1627DD07"]
+			description: [""]
+			id: "10A3EC802FAA1206"
+			min_width: 300
+			rewards: [
+				{
+					id: "6A0D14803E02E574"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "721F98161F366971"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F27C80D0504EEEF"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1FD3F38D39B12233"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonforge_lightning_core_disabled"
+					}
+					type: "item"
+				}
+				{
+					id: "37CACB65D66BED1A"
+					item: "iceandfire:dragonforge_lightning_input"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7BEA714B91C48E00"
+					item: "iceandfire:dragon_bone_block"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "2768329DD8282F15"
+					item: "iceandfire:dragonforge_lightning_brick"
+					type: "item"
+				}
+			]
+			title: "&6Драконья кузница&r"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23CDD6B3A75C0039"]
+			description: [
+				"&6Сердце дракона&r — это предмет, выпадающий &o&bпри убийстве дракона&r."
+				""
+				"&4Огненные драконы&r роняют сердце &o&bкрасного/оранжевого&r цвета, &bЛедяные драконы&r — &o&bголубого&r, а &5Грозовые драконы&r — &o&bфиолетового&r. Их основное применение — создание &3Драконьей кузницы&r. Кроме того, из них также можно сделать &o&bуникальный узор для знамени&r."
+			]
+			id: "66764D2E1627DD07"
+			rewards: [
+				{
+					id: "1C3EA654C45C63EF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "4EB6964A3ACED843"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F8B7D4C0E968B73"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "127992F6E81C4BB9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:lightning_dragon_heart"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0047A5D92B057234"
+				"7E2723DCFE5FBCBB"
+			]
+			description: [
+				"&6Флейта сирены&r — это мощное &o&2Легендарное оружие&r, связанное с &eСиреной&r."
+				""
+				"При использовании &6Флейта сирены&r заставит большинство ближайших мобов &nвременно&r &o&bвлюбиться в вас&r и стать &nпассивными&r существами на &o&b10&r секунд."
+			]
+			id: "78AF108A06581B8A"
+			min_width: 300
+			rewards: [
+				{
+					id: "1E96D4F9C2EBE243"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "52897A8FA77FBDC9"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08B0DE436BFB542C"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6F0F3458A9C0EBEE"
+				item: {
+					Count: 1
+					id: "iceandfire:siren_flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.75d
+			y: -8.5d
+		}
+		{
+			description: ["&6Блестящая чешуя&r — это &nобычный выпад&r с &eСирены&r и &dГиппокампа&r, в большинстве случаев дающий &o&b1-4&r чешуек после смерти."]
+			hide_dependency_lines: true
+			id: "7E2723DCFE5FBCBB"
+			rewards: [
+				{
+					id: "5F6EBEAAAD7D734B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "5C6BB1923BBFC5DB"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69FEA82DE4AD534C"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 12L
+				id: "3F6F454C67E459E2"
+				item: "iceandfire:shiny_scales"
+				title: "Shiny Scales"
+				type: "item"
+			}]
+			x: 8.75d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0DBDC4BAA4465307"]
+			description: [
+				"&5Кинжал стимфалийской птицы&r — это &o&2Легендарное оружие&r, связанное с &eСтимфалийскими птицами&r."
+				""
+				"Он &o&bатакует&r как обычный меч, но &nочень быстр&r, наносит &o&b6&r единиц &cурона&r (равно &3Железному мечу&r) и имеет огромную &o&b3&r &aскорости атаки&r."
+			]
+			id: "5D715FBCE0F2D6DC"
+			min_width: 300
+			rewards: [
+				{
+					id: "1DC706CFD03C0332"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "20CA61FB2989305B"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C4E46FF9F44D409"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4BC5D4685ED6B945"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:stymphalian_bird_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.75d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0DBDC4BAA4465307"]
+			description: [
+				"&5Связка перьев стимфалийской птицы&r — это &o&2Легендарное оружие&r, связанное с &eСтимфалийской птицей&r."
+				""
+				"Это предмет &nодноразового использования&r, который выпускает перья в &o&bвосьми направлениях&r вокруг пользователя. Подобрать можно только &nодно&r из перьев."
+			]
+			id: "04B14007299FC09B"
+			min_width: 300
+			rewards: [
+				{
+					id: "2DC29FDF629069FA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "5D566A4993E0473A"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E1B9138721D8B0B"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7B39B712FD1F9D74"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:stymphalian_feather_bundle"
+				}
+				type: "item"
+			}]
+			x: 9.75d
+			y: -8.5d
+		}
+		{
+			description: [
+				"&cСтимфалийские птицы&r — это кровожадные плотоядные птицы, которые летают над &o&bболотистыми местностями&r стаями по &o&b3-20&r особей и пускают в свою добычу &o&bметаллические перья&r."
+				""
+				"При смерти &cСтимфалийские птицы&r выкидывают:"
+				""
+				"&o&b2-6&r &eперьев стимфалийской птицы&r"
+				"&o&b0-4&r &3железных&r слитка"
+				"&o&b1&r &dчереп стимфалийской птицы&r (шанс &o&b2.5%&r)"
+				"&o&b0-4&r &6медных&r слитка"
+				"&o&b0-4&r &6медных&r самородка"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "iceandfire:stymphalian_bird"
+				}
+			}
+			id: "0DBDC4BAA4465307"
+			min_width: 300
+			rewards: [
+				{
+					id: "06F1832DA5F2A047"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "4A0183BB471741F0"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EB796ED24588907"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				entity: "iceandfire:stymphalian_bird"
+				icon: "iceandfire:spawn_egg_stymphalian_bird"
+				id: "4A1C0183960C771D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.75d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0DBDC4BAA4465307"]
+			description: [
+				"&2Стрелы стимфалийской птицы&r — это стрелы, созданные с использованием перьев &eСтимфалийской птицы&r вместо обычных перьев."
+				""
+				"Они обладают &o&bособой способностью&r: &nне подвержены&r гравитации, что делает их &nочень полезными&r на &o&bбольших дистанциях&r, куда &o&bобычными стрелами попасть&r было бы сложно."
+			]
+			id: "425F7CE940B05FD5"
+			min_width: 240
+			rewards: [
+				{
+					id: "385B61C8575E74A3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "24086547515D3E11"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08A7F53ABE538053"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "6D865AB19B0DEA16"
+				item: "iceandfire:stymphalian_arrow"
+				type: "item"
+			}]
+			title: "Stymphalian Arrows"
+			x: 10.75d
+			y: -7.5d
+		}
+		{
+			dependencies: ["339AB5DB4166878E"]
+			description: ["&dКоготь гиппогрифа&r — это предмет, получаемый в качестве &nредкого выпадения&r (&o&b2.5%&r) с &eГиппогрифа&r, если он убит игроком."]
+			id: "0D1A2A3B6AAAACF8"
+			rewards: [
+				{
+					id: "69B866F4625230AD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "29F220CFAAE0DE8B"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B5CFD402DB216F2"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "799A78A95F1E1E3D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:hippogryph_talon"
+				}
+				type: "item"
+			}]
+			x: 11.75d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0D1A2A3B6AAAACF8"]
+			description: [
+				"&5Меч из когтя гиппогрифа&r — это &o&2Легендарное оружие&r, связанное с &eГиппогрифами&r."
+				""
+				"Он атакует как &nобычный меч&r и создаётся из &0Когтей гиппогрифа&r."
+				""
+				"Наносит дополнительный урон. Когда в главной руке:"
+				""
+				"&o&b1.6&r &aСкорости атаки&r, &o&b6.5&r &cУрона атаки&r."
+			]
+			id: "56E6BF8029B230A5"
+			min_width: 320
+			rewards: [
+				{
+					id: "085906416040DE9F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "37ED68800D3AC2D7"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3909E544542563A6"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "183F1D786B45816C"
+				item: {
+					Count: 1
+					id: "iceandfire:hippogryph_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.75d
+			y: -6.5d
+		}
+		{
+			description: ["&7Бивень тролля&r — это предмет, выпадающий при убийстве &eТроллей&r. Используется в рецепте &9Брони из шкуры тролля&r."]
+			id: "3491C4CCEF1E4619"
+			min_width: 225
+			rewards: [
+				{
+					id: "3E5A3F68FB76CA37"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "760A9A60E5DF636D"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35C66F5D015384B9"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3CCFEDCC39DC3992"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:troll_tusk"
+				}
+				type: "item"
+			}]
+			x: 10.75d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&dГолова горгоны&r — это &o&2Легендарное оружие&r, а также &nодноразовый предмет&r, который может превратить &o&bодного моба на ваш выбор&r (&nкроме&r &0Дракона Края&r) в статую, точно так же, как это делает живая &3Горгона&r. Однако на &9Смертельных червей&r это &nне действует&r из-за отсутствия у них глаз."
+				""
+				"&7Скелеты драконов&r можно превратить в камень, и &o&bдаже разграбить&r после этого. Однако &o&bесли вы разграбите&r скелет &nпосле&r того, как превратите его в камень, то &o&bон исчезнет полностью&r. Также его можно использовать для создания &o&bуникального узора для знамени&r."
+				""
+				"Вы можете разбить каменную статую, ударив по ней киркой &o&b10&r раз; кирка с &dШёлковым касанием&r позволяет получить саму статую."
+			]
+			id: "5F9AC0AB15154C7D"
+			min_width: 300
+			rewards: [
+				{
+					id: "1E72B03861B9F051"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "5EBFADD682024AE4"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "275A2E2E1243F664"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2A8CB89E57A1253E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:gorgon_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.75d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&5Глаз циклопа&r — это &o&2Легендарное оружие&r, выпадающее с &eЦиклопа&r после смерти."
+				""
+				"Когда &5Глаз циклопа&r находится в любой из рук, он даёт &dСлабость II&r ближайшим &nвраждебным&r мобам. Следует отметить, что этот эффект &o&bработает только против атак ближнего боя&r, что делает его бесполезным против &o&bдальнобойного оружия&r и особых атак, таких как &o&bстрелы скелетов&r, &o&bвзрывы криперов&r, &o&bдыхание драконов&r и &o&bиссушающие лучи петуатриксов&r."
+			]
+			id: "4576D3B3A1577D84"
+			min_width: 340
+			rewards: [
+				{
+					id: "01A913E58B5D3A36"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "44A7B95817A374D1"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FF6D616F65E7042"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "27630217A1027FC1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:cyclops_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.75d
+			y: -6.5d
+		}
+		{
+			dependencies: ["64F7780D82B56A8D"]
+			description: [
+				"&dЭктоплазма&r — это частый выпад с &eПризраков&r."
+				""
+				"Её также можно найти в &o&bкладбищенских сундуках&r. Используется для создания &aПроклятого сундука&r и &cКладбищенской почвы&r."
+				""
+				"Создайте &o&bбольшой участок кладбищенской почвы&r, на котором &nбудут появляться призраки&r вместо обычных мобов. Обратите внимание, что &bПризраки&r, появившиеся из &aПроклятых сундуков&r, не могут выкинуть &dЭктоплазму&r или &9Призрачные слитки&r."
+			]
+			id: "5474A3F78B629DB9"
+			min_width: 280
+			rewards: [
+				{
+					id: "3F3C9617FBA32C16"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "0C7F9A33D12C7288"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25B05B1E1FC6E80F"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "33EAA179E3DA3CBB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:ectoplasm"
+				}
+				type: "item"
+			}]
+			x: 9.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2E484E07D5C38F84"]
+			description: [
+				"&5Хлопушка гиппокампа&r — это комичное &o&2Легендарное оружие&r ближнего боя, связанное с &eГиппокампом&r."
+				""
+				"&5Хлопушка гиппокампа&r имеет ту же &o&bскорость атаки&r, что и меч, но наносит всего &o&b2&r &cединицы урона&r за удар. Вдобавок, &5Хлопушка гиппокампа&r накладывает на цель эффекты &dТошноты II&r (&o&b0:05&r) и &dЗамедления II&r (&o&b0:05&r)."
+			]
+			id: "1B5106514B471C24"
+			min_width: 300
+			rewards: [
+				{
+					id: "18310A9EF000BB4D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "02A6E0B135B384F8"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FC44B402C078D15"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4C7CF1ED5767319E"
+				item: {
+					Count: 1
+					id: "iceandfire:hippocampus_slapper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.75d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7E2723DCFE5FBCBB"]
+			description: ["&9Плавник гиппокампа&r — это предмет, получаемый в качестве &nредкого выпадения&r (&o&b2.5%&r) с &eГиппокампа&r, если он убит игроком."]
+			id: "2E484E07D5C38F84"
+			rewards: [
+				{
+					id: "171AFBD29FC0CC5B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "27843A0AAAABC3AB"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C49AE718480012D"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "73D090551A2D64B5"
+				item: "iceandfire:hippocampus_fin"
+				type: "item"
+			}]
+			x: 9.75d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1B2BDBEA1BEF2D23"]
+			description: [
+				"&dТрезубец прилива&r — это &o&2Легендарное оружие&r, связанное с мобом &eЛевиафан&r."
+				""
+				"&dТрезубец прилива&r — это &nочень мощное&r оружие-трезубец, которое может &o&bпронзать несколько врагов&r насквозь. Его можно &o&bзарядить&r, а затем метнуть во врага, чтобы нанести урон."
+			]
+			id: "36B2CCC6F007D418"
+			min_width: 270
+			rewards: [
+				{
+					id: "4E2FC91156BEE2F5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "13399F8FB587A12F"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65F6BF6FA576948B"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5A38443A88BBA2D8"
+				item: {
+					Count: 1
+					id: "iceandfire:tide_trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.75d
+			y: -6.5d
+		}
+		{
+			description: [
+				"&6Призраки&r — это гневные духи, которые по ночам преследуют свои места захоронений и неустанно досаждают нарушителям."
+				""
+				"&6Призраков&r можно найти на &3Кладбищах&r — небольших огороженных участках захоронений, которые случайным образом появляются во всех биомах; они поднимаются из &7Кладбищенской почвы&r ночью, а также появляются, когда открыть &eПроклятый сундук&r, спрятанный в небольшой катакомбе. Кроме того, они могут появиться, если игрок убит другим игроком."
+				""
+				"При смерти призраки выкидывают:"
+				""
+				"&o&b0-1&r кусок &bЭктоплазмы&r"
+				"&o&b1&r &dПризрачный слиток&r (шанс &o&b2.5%&r)"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "iceandfire:ghost"
+				}
+			}
+			id: "64F7780D82B56A8D"
+			min_width: 300
+			rewards: [
+				{
+					id: "59EF09F66BB905B1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "7105AE62A0187F67"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58BE9EA5108CD603"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				entity: "iceandfire:ghost"
+				icon: "iceandfire:spawn_egg_ghost"
+				id: "18045AD6C9EFCDA5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.75d
+			y: -5.0d
+		}
+		{
+			dependencies: ["64F7780D82B56A8D"]
+			description: [
+				"&6Призрачный слиток&r — это предмет выпадения, который можно использовать в &cКузнечном столе&r вместе с &3Драконьим костяным мечом&r, чтобы создать &dПризрачный меч&r."
+				""
+				"&6Призрачный слиток&r выпадает с &eПризраков&r с шансом &o&b2.5%&r."
+			]
+			id: "1E4783908222E61C"
+			min_width: 225
+			rewards: [
+				{
+					id: "63AD8E142CF415BD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "1ED80C74A03D2B45"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30162ACE65737263"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0A74D7E989DA4C88"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:ghost_ingot"
+				}
+				type: "item"
+			}]
+			x: 7.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1B2BDBEA1BEF2D23"]
+			description: [
+				"&9Стрелы прилива&r — это боеприпасы для &eлука&r. Они &nне намокают&r в воде!"
+				""
+				"Для создания &9Стрел прилива&r вам понадобятся &dЧешуя морского змея&r (&nлюбого цвета&r), &3палка&r и &aКлык морского змея&r."
+			]
+			id: "6E6CF051655D0C41"
+			min_width: 240
+			rewards: [
+				{
+					id: "3613F16F0D0F1F64"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "50C258891E1A7CDA"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FE329D17177E69D"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "4C72A38B48886F9D"
+				item: "iceandfire:sea_serpent_arrow"
+				type: "item"
+			}]
+			title: "Tide Arrows"
+			x: 7.75d
+			y: -7.5d
+		}
+		{
+			description: ["&aКлык левиафана&r — это предмет, получаемый в качестве выпадения с &3Морского змея&r и используемый для создания &dТрезубца прилива&r и &eСтрел прилива&r."]
+			id: "1B2BDBEA1BEF2D23"
+			rewards: [
+				{
+					id: "31C7A54BB6350969"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "59CD22F7AEC10513"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7ADA7A449393399A"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7AFC4E589642968A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:sea_serpent_fang"
+				}
+				type: "item"
+			}]
+			x: 7.75d
+			y: -6.5d
+		}
+		{
+			description: ["&6Слеза сирены&r — это предмет, получаемый в качестве &nредкого выпадения&r (&o&b2.5%&r) с &eСирены&r, если она убита игроком."]
+			hide_dependency_lines: true
+			id: "0047A5D92B057234"
+			rewards: [
+				{
+					id: "21CCCF655A2E9CD6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "43A70AFA3E20AE4E"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E9DD94541930EA4"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7746B0AAC5A7CF68"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:siren_tear"
+				}
+				type: "item"
+			}]
+			x: 7.75d
+			y: -8.5d
+		}
+		{
+			description: ["&cКлыки гидры&r — это обычный выпад с &eГидры&r, используемый для создания &9Стрел гидры&r."]
+			id: "0ADD071E01154009"
+			rewards: [
+				{
+					id: "2DD5390E957E90BF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "0045D435721E8774"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "205D385F3547E38C"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0F62115205D793EF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:hydra_fang"
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0ADD071E01154009"]
+			description: ["&5Стрелы гидры&r — это боеприпасы для &3лука&r, которые &nотравляют&r цели и &nвысасывают из них жизнь&r."]
+			id: "1FAC7A56D40CB602"
+			rewards: [
+				{
+					id: "5F648C545DEA22FD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "199A33DB5D20A5B1"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A6A45DA4825600C"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "547CEDEFF4D54F66"
+				item: "iceandfire:hydra_arrow"
+				type: "item"
+			}]
+			title: "Hydra Arrows"
+			x: 6.75d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1FAC7A56D40CB602"]
+			description: [
+				"&5Сердце гидры&r — это редкий выпад с &eГидры&r и &o&2Легендарное оружие&r."
+				""
+				"Находясь на &3панели быстрого доступа&r, оно даёт усиливающуюся &dРегенерацию&r в зависимости от того, насколько ранен владелец. &nЧем ниже&r ваше здоровье, тем &nсильнее&r будет регенерация."
+			]
+			id: "77444F5105A251CC"
+			min_width: 230
+			rewards: [
+				{
+					id: "21A9EDA3A46706C7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "75065138652065D9"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "505B91A40D4AAB85"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "49336133B2F9E1AE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:hydra_heart"
+				}
+				type: "item"
+			}]
+			x: 6.75d
+			y: -6.5d
+		}
+		{
+			dependencies: ["53F95089CB6FF9CF"]
+			description: ["&6Стрелы амфитеры&r — это боеприпасы для &3лука&r, которые &nотбрасывают&r всех мобов назад силой &dкрыльев амфитеры&r!"]
+			id: "5C3C5DB070C1A47C"
+			rewards: [
+				{
+					id: "549067A276718780"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "62886DD71C4618BF"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D4CCEE295A989FB"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "7F792D9A2B1FA1CD"
+				item: "iceandfire:amphithere_arrow"
+				type: "item"
+			}]
+			title: "&6Стрелы амфитеры"
+			x: 6.75d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1E4783908222E61C"]
+			description: [
+				"&6Призрачный клинок&r — это &o&2Легендарное оружие&r, на которое можно положиться на &nмногих этапах&r игры, и которое можно использовать для \"&o&bпрохождения&r\" битв с драконами, &o&bметая в них снаряды&r с &nбольшого расстояния&r."
+				""
+				"&o&b11&r &cединиц урона&r, &o&b3&r &aскорости атаки&r."
+				""
+				"Он может метать &dПризрачные клинки&r, которые &o&bпроходят сквозь блоки&r и наносят урон мобам, при &eнажатии ЛКМ&r. Каждый снаряд наносит &b5&r &cурона&r."
+			]
+			id: "6E1A96AF0E1B0F18"
+			min_width: 300
+			rewards: [
+				{
+					id: "6E4C115FE7085C4F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "53B8167BE3BCBB1D"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2411211F73EED230"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7B568A53CC48F830"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:ghost_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.75d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&5Перо амфитеры&r выпадает с &eАмфитеры&r."
+				""
+				"&5Перья амфитеры&r можно использовать для создания &6Макуаитля амфитеры&r или &3Стрел амфитеры&r."
+			]
+			hide_dependency_lines: true
+			id: "53F95089CB6FF9CF"
+			min_width: 250
+			rewards: [
+				{
+					id: "48B738BC5E3C6E08"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "23D7AABFCD98E781"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A529D4916DDEA67"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6651C8310874C6FE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:amphithere_feather"
+				}
+				type: "item"
+			}]
+			x: 5.75d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&cЯзык смертельного червя&r — это предмет, получаемый в качестве &nредкого выпадения&r (&o&b2.5%&r) с &eСмертельных червей&r, если они убиты игроком."
+				""
+				"&cЯзык смертельного червя&r используется для создания &dНаруча смертельного червя&r."
+			]
+			id: "556A07D30BC8D028"
+			rewards: [
+				{
+					id: "3FBE812907D5CA4A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "433644A592E82EEA"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CE62EB29CB8DA76"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0AC4E22746A8E4A0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:deathworm_tounge"
+				}
+				type: "item"
+			}]
+			x: 5.75d
+			y: -6.5d
+		}
+		{
+			dependencies: ["53F95089CB6FF9CF"]
+			description: [
+				"&5Макуаитль амфитеры&r — это &o&2Легендарное оружие&r, которое &nотбрасывает&r существа вверх и назад, а также &o&bвыводит из строя щиты&r."
+				""
+				"Наносит &o&b5&r &cединиц урона&r и имеет &o&b1.6&r &aскорости атаки&r."
+			]
+			id: "0638813A7CD7CB60"
+			min_width: 250
+			rewards: [
+				{
+					id: "108DD71D08437319"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "28458E9EF6A629BE"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7ED6DE9BFB08F648"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "21747FDDD543995F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:amphithere_macuahuitl"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5C42AD1E351785EA"]
+			description: [
+				"&9Рога дракона&r можно использовать для &o&bхранения драконов&r."
+				""
+				"Нажмите &eПКМ&r по &dприрученному дракону&r, держа в руке &9Рог дракона&r, и он будет &o&bпомещён внутрь&r. Обратно его можно призвать, &o&bзажав&r &eПКМ&r."
+				""
+				"Драконы &nне растут&r, находясь внутри &9Рога дракона&r."
+			]
+			id: "6C82D3C21252DD57"
+			min_width: 300
+			rewards: [
+				{
+					id: "100E8D3BC99621B8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "3039AC4971DAB913"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2125523F179EA969"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "67A693E3761346BA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:dragon_horn"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5C42AD1E351785EA"]
+			description: [
+				"&dКорм для дракона&r используется, чтобы &nрастить&r и &nповышать уровень&r ваших драконов."
+				""
+				"Каждая порция корма &nувеличит прогресс&r дракона на &o&bодин день&r, фактически пропуская ожидание прогресса в один день."
+			]
+			id: "1DCD8CFCE09D656F"
+			min_width: 220
+			rewards: [
+				{
+					id: "0B37CC1E595CC8E2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "39439F4BC812F5ED"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15D23DA46ED7AF63"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4EA299FFA71040B6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:dragon_meal"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&6Яйца драконов&r — это размещаемые сущности, из которых вылупляются &o&bдетёныши драконов&r; они выпадают с драконов &o&b4-5 уровня&r &dсамок&r и используются для выведения прирученных детёнышей драконов."
+				""
+				"Из &6Яиц драконов&r вылупляются детёныши (&o&b1 уровня&r), которые &nприручаются&r сразу после вылупления (&o&bпри условии, что игрок находится рядом с яйцом&r), но на них &nнельзя ездить&r, зато их можно посадить себе на плечо."
+				""
+				"Игрок &nможет повышать уровень&r дракона с помощью &4Корма для дракона&r или просто находясь рядом, пока он &nпассивно&r повышает уровень. Как только дракон достигнет &o&b3 уровня&r (это можно проверить, взаимодействуя с драконом, &eкрадучись&r), на нём &nможно будет ездить&r."
+				""
+				"Из &6Яиц драконов&r вылупляется детёныш &o&b1 уровня&r &nтого же цвета&r. &4Огненные&r, &bЛедяные&r и &eГрозовые&r яйца &o&bимеют разные условия вылупления&r."
+				""
+				"&4Огненные&r яйца драконов (Красные, Серые, Изумрудные и Бронзовые) &nдолжны быть&r помещены &o&bв огонь&r, чтобы &aначался&r процесс вылупления. Как только яйцо начнёт шевелиться, вылупление займёт несколько минут."
+				""
+				"&bЛедяные&r яйца драконов (Голубые, Сапфировые, Белые и Серебряные) &nдолжны быть&r помещены в &o&bводу, которая может быть окружена льдом&r. Как только яйцо начнёт шевелиться, вылупление займёт несколько минут."
+				""
+				"&eГрозовые&r яйца драконов (Медные, Электрик, Аметистовые и Чёрные) &nдолжны быть&r под открытым небом во время &o&bдождя&r, чтобы &aначался&r процесс вылупления. Как только яйцо начнёт шевелиться, вылупление займёт несколько минут. (Если дождь &cпрекратится&r, процесс вылупления &o&bтоже остановится&r.) Когда из &eГрозового&r яйца вылупляется дракон, происходит &o&bудар молнии&r."
+			]
+			hide_dependency_lines: true
+			id: "5C42AD1E351785EA"
+			min_width: 450
+			rewards: [
+				{
+					id: "0D2BD327FA7B1EE3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "6B0AD8439119D64A"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "328FCE5B88DC134D"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_egg"
+				criterion: ""
+				id: "05B29B48495316BC"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5C42AD1E351785EA"]
+			description: ["&5Жезл управления драконом&r — это предмет, с помощью которого можно заставить вашего дракона &nстоять на месте&r, бродить или сопровождать вас. Также его можно использовать &o&bдля задания домашней позиции&r &nприрученных существ&r с помощью &eShift+ПКМ&r."]
+			id: "51C4C91587A70CBA"
+			min_width: 300
+			rewards: [
+				{
+					id: "2C2C98264D90F246"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "524295BD52AB19B1"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4980FC056AC1E40B"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "430714BC2E7F90D9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:dragon_stick"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5C42AD1E351785EA"]
+			description: [
+				"&dКостяная флейта дракона&r — это предмет, при игре на котором &6прирученный дракон&r, &cАмфитера&r и &eГиппогриф&r &o&bперестают лететь и падают вниз&r, при условии, что играющий — их владелец."
+				""
+				"&dКостяную флейту дракона&r можно использовать для создания &4Флейты сирены&r."
+			]
+			id: "313CAD78364A3D66"
+			min_width: 300
+			rewards: [
+				{
+					id: "53A709EF146287D2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "3D0B9A04138CBA5A"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "187A0E904F1D92B3"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1EF31CBDA907DC53"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:dragon_flute"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1DCD8CFCE09D656F"]
+			description: ["&cГнилой корм для дракона&r, с другой стороны, &o&bполностью останавливает рост дракона&r."]
+			id: "4451F4351231A711"
+			rewards: [
+				{
+					id: "0A6365B7CC5FD0A5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "50AFC34E04E82DE5"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6421BAB171236DDB"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4DE62474F8989571"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:sickly_dragon_meal"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["548CE3B927114C4A"]
+			description: [
+				"&9Кости дракона&r — это предметы, выпадающие из &o&bскелетов драконов&r."
+				""
+				"Нажмите &eПКМ&r по скелету &o&bпустой рукой&r, чтобы &o&bсобрать кости&r."
+				""
+				"&9Кости дракона&r можно использовать как &o&bкомпонент для крафта&r во многих рецептах."
+			]
+			id: "49AD80E916672BBE"
+			min_width: 250
+			rewards: [
+				{
+					id: "62854A860A5F077F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "3011E8B04BADE7C1"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14DE4F47EE92A974"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "03DD66F1004D3C84"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:dragonbone"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4D45DE1B53B194BF"]
+			description: [
+				"Основная функция &2Повязки на глаза&r — дать игроку эффект &dСлепота III&r, чтобы &o&bстать невосприимчивым&r к окаменяющему взгляду &3Горгоны&r или к высасывающему жизнь взору &4Петуатрикса&r."
+				""
+				"&6Беруши&r можно использовать для защиты от &o&bчарующих песен&r &dСирены&r. Они дают одно очко. Они также защищают от &nслабости&r, вызываемой &o&bрёвом дракона&r."
+				""
+				"Оба предмета можно надеть в слот &eшлема&r."
+			]
+			id: "6F01B57E645C7665"
+			min_width: 250
+			rewards: [
+				{
+					id: "15A2D401E8F8AF6C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "63614420FB60027D"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B1AE6A590D1172F"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5EB96C813A18387D"
+					item: {
+						Count: 1
+						id: "iceandfire:blindfold"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26A2E367D0C5B4CB"
+					item: {
+						Count: 1
+						id: "iceandfire:earplugs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Повязки на глаза"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4D45DE1B53B194BF"]
+			description: [
+				"&9Склепы&r — это мрачные комплексы из непробиваемого дредстоуна, которые &o&bгенерируются в холодных биомах&r."
+				""
+				"Их двери из дредвуда можно открыть только с помощью &6Ключа Хозяина Склепа&r, который можно получить, убив &dДред-лича&r."
+				""
+				"Внутри находятся спаунеры &cДред-слуг&r и приспешников, которые &o&bне отключаются тусклым светом&r &eДредстоуновых факелов&r и порождают их &nтак быстро&r, что вас могут задавить &cДред-слуги&r. Там есть &o&bмножество сундуков&r, содержащих различные предметы, но, пожалуй, &o&bлучшая награда&r — это &nчастично недостроенная&r &5Ледяная драконья кузница&r."
+			]
+			id: "1F464E151EBF2088"
+			min_width: 400
+			rewards: [
+				{
+					id: "735AD4440CCE33FE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "79AAB7C0E0F4925E"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6549641DA2041463"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			subtitle: "Discover the Mausoleum lock"
+			tasks: [{
+				icon: "iceandfire:dreadwood_planks_lock"
+				id: "692B6D5D0FA5B40D"
+				observe_type: 0
+				timer: 20L
+				title: "A Peculiar Lock"
+				to_observe: "iceandfire:dreadwood_planks_lock"
+				type: "observation"
+			}]
+			title: "Склепы"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1F464E151EBF2088"]
+			description: ["Удачи в поисках этого... &5Могильщики&r появляются &nне так уж и часто&r."]
+			id: "0215C0DA01B8935B"
+			rewards: [
+				{
+					id: "37CEE3A554EABFD2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "1DF5B3FE21E16A42"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67F95BDC35518B17"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			subtitle: "The Rarest Key"
+			tasks: [{
+				id: "1075CD3B67FBCC0A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "iceandfire:dread_key"
+				}
+				type: "item"
+			}]
+			title: "&5Ключ Могильщика"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"&2Гиппогрифы&r — это загадочные альпийские летающие плотоядные существа, которых можно &o&bприручить&r и на которых можно &o&bездить&r."
+				""
+				"&2Гиппогрифов&r можно приручить с помощью &3Кроличьих лапок&r. Чтобы приручить гиппогрифа, нужно просто бросить &o&b8&r кроличьих лапок рядом с ним; он съест угощение и &o&bначнёт приручаться сам&r."
+				""
+				"Как только зверь приручён, он &o&bсядет&r. Прирученных гиппогрифов можно &o&bседлать&r, они могут &o&bносить сундуки&r и их можно экипировать &o&bбронёй&r. К счастью, &eКостяную флейту дракона&r можно использовать, чтобы приказать любому гиппогрифу &nприземлиться&r."
+				""
+				"В дополнение к этому, прирученные гиппогрифы &o&bатакуют мобов и игроков, которые нападают на их хозяина&r, и любой прирученный гиппогриф, летящий в воздухе и не сидящий, упадёт на землю и начнёт атаковать моба или враждебного игрока."
+				""
+				"&eКрадучись&r при взаимодействии с гиппогрифом с помощью &7палки&r или &6Жезла управления драконом&r установит &nдомашнюю позицию&r в том месте, где он находится, и он &o&bне будет далеко уходить&r от этой позиции. Домашнюю позицию &cможно удалить&r, снова &eкрадучись&r используя &6Жезл управления драконом&r."
+				""
+				"Двух гиппогрифов &4можно разводить&r, кормя их &9Рагу из кролика&r. Они разводятся так же, как и другие ванильные животные; в данном случае &eПКМ&r по каждому гиппогрифу с &9Рагу из кролика&r заставит их размножаться. Разведение двух гиппогрифов даст &nяйцо&r."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "iceandfire:hippogryph"
+				}
+			}
+			id: "339AB5DB4166878E"
+			min_width: 410
+			rewards: [
+				{
+					id: "072D13F91B832837"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "7A1360425989F30B"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4367CAB1EF0856B8"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "iceandfire:hippogryph"
+				icon: "iceandfire:spawn_egg_hippogryph"
+				id: "25EB67892F71BDF0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.75d
+			y: -8.5d
+		}
+		{
+			dependencies: ["74A00818AFFA6764"]
+			description: [
+				"&9Драконьи кирпичи&r можно скрафтить из &6Чешуи дракона&r, причём получаемые &9Драконьи кирпичи&r зависят от &nтипа чешуи&r (&4Огненной&r, &bЛедяной&r или &eГрозовой&r)."
+				""
+				"&9Драконьи кирпичи&r можно добывать &nлюбой&r киркой &o&bалмазного уровня или выше&r. При добыче &nбез&r кирки алмазного уровня или выше &nничего не выпадает&r."
+				""
+				"&9Драконьи кирпичи&r в основном используются для создания &5Драконьей кузницы&r."
+			]
+			id: "23CDD6B3A75C0039"
+			rewards: [
+				{
+					id: "70BBF9FD132716F3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "127327BAF10A2BD5"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CBD1D57A0287E72"
+					table_id: 4173767850369646354L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "004BC7A24F63D8D4"
+				item: "iceandfire:dragonforge_lightning_brick"
+				type: "item"
+			}]
+			title: "&9Драконьи кирпичи&r"
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter_groups_6489874184484817331.title}"
+}

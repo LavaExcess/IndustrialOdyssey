@@ -1,0 +1,68 @@
+{
+	icon: "aquamirae:treasure_pouch"
+	id: "172FCE196A5A0513"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ item: "megacells:256m_crafting_storage" }
+		{ item: "megacells:cell_component_256m" }
+		{ item: "ae2:64k_crafting_storage", weight: 10.0f }
+		{ item: "ae2:cell_component_256k", weight: 10.0f }
+		{ count: 32, item: "minecraft:netherite_ingot", weight: 23.0f }
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:deathworm_white_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:deathworm_white_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:deathworm_white_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:deathworm_white_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 20.0f
+		}
+		{ count: 64, item: "ae2:fluix_smart_cable", weight: 30.0f }
+		{ count: 16, item: "megacells:accumulation_processor", weight: 20.0f }
+		{ count: 32, item: "ae2:annihilation_core", weight: 25.0f }
+		{ count: 32, item: "ae2:formation_core", weight: 25.0f }
+		{ count: 64, item: "ae2:logic_processor", weight: 27.0f }
+		{ count: 64, item: "ae2:engineering_processor", weight: 27.0f }
+		{ count: 64, item: "ae2:calculation_processor", weight: 27.0f }
+		{ count: 8, item: "ae2:cell_component_1k", weight: 28.0f }
+		{ count: 64, item: "ae2:blank_pattern", weight: 30.0f }
+		{ count: 16, item: "minecraft:ender_pearl", weight: 29.0f }
+		{ count: 32, item: "minecraft:diamond", weight: 30.0f }
+		{ count: 16, item: "minecraft:golden_apple", weight: 25.0f }
+		{ count: 64, item: "minecraft:copper_ingot", weight: 80.0f }
+		{ count: 64, item: "minecraft:iron_ingot", weight: 80.0f }
+	]
+	title: "AE2"
+}
