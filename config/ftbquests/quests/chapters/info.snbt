@@ -1,0 +1,1026 @@
+{
+	"default_hide_dependency_lines": false,
+	"default_quest_shape": "",
+	"filename": "100A225B6AEDABCD",
+	"group": "",
+	"icon": "industrialupgrade:connect_item",
+	"id": "100A225B6AEDABCD",
+	"images": [
+		{
+			"height": 7.0,
+			"image": "minecraft:block/acacia_leaves",
+			"rotation": 0.0,
+			"width": 7.8,
+			"x": 7.5,
+			"y": -4.5
+		},
+		{
+			"height": 1.0,
+			"image": "industrialupgrade:item/volcano_hazmat_helmet",
+			"rotation": 0.0,
+			"width": 1.0,
+			"x": 10.0,
+			"y": -6.0
+		},
+		{
+			"height": 1.0,
+			"image": "industrialupgrade:item/volcano_hazmat_chestplate",
+			"rotation": 0.0,
+			"width": 1.0,
+			"x": 10.0,
+			"y": -5.0
+		},
+		{
+			"height": 1.0,
+			"image": "industrialupgrade:item/volcano_hazmat_leggings",
+			"rotation": 0.0,
+			"width": 1.0,
+			"x": 10.0,
+			"y": -4.0
+		},
+		{
+			"height": 1.0,
+			"image": "industrialupgrade:item/volcano_rubber_boots",
+			"rotation": 0.0,
+			"width": 1.0,
+			"x": 10.0,
+			"y": -3.0
+		}
+	],
+	"order_index": 3,
+	"quest_links": [ ],
+	"quests": [
+		{
+			"description": [
+				"{ftbquests.chapter.info.quest1.description1}",
+				"",
+				"{ftbquests.chapter.info.quest1.description2}"
+			],
+			"id": "76442A8922CC31EB",
+			"rewards": [{
+				"count": 5,
+				"id": "400BD9D281A2E64C",
+				"item": "libraryferret:iron_coins_jtl",
+				"type": "item"
+			}],
+			"tasks": [
+				{
+					"id": "1A48E7AF30F454D7",
+					"item": "industrialupgrade:tools/multiblock_planner",
+					"optional_task": true,
+					"type": "item"
+				},
+				{
+					"id": "7574221B53BE1306",
+					"item": "industrialupgrade:tools/multiblock_deplanner",
+					"type": "item"
+				}
+			],
+			"x": 3.0,
+			"y": -1.0
+		},
+		{
+			"description": [
+				"{ftbquests.chapter.info.quest2.description1}",
+				"{ftbquests.chapter.info.quest2.description2}",
+				"",
+				"{ftbquests.chapter.info.quest2.description3}"
+			],
+			"id": "14ACFA97FCB9EF7C",
+			"rewards": [{
+				"count": 5,
+				"id": "60456BE43D07B66D",
+				"item": "libraryferret:iron_coins_jtl",
+				"type": "item"
+			}],
+			"tasks": [{
+				"id": "3C1BF83FD76E5272",
+				"item": {
+					"Count": 1,
+					"id": "industrialupgrade:facadeitem",
+					"tag": { }
+				},
+				"type": "item"
+			}],
+			"x": 1.0,
+			"y": -1.0
+		},
+		{
+			"description": ["{ftbquests.chapter.info.quest3.description1}"],
+			"id": "26B76375A1FDE7DD",
+			"rewards": [{
+				"count": 3,
+				"id": "695C75FB87643DDE",
+				"item": "libraryferret:gold_coins_jtl",
+				"type": "item"
+			}],
+			"tasks": [
+				{
+					"id": "347AC5176FDFD689",
+					"item": {
+						"Count": 1,
+						"id": "industrialupgrade:energy/magnet",
+						"tag": { }
+					},
+					"type": "item"
+				},
+				{
+					"id": "057A9880115BF07E",
+					"item": {
+						"Count": 1,
+						"id": "industrialupgrade:energy/impmagnet",
+						"tag": { }
+					},
+					"type": "item"
+				}
+			],
+			"x": 1.0,
+			"y": 0.0
+		},
+		{
+			"description": [
+				"{ftbquests.chapter.info.quest4.description1}",
+				"{ftbquests.chapter.info.quest4.description2}"
+			],
+			"id": "2F2D8348EC25E12E",
+			"rewards": [{
+				"count": 4,
+				"id": "6158C3517532249D",
+				"item": "libraryferret:iron_coins_jtl",
+				"type": "item"
+			}],
+			"tasks": [{
+				"id": "6CAAC444D63D1068",
+				"item": {
+					"Count": 1,
+					"id": "industrialupgrade:sensor/sensor",
+					"tag": { }
+				},
+				"type": "item"
+			}],
+			"x": 2.0,
+			"y": -3.0
+		},
+		{
+			"description": [
+				"{ftbquests.chapter.info.quest5.description1}",
+				"",
+				"{ftbquests.chapter.info.quest5.description2}"
+			],
+			"id": "084E82239021C469",
+			"rewards": [{
+				"count": 4,
+				"id": "4FAA6EA7713E6761",
+				"item": "libraryferret:iron_coins_jtl",
+				"type": "item"
+			}],
+			"tasks": [{
+				"id": "64129E3AD79126A1",
+				"item": "industrialupgrade:connect_item",
+				"type": "item"
+			}],
+			"x": 2.0,
+			"y": -1.0
+		},
+		{
+			"description": ["{ftbquests.chapter.info.quest6.description1}"],
+			"id": "122C82BAFDBD5CBC",
+			"rewards": [{
+				"count": 6,
+				"id": "23B703573B2E0DBE",
+				"item": "libraryferret:iron_coins_jtl",
+				"type": "item"
+			}],
+			"tasks": [{
+				"id": "4DFC8905D2D27987",
+				"item": {
+					"Count": 1,
+					"id": "industrialupgrade:bags/lead_box",
+					"tag": { }
+				},
+				"type": "item"
+			}],
+			"x": 2.0,
+			"y": 0.0
+		},
+		{
+			"description": [
+				"{ftbquests.chapter.info.quest7.description1}",
+				"",
+				"{ftbquests.chapter.info.quest7.description2}",
+				"{ftbquests.chapter.info.quest7.description3}",
+				"",
+				"{ftbquests.chapter.info.quest7.description4}",
+				"{@pagebreak}"
+			],
+			"id": "17C5211A1466D638",
+			"rewards": [{
+				"count": 5,
+				"id": "532B26410B449A59",
+				"item": "libraryferret:gold_coins_jtl",
+				"type": "item"
+			}],
+			"tasks": [{
+				"id": "5F8288151D828E02",
+				"item": {
+					"Count": 1,
+					"id": "industrialupgrade:energy/molot",
+					"tag": {
+						"Damage": 0
+					}
+				},
+				"type": "item"
+			}],
+			"x": 2.0,
+			"y": -2.0
+		},
+		{
+			"description": ["{ftbquests.chapter.info.quest8.description1}"],
+			"id": "2DB062BF44BF7F22",
+			"rewards": [{
+				"count": 5,
+				"id": "0A36BA798161C526",
+				"item": "libraryferret:iron_coins_jtl",
+				"type": "item"
+			}],
+			"tasks": [{
+				"id": "3221EDB5EDC9A916",
+				"item": "industrialupgrade:pollution_device",
+				"type": "item"
+			}],
+			"x": 3.0,
+			"y": 0.0
+		},
+		{
+			"description": ["{ftbquests.chapter.info.quest9.description1}"],
+			"id": "002311B194E5CA08",
+			"rewards": [{
+				"count": 10,
+				"id": "0229B73347840772",
+				"item": "libraryferret:iron_coins_jtl",
+				"type": "item"
+			}],
+			"tasks": [{
+				"id": "093C1159226711AA",
+				"item": "ironchest:iron_chest",
+				"type": "item"
+			}],
+			"title": "{ftbquests.chapter.info.quest9.title}",
+			"x": 3.0,
+			"y": -3.0
+		},
+		{
+			"description": [
+				"{ftbquests.chapter.info.quest12.description1}",
+				"{ftbquests.chapter.info.quest12.description2}",
+				"{ftbquests.chapter.info.quest12.description3}",
+				"",
+				"{ftbquests.chapter.info.quest12.description4}",
+				"",
+				"{ftbquests.chapter.info.quest12.description5}"
+			],
+			"icon": "industrialupgrade:blockbasalts/basalt_magma",
+			"id": "4671525C8B08D3C5",
+			"rewards": [{
+				"count": 3,
+				"id": "6C765A7A5378242D",
+				"item": "libraryferret:diamond_coins_jtl",
+				"type": "item"
+			}],
+			"shape": "square",
+			"size": 1.5,
+			"tasks": [{
+				"id": "381A97FEB29F6AC7",
+				"type": "checkmark"
+			}],
+			"title": "{ftbquests.chapter.info.quest12.title}",
+			"x": 7.5,
+			"y": -4.4
+		},
+		{
+			"dependencies": ["4671525C8B08D3C5"],
+			"description": [
+				"{ftbquests.chapter.info.quest13.description1}",
+				"",
+				"{ftbquests.chapter.info.quest13.description2}"
+			],
+			"id": "24514C81B201AE1A",
+			"optional": true,
+			"rewards": [{
+				"count": 4,
+				"id": "2941FB3CDFB1BB4C",
+				"item": "libraryferret:gold_coins_jtl",
+				"type": "item"
+			}],
+			"shape": "square",
+			"size": 1.1,
+			"tasks": [{
+				"id": "63F2BA406CC0CB1A",
+				"item": {
+					"Count": 1,
+					"id": "industrialupgrade:itemcell/itemcell",
+					"tag": {
+						"Fluid": {
+							"Amount": 1000,
+							"FluidName": "industrialupgrade:iufluidpahoehoe_lava"
+						}
+					}
+				},
+				"match_nbt": true,
+				"type": "item"
+			}],
+			"x": 8.8,
+			"y": -4.4
+		},
+		{
+			"dependencies": ["4671525C8B08D3C5"],
+			"description": [
+				"{ftbquests.chapter.info.quest14.description1}",
+				"",
+				"{ftbquests.chapter.info.quest14.description2}"
+			],
+			"id": "67DED05FDCD28CCC",
+			"rewards": [{
+				"count": 5,
+				"id": "45AE242286911770",
+				"item": "libraryferret:gold_coins_jtl",
+				"type": "item"
+			}],
+			"shape": "square",
+			"size": 1.1,
+			"tasks": [
+				{
+					"id": "7D0DC72AD3CA7F9B",
+					"item": "industrialupgrade:blockbasalts/basalt",
+					"type": "item"
+				},
+				{
+					"id": "05E36362F808AA93",
+					"item": "industrialupgrade:blockbasalts/basalt_magma",
+					"type": "item"
+				},
+				{
+					"id": "5D84B3D4F035EFDA",
+					"item": "industrialupgrade:blockbasalts/basalt_smooth",
+					"type": "item"
+				}
+			],
+			"x": 6.05,
+			"y": -4.4
+		},
+		{
+			"description": [
+				"{ftbquests.chapter.info.quest15.description1}",
+				"",
+				"{ftbquests.chapter.info.quest15.description2}",
+				"",
+				"{ftbquests.chapter.info.quest15.description3}",
+				"{ftbquests.chapter.info.quest15.description4}"
+			],
+			"id": "1D900197A58756AD",
+			"rewards": [{
+				"count": 6,
+				"id": "1C677867AAA0CEF4",
+				"item": "libraryferret:iron_coins_jtl",
+				"type": "item"
+			}],
+			"tasks": [{
+				"id": "6DCCA9E93B544CF4",
+				"item": {
+					"Count": 1,
+					"id": "industrialupgrade:energy/iron_hammer",
+					"tag": {
+						"Damage": 0
+					}
+				},
+				"type": "item"
+			}],
+			"title": "{ftbquests.chapter.info.quest15.title}",
+			"x": -4.5,
+			"y": -5.0
+		},
+		{
+			"dependencies": ["1D900197A58756AD"],
+			"description": [
+				"{ftbquests.chapter.info.quest16.description1}",
+				"",
+				"{ftbquests.chapter.info.quest16.description2}"
+			],
+			"id": "29D6A9624F412D36",
+			"rewards": [{
+				"count": 4,
+				"id": "52374DEEB58F3727",
+				"item": "libraryferret:gold_coins_jtl",
+				"type": "item"
+			}],
+			"tasks": [{
+				"id": "7790C4C32BB575FC",
+				"item": {
+					"Count": 1,
+					"id": "industrialupgrade:energy/steel_hammer",
+					"tag": {
+						"Damage": 0
+					}
+				},
+				"type": "item"
+			}],
+			"title": "{ftbquests.chapter.info.quest16.title}",
+			"x": -3.0,
+			"y": -5.0
+		},
+		{
+			"description": ["{ftbquests.chapter.info.quest17.description1}"],
+			"id": "5B4E1F342A72526D",
+			"rewards": [{
+				"count": 6,
+				"id": "4D15BE966E0590A8",
+				"item": "libraryferret:gold_coins_jtl",
+				"type": "item"
+			}],
+			"tasks": [
+				{
+					"id": "26E65233135C0E02",
+					"item": {
+						"Count": 1,
+						"id": "industrialupgrade:ruby_pickaxe",
+						"tag": {
+							"Damage": 0
+						}
+					},
+					"type": "item"
+				},
+				{
+					"id": "4D3AD29EE1DB8D5F",
+					"item": {
+						"Count": 1,
+						"id": "industrialupgrade:topaz_pickaxe",
+						"tag": {
+							"Damage": 0
+						}
+					},
+					"type": "item"
+				},
+				{
+					"id": "424CDE9DC8C2E98B",
+					"item": {
+						"Count": 1,
+						"id": "industrialupgrade:sapphire_pickaxe",
+						"tag": {
+							"Damage": 0
+						}
+					},
+					"type": "item"
+				}
+			],
+			"x": -1.5,
+			"y": -5.0
+		},
+		{
+			"description": ["{ftbquests.chapter.info.quest18.description1}"],
+			"id": "6F2D7074EA78261C",
+			"rewards": [{
+				"count": 5,
+				"id": "16F3742CEA953344",
+				"item": "libraryferret:iron_coins_jtl",
+				"type": "item"
+			}],
+			"tasks": [{
+				"id": "0BDBA0F3E6958D55",
+				"item": "industrialupgrade:itemcell/itemcell",
+				"type": "item"
+			}],
+			"x": 3.0,
+			"y": -2.0
+		},
+		{
+			"description": [
+				"{ftbquests.chapter.info.quest19.description1}",
+				"",
+				"{ftbquests.chapter.info.quest19.description2}",
+				"{ftbquests.chapter.info.quest19.description3}",
+				"",
+				"{ftbquests.chapter.info.quest19.description4}",
+				"",
+				"{ftbquests.chapter.info.quest19.description5}",
+				"",
+				"{ftbquests.chapter.info.quest19.description6}",
+				"{@pagebreak}",
+				"{ftbquests.chapter.info.quest19.description7}",
+				"",
+				"{ftbquests.chapter.info.quest19.description8}",
+				"",
+				"{ftbquests.chapter.info.quest19.description9}",
+				"",
+				"{ftbquests.chapter.info.quest19.description10}",
+				"",
+				"{ftbquests.chapter.info.quest19.description11}"
+			],
+			"id": "4A3784C6AF34B27F",
+			"rewards": [{
+				"count": 2,
+				"id": "53A82B09009E68D6",
+				"item": "libraryferret:gold_coins_jtl",
+				"type": "item"
+			}],
+			"shape": "rsquare",
+			"size": 1.2,
+			"tasks": [{
+				"id": "0C9E6DFA9EF0F275",
+				"title": "{ftbquests.chapter.info.quest19.task_909285097951261301.title}",
+				"type": "checkmark"
+			}],
+			"x": 3.0,
+			"y": -4.8
+		},
+		{
+			"description": ["{ftbquests.chapter.info.quest20.description1}"],
+			"id": "10C12824EA94599A",
+			"rewards": [{
+				"count": 8,
+				"id": "71D8238904D8BB3B",
+				"item": "libraryferret:gold_coins_jtl",
+				"type": "item"
+			}],
+			"tasks": [
+				{
+					"id": "2E80126276CB2F8B",
+					"item": "industrialupgrade:basemachine3/energy_trash",
+					"type": "item"
+				},
+				{
+					"id": "0BD479A2B7E23ADF",
+					"item": "industrialupgrade:basemachine3/fluid_trash",
+					"type": "item"
+				},
+				{
+					"id": "3F1A00D7A2C68836",
+					"item": "industrialupgrade:basemachine3/item_trash",
+					"type": "item"
+				}
+			],
+			"x": 1.0,
+			"y": -2.0
+		},
+		{
+			"can_repeat": true,
+			"description": [
+				"{ftbquests.chapter.info.quest4.description1}",
+				"{ftbquests.chapter.info.quest4.description2}"
+			],
+			"icon": {
+				"Count": 1,
+				"id": "industrialupgrade:sensor/sensor",
+				"tag": { }
+			},
+			"id": "20A6D2EF63879B41",
+			"rewards": [{
+				"id": "475486D90C6818D8",
+				"item": {
+					"Count": 1,
+					"id": "industrialupgrade:sensor/sensor",
+					"tag": { }
+				},
+				"type": "item"
+			}],
+			"subtitle": "Воспользуйтесь, если потеряли сканер",
+			"tasks": [{
+				"id": "15581163DBD2B49D",
+				"type": "checkmark"
+			}],
+			"title": "Сканер руд",
+			"x": 1.0,
+			"y": -3.0
+		},
+		{
+			"dependencies": ["2329AA0AFBEF1E13"],
+			"description": ["{ftbquests.chapter.info.quest22.description1}"],
+			"id": "2A976D41F79C34B1",
+			"rewards": [{
+				"id": "11D2714AB566A00B",
+				"item": "pipez:advanced_upgrade",
+				"type": "item"
+			}],
+			"shape": "rsquare",
+			"size": 0.9,
+			"tasks": [{
+				"id": "5F9D69AF08F576AB",
+				"item": "pipez:filter_destination_tool",
+				"type": "item"
+			}],
+			"title": "{ftbquests.chapter.info.quest22.title}",
+			"x": -1.3,
+			"y": -6.94
+		},
+		{
+			"dependencies": ["2329AA0AFBEF1E13"],
+			"description": ["{ftbquests.chapter.info.quest23.description1}"],
+			"id": "53EC96FA0E7C4ED4",
+			"rewards": [{
+				"count": 16,
+				"id": "6BFD87108A2B3FE8",
+				"item": "pipez:energy_pipe",
+				"type": "item"
+			}],
+			"size": 1.1,
+			"tasks": [{
+				"id": "17BE12E1047A68A4",
+				"item": "pipez:energy_pipe",
+				"type": "item"
+			}],
+			"title": "{ftbquests.chapter.info.quest23.title}",
+			"x": -2.0,
+			"y": -8.45
+		},
+		{
+			"dependencies": [
+				"33433A443B65D252",
+				"36836AD948F96B9F",
+				"53EC96FA0E7C4ED4"
+			],
+			"description": ["{ftbquests.chapter.info.quest24.description1}"],
+			"id": "4FBAB3A0FBF8CE2F",
+			"rewards": [{
+				"count": 16,
+				"id": "02B1975FE7F3C29A",
+				"item": "pipez:universal_pipe",
+				"type": "item"
+			}],
+			"size": 1.1,
+			"tasks": [{
+				"id": "1E0BB9A36487B272",
+				"item": "pipez:universal_pipe",
+				"type": "item"
+			}],
+			"title": "{ftbquests.chapter.info.quest24.title}",
+			"x": -3.0,
+			"y": -9.45
+		},
+		{
+			"dependencies": ["2329AA0AFBEF1E13"],
+			"description": ["{ftbquests.chapter.info.quest25.description1}"],
+			"id": "33433A443B65D252",
+			"min_width": 250,
+			"rewards": [{
+				"count": 16,
+				"id": "78309F82E7E4AE69",
+				"item": "pipez:fluid_pipe",
+				"type": "item"
+			}],
+			"size": 1.1,
+			"tasks": [{
+				"id": "2E1254C3F9F6079C",
+				"item": "pipez:fluid_pipe",
+				"type": "item"
+			}],
+			"title": "{ftbquests.chapter.info.quest25.title}",
+			"x": -3.0,
+			"y": -8.45
+		},
+		{
+			"dependencies": ["2329AA0AFBEF1E13"],
+			"description": ["{ftbquests.chapter.info.quest26.description1}"],
+			"id": "36836AD948F96B9F",
+			"rewards": [{
+				"count": 16,
+				"id": "22360F382F0BA4CE",
+				"item": "pipez:item_pipe",
+				"type": "item"
+			}],
+			"size": 1.1,
+			"tasks": [{
+				"id": "04CFDEC2D4C671F2",
+				"item": "pipez:item_pipe",
+				"type": "item"
+			}],
+			"title": "{ftbquests.chapter.info.quest26.title}",
+			"x": -4.0,
+			"y": -8.45
+		},
+		{
+			"description": ["{ftbquests.chapter.info.quest27.description1}"],
+			"id": "2329AA0AFBEF1E13",
+			"rewards": [{
+				"count": 3,
+				"id": "71FDE5AB12145B69",
+				"item": "minecraft:iron_block",
+				"type": "item"
+			}],
+			"shape": "pentagon",
+			"size": 1.5,
+			"tasks": [{
+				"id": "43D2013855BF5F17",
+				"item": "pipez:wrench",
+				"type": "item"
+			}],
+			"title": "{ftbquests.chapter.info.quest27.title}",
+			"x": -3.0,
+			"y": -6.949999999999999
+		},
+		{
+			"dependencies": ["2329AA0AFBEF1E13"],
+			"description": ["{ftbquests.chapter.info.quest28.description1}"],
+			"id": "2F4458E9921DEB86",
+			"rewards": [{
+				"count": 16,
+				"id": "51371416132329E3",
+				"item": "pipez:gas_pipe",
+				"type": "item"
+			}],
+			"size": 1.1,
+			"tasks": [{
+				"id": "7E1C1FB56CFCADF6",
+				"item": "pipez:gas_pipe",
+				"type": "item"
+			}],
+			"title": "{ftbquests.chapter.info.quest28.title}",
+			"x": -4.5,
+			"y": -6.949999999999999
+		},
+		{
+			"description": ["{ftbquests.chapter.info.quest29.description1}"],
+			"id": "35CC898E0E49FE58",
+			"min_width": 300,
+			"rewards": [
+				{
+					"count": 2,
+					"id": "16D31D3D55F77046",
+					"item": "fluxnetworks:flux_dust",
+					"random_bonus": 2,
+					"type": "item"
+				},
+				{
+					"id": "19CFBA244CF82C53",
+					"type": "xp",
+					"xp": 10
+				}
+			],
+			"shape": "pentagon",
+			"size": 1.25,
+			"subtitle": "{ftbquests.chapter.info.quest29.subtitle}",
+			"tasks": [{
+				"count": 4,
+				"id": "0F0CBAF912DE462F",
+				"item": "fluxnetworks:flux_dust",
+				"type": "item"
+			}],
+			"title": "{ftbquests.chapter.info.quest29.title}",
+			"x": 1.0,
+			"y": -5.0
+		},
+		{
+			"dependencies": ["35CC898E0E49FE58"],
+			"description": ["{ftbquests.chapter.info.quest30.description1}"],
+			"id": "1BE26A00A420DAE3",
+			"rewards": [
+				{
+					"count": 4,
+					"id": "4FA376B34C2BF04A",
+					"item": "fluxnetworks:flux_dust",
+					"random_bonus": 4,
+					"type": "item"
+				},
+				{
+					"id": "3C2BBFC2A36E722F",
+					"type": "xp",
+					"xp": 100
+				}
+			],
+			"tasks": [
+				{
+					"count": 4,
+					"id": "5E760075B279BA71",
+					"item": "fluxnetworks:flux_core",
+					"type": "item"
+				},
+				{
+					"id": "01B3CDAA69D1FA2F",
+					"item": "fluxnetworks:flux_block",
+					"type": "item"
+				}
+			],
+			"title": "{ftbquests.chapter.info.quest30.title}",
+			"x": 1.5,
+			"y": -6.0
+		},
+		{
+			"dependencies": ["1BE26A00A420DAE3"],
+			"description": ["{ftbquests.chapter.info.quest31.description1}"],
+			"id": "5F078A574A783B02",
+			"rewards": [
+				{
+					"id": "46F6946231FB28A0",
+					"item": "fluxnetworks:flux_block",
+					"type": "item"
+				},
+				{
+					"id": "615F6356856A3371",
+					"type": "xp",
+					"xp": 100
+				}
+			],
+			"tasks": [{
+				"id": "00B1C30B3E10D332",
+				"item": "fluxnetworks:flux_plug",
+				"type": "item"
+			}],
+			"title": "{ftbquests.chapter.info.quest31.title}",
+			"x": 0.5,
+			"y": -6.5
+		},
+		{
+			"dependencies": ["5F078A574A783B02"],
+			"description": ["{ftbquests.chapter.info.quest32.description1}"],
+			"icon": "fluxnetworks:flux_configurator",
+			"id": "36DEA17CBB696CC7",
+			"min_width": 300,
+			"rewards": [
+				{
+					"count": 4,
+					"id": "2AC42E9338722803",
+					"item": "fluxnetworks:flux_dust",
+					"type": "item"
+				},
+				{
+					"id": "739E3CA0422DB9F6",
+					"type": "xp",
+					"xp": 100
+				}
+			],
+			"subtitle": "{ftbquests.chapter.info.quest32.subtitle}",
+			"tasks": [{
+				"id": "2D0212699F99459F",
+				"title": "Сеть Flux",
+				"type": "checkmark"
+			}],
+			"title": "{ftbquests.chapter.info.quest32.title}",
+			"x": 1.0,
+			"y": -7.5
+		},
+		{
+			"dependencies": ["36DEA17CBB696CC7"],
+			"description": ["{ftbquests.chapter.info.quest33.description1}"],
+			"id": "79AD74A863EA43CB",
+			"rewards": [{
+				"id": "6A142D7F593E9DBA",
+				"type": "xp",
+				"xp": 100
+			}],
+			"shape": "diamond",
+			"subtitle": "{ftbquests.chapter.info.quest33.subtitle}",
+			"tasks": [{
+				"id": "3C574DDC057353DF",
+				"item": "fluxnetworks:basic_flux_storage",
+				"type": "item"
+			}],
+			"title": "{ftbquests.chapter.info.quest33.title}",
+			"x": 1.5,
+			"y": -9.0
+		},
+		{
+			"dependencies": ["36DEA17CBB696CC7"],
+			"description": ["{ftbquests.chapter.info.quest34.description1}"],
+			"id": "27A4FA38992448A0",
+			"min_width": 300,
+			"rewards": [{
+				"id": "37E08FCD1F0A3D26",
+				"type": "xp",
+				"xp": 100
+			}],
+			"shape": "diamond",
+			"tasks": [{
+				"id": "013BD44E5E82802A",
+				"item": "fluxnetworks:flux_controller",
+				"type": "item"
+			}],
+			"title": "{ftbquests.chapter.info.quest34.title}",
+			"x": 1.0,
+			"y": -9.5
+		},
+		{
+			"dependencies": ["36DEA17CBB696CC7"],
+			"description": ["{ftbquests.chapter.info.quest35.description1}"],
+			"id": "56B6ABF3D6EA0D84",
+			"rewards": [
+				{
+					"id": "34498E12E8224864",
+					"item": "fluxnetworks:flux_core",
+					"random_bonus": 2,
+					"type": "item"
+				},
+				{
+					"id": "175D04352F2F6D97",
+					"type": "xp",
+					"xp": 100
+				}
+			],
+			"shape": "diamond",
+			"tasks": [{
+				"id": "026DE584C4DF393C",
+				"item": "fluxnetworks:flux_point",
+				"type": "item"
+			}],
+			"title": "{ftbquests.chapter.info.quest35.title}",
+			"x": 0.5,
+			"y": -9.0
+		},
+		{
+			"dependencies": ["36DEA17CBB696CC7"],
+			"description": ["{ftbquests.chapter.info.quest36.description1}"],
+			"icon": "fluxnetworks:admin_configurator",
+			"id": "2EB7784D5296F410",
+			"min_width": 350,
+			"optional": true,
+			"rewards": [{
+				"id": "64751B6E2F284585",
+				"type": "xp",
+				"xp": 10
+			}],
+			"shape": "diamond",
+			"tasks": [{
+				"id": "3D721B55E8D33FE8",
+				"title": "Интерфейс Flux",
+				"type": "checkmark"
+			}],
+			"title": "{ftbquests.chapter.info.quest36.title}",
+			"x": 1.0,
+			"y": -8.5
+		},
+		{
+			"description": ["{ftbquests.chapter.info.quest37.description1}"],
+			"id": "0D05759E84652BAA",
+			"rewards": [
+				{
+					"id": "3E2749C17C396502",
+					"type": "xp",
+					"xp": 100
+				},
+				{
+					"count": 4,
+					"id": "0A98BCC135130E9F",
+					"item": "libraryferret:iron_coins_jtl",
+					"type": "item"
+				}
+			],
+			"tasks": [{
+				"id": "786624E6261672C6",
+				"type": "checkmark"
+			}],
+			"title": "{ftbquests.chapter.info.quest37.title}",
+			"x": -1.5,
+			"y": -3.5
+		},
+		{
+			"dependencies": ["0D05759E84652BAA"],
+			"description": ["{ftbquests.chapter.info.quest38.description1}"],
+			"id": "234E978A14BA9630",
+			"rewards": [
+				{
+					"id": "7D7E116F6F09DF4C",
+					"type": "xp",
+					"xp": 100
+				},
+				{
+					"count": 4,
+					"id": "339959C7C06CAB3B",
+					"item": "libraryferret:iron_coins_jtl",
+					"type": "item"
+				}
+			],
+			"tasks": [{
+				"id": "7C649008D8F2D571",
+				"item": "constructionwand:core_destruction",
+				"type": "item"
+			}],
+			"title": "{ftbquests.chapter.info.quest38.title}",
+			"x": -1.0,
+			"y": -2.5
+		},
+		{
+			"dependencies": ["0D05759E84652BAA"],
+			"description": ["{ftbquests.chapter.info.quest39.description1}"],
+			"id": "5B402687731540B8",
+			"rewards": [
+				{
+					"id": "2603956F59B3447A",
+					"type": "xp",
+					"xp": 100
+				},
+				{
+					"count": 4,
+					"id": "2D7311B4800150D7",
+					"item": "libraryferret:iron_coins_jtl",
+					"type": "item"
+				}
+			],
+			"tasks": [{
+				"id": "4000B9092087FFFF",
+				"item": "constructionwand:core_angel",
+				"type": "item"
+			}],
+			"title": "{ftbquests.chapter.info.quest39.title}",
+			"x": -2.0,
+			"y": -2.5
+		}
+	],
+	"title": "{ftbquests.chapter.info.title}"
+}
