@@ -14,27 +14,21 @@
 			id: "4F22791FD4917322"
 			rewards: [
 				{
-					id: "31F9A3211F144B0B"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "4ED1487B051960D4"
+					id: "77D1980046D7282A"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "2733889B1114D381"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "27B15CF37D17A7FA"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "45301BAF27B8A2FE"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "4EF45845005CF8A4"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -52,27 +46,21 @@
 			id: "2069594E99EF3B53"
 			rewards: [
 				{
-					id: "5FFDD957B2F2245B"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "42138E90E8FCC83B"
+					id: "4B4C87E6EC08E134"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "31D1943221BC565F"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "5A289AA54D80C3C8"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "19B866879DD92794"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "025EDA8CE20CC051"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -90,27 +78,21 @@
 			id: "7A12E6BEF6BAE254"
 			rewards: [
 				{
-					id: "0221205C9E9EFCB2"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "1C95E9EFF2563B4A"
+					id: "11EC2E9DE3140B0F"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "52534ECA46D6E504"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "1AB5515E073756AE"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "019A3A86D0557155"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "4DC167175AB25120"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -128,27 +110,21 @@
 			id: "7B0D2778B2FB23E0"
 			rewards: [
 				{
-					id: "6DFC2D2A1642F3E7"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "39595D133C8A92E6"
+					id: "5B80919DB8C7DC1D"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "388778735536929B"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "45C8C1C1816F210D"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "20911C274DA1830A"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "6B9E671A191CD24D"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -166,27 +142,21 @@
 			id: "7CEC104F2FF83C07"
 			rewards: [
 				{
-					id: "3C0D8A9F4C847521"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "1C94FB9B5D3D53B6"
+					id: "48D44FD005751D2D"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "64B337062990684F"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "17E1913BCC88C84F"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "5C5B7C6F24B6CE26"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "091C61F66382E811"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -204,27 +174,21 @@
 			id: "18662A237F9169F8"
 			rewards: [
 				{
-					id: "1913B089DD755E4C"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "6221F2FF7BC034CE"
+					id: "037C374B56A106EE"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "46085759E6A6ADC2"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "72B651CB71E5DEBD"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "39C2333046FD4FC6"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "4CD973B072A01688"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -242,27 +206,21 @@
 			id: "1A4A6BD3E9236C18"
 			rewards: [
 				{
-					id: "132B25A3952EEB6F"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "067202C7186B1661"
+					id: "0681C7C64C8029C3"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "092EDFB3200ABB9D"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "4F0980237D5889DD"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4A3BFAA9EEB93E92"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "43B97C195A2AF731"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -280,27 +238,21 @@
 			id: "42B00845F8612DEC"
 			rewards: [
 				{
-					id: "436D04D049254436"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "7CEA987333572215"
+					id: "75ED99CCE39E8DE1"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "0470C5199A6BA63B"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "650993F8B2DB6363"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "42A457E5E3690610"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "0B31DA44AD3993AE"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -318,27 +270,21 @@
 			id: "0C627844C8CE668D"
 			rewards: [
 				{
-					id: "03044F098E1D88F7"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "2A73FB184884267F"
+					id: "53BFF52596FAE652"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "43F259F5AC868C5B"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "47CBA8AAF7E51ADC"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "15CD4D38096F5E35"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "086D7C95AD01CE1D"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -356,27 +302,21 @@
 			id: "70114112D8449013"
 			rewards: [
 				{
-					id: "1F4A31A08822CE79"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "180B0FABD8692548"
+					id: "4B1A16E6261F95D5"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "311763D6BDC07144"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "622293D1E4AB2769"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "3D58A632989CCD5B"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "7EDFCB9CE03E1A8A"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -394,27 +334,21 @@
 			id: "66D088204F111C94"
 			rewards: [
 				{
-					id: "69C36B916E7AED64"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "76EF60D7AE87FD52"
+					id: "569750C8075ABEEE"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "1F1718CF31F1B42C"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "0FBDC585D69038D4"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "6C5741FAAD63C7EF"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "7FFE24CC6ECA6779"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -432,27 +366,21 @@
 			id: "1F9BDEAF72986274"
 			rewards: [
 				{
-					id: "5E9D9808FA39AFF3"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "66A19020534F9AD0"
+					id: "004290F3EB879B6E"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "4804BAED110CB1B5"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "2BFAD395D019AE17"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "6B0E776DEDB7E442"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "3A091808C245AD29"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -470,27 +398,21 @@
 			id: "2A886CFFD37D67C7"
 			rewards: [
 				{
-					id: "3AACF861C2CCD2DD"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "6494366B760EB20B"
+					id: "0A3AD8CBEA7EE3FB"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "03AAC2E7AF5EB4F3"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "211992BEB81CF14B"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1D9F5A224720D7B0"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "01A1DEA062C66FB7"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -513,27 +435,21 @@
 			id: "394135C9537D0645"
 			rewards: [
 				{
-					id: "7AD894E0ABA53300"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "29F4BEBCCBB38343"
+					id: "098685DC5ABD7A44"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "16EAAA2C4595183F"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "2DBCE702E50984DF"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "6725D71D820ED035"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "225221CCE53C79E1"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			shape: "hexagon"
@@ -558,27 +474,21 @@
 			id: "1ED08320D274E212"
 			rewards: [
 				{
-					id: "2D904D43E5EA0AE6"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "0E33CE3FA68E4B86"
+					id: "090ACD63B8FCCDF2"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "39D3C5DF2AD7745B"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "6929F0196BACB5BB"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4761655C51BC1CAC"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "3A4CA009C4BA70EA"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -609,27 +519,21 @@
 			id: "3A03CBC45BAEE14E"
 			rewards: [
 				{
-					id: "3D19D0DEDBEF3367"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "2631C6FA2279CBEA"
+					id: "3C5D197E69447F3A"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "2D24F8010323DA57"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "0BAF093BE1AC8687"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "206ED5E2AE4C7410"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "2813BB2739FCE68F"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -652,27 +556,21 @@
 			id: "27B6F75AD564B00B"
 			rewards: [
 				{
-					id: "2565A1E13A1595D6"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "23B7DACCD96E5D2C"
+					id: "7E60FFAA768110E5"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "7634EF437DBA12E8"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "628E52CF7F513F72"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "545BD035800ECF3C"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "6EE9278BA13A84B6"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -696,27 +594,21 @@
 			id: "607A8CF4BAEEB40F"
 			rewards: [
 				{
-					id: "0209B5B86BB000C4"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "63F5A41468B48134"
+					id: "010691C16F230013"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "1D73BE149455AF18"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "7E2A2AA6462EA76D"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "5CD3F989179579BA"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "4A3CCC89E976C55B"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -740,27 +632,21 @@
 			id: "357D0CA4B0BDBFB3"
 			rewards: [
 				{
-					id: "27242E13B6D91431"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "2ABF0AFDC2EA4448"
+					id: "6546D6054C29B739"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "3C4959DFAC5E550D"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "70BDEFED11B58C9F"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "080464A93F1BCDAF"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "5DBCEC233423B600"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -786,27 +672,21 @@
 			id: "09583D6AA593E1F3"
 			rewards: [
 				{
-					id: "2128746B462D90B7"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "4BB1646329A377D3"
+					id: "183BCB9AB9E953AB"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "694D805C54F3146B"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "71CAA8674EEC7689"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "60C24900C8EDBAC3"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "0A05772E2B28B57F"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -840,27 +720,21 @@
 			id: "499B689CBD8B305E"
 			rewards: [
 				{
-					id: "5A662B8589E6EEC9"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "5F0C3DAB278FED13"
+					id: "2AFF8CA18F059DE1"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "6701EEDB0C3C1D31"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "58813DD1A1C65375"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "36B8E7E0B5E306F9"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "1B05BCF525A7E8B0"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1059,27 +933,21 @@
 			id: "65F1D3BAA602F9F0"
 			rewards: [
 				{
-					id: "5220EBA4526E33A9"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "37F8B15024377DA3"
+					id: "62CE9D32CC17550C"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "16B29B61522944C2"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "55524F51693FA76D"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2CCD845BAE8917F0"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "18A0E4E89FC6DD44"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -1112,27 +980,21 @@
 			id: "716F75A11000D41A"
 			rewards: [
 				{
-					id: "49CB0970328001ED"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "1F58506F78049274"
+					id: "5AF7E969C1B83DE4"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "52475977FC9FB29F"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "5AA142CF0F647D78"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "08C6215605BA0212"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "51424BC46981D4C5"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1151,27 +1013,21 @@
 			id: "54327520F3959A2E"
 			rewards: [
 				{
-					id: "04D2EE47956102ED"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "3D7155EB81D00AB5"
+					id: "37BE4D00CA3DD4A5"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "0FAE84814E830C79"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "0AB70BFFD8A92DFC"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "27633B543D4E0AA4"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "109E6F8DBC147DE0"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1195,27 +1051,21 @@
 			id: "739C975F362695E1"
 			rewards: [
 				{
-					id: "090D997913FE06C1"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "1A21BB84B7D53E71"
+					id: "2306B1ACE7369295"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "39B471D0B1FCE216"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "4235C979BC315E28"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "36124176F8560FCC"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "0386B33D2EB38CB0"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1239,27 +1089,21 @@
 			id: "60617F762E9152D1"
 			rewards: [
 				{
-					id: "500119CB1954C1D2"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "3E9C5923FBBCEC76"
+					id: "05B4926BE3A5D82E"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "2C35CB54989FAF0F"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "33039078355E5ED8"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "5658D740AB835DC5"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "0910587F8189B4D3"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -1292,27 +1136,21 @@
 			id: "280C51FC572503FB"
 			rewards: [
 				{
-					id: "1D138FBD0BA7A7B3"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "363057D62903DCC3"
+					id: "30840CEBC86AEB0E"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "582613E4E1576937"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "59F3119FB706AE12"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "6401EC1731A0DE2E"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "45CBE79E60660C5E"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -1347,27 +1185,21 @@
 			id: "57CC265500BD0123"
 			rewards: [
 				{
-					id: "56397BB2F43BF5D6"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "5AC8E2F67777B873"
+					id: "0C95BBB76A458CBA"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "6724827C9B95AF4B"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "6E2F2770E8CDD80E"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0AE89560C12BE5DB"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "73BD4C22BEFAF038"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1385,27 +1217,21 @@
 			id: "327D3F36BF0CDCC4"
 			rewards: [
 				{
-					id: "738110F68B698630"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "6DD17821CC654C82"
+					id: "038AC96C2286850D"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "2FFB7EB68C2CFB1A"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "2DE68FE6807B22BF"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "4476E00F5DE359DE"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "2C2A8B73AF1AFB29"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1423,27 +1249,21 @@
 			id: "7F77E9193E520F0D"
 			rewards: [
 				{
-					id: "6F4185E4AC29601B"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "6F102B2A737E029E"
+					id: "2D68C42D3559F461"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "7D5B2B0B2DEDB190"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "53AFD4C8CA42F4A9"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "41A107BF17930B3D"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "23E754E0CD123A6C"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1461,27 +1281,21 @@
 			id: "1F1B9F8295559AA5"
 			rewards: [
 				{
-					id: "77EE04DF4D90D3B3"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "33F036284A0B6201"
+					id: "6DCBB8DDE3F12AD6"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "745146EDDE1668EB"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "1958CBC0242ED7CE"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "472A8561FD9EEBD9"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "65948E2A1029C5B0"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1499,27 +1313,21 @@
 			id: "3627FC9671DDB45A"
 			rewards: [
 				{
-					id: "0999246D69D2FE4F"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "7AB2A071FD17419C"
+					id: "04A53D30229C9F00"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "0441A4D612506D37"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "7F45028DCB7DBB14"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "151D27ACCFD63CEF"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "56B0A6E4386893D2"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1537,27 +1345,21 @@
 			id: "3BBD549159DD5701"
 			rewards: [
 				{
-					id: "1DB56ED4D898FFE8"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "305785A318777BB1"
+					id: "4997092C75B6A25E"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "566585CE90F09917"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "0DA8D14695DE8385"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1A79776E667AB34F"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "6A6544DC22499540"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1575,27 +1377,21 @@
 			id: "5454983B1038BFAB"
 			rewards: [
 				{
-					id: "69CCB0CFFED3F513"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "6DA3E475F9F42690"
+					id: "53827FDF35423258"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "5DFA3C574CDE5235"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "039C5DFB1C3B4ED3"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "3414649D1421080C"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "7DC102A147B21944"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1613,27 +1409,21 @@
 			id: "6577B24EA5C998A0"
 			rewards: [
 				{
-					id: "390AD3CBB7B5A978"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "36D01F22E8351D01"
+					id: "280FD1265C701496"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "1AF3523A0AE4488A"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "699E436791FBB81D"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "449553CF72EE1B6E"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "4E891C392709899C"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1651,27 +1441,21 @@
 			id: "334B127BEFB1B6E4"
 			rewards: [
 				{
-					id: "5C96A8E8B99AC0D8"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "528B4BD954F72C53"
+					id: "0FD0FBC800101054"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "15B67F96D6BFF1F6"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "681277543BB4B1B0"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "3A54FC0AD7CA087D"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "228A3519BB3E6532"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1689,27 +1473,21 @@
 			id: "3BAEE8D643633AEA"
 			rewards: [
 				{
-					id: "64FD0D7E4AD750C9"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "7C9E9BC71B19B1F2"
+					id: "51E39C3A94A608E1"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "2CF6AACAF18BF4F6"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "1BC3DF75C71C9D5A"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2E407E022344171D"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "0BCF4789FA042219"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1727,27 +1505,21 @@
 			id: "21BF126A991EC9D6"
 			rewards: [
 				{
-					id: "69E414736212D59D"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "16FEE051DA0E87D3"
+					id: "2EC287EA0E53A81E"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "1215ECC6348ED41D"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "6088E140831C5C0D"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "00250352ED706A39"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "409A6DFC52439420"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1765,27 +1537,21 @@
 			id: "2014B688A0525941"
 			rewards: [
 				{
-					id: "27A020022277A1A8"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "1B897D36BAD1C5A2"
+					id: "23A56F1B714B88C6"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "1F2B67280DED1E8A"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "2F711DAB0239B936"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2D5CF5E962D97DE8"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "6591B83188E9C72E"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1803,27 +1569,21 @@
 			id: "6C1DDF50E09FF33A"
 			rewards: [
 				{
-					id: "49A84FFCF12B2647"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "510CFC1F8FAFEB0F"
+					id: "173632F7B693652A"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "7B6DE6B2F70D11FB"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "639204D4CFB2BEEF"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "30EDBBC9307788DC"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "0E596BC394CB9B37"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1841,27 +1601,21 @@
 			id: "153F2CAF87232E34"
 			rewards: [
 				{
-					id: "77FEE1D1732189E9"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "7249A79B43E7E642"
+					id: "4988ED137977A934"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "48F9679950BBCA57"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "0AAB3B0C4B4CA73A"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "3E6F80FF8B239729"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "78C35A2B36B6960C"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1879,27 +1633,21 @@
 			id: "00A013C6C5F5AC09"
 			rewards: [
 				{
-					id: "2AE3616DA606CF75"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "0195FB946C528B19"
+					id: "47A435D258CCE49E"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "0CE33EFA08D01216"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "70707C27827BAAE3"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "06DB66FA65D96F7A"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "4BE8A80C0A15D0CE"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1917,27 +1665,21 @@
 			id: "619695A19F28BC50"
 			rewards: [
 				{
-					id: "73DFCBBBE0353A32"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "7B66498FDEF00BF9"
+					id: "2B39C5E43DD995A8"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "130C0EEB755D27A3"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "7F456EE66D823B72"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "6542A4D64D4748A5"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "03BA29959FE91FE8"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1955,27 +1697,21 @@
 			id: "3679C89A86E6C190"
 			rewards: [
 				{
-					id: "1B5D8BC4FFFE4A98"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "69893DEFCCE0782C"
+					id: "27651FA876AD3681"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "787EDB0EFC1CD5FC"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "4442C473AD8ADC24"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "7BD10FD54923C73D"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "66F5A044F4A406EF"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1993,27 +1729,21 @@
 			id: "3B0E9846CFE98B41"
 			rewards: [
 				{
-					id: "791596C83A3B1DC0"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "2430D85C78B8D2DD"
+					id: "2713E29E10E8B115"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "62010E0048C5D77E"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "52C9BE16959A3193"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "205431E993CEDD65"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "7D340575EDF07A36"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2030,27 +1760,21 @@
 			id: "3DF863CA3209EDD7"
 			rewards: [
 				{
-					id: "46A3F23F8F303C17"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "31AF449E1482EA28"
+					id: "2192AEDF33C5AB27"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "1D6F0F7B95065EC7"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "7A93785348BE022D"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "1421286439D12A5D"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "6BEAEF5755A3E1EE"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2067,27 +1791,21 @@
 			id: "6E85F0DB0583766D"
 			rewards: [
 				{
-					id: "5773B3AE4FC6D9E6"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "75788BB3BEB39638"
+					id: "1160FD251661B85D"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "0A3458D4108CE096"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "37C9D779721E3AD8"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "02A2F40CCA1F6D8C"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "55512B283D3BC15F"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2104,27 +1822,21 @@
 			id: "2492234FF329DC14"
 			rewards: [
 				{
-					id: "42B26BC1677F9643"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "4059804BC43CB946"
+					id: "1C130827CA8D14A4"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "66C096778D01B31F"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "30D7AB7A7D739D7B"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "015D14D0F2D359B2"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "0F7921014FE78720"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2141,27 +1853,21 @@
 			id: "7283872064A0FCC1"
 			rewards: [
 				{
-					id: "7AC22DC1AF26D420"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "0BA688450EE07833"
+					id: "2E730B19294443E3"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "2088BC742135D065"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "758EEF1BA86DC95D"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "75149B20DAE50BDD"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "3212715AAD3D5F6A"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2178,27 +1884,21 @@
 			id: "279F91A496BB124A"
 			rewards: [
 				{
-					id: "1A2604C0576A9DDD"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "38AD4D3E567DD7DD"
+					id: "682521B89C47451C"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "4D5DC449369322A1"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "195981083593DA10"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0F266DA93F4BC767"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "078EEC61C0984AB0"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2215,27 +1915,21 @@
 			id: "3346023D3BA2C840"
 			rewards: [
 				{
-					id: "759B80F7F681887C"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "7C7D9E38E514AD22"
+					id: "5FE18266C092307D"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "3A9777E02098D92B"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "5ED4CC2E96940EAD"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "278D8CDE1C115F95"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "51ED781DD0223598"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2252,27 +1946,21 @@
 			id: "54F502F1398D6ACC"
 			rewards: [
 				{
-					id: "370A9108DE78D770"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "439E26E2222857F7"
+					id: "2CA45DD012772832"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "3A27F5310BD3695E"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "7EEC9AB87C9597AF"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "058700E1B623E993"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "2D6106F773F1B913"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2289,27 +1977,21 @@
 			id: "771223F342F993B1"
 			rewards: [
 				{
-					id: "51B15E17E708347B"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "1274DEE8AA993D82"
+					id: "4363ADF6F976B447"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "6BCEAA2B034F1B93"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "4269FD960EAB5CD9"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "3710EA49B9666BDD"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "188008654530153E"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2326,27 +2008,21 @@
 			id: "59F5BDF80A5E9C38"
 			rewards: [
 				{
-					id: "14A86F2F3F05D1A9"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "4264D18B5DB952B3"
+					id: "70220259A4504D39"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "4B08822C09EF32A4"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "0DA318B1CC430FC7"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "710F00CCDC3A33EB"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "4C30E277E8672BCD"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2363,27 +2039,21 @@
 			id: "784EED731F72895E"
 			rewards: [
 				{
-					id: "47E6593F4776C667"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "093F5100CB005FB0"
+					id: "1DE5C055FBF88EF9"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "6A30C0F04C448423"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "78A498D9C7485D6F"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "0ECE5CD7A54D7705"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "303D8C0BF7FD7F90"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2400,27 +2070,21 @@
 			id: "59849B473378FC40"
 			rewards: [
 				{
-					id: "20836461BF471461"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 4
-					id: "7ECA8ABB31A9021B"
+					id: "551E777D1C9907F6"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "5C8129715B2F26D7"
-					table_id: 5002914141312565647L
-					type: "random"
+					id: "2A2F1AB7A251D0B2"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
-					id: "2AE4635B7F43F1EC"
-					table_id: 916576546253830445L
-					type: "loot"
+					id: "3AD26EF14280570C"
+					table_id: 5002914141312565647L
+					type: "random"
 				}
 			]
 			tasks: [{

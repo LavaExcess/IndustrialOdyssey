@@ -8,10 +8,7 @@
 	images: [
 		{
 			height: 1.0d
-			hover: [
-				"Мицелиальный реактор — все мицелиальные генераторы должны работать одновременно рядом с блоком реактора."
-				"Он выдаёт 25 000 RF/t."
-			]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image0.hover0}"]
 			image: "industrialforegoing:block/reactor_front_mycelial"
 			rotation: 0.0d
 			width: 1.0d
@@ -20,7 +17,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Кровавый мицелиальный генератор"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image1.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_crimed"
 			rotation: 0.0d
 			width: 1.0d
@@ -29,7 +26,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Кулинарный мицелиальный генератор"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image2.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_culinary"
 			rotation: 0.0d
 			width: 1.0d
@@ -38,7 +35,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Смертельный мицелиальный генератор"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image3.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_death"
 			rotation: 0.0d
 			width: 1.0d
@@ -47,7 +44,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Разочаровывающий мицелиальный генератор"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image4.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_disenchantment"
 			rotation: 0.0d
 			width: 1.0d
@@ -56,7 +53,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Эндер-мицелиальный генератор"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image5.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_ender"
 			rotation: 0.0d
 			width: 1.0d
@@ -65,7 +62,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Взрывной мицелиальный генератор"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image6.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_explosive"
 			rotation: 0.0d
 			width: 1.0d
@@ -74,7 +71,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Морозный мицелиальный генератор"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image7.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_frosty"
 			rotation: 0.0d
 			width: 1.0d
@@ -83,7 +80,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Печной мицелиальный генератор"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image8.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_furnace"
 			rotation: 0.0d
 			width: 1.0d
@@ -92,7 +89,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Галитозный мицелиальный генератор"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image9.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_halitosis"
 			rotation: 0.0d
 			width: 1.0d
@@ -101,7 +98,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Магмовый мицелиальный генератор"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image10.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_magmatic"
 			rotation: 0.0d
 			width: 1.0d
@@ -110,7 +107,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Мясной мицелиальный генератор"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image11.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_meatallurgic"
 			rotation: 0.0d
 			width: 1.0d
@@ -119,7 +116,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Незер-звёздный мицелиальный генератор"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image12.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_netherstar"
 			rotation: 0.0d
 			width: 1.0d
@@ -128,7 +125,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Розовый мицелиальный генератор"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image13.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_pink"
 			rotation: 0.0d
 			width: 1.0d
@@ -137,7 +134,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Зелийный мицелиальный генератор"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image14.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_potion"
 			rotation: 0.0d
 			width: 1.0d
@@ -146,7 +143,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Ракетный мицелиальный генератор"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image15.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_rocket"
 			rotation: 0.0d
 			width: 1.0d
@@ -155,7 +152,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Слизневый мицелиальный генератор"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image16.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_slimey"
 			rotation: 0.0d
 			width: 1.0d
@@ -165,7 +162,7 @@
 		{
 			click: "#0EC2053B191C55C6"
 			height: 1.0d
-			hover: ["Жидкостный экстрактор — извлекает латекс из брёвен"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image17.hover0}"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -175,7 +172,7 @@
 		{
 			click: "#294C729B9EBD7A3C"
 			height: 1.0d
-			hover: ["Разместитель блоков — для автоматизации выкладки брёвен"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image18.hover0}"]
 			image: "industrialforegoing:block/block_placer_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -184,7 +181,7 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Акациевые брёвна дают больше всего латекса"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image19.hover0}"]
 			image: "minecraft:block/acacia_log_top"
 			rotation: 0.0d
 			width: 1.0d
@@ -194,7 +191,7 @@
 		{
 			click: "#0EC2053B191C55C6"
 			height: 1.0d
-			hover: ["Жидкостный экстрактор"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image20.hover0}"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -204,7 +201,7 @@
 		{
 			click: "#0EC2053B191C55C6"
 			height: 1.0d
-			hover: ["Жидкостный экстрактор"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image21.hover0}"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -214,7 +211,7 @@
 		{
 			click: "#6FF04DD735346BED"
 			height: 1.0d
-			hover: ["Юнит по производству латекса — превращает латекс и воду в кусочки резины"]
+			hover: ["{ftbquests.chapter.industrial_foregoing.image22.hover0}"]
 			image: "industrialforegoing:block/latex_processing_unit_front"
 			rotation: 0.0d
 			width: 1.0d
@@ -276,15 +273,12 @@
 	quests: [
 		{
 			description: [
-				"Один из главных ресурсов в этом моде — &7&lлатекс.&r Он используется для крафта рамок механизмов, самих механизмов и улучшений."
-				""
-				"&9JEI&r — твой друг."
-				""
-				"Добыча &7латекса&r довольно проста: Жидкостный экстрактор извлекает латекс из брёвен (акация даёт больше всего)."
-				""
-				"Как получить пластик: пластик получается при переплавке сухой резины. Сухая резина делается в Юните по производству латекса из латекса и воды."
-				""
-				"То есть: &l&7латекс&r → &l&7сухая резина&r → &lпластик."
+				"{ftbquests.chapter.industrial_foregoing.quest1.description1}"
+				"{ftbquests.chapter.industrial_foregoing.quest1.description2}"
+				"{ftbquests.chapter.industrial_foregoing.quest1.description3}"
+				"{ftbquests.chapter.industrial_foregoing.quest1.description4}"
+				"{ftbquests.chapter.industrial_foregoing.quest1.description5}"
+				"{ftbquests.chapter.industrial_foregoing.quest1.description6}"
 			]
 			icon: {
 				Count: 1
@@ -294,46 +288,59 @@
 				}
 			}
 			id: "55820773BDD5319D"
-			rewards: [{
-				id: "0201A0D475099871"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "583EF4EE0B394DEB"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					id: "51C61911FDD41147"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A1CDD0833534672"
+					table_id: 4383659509422880128L
+					type: "random"
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "1997E42FA9EA414C"
 				type: "checkmark"
 			}]
-			title: "Добро пожаловать в &l&7Industrial Foregoing!&r"
+			title: "{ftbquests.chapter.industrial_foregoing.quest1.title}"
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6E616DB197387C86"]
 			description: [
-				"Извлекает латекс из брёвен."
-				""
-				"Посмотри в JEI, какие брёвна подходят и сколько дают латекса. Лучше всего использовать акацию."
+				"{ftbquests.chapter.industrial_foregoing.quest2.description1}"
+				"{ftbquests.chapter.industrial_foregoing.quest2.description2}"
 			]
 			id: "0EC2053B191C55C6"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "0FD1F908E45CCF41"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "52665EDF2CBBCB8B"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "5FE33B2D365646F0"
+					id: "62295D6962617C8E"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "1CC974371830D2F4"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "0B19E1DB7268C02D"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -349,21 +356,21 @@
 			id: "6E616DB197387C86"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "488A2730E8C214CE"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "063B9878D82F29AB"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "40A5FB9A5753AF8E"
+					id: "568DF782745DB723"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "77B448773AF17B4B"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "31EECC2694FFF567"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -381,21 +388,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "65F0A90D92777DF5"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "2236FB9A9360496A"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "586E8444C0C32DCB"
+					id: "7165B9F3FAC3F5C8"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "35C67AFAFD7526B3"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "715EB4299D435ACA"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -411,21 +418,21 @@
 			id: "6FF04DD735346BED"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "544A0F11941031DC"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "498DC8D3E7158CE5"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "382984402158C42B"
+					id: "704A4C47CA5132AC"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "4DE877FF788F1C94"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "64BD7A93DA34D903"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -441,21 +448,21 @@
 			id: "339DF320DDCAD98B"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "073CA792D34B3D00"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "3380938A76CF7C97"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "398121F2A1831CDA"
+					id: "121ACECAE8F7B52B"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "12BD8B9449A544A0"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "2C2009BFC599F11F"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -470,7 +477,6 @@
 					type: "item"
 				}
 			]
-			title: "Транспортировка предметов и жидкостей"
 			x: 1.0d
 			y: 1.0d
 		}
@@ -479,21 +485,21 @@
 			id: "321FA7348E532F4E"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "4BC3E355ECF1B6E2"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "0B625DB34DB7EB36"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "2FAB58E4C1B9AF94"
+					id: "521D1E66E211A065"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "4485A66E11A126ED"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "32CE8259C1C1A969"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -506,25 +512,25 @@
 		}
 		{
 			dependencies: ["6FF04DD735346BED"]
-			description: ["При переплавке даёт пластик — основной ресурс Industrial Foregoing"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest8.description1}"]
 			id: "0EA9E52B67B533DF"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "3C43BF65E389DFFA"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "79DD7368DB6DA614"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "00C81483B33DE92F"
+					id: "06631DD6850A8F6B"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "6A31C8663C8C86A7"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "72523166154914B4"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -540,21 +546,21 @@
 			id: "690CFF61CE787D43"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "42D3DF6436D0EE68"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "13EBC07FA3FBA6B8"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "48E7EDE30B211754"
+					id: "70BC614D641F2B7B"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "3C1AA6CF370A038F"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "1DBE2F41D1AF5A0C"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -571,21 +577,21 @@
 			id: "163BEB03C415E187"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "3A5C72B29D8B8B26"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "35B4EA56391A728A"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "13CF4D260701F8DB"
+					id: "5BF1CD48BB5BD3F8"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "35342AF41743F2B9"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "060907DF36E241C8"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -600,7 +606,6 @@
 					type: "item"
 				}
 			]
-			title: "Обычный юнит чёрной дыры"
 			x: 9.5d
 			y: -1.0d
 		}
@@ -609,21 +614,21 @@
 			id: "57C4A0BAE739E903"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "49B9E5CC30548138"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "7A19913605FBEADA"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "7A2068E07F765D6F"
+					id: "78BD12FF60A3C5C3"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "1635DE1CEE987B90"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "488919C7E35E0DFB"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -637,27 +642,27 @@
 		{
 			dependencies: ["690CFF61CE787D43"]
 			description: [
-				"Пассивные мобы → розовая слизь"
-				"Враждебные мобы → жидкое мясо"
+				"{ftbquests.chapter.industrial_foregoing.quest12.description1}"
+				"{ftbquests.chapter.industrial_foregoing.quest12.description2}"
 			]
 			id: "1823CC81D613892B"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "699910CC261406FE"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "11EEE3CF43562442"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "0BE475EC52889F67"
+					id: "65924B89203BCA3D"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "2B4361A6A4B68416"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "57271876B4382455"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -673,21 +678,21 @@
 			id: "0E8647B8EB4AAC41"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "055E35AE262A2DDD"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "137F05EFB0BF569A"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "0EF9CF207B88953D"
+					id: "67F5573B3CF4CE5B"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "0F46EE663E8FB82C"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "69ECC0EDC059017A"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -703,7 +708,7 @@
 					type: "item"
 				}
 			]
-			title: "Розовая слизь и жидкое мясо"
+			title: "{ftbquests.chapter.industrial_foregoing.quest13.title}"
 			x: 11.5d
 			y: 0.0d
 		}
@@ -712,21 +717,21 @@
 			id: "616CFD4078D67B51"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "53F252A7CC759797"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "59C64F66DA979E19"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "5AA500E87A33157D"
+					id: "679CF6D6F5DE5867"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "54EBB72140CAD138"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "1B34565BA7F8C6DA"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -742,21 +747,21 @@
 			id: "3027584AA6138E6D"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "396666B4F706A463"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "7CC0C7952EDEECB7"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "0EA210F041A6481D"
+					id: "1C91CF12D4687507"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "5C4261407CEEC705"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "273E012361B5F2A2"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -771,7 +776,6 @@
 					type: "item"
 				}
 			]
-			title: "Улучшения отправки и принятия"
 			x: 5.5d
 			y: 1.5d
 		}
@@ -781,21 +785,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "41D288CA32423F5E"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "3EEDE0FC89BCD512"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "1A2719B866165507"
+					id: "4C5A4F45B182BF3F"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "6A9504CE0AC704D3"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "6860C4D364DB8C4B"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -825,7 +829,6 @@
 					type: "item"
 				}
 			]
-			title: "Прочие улучшения для конвейеров"
 			x: 6.5d
 			y: 2.0d
 		}
@@ -835,21 +838,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "72B70AC3E25FA06B"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "0E4FFD557DD81DCB"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "4285A0A04697E635"
+					id: "605A3C7A0E8DB867"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "5D0ED86DCEC8867C"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "12ABC95657C7F141"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -864,32 +867,31 @@
 					type: "item"
 				}
 			]
-			title: "Жидкости"
 			x: 9.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["690CFF61CE787D43"]
-			description: ["Автоматизируй установку и разрушение блоков, особенно полезно для автоматизации латекса."]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest18.description1}"]
 			id: "2CCFEE98FE3B2E97"
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "0FC2C40F1A936838"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "49E65D3E513888BE"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "1E67188F9A704109"
+					id: "609368875B7AADB4"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "52F037F3CC046F35"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5FE8DABC93C35747"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -904,7 +906,6 @@
 					type: "item"
 				}
 			]
-			title: "Блоки"
 			x: 8.5d
 			y: -3.0d
 		}
@@ -914,21 +915,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "0F9FA43A2F6F735E"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "09F5111120A41CF4"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "3F22EC1994FBE9D2"
+					id: "615AFFC10FA4A61B"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "716471C2E80FADC5"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5E279DA172C6EE4E"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -948,7 +949,6 @@
 					type: "item"
 				}
 			]
-			title: "Животные"
 			x: 6.0d
 			y: -2.0d
 		}
@@ -958,21 +958,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "62C8839BDCCF0BDC"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "199722A712483886"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "319613B66AA1B19F"
+					id: "462BAA092F1AD9FC"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "51D1A6707E21F51E"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "3CBFD202CDF09075"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -987,7 +987,6 @@
 					type: "item"
 				}
 			]
-			title: "Растения"
 			x: 6.5d
 			y: -3.0d
 		}
@@ -997,21 +996,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "5D70F1790CA9ED56"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "768252D9423C6DF0"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "6B19F17AE9878BEA"
+					id: "36AEFC061C5F0584"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "7B403FE44AC1E6C3"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "437D6284FA6E5771"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -1026,7 +1025,6 @@
 					type: "item"
 				}
 			]
-			title: "Биоэнергия"
 			x: 5.5d
 			y: -1.0d
 		}
@@ -1036,21 +1034,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "080EDC49644F8B47"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "03991B2CD8F9BD31"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "64C7BBF3CC0C3965"
+					id: "66B933BBE18DBF2C"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "60EED90C58A5B3B3"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "7D920899371DE1B8"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -1065,7 +1063,6 @@
 					type: "item"
 				}
 			]
-			title: "Прочие механизмы"
 			x: 7.5d
 			y: 2.5d
 		}
@@ -1074,25 +1071,25 @@
 				"690CFF61CE787D43"
 				"1823CC81D613892B"
 			]
-			description: ["Мясо прямо по трубочке, вкуснота"]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest23.description1}"]
 			id: "4C366515E3CCB0B2"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "32A3AEE960D29BF4"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "44908208B796728F"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "4A9B4740C6AC01C7"
+					id: "19499837ACD52861"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "0226821409196861"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "43FE9F50677C8371"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1108,21 +1105,21 @@
 			id: "3514E9C1A8C7400C"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "07575919AE4A7A7A"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "190BAB8DD652D3D6"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "4A311607ADC5C7AF"
+					id: "1DB213E00C551CAC"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "7BE5A0E13433005F"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "4D29FF2368FCFC65"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -1142,21 +1139,21 @@
 			id: "0BCCDE24D378F260"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "3E7C8A98057F6AD4"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "0ABD1D28B1C1C841"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "09A3F180E9F471E4"
+					id: "31FA02AFBDC3DE7B"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "5A3660BB35F64600"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5319A259E654E20C"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -1165,6 +1162,7 @@
 				item: "industrialforegoing:machine_frame_advanced"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.industrial_foregoing.quest25.title}"
 			x: 11.5d
 			y: -6.5d
 		}
@@ -1174,21 +1172,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "0FB0CE5E9A0CE414"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "06B8B1B6E24ADAC2"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "75FA62D7559B263A"
+					id: "01BE294B30902665"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "1E082C62D1CD9F9F"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "7A5C09548CEBF244"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1205,21 +1203,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "39D0A0CE8D756742"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "4ED270E180128271"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "547C701680D81A03"
+					id: "4BBB41584596CA84"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "0836E7EE29CAE4D7"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "3480427FCE3AB114"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1236,21 +1234,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "3EB8A4C2B018A577"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "6352E617149309E2"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "4A4D3C3CBE17D2A3"
+					id: "609C8833911DCC2E"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "4CC58DC1DF78A324"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "405F9706F365AF23"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1266,21 +1264,21 @@
 			id: "605A5AC65BC7E864"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "1428470B8C7C570D"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "66E7F410C9A81383"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "12CDD140E076DEC5"
+					id: "1ECA7CC94FAE5722"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "4795268F59B2A68B"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "78BB9468FEA3CBE1"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1297,21 +1295,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "0F2857EF75E0A175"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "1C853B37F6BA08B5"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "583DFA5C8B4B4129"
+					id: "76952DE6F1FA8F4D"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "3A534954A1F5F734"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "3BACA38767C94FA1"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1328,21 +1326,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "0C7C6D78FA5D2545"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "144304BF81E29093"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "1496A283E07F00E8"
+					id: "52E5C49015C3EDF2"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "1FBFB952F212D14B"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "52B7C04E75079226"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1358,21 +1356,21 @@
 			id: "0B7E3FD8B8CB04A2"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "37653534808469DD"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "5450DE21E67D89F7"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "1E49AAF1C80DC91C"
+					id: "7CE484AC06F668C0"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "6FE3158352596A81"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "2CFD245961CCCBE6"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -1387,7 +1385,6 @@
 					type: "item"
 				}
 			]
-			title: "Простой юнит чёрной дыры"
 			x: 4.5d
 			y: -7.5d
 		}
@@ -1397,21 +1394,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "0A54DFA6CFBD1BFA"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "537EFB774E974BC2"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "5DF683F43FBA1E5B"
+					id: "61B10B636D57D742"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "33D1AB204625467B"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5AF0A9152FC6460C"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1428,21 +1425,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "6B3FDC8BD259FB3E"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "05AD1F1E42B4F9C9"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "66B80154709169DD"
+					id: "4909FB0A0624EFF3"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "110C532D19627F19"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "34A8D0CAE8AC0860"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1459,21 +1456,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "31F26A000D658C2A"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "50F380D958100CD0"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "29C949F61F31F566"
+					id: "4897CC2C98DAE3FA"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "3D498F801EDF6FD6"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "39D34D894C889A0A"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1489,21 +1486,21 @@
 			id: "408203C29BAABA44"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "0BF224ACBE5DDF56"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "54CFA3AD8ACCD0D9"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "514F54769AB30A64"
+					id: "7AC18B851B27722A"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "2B1C4875B170AEE1"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "48A043662481B714"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1522,21 +1519,21 @@
 			id: "0B35172E47705205"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "6EAB6A6B02C2659E"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "6A1F6F5FA8D09828"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "368B3B79D683056A"
+					id: "71973DC6742206B6"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "5E14605EA81ADD68"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "561AEED1AEBA3C0B"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1552,21 +1549,21 @@
 			id: "418E57E34FFC19E1"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "54B50B9EFEFA4F76"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "343E9F5FD4DAF3BF"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "0548AE8B2A406B56"
+					id: "4CCEE4853472FEDA"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "2226BF945920FD91"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "70F7CF0DEB208A9A"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -1587,7 +1584,6 @@
 					type: "item"
 				}
 			]
-			title: "Лазерные буры"
 			x: 11.0d
 			y: -8.5d
 		}
@@ -1596,21 +1592,21 @@
 			id: "2E8E292ED596A104"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "66B2DC28BB1A2634"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "5A70665C603EF7BF"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "4F4617A3A5F7BD30"
+					id: "153C549F69B14F35"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "740EE60E99175D74"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "77CA35FC47A05F25"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1626,25 +1622,25 @@
 				"2E8E292ED596A104"
 				"418E57E34FFC19E1"
 			]
-			description: ["Совет: используй стекло, устойчивое к взрывам иссушителя."]
+			description: ["{ftbquests.chapter.industrial_foregoing.quest40.description1}"]
 			id: "7E39FB9F3E973009"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "33B946D34EFE5F49"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "77484323BC40A53D"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "4A171DA42199F9D4"
+					id: "506D7B1B22330B12"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "217952C2D681BE11"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "3E452DEE7A147326"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			size: 1.0d
@@ -1653,6 +1649,7 @@
 				item: "industrialforegoing:ether_gas_bucket"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.industrial_foregoing.quest40.title}"
 			x: 11.5d
 			y: -10.0d
 		}
@@ -1661,21 +1658,21 @@
 			id: "0F8FE6692717AA6A"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "184E395E26DA7FE5"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "3227C3CBF08CEF4E"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "0504AC2C13B2F160"
+					id: "4AF9A9D364ADFF41"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "6151A201CEE94E9A"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "6BB573C6330AD197"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1691,21 +1688,21 @@
 			id: "7B4AF35313D7D779"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "65DC843B9D72476A"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "5FC4E639EF39E582"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "1D42BA89A735B1B6"
+					id: "2B4C1CA82A08DA59"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "6A3CF602883C31A0"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5BB15357B4044E57"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1721,21 +1718,21 @@
 			id: "1D5895CD14AB88EF"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "1176AA84EF6C02BA"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "7CD555D0C7CACC3F"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "468C3757F630859B"
+					id: "174003D6F122AC74"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "6AD5BADC4D115C7A"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "566CA13E66FCBB29"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -1750,7 +1747,6 @@
 					type: "item"
 				}
 			]
-			title: "&dAdvanced Black Hole Unit"
 			x: 15.5d
 			y: -6.5d
 		}
@@ -1760,21 +1756,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "0666F8E52FE95D38"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "6EE755BEE0DC4CCA"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "5DDE2901C8B41CA7"
+					id: "61B67A2CD6611BD8"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "1C01297EC91160C8"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "4766B61931806162"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1791,21 +1787,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "1F5CF2A0154286CD"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "23526881ED864FD8"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "30A18DA34BBA1453"
+					id: "50AACD86DF61F12A"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "0BC7E34B951BC88A"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "2082F7EA9E0CCDA1"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1822,21 +1818,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "527990CF9FC1026F"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "70EFBB058033DFB5"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "26AAA7B27EA20083"
+					id: "04D408CC2846C036"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "65F01650B78B421C"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "007378A6CDC8A0B7"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1853,21 +1849,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "74D1006BF10EAC27"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "3975D24412A24578"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "7FF45B543FBEA0EF"
+					id: "3CFE341B94CDB3E2"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "54ABB0C3CA1D5ED4"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "12464A83B2597427"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1884,21 +1880,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "0C3EEBD4F05E0919"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "42D9BB2A356321BC"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "04D205C6B5CC14A4"
+					id: "5DC252C7A7E68EAD"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "5B4C02C9DEE96A69"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "298D38707FBB0326"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1915,21 +1911,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "49E8B9FAA8203A11"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "0D3240BFD697C8D9"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "00DC9D0CA0D59522"
+					id: "2F14F1CEFFC81521"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "0B28400F63940B05"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "6D314E00E61A5C22"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1946,21 +1942,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "2B971F325ACB2803"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "028723AEEE92372C"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "779AE2E21084397F"
+					id: "7926D7BF02591FFF"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "5630D8DEF9FF2BA2"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "45B58C5019E8B2B7"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1977,21 +1973,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "250B294783D06785"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "24DFDE647B16F5BC"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "3BD0715A0E84D2BD"
+					id: "3CA1EAD30D9DBBA2"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "113B69B927C9F74B"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "44DAC2C1D22429B7"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2008,21 +2004,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "6BB7E221422060DC"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "5F73CFA38735CFCB"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "60C3BB59F2F059B4"
+					id: "40B99E490D72EE02"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "2B2950BFA2232A8B"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "3CA594DAE43BEE43"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2039,21 +2035,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "3A0FD02AD9455A77"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "33A8E53AE07A085A"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "79978220BFCB61C5"
+					id: "25012D6036005AC6"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "5D7F83813CD3D1E3"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "528A7E1C947E5468"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2070,21 +2066,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "7E08F35F379B3C1C"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "52BD8AAC7E06EC77"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "7AEB8CFA36960182"
+					id: "701C2B528A3EE310"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "5554208C171B0C47"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5924E78F9D1D1453"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2101,21 +2097,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "60ABC975EB2CDB28"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "019CFB260B5394E6"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "1CA44F6BAD423237"
+					id: "54F0E9BE0F2BBBF8"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "0B8A274260CB21E5"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "56DD64763EC470D0"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2132,21 +2128,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "4D8AA4533081D0F8"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "4472DD261813861F"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "3050CCEDA94F905B"
+					id: "16CF2A2DFE8D22EF"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "368E2CD11E2A0F67"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "246B77DD3CEDFC70"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2163,21 +2159,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "11DC7451879C6319"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "45022D6FC3FFC149"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "7E327D08766E2F30"
+					id: "5B88A59C3AAA51C7"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "49396A486E535DB9"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "7465F7EDEE0EA0D6"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2194,21 +2190,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "28282E0CCB42D54B"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "63DB18F7568A2D64"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "34103FA7150CEE7F"
+					id: "43437A15E173E067"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "307A51A680B1F9F1"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "6FF3CBA3E788A1E4"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2225,21 +2221,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "51DD48BB8FC2FF22"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "05E666D72B4921AC"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "6A839ADED613327D"
+					id: "64BD5CA02D4A6F04"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "49D4EE08A5A7A9D6"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "179F04A5DC2AB271"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2256,21 +2252,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "442DB484A68884F0"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "0AEB83BE188869A3"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "3F90A74B6C1774B9"
+					id: "797E01AB4BC21897"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "58468B0B931CD5D3"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "4FF2AFC87C45BA22"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2287,21 +2283,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "6DD2D83976129B77"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "095F76D4D300DADF"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "6B7C61F39C6393FA"
+					id: "10E8619EE38E3833"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "579E1FF90A229A6F"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "4DCCB54BDCC414FA"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2318,21 +2314,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "65B53BAF194652D5"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "3AC20C57BCAFA15D"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "6728E70B85D73946"
+					id: "050C3C315D65FCC3"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "64407D045939B4A8"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "3DDCFE744B5E71D3"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2348,21 +2344,21 @@
 			id: "65C147F5282E8FCD"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "2A3723E2D3CFB018"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "5F03728151F0E5FF"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "693039F36E9D7328"
+					id: "64EAD6A674954103"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "060DE6B9641F2217"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "7F7F939C02AFD681"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2378,21 +2374,21 @@
 			id: "41E8550FC36ABCA5"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "7F7E731CE4E340A9"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "6DAF35F327F4C1AA"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "4ABB552DDA3B7949"
+					id: "55775E8D290D4AF5"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "395C7571E26785A1"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "0419197B436EE29E"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -2402,9 +2398,9 @@
 						Count: 1
 						id: "industrialforegoing:infinity_trident"
 						tag: {
-							CanCharge: 1b
-							Channeling: 0b
-							Energy: 0L
+							CanCharge: 1
+							Channeling: 0
+							Energy: 0
 							Fluid: {
 								Amount: 0
 								FluidName: "biofuel"
@@ -2412,7 +2408,7 @@
 							Loyalty: 0
 							Riptide: 0
 							Selected: "POOR"
-							Special: 0b
+							Special: 0
 						}
 					}
 					type: "item"
@@ -2423,14 +2419,14 @@
 						Count: 1
 						id: "industrialforegoing:infinity_drill"
 						tag: {
-							CanCharge: 1b
-							Energy: 0L
+							CanCharge: 1
+							Energy: 0
 							Fluid: {
 								Amount: 0
 								FluidName: "biofuel"
 							}
 							Selected: "POOR"
-							Special: 0b
+							Special: 0
 						}
 					}
 					type: "item"
@@ -2441,14 +2437,14 @@
 						Count: 1
 						id: "industrialforegoing:infinity_saw"
 						tag: {
-							CanCharge: 1b
-							Energy: 0L
+							CanCharge: 1
+							Energy: 0
 							Fluid: {
 								Amount: 0
 								FluidName: "biofuel"
 							}
 							Selected: "POOR"
-							Special: 0b
+							Special: 0
 						}
 					}
 					type: "item"
@@ -2460,14 +2456,14 @@
 						id: "industrialforegoing:infinity_hammer"
 						tag: {
 							Beheading: 0
-							CanCharge: 1b
-							Energy: 0L
+							CanCharge: 1
+							Energy: 0
 							Fluid: {
 								Amount: 0
 								FluidName: "biofuel"
 							}
 							Selected: "POOR"
-							Special: 0b
+							Special: 0
 						}
 					}
 					type: "item"
@@ -2478,16 +2474,15 @@
 						Count: 1
 						id: "industrialforegoing:infinity_backpack"
 						tag: {
-							CanCharge: 1b
-							Energy: 0L
+							CanCharge: 1
+							Energy: 0
 							Selected: "POOR"
-							Special: 0b
+							Special: 0
 						}
 					}
 					type: "item"
 				}
 			]
-			title: "Бесконечные инструменты"
 			x: 11.5d
 			y: -5.0d
 		}
@@ -2497,21 +2492,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "655AA2F98ECCE963"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "2A39EECE8587B8BD"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "4C2740FFA7F02982"
+					id: "5E2E1092B13D70EB"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "67AD2F2DDE604C3F"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "0D5878FD1E04664E"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2528,21 +2523,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "7B5F15A9BBCCD2B7"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "06352DC694D2E049"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "3985DE91556F00E0"
+					id: "287A09470F1801E6"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "52116EAE6D6104E7"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "51C0DC8EFF0BA22B"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2559,21 +2554,21 @@
 			optional: true
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "2FA804D61F0692B0"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "0E447CC3983DC558"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "6D8309E661FD5C92"
+					id: "7899B39A3EEA4B32"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "63124C49B3DBADE0"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "0470291090C06F5A"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2589,21 +2584,21 @@
 			id: "28B3591BFC0FA08B"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "582F9BBC73FA0FA2"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "5FF1335238E59B05"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "1001BBF6DD5509B2"
+					id: "689E04601F87A951"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "5FC2431B70F494D4"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "0EFE3CCB87D466EA"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2619,21 +2614,21 @@
 			id: "30BEF473F5C25983"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "3C9C21321BDF8AE1"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "26CCDC3E37BC78D1"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "2838B526904CC18D"
+					id: "1DE729A8C8E73DC8"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "693CE2EE0F56C142"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "17D0D73E9C9ED82E"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -2648,7 +2643,6 @@
 					type: "item"
 				}
 			]
-			title: "&6Supreme Black Hole Unit"
 			x: 11.0d
 			y: -12.5d
 		}
@@ -2657,21 +2651,21 @@
 			id: "4F846973EFB95FA5"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "3DB0D15118844096"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "107F45EA14C440B3"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "1B9495F9D22884F7"
+					id: "4DD762399221A8D2"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "475E50820D7ADA13"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "3C2C39251A38ACD2"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2679,7 +2673,6 @@
 				item: "industrialforegoing:black_hole_controller"
 				type: "item"
 			}]
-			title: "&aКонтроллер чёрной дыры"
 			x: 12.0d
 			y: -12.5d
 		}
@@ -2704,30 +2697,28 @@
 				"0F8FE6692717AA6A"
 			]
 			description: [
-				"Мицелиальный реактор — все мицелиальные генераторы должны работать одновременно рядом с блоком реактора. Он выдаёт 25 000 RF/t."
-				""
-				"Всё звучит круто, но тебе придётся автоматизировать подачу ресурсов в каждый генератор. Узнай, что потребляет каждый из них, и автоматизируй это. Большинство вещей просты, но некоторые... ну, вызовут трудности (особенно Разочаровывающий)."
-				""
-				"Но когда всё заработает, ты можешь построить несколько таких реакторов."
+				"{ftbquests.chapter.industrial_foregoing.quest71.description1}"
+				"{ftbquests.chapter.industrial_foregoing.quest71.description2}"
+				"{ftbquests.chapter.industrial_foregoing.quest71.description3}"
 			]
 			id: "0FAAE744E156D8EF"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "7E2295BE4E438375"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "170F80A01DF80E34"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "32D83DC81AB4874F"
+					id: "1A25D8107BBD4025"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "11C98028E6DD7582"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "3967A8FA5AC8ADF8"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2735,7 +2726,7 @@
 				title: "Мицелиальный реактор"
 				type: "checkmark"
 			}]
-			title: "Мицелиальный реактор?"
+			title: "{ftbquests.chapter.industrial_foregoing.quest71.title}"
 			x: 2.0d
 			y: -9.5d
 		}
@@ -2747,31 +2738,29 @@
 			]
 			dependency_requirement: "one_started"
 			description: [
-				"Добыча первого эфира будет страшноватой."
-				"Эфир получается бурением иссушителя с помощью жидкостной лазерной основы с фиолетовой линзой."
-				""
-				"Но не бойся, в Industrial Foregoing есть механизм, который тебе поможет: Камера стазиса. Она накладывает на любой сущность эффект замедления максимального уровня, так что призвать иссушителя на ней безопасно."
-				""
-				"Главное, не дай кончиться энергии — если питание отключится, тебе придётся сражаться с иссушителем."
+				"{ftbquests.chapter.industrial_foregoing.quest72.description1}"
+				"{ftbquests.chapter.industrial_foregoing.quest72.description2}"
+				"{ftbquests.chapter.industrial_foregoing.quest72.description3}"
+				"{ftbquests.chapter.industrial_foregoing.quest72.description4}"
 			]
 			id: "3CB7884B7B32CF00"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "6E3CC9BCD9D5A921"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "1D673EBF58B9CE7F"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "36B087A13705AB23"
+					id: "15C5DAD17D0238E3"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "1C8EC55502B9939E"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "7B7D9BAB11AEBE98"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2784,34 +2773,31 @@
 		}
 		{
 			description: [
-				"Добро пожаловать в Industrial Foregoing! Один из главных ресурсов в этом моде — латекс. Он используется для крафта рамок механизмов, самих механизмов и улучшений."
-				""
-				"JEI — твой друг."
-				""
-				"Добыча латекса довольно проста: Жидкостный экстрактор извлекает латекс из брёвен (акация даёт больше всего)."
-				""
-				"Как получить пластик: пластик получается при переплавке сухой резины. Сухая резина делается в Юните по производству латекса из латекса и воды."
-				""
-				"То есть: латекс → кусочки резины → резина → пластик."
+				"{ftbquests.chapter.industrial_foregoing.quest73.description1}"
+				"{ftbquests.chapter.industrial_foregoing.quest73.description2}"
+				"{ftbquests.chapter.industrial_foregoing.quest73.description3}"
+				"{ftbquests.chapter.industrial_foregoing.quest73.description4}"
+				"{ftbquests.chapter.industrial_foregoing.quest73.description5}"
+				"{ftbquests.chapter.industrial_foregoing.quest73.description6}"
 			]
 			id: "1BA3D15FFE7DBE59"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "07C729C08871DF54"
-					table_id: 4383659509422880128L
-					type: "random"
+					count: 4
+					id: "44E95B79704321E9"
+					item: "libraryferret:iron_coins_jtl"
+					type: "item"
 				}
 				{
-					id: "6D1998DAD1EFF9F1"
+					id: "7C81C534CAE904EF"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
-					id: "7488D8DBF71B813C"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "0E4AAD7812FE090E"
+					table_id: 4383659509422880128L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2819,7 +2805,7 @@
 				title: "Латекс и пластик"
 				type: "checkmark"
 			}]
-			title: "Латекс и пластик?"
+			title: "{ftbquests.chapter.industrial_foregoing.quest73.title}"
 			x: -0.538775510204033d
 			y: -3.5d
 		}

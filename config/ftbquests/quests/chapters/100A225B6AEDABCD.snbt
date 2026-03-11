@@ -52,9 +52,9 @@
 	quests: [
 		{
 			description: [
-				"{ftbquests.chapter.100A225B6AEDABCD.quest1.description1}"
+				"{ftbquests.chapter.info.quest1.description1}"
 				""
-				"{ftbquests.chapter.100A225B6AEDABCD.quest1.description2}"
+				"{ftbquests.chapter.info.quest1.description2}"
 			]
 			id: "76442A8922CC31EB"
 			rewards: [{
@@ -81,10 +81,10 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.100A225B6AEDABCD.quest2.description1}"
-				"{ftbquests.chapter.100A225B6AEDABCD.quest2.description2}"
+				"{ftbquests.chapter.info.quest2.description1}"
+				"{ftbquests.chapter.info.quest2.description2}"
 				""
-				"{ftbquests.chapter.100A225B6AEDABCD.quest2.description3}"
+				"{ftbquests.chapter.info.quest2.description3}"
 			]
 			id: "14ACFA97FCB9EF7C"
 			rewards: [{
@@ -106,7 +106,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.100A225B6AEDABCD.quest3.description1}"]
+			description: ["{ftbquests.chapter.info.quest3.description1}"]
 			id: "26B76375A1FDE7DD"
 			rewards: [{
 				count: 3
@@ -139,8 +139,8 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.100A225B6AEDABCD.quest4.description1}"
-				"{ftbquests.chapter.100A225B6AEDABCD.quest4.description2}"
+				"{ftbquests.chapter.info.quest4.description1}"
+				"{ftbquests.chapter.info.quest4.description2}"
 			]
 			id: "2F2D8348EC25E12E"
 			rewards: [{
@@ -163,9 +163,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.100A225B6AEDABCD.quest5.description1}"
+				"{ftbquests.chapter.info.quest5.description1}"
 				""
-				"{ftbquests.chapter.100A225B6AEDABCD.quest5.description2}"
+				"{ftbquests.chapter.info.quest5.description2}"
 			]
 			id: "084E82239021C469"
 			rewards: [{
@@ -183,7 +183,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["{ftbquests.chapter.100A225B6AEDABCD.quest6.description1}"]
+			description: ["{ftbquests.chapter.info.quest6.description1}"]
 			id: "122C82BAFDBD5CBC"
 			rewards: [{
 				count: 6
@@ -205,12 +205,12 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.100A225B6AEDABCD.quest7.description1}"
+				"{ftbquests.chapter.info.quest7.description1}"
 				""
-				"{ftbquests.chapter.100A225B6AEDABCD.quest7.description2}"
-				"{ftbquests.chapter.100A225B6AEDABCD.quest7.description3}"
+				"{ftbquests.chapter.info.quest7.description2}"
+				"{ftbquests.chapter.info.quest7.description3}"
 				""
-				"{ftbquests.chapter.100A225B6AEDABCD.quest7.description4}"
+				"{ftbquests.chapter.info.quest7.description4}"
 				"{@pagebreak}"
 			]
 			id: "17C5211A1466D638"
@@ -235,7 +235,7 @@
 			y: -2.0d
 		}
 		{
-			description: ["{ftbquests.chapter.100A225B6AEDABCD.quest8.description1}"]
+			description: ["{ftbquests.chapter.info.quest8.description1}"]
 			id: "2DB062BF44BF7F22"
 			rewards: [{
 				count: 5
@@ -252,7 +252,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["{ftbquests.chapter.100A225B6AEDABCD.quest10.description1}"]
+			description: ["{ftbquests.chapter.info.quest9.description1}"]
 			id: "002311B194E5CA08"
 			rewards: [{
 				count: 10
@@ -265,19 +265,19 @@
 				item: "ironchest:iron_chest"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.100A225B6AEDABCD.quest10.title}"
+			title: "{ftbquests.chapter.info.quest9.title}"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.100A225B6AEDABCD.quest13.description1}"
-				"{ftbquests.chapter.100A225B6AEDABCD.quest13.description2}"
-				"{ftbquests.chapter.100A225B6AEDABCD.quest13.description3}"
+				"{ftbquests.chapter.info.quest12.description1}"
+				"{ftbquests.chapter.info.quest12.description2}"
+				"{ftbquests.chapter.info.quest12.description3}"
 				""
-				"{ftbquests.chapter.100A225B6AEDABCD.quest13.description4}"
+				"{ftbquests.chapter.info.quest12.description4}"
 				""
-				"{ftbquests.chapter.100A225B6AEDABCD.quest13.description5}"
+				"{ftbquests.chapter.info.quest12.description5}"
 			]
 			icon: "industrialupgrade:blockbasalts/basalt_magma"
 			id: "4671525C8B08D3C5"
@@ -293,16 +293,16 @@
 				id: "381A97FEB29F6AC7"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.100A225B6AEDABCD.quest13.title}"
+			title: "{ftbquests.chapter.info.quest12.title}"
 			x: 7.5d
 			y: -4.4d
 		}
 		{
 			dependencies: ["4671525C8B08D3C5"]
 			description: [
-				"{ftbquests.chapter.100A225B6AEDABCD.quest14.description1}"
+				"{ftbquests.chapter.info.quest13.description1}"
 				""
-				"{ftbquests.chapter.100A225B6AEDABCD.quest14.description2}"
+				"{ftbquests.chapter.info.quest13.description2}"
 			]
 			id: "24514C81B201AE1A"
 			optional: true
@@ -335,9 +335,9 @@
 		{
 			dependencies: ["4671525C8B08D3C5"]
 			description: [
-				"{ftbquests.chapter.100A225B6AEDABCD.quest15.description1}"
+				"{ftbquests.chapter.info.quest14.description1}"
 				""
-				"{ftbquests.chapter.100A225B6AEDABCD.quest15.description2}"
+				"{ftbquests.chapter.info.quest14.description2}"
 			]
 			id: "67DED05FDCD28CCC"
 			rewards: [{
@@ -370,12 +370,12 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.100A225B6AEDABCD.quest16.description1}"
+				"{ftbquests.chapter.info.quest15.description1}"
 				""
-				"{ftbquests.chapter.100A225B6AEDABCD.quest16.description2}"
+				"{ftbquests.chapter.info.quest15.description2}"
 				""
-				"{ftbquests.chapter.100A225B6AEDABCD.quest16.description3}"
-				"{ftbquests.chapter.100A225B6AEDABCD.quest16.description4}"
+				"{ftbquests.chapter.info.quest15.description3}"
+				"{ftbquests.chapter.info.quest15.description4}"
 			]
 			id: "1D900197A58756AD"
 			rewards: [{
@@ -395,16 +395,16 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.100A225B6AEDABCD.quest16.title}"
+			title: "{ftbquests.chapter.info.quest15.title}"
 			x: -4.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["1D900197A58756AD"]
 			description: [
-				"{ftbquests.chapter.100A225B6AEDABCD.quest17.description1}"
+				"{ftbquests.chapter.info.quest16.description1}"
 				""
-				"{ftbquests.chapter.100A225B6AEDABCD.quest17.description2}"
+				"{ftbquests.chapter.info.quest16.description2}"
 			]
 			id: "29D6A9624F412D36"
 			rewards: [{
@@ -424,12 +424,12 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.100A225B6AEDABCD.quest17.title}"
+			title: "{ftbquests.chapter.info.quest16.title}"
 			x: -3.0d
 			y: -5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.100A225B6AEDABCD.quest18.description1}"]
+			description: ["{ftbquests.chapter.info.quest17.description1}"]
 			id: "5B4E1F342A72526D"
 			rewards: [{
 				count: 6
@@ -476,7 +476,7 @@
 			y: -5.0d
 		}
 		{
-			description: ["{ftbquests.chapter.100A225B6AEDABCD.quest19.description1}"]
+			description: ["{ftbquests.chapter.info.quest18.description1}"]
 			id: "6F2D7074EA78261C"
 			rewards: [{
 				count: 5
@@ -494,26 +494,26 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.100A225B6AEDABCD.quest20.description1}"
+				"{ftbquests.chapter.info.quest19.description1}"
 				""
-				"{ftbquests.chapter.100A225B6AEDABCD.quest20.description2}"
-				"{ftbquests.chapter.100A225B6AEDABCD.quest20.description3}"
+				"{ftbquests.chapter.info.quest19.description2}"
+				"{ftbquests.chapter.info.quest19.description3}"
 				""
-				"{ftbquests.chapter.100A225B6AEDABCD.quest20.description4}"
+				"{ftbquests.chapter.info.quest19.description4}"
 				""
-				"{ftbquests.chapter.100A225B6AEDABCD.quest20.description5}"
+				"{ftbquests.chapter.info.quest19.description5}"
 				""
-				"{ftbquests.chapter.100A225B6AEDABCD.quest20.description6}"
+				"{ftbquests.chapter.info.quest19.description6}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.100A225B6AEDABCD.quest20.description7}"
+				"{ftbquests.chapter.info.quest19.description7}"
 				""
-				"{ftbquests.chapter.100A225B6AEDABCD.quest20.description8}"
+				"{ftbquests.chapter.info.quest19.description8}"
 				""
-				"{ftbquests.chapter.100A225B6AEDABCD.quest20.description9}"
+				"{ftbquests.chapter.info.quest19.description9}"
 				""
-				"{ftbquests.chapter.100A225B6AEDABCD.quest20.description10}"
+				"{ftbquests.chapter.info.quest19.description10}"
 				""
-				"{ftbquests.chapter.100A225B6AEDABCD.quest20.description11}"
+				"{ftbquests.chapter.info.quest19.description11}"
 			]
 			id: "4A3784C6AF34B27F"
 			rewards: [{
@@ -526,14 +526,14 @@
 			size: 1.2d
 			tasks: [{
 				id: "0C9E6DFA9EF0F275"
-				title: "{ftbquests.chapter.100A225B6AEDABCD.quest20.task_909285097951261301.title}"
+				title: "{ftbquests.chapter.info.quest19.task_909285097951261301.title}"
 				type: "checkmark"
 			}]
 			x: 3.0d
 			y: -4.8d
 		}
 		{
-			description: ["{ftbquests.chapter.100A225B6AEDABCD.quest21.description1}"]
+			description: ["{ftbquests.chapter.info.quest20.description1}"]
 			id: "10C12824EA94599A"
 			rewards: [{
 				count: 8
@@ -564,8 +564,8 @@
 		{
 			can_repeat: true
 			description: [
-				"{ftbquests.chapter.100A225B6AEDABCD.quest4.description1}"
-				"{ftbquests.chapter.100A225B6AEDABCD.quest4.description2}"
+				"{ftbquests.chapter.info.quest4.description1}"
+				"{ftbquests.chapter.info.quest4.description2}"
 			]
 			icon: {
 				Count: 1
@@ -593,7 +593,7 @@
 		}
 		{
 			dependencies: ["2329AA0AFBEF1E13"]
-			description: ["У &e&lPipez&r есть свой собственный способ фильтрации предметов, но для него нужен как минимум продвинутый улучшитель. Когда продвинутый улучшитель установлен, ты можешь нажать кнопку «Добавить», чтобы добавить фильтры. \\nЗатем можно добавить в фильтр: предмет, тег или NBT-данные.\\n\\nТам же можно установить фильтр назначения. Чтобы его настроить, зажми Shift и кликни ПКМ по контейнеру.\\n\\nТакже нужно будет выбрать режим «Белый список» (пропускать только отфильтрованное) или «Чёрный список» (пропускать всё, кроме отфильтрованного)."]
+			description: ["{ftbquests.chapter.info.quest22.description1}"]
 			id: "2A976D41F79C34B1"
 			rewards: [{
 				id: "11D2714AB566A00B"
@@ -607,13 +607,13 @@
 				item: "pipez:filter_destination_tool"
 				type: "item"
 			}]
-			title: "Фильтрация"
+			title: "{ftbquests.chapter.info.quest22.title}"
 			x: -1.3d
 			y: -6.94d
 		}
 		{
 			dependencies: ["2329AA0AFBEF1E13"]
-			description: ["Каждому техническому моду нужна &cэнергия&r, будь то FE, EU, RF или другая аббревиатура! &cЭнергетическим трубам&r всё равно, они просто передают энергию!\\n\\nУ некоторых механизмов есть строго определённые порты ввода-вывода для &cэнергии&r, так что не забудь это проверить!"]
+			description: ["{ftbquests.chapter.info.quest23.description1}"]
 			id: "53EC96FA0E7C4ED4"
 			rewards: [{
 				count: 16
@@ -627,7 +627,7 @@
 				item: "pipez:energy_pipe"
 				type: "item"
 			}]
-			title: "Энергетические трубы"
+			title: "{ftbquests.chapter.info.quest23.title}"
 			x: -2.0d
 			y: -8.45d
 		}
@@ -637,7 +637,7 @@
 				"36836AD948F96B9F"
 				"53EC96FA0E7C4ED4"
 			]
-			description: ["Зачем беспокоиться о том, что именно перемещается, если можно перемещать всё сразу! &5Универсальные трубы&r ещё более «всеядны», чем &cэнергетические&r. Они могут перемещать &eпредметы&r, &bжидкости&r и &cэнергию&r."]
+			description: ["{ftbquests.chapter.info.quest24.description1}"]
 			id: "4FBAB3A0FBF8CE2F"
 			rewards: [{
 				count: 16
@@ -651,13 +651,13 @@
 				item: "pipez:universal_pipe"
 				type: "item"
 			}]
-			title: "Универсальные трубы"
+			title: "{ftbquests.chapter.info.quest24.title}"
 			x: -3.0d
 			y: -9.45d
 		}
 		{
 			dependencies: ["2329AA0AFBEF1E13"]
-			description: ["&bВода&r = &bСиний&r, &bвода&r = &bжидкость&r, следовательно &bсиний&r = &bжидкость&r.\\n\\nУ многих модов есть свои &bжидкости&r, да и в самом Minecraft есть &bвода&r и &cлава&r. Скорее всего, тебе понадобится перемещать эти &bжидкости&r, и хороший способ сделать это — использовать &bЖидкостные трубы&r.\\n\\n"]
+			description: ["{ftbquests.chapter.info.quest25.description1}"]
 			id: "33433A443B65D252"
 			min_width: 250
 			rewards: [{
@@ -672,13 +672,13 @@
 				item: "pipez:fluid_pipe"
 				type: "item"
 			}]
-			title: "Жидкостные трубы"
+			title: "{ftbquests.chapter.info.quest25.title}"
 			x: -3.0d
 			y: -8.45d
 		}
 		{
 			dependencies: ["2329AA0AFBEF1E13"]
-			description: ["Самые простые из простейших &e&lтруб&r — это &eПредметные трубы&r.\\n\\nОни перемещают предметы из одного контейнера в другой. Это может быть перемещение из одного сундука в другой, с фермы в систему или даже из карьера в плавильню.\\n\\nВсё очень просто: подсоедини &eтрубы&r к тому, откуда нужно перемещать, и используй гаечный ключ, чтобы настроить сторону, с которой они будут забирать предметы."]
+			description: ["{ftbquests.chapter.info.quest26.description1}"]
 			id: "36836AD948F96B9F"
 			rewards: [{
 				count: 16
@@ -692,12 +692,12 @@
 				item: "pipez:item_pipe"
 				type: "item"
 			}]
-			title: "Предметные трубы"
+			title: "{ftbquests.chapter.info.quest26.title}"
 			x: -4.0d
 			y: -8.45d
 		}
 		{
-			description: ["&e&lPipez&r — это простейший мод для &f&lлогистики&r. Он настолько прост, что весь мод умещается на этой странице квестов, и ещё остаётся место для других модов!\\n\\nПрисоедини нужную трубу к тому месту, куда ты хочешь перемещать предметы, и используй гаечный ключ для труб, чтобы настроить, с какой стороны труба будет забирать, отдавать или не соединяться.\\n\\nДругие гаечные ключи тоже работают с &e&lPipez&r!\\n"]
+			description: ["{ftbquests.chapter.info.quest27.description1}"]
 			id: "2329AA0AFBEF1E13"
 			rewards: [{
 				count: 3
@@ -712,13 +712,13 @@
 				item: "pipez:wrench"
 				type: "item"
 			}]
-			title: "Знакомство с Pipez"
+			title: "{ftbquests.chapter.info.quest27.title}"
 			x: -3.0d
 			y: -6.949999999999999d
 		}
 		{
 			dependencies: ["2329AA0AFBEF1E13"]
-			description: ["&aГазы&r нельзя перемещать никакими другими &e&lтрубами&r, так что если тебе нужно перемещать водород или литий, тебе понадобятся &aГазовые трубы&r.\\n"]
+			description: ["{ftbquests.chapter.info.quest28.description1}"]
 			id: "2F4458E9921DEB86"
 			rewards: [{
 				count: 16
@@ -732,12 +732,12 @@
 				item: "pipez:gas_pipe"
 				type: "item"
 			}]
-			title: "Газовые трубы"
+			title: "{ftbquests.chapter.info.quest28.title}"
 			x: -4.5d
 			y: -6.949999999999999d
 		}
 		{
-			description: ["&9Flux Networks&r — это мод, цель которого стать решением всех твоих проблем с беспроводной энергией.\\n\\nСам мод не имеет возможности генерировать энергию, но может хранить и беспроводную передавать её, даже между измерениями. Он также может заряжать предметы в твоём инвентаре.\\n\\nС этим модом ты даже можешь заряжать свой реактивный ранец прямо во время полёта. КРУТО, ПРАВДА?\\n\\nЧтобы начать работать с модом, тебе понадобится немного Пыли потоков. Спустись до коренной породы, затем брось немного красной пыли на блок коренной породы. Помести блок обсидиана прямо над парящей красной пылью, затем кликни ЛКМ по обсидиану."]
+			description: ["{ftbquests.chapter.info.quest29.description1}"]
 			id: "35CC898E0E49FE58"
 			min_width: 300
 			rewards: [
@@ -756,20 +756,20 @@
 			]
 			shape: "pentagon"
 			size: 1.25d
-			subtitle: "Начало работы с Flux"
+			subtitle: "{ftbquests.chapter.info.quest29.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "0F0CBAF912DE462F"
 				item: "fluxnetworks:flux_dust"
 				type: "item"
 			}]
-			title: "Flux Networks"
+			title: "{ftbquests.chapter.info.quest29.title}"
 			x: 1.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["35CC898E0E49FE58"]
-			description: ["В этом моде тебе понадобятся &aЯдра потоков&r и &aБлоки потоков&r для создания основных частей твоей сети. Сделай по несколько штук каждого!"]
+			description: ["{ftbquests.chapter.info.quest30.description1}"]
 			id: "1BE26A00A420DAE3"
 			rewards: [
 				{
@@ -798,13 +798,13 @@
 					type: "item"
 				}
 			]
-			title: "Ядро и блок"
+			title: "{ftbquests.chapter.info.quest30.title}"
 			x: 1.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["1BE26A00A420DAE3"]
-			description: ["Первый предмет, который тебе понадобится для создания своей Flux-сети — это &9Подключатель Flux&r.\\n\\nПодключатель используется для «получения» энергии от блока, к которому он присоединён. Не считая небольшого буфера, сам Подключатель не хранит энергию, так что не волнуйся, что он высосет всё досуха.\\n\\nРекомендуется ставить Подключатель на блок хранения энергии, например на энергетический куб. Он может подключаться к кабелям, трубам или к выходу любого энергогенерирующего механизма.\\n\\nЧтобы узнать, как настроить свою первую сеть, смотри следующий квест!"]
+			description: ["{ftbquests.chapter.info.quest31.description1}"]
 			id: "5F078A574A783B02"
 			rewards: [
 				{
@@ -823,13 +823,13 @@
 				item: "fluxnetworks:flux_plug"
 				type: "item"
 			}]
-			title: "Подключатель Flux"
+			title: "{ftbquests.chapter.info.quest31.title}"
 			x: 0.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["5F078A574A783B02"]
-			description: ["Кликни ПКМ по своему подключателю, и ты увидишь интерфейс Flux-сети. В правом верхнем углу нажми кнопку «+», чтобы создать свою первую сеть. Для создания сети нужно будет задать пароль, но также можно выбрать цвет!\\n\\nОтсюда ты можешь перейти на вкладку «Выбор сети», чтобы активировать эту сеть на подключателе. Если подключатель подключён к источнику энергии, теперь ты сможешь использовать эту энергию в любом месте своей системы с помощью Точки Flux!\\n\\nПро-совет: ты можешь создать несколько сетей, если хочешь, чтобы разные источники энергии питали разные части твоих систем!"]
+			description: ["{ftbquests.chapter.info.quest32.description1}"]
 			icon: "fluxnetworks:flux_configurator"
 			id: "36DEA17CBB696CC7"
 			min_width: 300
@@ -846,19 +846,19 @@
 					xp: 100
 				}
 			]
-			subtitle: "Создание сети"
+			subtitle: "{ftbquests.chapter.info.quest32.subtitle}"
 			tasks: [{
 				id: "2D0212699F99459F"
 				title: "Сеть Flux"
 				type: "checkmark"
 			}]
-			title: "Сеть Flux"
+			title: "{ftbquests.chapter.info.quest32.title}"
 			x: 1.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["36DEA17CBB696CC7"]
-			description: ["Flux Networks также предоставляет способ хранения генерируемой энергии для твоей сети!\\n\\nЭти накопители вмещают огромное количество энергии и могут быть улучшены, чтобы хранить ещё больше!"]
+			description: ["{ftbquests.chapter.info.quest33.description1}"]
 			id: "79AD74A863EA43CB"
 			rewards: [{
 				id: "6A142D7F593E9DBA"
@@ -866,19 +866,19 @@
 				xp: 100
 			}]
 			shape: "diamond"
-			subtitle: "Накопление"
+			subtitle: "{ftbquests.chapter.info.quest33.subtitle}"
 			tasks: [{
 				id: "3C574DDC057353DF"
 				item: "fluxnetworks:basic_flux_storage"
 				type: "item"
 			}]
-			title: "Накопитель Flux"
+			title: "{ftbquests.chapter.info.quest33.title}"
 			x: 1.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["36DEA17CBB696CC7"]
-			description: ["Flux Networks также предоставляет способ беспроводной зарядки твоих предметов, даже между измерениями!\\n\\nКак только у тебя будет Подключатель, присоединённый к твоей энергосистеме, тебе нужно будет сделать &9Контроллер Flux&r и разместить его.\\n\\nКликни ПКМ, чтобы открыть интерфейс, и перейди на вкладку «Беспроводная зарядка». Здесь ты можешь выбрать каждую часть инвентаря, которую хочешь держать заряженной. Чтобы активировать, не забудь переключить тумблер внизу, чтобы включить беспроводную зарядку, и нажми «Применить»!"]
+			description: ["{ftbquests.chapter.info.quest34.description1}"]
 			id: "27A4FA38992448A0"
 			min_width: 300
 			rewards: [{
@@ -892,13 +892,13 @@
 				item: "fluxnetworks:flux_controller"
 				type: "item"
 			}]
-			title: "Контроллер Flux"
+			title: "{ftbquests.chapter.info.quest34.title}"
 			x: 1.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["36DEA17CBB696CC7"]
-			description: ["Теперь, когда наш подключатель настроен, мы можем получать энергию из нашей сети. &9Точка Flux&r делает именно это. Она направляет энергию из сети на любой блок, к которому присоединена, включая трубы или кабели, или даже прямо на механизмы!\\n\\nКак только ты разместишь точку на механизме или блоке, который хочешь запитать, кликни по ней ПКМ и выбери свою сеть во вкладке «Выбор сети». Как и в случае с подключателем, ты можешь настроить, сколько энергии она потребляет, приоритет и т.д."]
+			description: ["{ftbquests.chapter.info.quest35.description1}"]
 			id: "56B6ABF3D6EA0D84"
 			rewards: [
 				{
@@ -919,13 +919,13 @@
 				item: "fluxnetworks:flux_point"
 				type: "item"
 			}]
-			title: "Точка Flux"
+			title: "{ftbquests.chapter.info.quest35.title}"
 			x: 0.5d
 			y: -9.0d
 		}
 		{
 			dependencies: ["36DEA17CBB696CC7"]
-			description: ["Клик ПКМ по функциональному блоку Flux Networks откроет этот интерфейс.\\n\\nКаждому подключателю или точке можно дать имя, установить свой уровень приоритета и ограничение скорости передачи. Это даёт полный контроль над всеми частями твоей системы.\\n\\n&aИгнорировать лимит&r — игнорирует установленное ограничение.\\n\\nЕсть ещё несколько вкладок для изучения, в основном со статистикой по твоей сети!"]
+			description: ["{ftbquests.chapter.info.quest36.description1}"]
 			icon: "fluxnetworks:admin_configurator"
 			id: "2EB7784D5296F410"
 			min_width: 350
@@ -941,25 +941,12 @@
 				title: "Интерфейс Flux"
 				type: "checkmark"
 			}]
-			title: "Интерфейс Flux"
+			title: "{ftbquests.chapter.info.quest36.title}"
 			x: 1.0d
 			y: -8.5d
 		}
 		{
-			description: [
-				"Мод &9Construction Wand&r добавляет полезные жезлы, которые помогают в строительстве."
-				""
-				"Когда вы нажимаете ПКМ на грань блока с жезлом, он будет расширять эту грань, пока у вас есть блоки в инвентаре."
-				""
-				"Вы можете улучшить свой жезл дополнительными &4ядрами&r, позволяя создавать блоки в воздухе или очень быстро разрушать множество блоков."
-				""
-				"Жезлы бывают четырех уровней:"
-				""
-				"&l&7Каменный&r:&r 9 блоков"
-				"&l&fЖелезный&r:&r 27 блоков"
-				"&l&bАлмазный&r:&r 128 блоков"
-				"&l&dБесконечный&r:&r 1027 блоков"
-			]
+			description: ["{ftbquests.chapter.info.quest37.description1}"]
 			id: "0D05759E84652BAA"
 			rewards: [
 				{
@@ -978,17 +965,13 @@
 				id: "786624E6261672C6"
 				type: "checkmark"
 			}]
-			title: "Освойте бесконечные жезлы"
+			title: "{ftbquests.chapter.info.quest37.title}"
 			x: -1.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["0D05759E84652BAA"]
-			description: [
-				"Ядро разрушения — это мощное улучшение для жезла строительства, которое позволяет уничтожать блоки в больших количествах."
-				""
-				"Уничтожает блоки (за исключением блоков-сущностей) на стороне, обращённой к вам. Максимальное количество уничтожаемых блоков зависит от уровня жезла. Ограничения работают так же, как у ядра строительства. Уничтоженные блоки исчезают в пустоте, но вы можете использовать функцию отмены, если ошиблись."
-			]
+			description: ["{ftbquests.chapter.info.quest38.description1}"]
 			id: "234E978A14BA9630"
 			rewards: [
 				{
@@ -1008,16 +991,13 @@
 				item: "constructionwand:core_destruction"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.info.quest38.title}"
 			x: -1.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["0D05759E84652BAA"]
-			description: [
-				"Ангельское ядро позволяет размещать блоки в воздухе, открывая новые возможности для строительства."
-				""
-				"Размещает блок на противоположной стороне от блока (или ряда блоков), на который вы смотрите. Максимальное расстояние зависит от уровня жезла. ПКМ по пустому пространству, чтобы разместить блок в воздухе, подобно ангельским блокам (отсюда и название). Для этого вам нужно будет иметь блок, который вы хотите разместить, во второй руке. Вы не можете разместить блок в воздухе, если упали глубже, чем на 10 блоков."
-			]
+			description: ["{ftbquests.chapter.info.quest39.description1}"]
 			id: "5B402687731540B8"
 			rewards: [
 				{
@@ -1037,9 +1017,10 @@
 				item: "constructionwand:core_angel"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.info.quest39.title}"
 			x: -2.0d
 			y: -2.5d
 		}
 	]
-	title: "{ftbquests.chapter.100A225B6AEDABCD.title}"
+	title: "{ftbquests.chapter.info.title}"
 }

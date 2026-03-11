@@ -2380,8 +2380,8 @@
 				xp: 100
 			}]
 			tasks: [{
-				id: "704927CD2268DA4D"
-				item: "alexscaves:small_peppermint"
+				id: "43F9B21A370ED38A"
+				item: "minecraft:mushroom_stew"
 				type: "item"
 			}]
 			x: 7.0d
@@ -2395,8 +2395,8 @@
 				xp: 100
 			}]
 			tasks: [{
-				id: "01FFD4889EB248E8"
-				item: "alexscaves:large_peppermint"
+				id: "4BE498ADB15E188B"
+				item: "minecraft:rabbit_stew"
 				type: "item"
 			}]
 			x: 7.0d
@@ -2558,8 +2558,8 @@
 				xp: 100
 			}]
 			tasks: [{
-				id: "7C43372520E1F894"
-				item: "alexscaves:gelatin_red"
+				id: "4401EFC6FDC3BD2C"
+				item: "minecraft:beetroot_soup"
 				type: "item"
 			}]
 			x: 5.0d
@@ -2647,8 +2647,8 @@
 				xp: 100
 			}]
 			tasks: [{
-				id: "74568C500EE92A21"
-				item: "alexscaves:sweetberry_ice_cream"
+				id: "032EFBB29A67E7EB"
+				item: "alexscaves:darkened_apple"
 				type: "item"
 			}]
 			x: 4.0d
@@ -2662,8 +2662,8 @@
 				xp: 100
 			}]
 			tasks: [{
-				id: "60AF5F0E9C011558"
-				item: "alexscaves:vanilla_ice_cream"
+				id: "6D9B4AA9955C76B1"
+				item: "upgrade_aquatic:mulberry_pie"
 				type: "item"
 			}]
 			x: 4.0d
