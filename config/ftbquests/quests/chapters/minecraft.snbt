@@ -274,7 +274,7 @@
 	quests: [
 		{
 			dependencies: ["7FEBCE21920B09B2"]
-			description: ["Добуть немного дерева, топорик немного поможет в этом"]
+			description: ["{ftbquests.chapter.minecraft.quest1.description1}"]
 			hide_until_deps_visible: true
 			id: "49D4777F6B7A0595"
 			rewards: [
@@ -351,34 +351,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "14333A06C60FC986"
-					item: {
-						Count: 1
-						id: "minecraft:wooden_pickaxe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0AEB8DAACD6B5EF6"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
-				{
-					id: "0F421A7004DA85C1"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "50CF58583273D7E3"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
 			]
 			tasks: [{
 				count: 4L
@@ -386,16 +358,15 @@
 				item: "minecraft:oak_log"
 				type: "item"
 			}]
-			title: "Опять по новой..."
+			title: "{ftbquests.chapter.minecraft.quest1.title}"
 			x: -2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3DB53460D0322E13"]
 			description: [
-				"С нашей Деревянной Киркой камень не должен быть проблемой для добычи!"
-				""
-				"Вам также стоит улучшить свою кирку до каменной, чтобы добывать лучшие руды, такие как &bЖелезо&r!"
+				"{ftbquests.chapter.minecraft.quest2.description1}"
+				"{ftbquests.chapter.minecraft.quest2.description2}"
 			]
 			hide_until_deps_visible: true
 			id: "06A43BCF64EECF0F"
@@ -409,12 +380,6 @@
 						tag: { }
 					}
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "76898502CD7D4AB8"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "204279A2E1D3B6DB"
@@ -434,6 +399,7 @@
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest2.title}"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -442,12 +408,6 @@
 			hide_until_deps_visible: true
 			id: "2133F61A0B497EFB"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "513CB12404A59CAF"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "5EF81B3B90895788"
 					type: "xp"
@@ -469,15 +429,15 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest3.title}"
 			x: 3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["750D00532E456A09"]
 			description: [
-				"Независимо от того, являетесь ли вы опытным игроком в модифицированном Minecraft или полным новичком, каждый должен сделать &2Деревянную Кирку&r."
-				""
-				"Кирки позволяют вам ломать большинство каменных и металлических блоков. Эта деревянная прослужит недолго, поэтому обязательно соберите с её помощью немного &3Булыжника&r!"
+				"{ftbquests.chapter.minecraft.quest4.description1}"
+				"{ftbquests.chapter.minecraft.quest4.description2}"
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -490,17 +450,6 @@
 			id: "3DB53460D0322E13"
 			rewards: [
 				{
-					id: "6BB47341E0D8094B"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7D9A5BF8E9CC4659"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
-				{
 					id: "041C738D6910317E"
 					type: "xp"
 					xp: 100
@@ -512,44 +461,27 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "44BD0593DEF10963"
-					item: {
-						Count: 1
-						id: "minecraft:wooden_pickaxe"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "44BD0593DEF10963"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-				{
-					count: 4L
-					id: "22C707563157CFF6"
-					item: {
-						Count: 1
-						id: "minecraft:torch"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.minecraft.quest4.title}"
 			x: 0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["06A43BCF64EECF0F"]
-			description: ["Скорее всего вы выкените деревянную кирку после добычи 3 булыжника..."]
+			description: ["{ftbquests.chapter.minecraft.quest5.description1}"]
 			hide_until_deps_visible: true
 			id: "1BAC64B864A3D838"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "48F2CD0466A5E9A8"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "634579D29A527BB6"
 					type: "xp"
@@ -573,27 +505,22 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest5.title}"
 			x: 2.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["49D4777F6B7A0595"]
 			description: [
-				"Вы знаете, как бить по деревьям?"
-				""
-				"Если вы не уверены, что делать, просто начните играть в Майнкрафт, как обычно."
-				""
-				"Постройте дом, начните ферму и займитесь основами."
-				""
-				""
-				"&n&6JEI — ваш лучший друг!&r&r"
-				"Чтобы искать предметы в JEI, используйте строку поиска в правом нижнем углу экрана вашего инвентаря."
-				""
-				"Чтобы найти предметы из конкретного мода, введите &e@modname&r в строку поиска. Например, введите &e@industrialupgrade&r, чтобы увидеть все предметы из этого мода."
-				""
-				"Нажатие на предметы в списке предметов справа от вашего инвентаря покажет их рецепты и способы применения."
-				""
-				"Вы также можете нажать &dR&r, наводя курсор на любой предмет, чтобы увидеть его рецепт, и &dU&r, чтобы увидеть его применения."
+				"{ftbquests.chapter.minecraft.quest6.description1}"
+				"{ftbquests.chapter.minecraft.quest6.description2}"
+				"{ftbquests.chapter.minecraft.quest6.description3}"
+				"{ftbquests.chapter.minecraft.quest6.description4}"
+				"{ftbquests.chapter.minecraft.quest6.description5}"
+				"{ftbquests.chapter.minecraft.quest6.description6}"
+				"{ftbquests.chapter.minecraft.quest6.description7}"
+				"{ftbquests.chapter.minecraft.quest6.description8}"
+				"{ftbquests.chapter.minecraft.quest6.description9}"
 			]
 			hide_until_deps_visible: true
 			id: "750D00532E456A09"
@@ -606,12 +533,6 @@
 						tag: { }
 					}
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "44F217414E6E9AC6"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "2CA1CD9264278226"
@@ -634,6 +555,7 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest6.title}"
 			x: -1.0d
 			y: 0.0d
 		}
@@ -642,16 +564,10 @@
 				"2133F61A0B497EFB"
 				"1BAC64B864A3D838"
 			]
-			description: ["Я предполагаю, что вы занимались добычей, верно? Это ведь &4Minecraft&r."]
+			description: ["{ftbquests.chapter.minecraft.quest7.description1}"]
 			hide_until_deps_visible: true
 			id: "03C4F756D76C692B"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "307D686C088945AA"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "76A2C66C9B7275CC"
 					type: "xp"
@@ -675,21 +591,16 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest7.title}"
 			x: 3.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["03C4F756D76C692B"]
-			description: ["&bАлмазы&r — один из &nлучших материалов&r для создания инструментов, а также позволяют вам посетить новые измерения, такие как Незер!"]
+			description: ["{ftbquests.chapter.minecraft.quest8.description1}"]
 			hide_until_deps_visible: true
 			id: "7FCD8DAF46633A22"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "73536F862B1CE55E"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "5054E6AF7C7CB8C2"
 					type: "xp"
@@ -713,21 +624,15 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest8.title}"
 			x: 5.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["7FCD8DAF46633A22"]
-			description: [""]
 			hide_until_deps_visible: true
 			id: "188A2AB802C2D96F"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3EA42995F144ACCD"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "526ECA55CA5E5E91"
 					type: "xp"
@@ -763,6 +668,7 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.minecraft.quest9.title}"
 			x: 6.5d
 			y: 1.5d
 		}
@@ -771,12 +677,6 @@
 			hide_until_deps_visible: true
 			id: "07A2312B9B02A099"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3BC01F4BAEB6AFC1"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "3E99FC973B80AD9F"
 					type: "xp"
@@ -811,6 +711,7 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.minecraft.quest10.title}"
 			x: 9.0d
 			y: 3.0d
 		}
@@ -819,12 +720,6 @@
 			hide_until_deps_visible: true
 			id: "04B7FEF11DC9589F"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3166738FD56BCA27"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "556C5F956DB5CB57"
 					type: "xp"
@@ -846,6 +741,7 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest11.title}"
 			x: 0.5d
 			y: 1.5d
 		}
@@ -854,12 +750,6 @@
 			hide_until_deps_visible: true
 			id: "11CDCB017D9A3366"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1FBE5D5D09250500"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "74256EAD96C0B7B4"
 					type: "xp"
@@ -883,21 +773,16 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest12.title}"
 			x: 3.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["11CDCB017D9A3366"]
-			description: ["А вот кто мешает спать? Убей их"]
+			description: ["{ftbquests.chapter.minecraft.quest13.description1}"]
 			hide_until_deps_visible: true
 			id: "40B5E302EED8CF5A"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6D533B9022705F1A"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "18BE85A10123B84E"
 					type: "xp"
@@ -936,6 +821,7 @@
 					value: 10L
 				}
 			]
+			title: "{ftbquests.chapter.minecraft.quest13.title}"
 			x: 5.0d
 			y: -3.0d
 		}
@@ -943,12 +829,6 @@
 			dependencies: ["11CDCB017D9A3366"]
 			id: "1849880FDFEDFBB3"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3F4522EF823D3836"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "1D6CEDE1991C19B5"
 					type: "xp"
@@ -993,6 +873,7 @@
 					value: 4L
 				}
 			]
+			title: "{ftbquests.chapter.minecraft.quest14.title}"
 			x: 3.5d
 			y: -3.0d
 		}
@@ -1004,12 +885,6 @@
 			hide_until_deps_visible: true
 			id: "48A7EAAF0F74D2C3"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7D36A0A4A2C4E7A7"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "61AE5D6543E325F9"
 					type: "xp"
@@ -1087,6 +962,7 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.minecraft.quest15.title}"
 			x: -1.0d
 			y: 1.5d
 		}
@@ -1095,12 +971,6 @@
 			hide_until_deps_visible: true
 			id: "5A1B911348F8AD7C"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3B07AC3137D984AA"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "5E7EABBBBB1F52B3"
 					type: "xp"
@@ -1123,6 +993,7 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest16.title}"
 			x: 4.0d
 			y: 5.0d
 		}
@@ -1150,12 +1021,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "58C4E2CB23D53083"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
-				{
 					id: "7F19C6B57477A207"
 					type: "xp"
 					xp: 100
@@ -1176,6 +1041,7 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest17.title}"
 			x: 3.0d
 			y: 5.0d
 		}
@@ -1185,12 +1051,6 @@
 			hide_until_deps_visible: true
 			id: "71ED8703F152F24B"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4A71CD37E4F7E48C"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "5963E0AC6B208238"
 					type: "xp"
@@ -1337,6 +1197,7 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.minecraft.quest18.title}"
 			x: 2.0d
 			y: 5.0d
 		}
@@ -1345,12 +1206,6 @@
 			id: "4FA4D109AD2A54AE"
 			progression_mode: "linear"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "57F1BFA9974557C9"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "22F78634A9144423"
 					type: "xp"
@@ -1374,6 +1229,7 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest19.title}"
 			x: 5.0d
 			y: 0.0d
 		}
@@ -1391,12 +1247,6 @@
 						tag: { }
 					}
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "73D877FA42FA2B0D"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "224DAD569732562A"
@@ -1432,6 +1282,7 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.minecraft.quest20.title}"
 			x: 5.0d
 			y: -1.5d
 		}
@@ -1445,12 +1296,6 @@
 			}
 			id: "0D592DB7CD2B775C"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "56AFBDCE5A4FAB44"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "6CC155CBEA3AFCDB"
 					type: "xp"
@@ -1490,12 +1335,13 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.minecraft.quest21.title}"
 			x: 2.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["04B7FEF11DC9589F"]
-			description: ["В мире вы можете найти разного вида данжи. В них могут содежаться очень интересные вещи. Ценность лута в данжах была увеличена."]
+			description: ["{ftbquests.chapter.minecraft.quest22.description1}"]
 			hide_until_deps_visible: true
 			id: "081A90D678D85928"
 			rewards: [
@@ -1508,12 +1354,6 @@
 						tag: { }
 					}
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "13B4F7A83DCB0343"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "449F50B27D0EE650"
@@ -1532,6 +1372,7 @@
 				title: "Данжи"
 				type: "checkmark"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest22.title}"
 			x: 0.5d
 			y: 3.0d
 		}
@@ -1546,12 +1387,6 @@
 			}
 			id: "164A6B8D4EF984EC"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3D47E8F45E740926"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "2D77C11D73505D57"
 					type: "xp"
@@ -1580,21 +1415,15 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.minecraft.quest23.title}"
 			x: 2.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["40B5E302EED8CF5A"]
-			description: [""]
 			hide_until_deps_visible: true
 			id: "2DDAC23247338685"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "52C06340D1AB7299"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "42C980C5500B8980"
 					type: "xp"
@@ -1607,7 +1436,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6&lВы знаете толк в музыке"
+			subtitle: "{ftbquests.chapter.minecraft.quest24.subtitle}"
 			tasks: [
 				{
 					id: "65935FD3B238961D"
@@ -1815,7 +1644,7 @@
 					type: "item"
 				}
 			]
-			title: "&a&lКоллекционер"
+			title: "{ftbquests.chapter.minecraft.quest24.title}"
 			x: 5.0d
 			y: -4.5d
 		}
@@ -1827,12 +1656,6 @@
 			hide_until_deps_visible: true
 			id: "1A00ADE2FA7A33B8"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5221074926D759E4"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "30756ED8328AFE94"
 					type: "xp"
@@ -1896,21 +1719,16 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.minecraft.quest25.title}"
 			x: 6.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4FA4D109AD2A54AE"]
-			description: ["Еды скоро станет мало, и вы задумались над созданием фермы..."]
+			description: ["{ftbquests.chapter.minecraft.quest26.description1}"]
 			hide_until_deps_visible: true
 			id: "669CEAC29B3DA7DE"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "46CD1CBB16557A84"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "4A005CFD35B20B06"
 					type: "xp"
@@ -2006,13 +1824,13 @@
 					type: "item"
 				}
 			]
-			title: "Начало фермерства"
+			title: "{ftbquests.chapter.minecraft.quest26.title}"
 			x: 6.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["750D00532E456A09"]
-			description: ["Рыба тоже является пищей, хотя иногда попадается и иные вещи..."]
+			description: ["{ftbquests.chapter.minecraft.quest27.description1}"]
 			hide_until_deps_visible: true
 			icon: {
 				Count: 1
@@ -2023,11 +1841,6 @@
 			}
 			id: "68D95AFA9FA3E0E5"
 			rewards: [
-				{
-					id: "5E161F87305A9582"
-					type: "xp_levels"
-					xp_levels: 2
-				}
 				{
 					id: "204D7EC0E80F437D"
 					item: {
@@ -2073,12 +1886,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "3FB3E7C4EBFD9926"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
-				{
 					id: "2DC8B63C1F20A832"
 					type: "xp"
 					xp: 100
@@ -2101,27 +1908,16 @@
 				}
 				type: "item"
 			}]
-			title: "Рыболовство"
+			title: "{ftbquests.chapter.minecraft.quest27.title}"
 			x: -2.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["68D95AFA9FA3E0E5"]
-			description: ["Редкое сокровище, которое влияет на сам мир..."]
+			description: ["{ftbquests.chapter.minecraft.quest28.description1}"]
 			hide_until_deps_visible: true
 			id: "56001C0D9A0C64C9"
 			rewards: [
-				{
-					id: "68C04FD55FC654E7"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					exclude_from_claim_all: true
-					id: "75C2A26DAD732F17"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "22DF0E65F270513F"
 					type: "xp"
@@ -2143,12 +1939,13 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest28.title}"
 			x: -2.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["68D95AFA9FA3E0E5"]
-			description: ["Кажется, что там есть что-то интересное, но и опасное..."]
+			description: ["{ftbquests.chapter.minecraft.quest29.description1}"]
 			icon: {
 				Count: 1
 				id: "minecraft:dark_prismarine"
@@ -2156,17 +1953,6 @@
 			}
 			id: "404D96833D4514C0"
 			rewards: [
-				{
-					id: "119A4832103855C2"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7C8067D9B09CCEFE"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "69AEF2DA9DB3BA22"
 					type: "xp"
@@ -2214,13 +2000,13 @@
 					type: "item"
 				}
 			]
-			title: "Древние строения в море"
+			title: "{ftbquests.chapter.minecraft.quest29.title}"
 			x: -3.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["669CEAC29B3DA7DE"]
-			description: ["По миру можно найти тростник, его же переделать в бумагу, а после в книгу"]
+			description: ["{ftbquests.chapter.minecraft.quest30.description1}"]
 			icon: {
 				Count: 1
 				id: "minecraft:writable_book"
@@ -2228,12 +2014,6 @@
 			}
 			id: "038E5370DB27AB3C"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "72357624B037829B"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "7D9A7739DCC84366"
 					type: "xp"
@@ -2275,21 +2055,15 @@
 					type: "item"
 				}
 			]
-			title: "Книга мечты"
+			title: "{ftbquests.chapter.minecraft.quest30.title}"
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["038E5370DB27AB3C"]
-			description: ["Сделайте тортик и подарите сове"]
+			description: ["{ftbquests.chapter.minecraft.quest31.description1}"]
 			id: "5AACF072800A91FE"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7820C0A4107F76CC"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "0306C6AA0708FA66"
 					type: "xp"
@@ -2312,26 +2086,15 @@
 				}
 				type: "item"
 			}]
-			title: "Это ложь"
+			title: "{ftbquests.chapter.minecraft.quest31.title}"
 			x: 9.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["669CEAC29B3DA7DE"]
-			description: ["Сова тоже голодный..."]
+			description: ["{ftbquests.chapter.minecraft.quest32.description1}"]
 			id: "256CEA74BFBAAD4F"
 			rewards: [
-				{
-					id: "6693259DA2B56E41"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					exclude_from_claim_all: true
-					id: "50B2FAEF60B7523F"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "40E047485C273F90"
 					type: "xp"
@@ -2355,13 +2118,13 @@
 				}
 				type: "item"
 			}]
-			title: "Немного вкусностей"
+			title: "{ftbquests.chapter.minecraft.quest32.title}"
 			x: 8.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["256CEA74BFBAAD4F"]
-			description: ["Думаю, что пчёлы поели арбуза...."]
+			description: ["{ftbquests.chapter.minecraft.quest33.description1}"]
 			hide_until_deps_visible: true
 			id: "5D47565E70533D82"
 			rewards: [
@@ -2373,12 +2136,6 @@
 						tag: { }
 					}
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6EC4C4C0DC70BDA4"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "7D131907E8F7EF59"
@@ -2401,25 +2158,19 @@
 				}
 				type: "item"
 			}]
-			title: "Ещё вкуснее"
+			title: "{ftbquests.chapter.minecraft.quest33.title}"
 			x: 8.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5D47565E70533D82"]
-			description: ["Когда для пчёлок я как тучка..."]
+			description: ["{ftbquests.chapter.minecraft.quest34.description1}"]
 			id: "6C03CC8955CF5416"
 			rewards: [
 				{
 					id: "0F3D71EA1897076E"
 					type: "xp_levels"
 					xp_levels: 2
-				}
-				{
-					exclude_from_claim_all: true
-					id: "282937A9249FC205"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "3F8A7C8FF9C47226"
@@ -2479,7 +2230,7 @@
 					type: "item"
 				}
 			]
-			title: "Костюм пчеловода"
+			title: "{ftbquests.chapter.minecraft.quest34.title}"
 			x: 8.0d
 			y: -4.5d
 		}
@@ -2488,7 +2239,7 @@
 				"188A2AB802C2D96F"
 				"038E5370DB27AB3C"
 			]
-			description: ["Вы решили использовать весь свой опыт и вложить его в предмет для уссиления..."]
+			description: ["{ftbquests.chapter.minecraft.quest35.description1}"]
 			hide_until_deps_visible: true
 			icon: {
 				Count: 1
@@ -2497,12 +2248,6 @@
 			}
 			id: "6928E11163F14C47"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7468D830EA89B88C"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "0A4D3FA758C042C4"
 					type: "xp"
@@ -2525,19 +2270,13 @@
 				}
 				type: "item"
 			}]
-			title: "Эра магии"
+			title: "{ftbquests.chapter.minecraft.quest35.title}"
 			x: 8.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["07A2312B9B02A099"]
-			description: [
-				"В &eЭнде&r вы найдете финального босса ванильного Minecraft: &5Дракона Энда&r."
-				""
-				"На вершине каждого обсидианового столба вы найдете кристалл Энда, который лечит Дракона. Убедитесь, что уничтожите их сначала! Они также наносят много урона, поэтому создайте дистанцию!"
-				""
-				"После победы на вершине Выходного портала появляется &dЯйцо дракона&r. Его нельзя добыть, как обычные блоки, но на него действует гравитация. :)"
-			]
+			description: ["{ftbquests.chapter.minecraft.quest36.description1}"]
 			id: "09C33BB3342632B4"
 			rewards: [
 				{
@@ -2546,49 +2285,31 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "6D7DBE81755A7563"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
-				{
 					id: "21B821506428173F"
 					type: "xp"
 					xp: 100
 				}
 			]
 			size: 2.0d
-			subtitle: "Пришло время сразиться с могущественным Драконом Энда"
+			subtitle: "{ftbquests.chapter.minecraft.quest36.subtitle}"
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "276B6F50C52A8F96"
 				type: "dimension"
 			}]
-			title: "Войти в &eЭнд&f"
+			title: "{ftbquests.chapter.minecraft.quest36.title}"
 			x: 14.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["09C33BB3342632B4"]
-			description: [
-				"&dДыхание дракона&r — это ценный ресурс, который можно собрать во время битвы с &5Драконом Энда&r."
-				""
-				"Когда &5Дракон Энда&r использует свою кислотную атаку, появляется облако драконьего дыхания. Используйте &3стеклянную бутылку&r на этом облаке, чтобы собрать &dдыхание дракона&r."
-				""
-				"Этот материал необходим для создания &eзелий затяжного действия&r, таких как зелья регенерации II, силы II и другие мощные эффекты."
-			]
+			description: ["{ftbquests.chapter.minecraft.quest37.description1}"]
 			id: "401AFF46C83AAEB8"
 			rewards: [
 				{
 					id: "264B01D022391CBA"
 					item: "libraryferret:gold_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "55B790085EC6FC55"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "7915BDDDBD1268A3"
@@ -2602,14 +2323,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Соберите Дыхание дракона в стеклянную бутылку."
+			subtitle: "{ftbquests.chapter.minecraft.quest37.subtitle}"
 			tasks: [{
 				advancement: "minecraft:end/dragon_breath"
 				criterion: ""
 				id: "7C1BC5069A6D0A4D"
 				type: "advancement"
 			}]
-			title: "Тебе нужна мятная жвачка!"
+			title: "{ftbquests.chapter.minecraft.quest37.title}"
 			x: 14.0d
 			y: 7.5d
 		}
@@ -2617,18 +2338,8 @@
 			dependencies: ["401AFF46C83AAEB8"]
 			dependency_requirement: "all_started"
 			description: [
-				"&5Дракон Энда&r — это огромный летающий враждебный босс, которого можно найти при первом входе в &5Энд&r. Это самый крупный естественно появляющийся моб в игре."
-				""
-				"Он охраняет доступ к вратам Энда, которые ведут к внешним островам Энда, а также к выходному порталу, который позволяет вернуться в &2Обычный мир&r и получить доступ к титрам Minecraft."
-				""
-				"Его атаки включают в себя заряды на игрока и уникальные атаки драконьей кислотой."
-				""
-				""
-				"{@pagebreak}"
-				""
-				"Игроки могут &bпризвать дракона заново&r, разместив четыре кристалла Энда по краям выходного портала, по одному с каждой стороны."
-				""
-				"Когда дракон призывается заново, четыре кристалла Энда указывают на вершины каждого столба, вызывая серию взрывов, которые восстанавливают обсидиановые столбы, железные решетки и кристаллы Энда."
+				"{ftbquests.chapter.minecraft.quest38.description1}"
+				"{ftbquests.chapter.minecraft.quest38.description2}"
 			]
 			icon: "minecraft:dragon_head"
 			id: "4B630597BCFA97AC"
@@ -2637,12 +2348,6 @@
 					id: "5E6C7614A8D6F1C9"
 					item: "libraryferret:netherite_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6D825468ADEBDA8B"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "582922AFF0C4F347"
@@ -2666,17 +2371,15 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "{ftbquests.chapter.minecraft.quest38.title}"
 			x: 14.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["4B630597BCFA97AC"]
 			description: [
-				"Виадуки — это уникальные блоки из мода Quark, создающие временные порталы для мгновенного перемещения."
-				""
-				"Бросьте жемчуг Энда в конец &5Кристалла миалита&r и пройдите сквозь него. Виадуки создают мгновенные телепорты между двумя точками, позволяя быстро перемещаться на большие расстояния."
-				""
-				"Для активации виадука требуется жемчуг Энда, что делает эту технологию доступной только после получения доступа к Энду и победы над его обитателями."
+				"{ftbquests.chapter.minecraft.quest39.description1}"
+				"{ftbquests.chapter.minecraft.quest39.description2}"
 			]
 			id: "71482AB41A355486"
 			rewards: [
@@ -2684,12 +2387,6 @@
 					id: "6E58067A323AF966"
 					item: "libraryferret:gold_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1CA972DB5BD959F2"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "641A58186BF64AD6"
@@ -2704,25 +2401,22 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Если сможете..."
+			subtitle: "{ftbquests.chapter.minecraft.quest39.subtitle}"
 			tasks: [{
 				advancement: "quark:use_viaduct"
 				criterion: ""
 				id: "209658AE50E28B2A"
 				type: "advancement"
 			}]
-			title: "Поймай меня!"
+			title: "{ftbquests.chapter.minecraft.quest39.title}"
 			x: 16.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["4B630597BCFA97AC"]
 			description: [
-				"&dДвумерный резчик&r — это уникальный инструмент из мода &aAlex's Mobs&r, открывающий доступ к новым измерениям."
-				""
-				"Этот мощный инструмент используется для создания порталов в специальные измерения. После победы над &5Драконом Энда&r вы получаете доступ к этому устройству, которое может вырезать проходы в другие реальности."
-				""
-				"&dДвумерный резчик&r требует особых материалов для создания и активации, но открывает совершенно новые возможности для исследования и добычи ресурсов."
+				"{ftbquests.chapter.minecraft.quest40.description1}"
+				"{ftbquests.chapter.minecraft.quest40.description2}"
 			]
 			id: "2699917C42D48985"
 			optional: true
@@ -2731,12 +2425,6 @@
 					id: "3D26323A716B4E83"
 					item: "libraryferret:diamond_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0B6EB600F83878E1"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "6F0AD2405E8289B7"
@@ -2751,7 +2439,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Куда это ведет?"
+			subtitle: "{ftbquests.chapter.minecraft.quest40.subtitle}"
 			tasks: [{
 				id: "27A979724FD5C041"
 				item: {
@@ -2763,17 +2451,15 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest40.title}"
 			x: 13.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["4B630597BCFA97AC"]
 			description: [
-				"&dЯйцо дракона&r — это редкий декоративный блок, появляющийся после победы над &5Драконом Энда&r."
-				""
-				"Согрейте это новое &dяйцо дракона&r у огня. &dЯйцо дракона&r можно телепортировать, разместив &7поршень&r рядом с ним и активировав его. При активации поршнем яйцо телепортируется в случайное место в радиусе &b15 блоков&r."
-				""
-				"Этот уникальный блок также используется в некоторых магических ритуалах и является символом величайшего достижения в ванильном Minecraft."
+				"{ftbquests.chapter.minecraft.quest41.description1}"
+				"{ftbquests.chapter.minecraft.quest41.description2}"
 			]
 			icon: "minecraft:dragon_egg"
 			id: "59B3E2C267D8B567"
@@ -2782,12 +2468,6 @@
 					id: "0EA1EBB6868536B9"
 					item: "libraryferret:diamond_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "51ADD8955BDD15AA"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "2DDC8E1D0CCD465C"
@@ -2802,25 +2482,22 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Яйцо дракона"
+			subtitle: "{ftbquests.chapter.minecraft.quest41.subtitle}"
 			tasks: [{
 				advancement: "minecraft:end/dragon_egg"
 				criterion: ""
 				id: "241749A7DC2B998B"
 				type: "advancement"
 			}]
-			title: "Получить Яйцо дракона"
+			title: "{ftbquests.chapter.minecraft.quest41.title}"
 			x: 12.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["4B630597BCFA97AC"]
 			description: [
-				"&dЭлитры&r — это крылья, которые позволяют игроку парить и летать в режиме выживания."
-				""
-				"&nВы можете сделать копию&r с чешуей дракона."
-				""
-				"Элитры находятся в &5городах Энда&r на &fкораблях призраков&r. Они обычно расположены в рамке для предметов в задней части корабля."
+				"{ftbquests.chapter.minecraft.quest42.description1}"
+				"{ftbquests.chapter.minecraft.quest42.description2}"
 			]
 			id: "597F01E378266CC3"
 			optional: true
@@ -2829,12 +2506,6 @@
 					id: "6E2090C85E94AC4E"
 					item: "libraryferret:diamond_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3269B64F88E4993A"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "15F65495D180B802"
@@ -2850,7 +2521,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "Находится в городах Энда с кораблем!"
+			subtitle: "{ftbquests.chapter.minecraft.quest42.subtitle}"
 			tasks: [{
 				id: "7A9B3ECE0B875213"
 				item: {
@@ -2862,17 +2533,15 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest42.title}"
 			x: 12.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["597F01E378266CC3"]
 			description: [
-				"&dЭлитры души&r — это мистические крылья из мода &3Deeper and Darker&r, наполненные энергией душ."
-				""
-				"Эти элитры созданы из материалов, найденных в глубинах темных измерений. Они не только позволяют летать, но и могут взаимодействовать с душами, предоставляя уникальные способности во время полета."
-				""
-				"&dЭлитры души&r обладают особыми визуальными эффектами и могут быть улучшены с помощью душ для увеличения их эффективности и длительности полета."
+				"{ftbquests.chapter.minecraft.quest43.description1}"
+				"{ftbquests.chapter.minecraft.quest43.description2}"
 			]
 			id: "112F3359CF96132C"
 			rewards: [
@@ -2887,12 +2556,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "46CE37E0EACC8FBD"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
-				{
 					id: "41E3DC5D2C81B97B"
 					type: "xp"
 					xp: 100
@@ -2904,7 +2567,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Лучшие элитры!"
+			subtitle: "{ftbquests.chapter.minecraft.quest43.subtitle}"
 			tasks: [{
 				id: "1D41115CFB8110E4"
 				item: {
@@ -2916,18 +2579,13 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest43.title}"
 			x: 11.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["597F01E378266CC3"]
-			description: [
-				"&dЭлитры тарантулового ястреба&r — это улучшенная версия обычных элитр из мода &aAlex's Mobs&r."
-				""
-				"Эти элитры обладают уникальными способностями и улучшенными характеристиками по сравнению с обычными элитрами. Они не только позволяют летать, но и могут предоставлять дополнительные эффекты или бонусы во время полета."
-				""
-				"Для их получения необходимо победить &6тарантулового ястреба&r и собрать необходимые материалы для создания."
-			]
+			description: ["{ftbquests.chapter.minecraft.quest44.description1}"]
 			id: "36883441EF93976F"
 			optional: true
 			rewards: [
@@ -2942,12 +2600,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "3EC14014BAA692C8"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
-				{
 					id: "76356317103C0F6C"
 					type: "xp"
 					xp: 100
@@ -2959,7 +2611,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Лучшие элитры!"
+			subtitle: "{ftbquests.chapter.minecraft.quest44.subtitle}"
 			tasks: [{
 				id: "7C36BE09B248BC10"
 				item: {
@@ -2971,16 +2623,16 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest44.title}"
 			x: 12.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["188A2AB802C2D96F"]
 			description: [
-				"С киркой уровня Алмаза вы сможете добывать &dОбсидиан&r. Обсидиан можно использовать для создания портала в &cНезер&r."
-				""
-				"Каркас портала может быть разных размеров, но большинство выбирает базовую форму \"Двери\". Это полая форма 4x5, использующая минимум 10 Обсидиана. Вам не нужно использовать Обсидиан для углов, только для самого каркаса портала!"
-				"&l&aHardTech"
+				"{ftbquests.chapter.minecraft.quest45.description1}"
+				"{ftbquests.chapter.minecraft.quest45.description2}"
+				"{ftbquests.chapter.minecraft.quest45.description3}"
 			]
 			id: "72A5DEFDD0F3470D"
 			min_width: 300
@@ -2989,12 +2641,6 @@
 					id: "47E89D599340057C"
 					item: "libraryferret:gold_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "125DAA268A966A5B"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "6EB8570C1660131C"
@@ -3014,16 +2660,15 @@
 				id: "230FB492F63B0CAA"
 				type: "dimension"
 			}]
-			title: "&cВ Незер!&r"
+			title: "{ftbquests.chapter.minecraft.quest45.title}"
 			x: 6.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["72A5DEFDD0F3470D"]
 			description: [
-				"В 1.20 создание незеритовых инструментов и брони изменилось. Вам нужно будет найти &dШаблон Незеритовой Ковки&r в сундуках, найденных внутри Бастионов."
-				""
-				"Не используйте все свои шаблоны сразу, так как их можно дублировать."
+				"{ftbquests.chapter.minecraft.quest46.description1}"
+				"{ftbquests.chapter.minecraft.quest46.description2}"
 			]
 			id: "6EDC6D809402C84C"
 			rewards: [
@@ -3031,12 +2676,6 @@
 					id: "2960B15641CEA6CB"
 					item: "libraryferret:gold_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "18530E3263A77489"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "5E05F808BA91B94A"
@@ -3055,18 +2694,16 @@
 				item: "minecraft:netherite_upgrade_smithing_template"
 				type: "item"
 			}]
-			title: "&6Шаблон незерита"
+			title: "{ftbquests.chapter.minecraft.quest46.title}"
 			x: 4.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["72A5DEFDD0F3470D"]
 			description: [
-				"Маяки — это мощные конструкции, предоставляющие различные эффекты игрокам в их радиусе действия."
-				""
-				"После победы над &0Иссушителем&r используйте свою &eНезер-звезду&r, постройте &cмаяк&r и разместите его."
-				""
-				"Платежные предметы, используемые для активации маяка, также помогают увеличить его радиус действия. &3Медь — самая слабая&r, а &6незерит — самая сильная&r. Они вносят вклад в стандартный радиус действия маяка."
+				"{ftbquests.chapter.minecraft.quest47.description1}"
+				"{ftbquests.chapter.minecraft.quest47.description2}"
+				"{ftbquests.chapter.minecraft.quest47.description3}"
 			]
 			id: "4E256AAA75ECF41E"
 			rewards: [
@@ -3074,12 +2711,6 @@
 					id: "3B3CB317DA854353"
 					item: "libraryferret:diamond_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5280477E350E6A31"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "651498C7F14F546D"
@@ -3100,28 +2731,19 @@
 				id: "3B9FA9DF75499BC5"
 				type: "advancement"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest47.title}"
 			x: 9.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["72A5DEFDD0F3470D"]
-			description: [
-				"Магнитные компасы — это продвинутые навигационные инструменты, которые можно привязать к магнитам для точного отслеживания местоположения."
-				""
-				"&eКомпас&r можно привязать к &3магниту&r с помощью &7[&rПКМ&7]&r, в результате чего стрелка будет указывать на него, находясь в том же измерении. Это особенно полезно для навигации в сложных пещерах или при поиске пути к важным локациям."
-			]
+			description: ["{ftbquests.chapter.minecraft.quest48.description1}"]
 			id: "114173896E5DF62C"
 			rewards: [
 				{
 					id: "65511F16F9724F42"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6A7737AAED7B530A"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "50F8F29DF3EA5698"
@@ -3135,67 +2757,28 @@
 					type: "item"
 				}
 			]
-			subtitle: "Найти магнит"
+			subtitle: "{ftbquests.chapter.minecraft.quest48.subtitle}"
 			tasks: [{
 				id: "6179986E2175103A"
 				item: "minecraft:lodestone"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest48.title}"
 			x: 4.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["114173896E5DF62C"]
 			description: [
-				"Якоря возрождения — это мощные блоки, позволяющие устанавливать точки возрождения в Незере."
-				""
-				"При создании якорь возрождения не имеет (ноль) зарядов и ещё не может быть использован, пока не заряжен. Использование блока светокамня (не светокаменной пыли) на нём добавляет заряд. Якорь принимает до 4 зарядов, и уровень заряда отображается на боковой стороне блока."
-				""
-				"Первый заряд заставляет якорь возрождения светиться с уровнем света 3. Каждый последующий светокамень увеличивает уровень света на 4, до максимума в 15."
-				""
-				""
-				"{@pagebreak}"
-				"&6Установка точки возрождения&r"
-				""
-				"Чтобы установить точку возрождения игрока на якоре возрождения, он должен использовать его, как это делается с кроватью. Якорь должен иметь хотя бы один заряд и находиться в Незере. Появляется подтверждение, когда точка возрождения игрока установлена. Другие игроки также могут установить свою точку возрождения на тот же якорь."
-				""
-				"Каждое использование расходует один заряд, даже если его использует другой игрок."
-				""
-				"Использование заряженного якоря перезаписывает любую другую точку возрождения, которая могла быть у игрока, как и кровать. Якорь возрождения не служит резервной точкой возрождения для отсутствующей или заблокированной кровати."
-				""
-				""
-				"{@pagebreak}"
-				"&6Возрождение после смерти игрока&r"
-				""
-				"После смерти игрок возрождается рядом с якорем, и он теряет один заряд."
-				""
-				"Если якорь возрождения игрока уничтожен, если его заряды исчерпаны или если область вокруг него стала неподходящей для возрождения, появляется сообщение «У вас нет домашней кровати или заряженного якоря возрождения, или она была заблокирована», и игрок возрождается в точке появления мира. Возвращение через портал Края не считается возрождением за счёт зарядов."
-				""
-				""
-				"{@pagebreak}"
-				"&6Взрыв&r"
-				""
-				"Если игрок попытается установить своё возрождение на заряженный якорь возрождения в обычном мире, Крае или пользовательских измерениях, где они отключены, блок взорвётся (и будет уничтожен), как при использовании кровати в Незере или Крае. Взрыв имеет силу 5 и поджигает окружающие блоки."
-				""
-				""
-				"{@pagebreak}"
-				"&6Компонент редстоуна&r"
-				""
-				"При заряде компаратор редстоуна выдаёт сигнал в зависимости от количества зарядов: 3 для одного заряда, 7 для двух зарядов, 11 для трёх зарядов, 15 для четырёх зарядов. Пустой якорь выдаёт сигнал 0."
-				""
-				"Якорь возрождения также можно зарядить с помощью раздатчика."
-				""
-				"Якорь возрождения не может быть сдвинут поршнем."
-				""
-				""
-				"{@pagebreak}"
-				"&6Мобы&r"
-				""
-				"Зоглины убегают от якорей возрождения."
-				""
-				"&6Нотные блоки&r"
-				""
-				"Якори возрождения можно размещать под нотными блоками, чтобы издавать звук «бас-барабана»."
+				"{ftbquests.chapter.minecraft.quest49.description1}"
+				"{ftbquests.chapter.minecraft.quest49.description2}"
+				"{ftbquests.chapter.minecraft.quest49.description3}"
+				"{ftbquests.chapter.minecraft.quest49.description4}"
+				"{ftbquests.chapter.minecraft.quest49.description5}"
+				"{ftbquests.chapter.minecraft.quest49.description6}"
+				"{ftbquests.chapter.minecraft.quest49.description7}"
+				"{ftbquests.chapter.minecraft.quest49.description8}"
+				"{ftbquests.chapter.minecraft.quest49.description9}"
 			]
 			id: "1FBE9C78798263F3"
 			rewards: [
@@ -3203,12 +2786,6 @@
 					id: "4D9C6429335C9956"
 					item: "libraryferret:gold_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "53EDEAE54C93FDDC"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "436C344CABA0F8DE"
@@ -3222,13 +2799,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Зарядить якорь возрождения до максимума"
+			subtitle: "{ftbquests.chapter.minecraft.quest49.subtitle}"
 			tasks: [{
 				id: "24BD1A343E915535"
 				item: "minecraft:respawn_anchor"
 				type: "item"
 			}]
-			title: "Не совсем «девять» жизней"
+			title: "{ftbquests.chapter.minecraft.quest49.title}"
 			x: 3.0d
 			y: 4.0d
 		}
@@ -3236,9 +2813,8 @@
 			dependencies: ["081A90D678D85928"]
 			dependency_requirement: "one_completed"
 			description: [
-				"&aКузнечные Шаблоны&r — это совершенно новые предметы, используемые для добавления узоров на вашу броню! Это можно сделать в Кузнечных столах."
-				""
-				"Хотя у них есть рецепт, большинство узоров — это редкие находки в сундуках с добычей или при археологических раскопках. Как только вы найдёте один, вы можете дублировать Шаблон, используя рецепт для создания большего количества!"
+				"{ftbquests.chapter.minecraft.quest50.description1}"
+				"{ftbquests.chapter.minecraft.quest50.description2}"
 			]
 			icon: "minecraft:vex_armor_trim_smithing_template"
 			id: "65B47B2E1AA75ED3"
@@ -3247,12 +2823,6 @@
 					id: "7266DF4D40C24BD6"
 					item: "libraryferret:gold_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0732A89CD3D5B335"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "5A24C468DBD0AE22"
@@ -3272,22 +2842,16 @@
 				item: "minecraft:vex_armor_trim_smithing_template"
 				type: "item"
 			}]
-			title: "&dУзоры для брони&r"
-			x: 0.5d
-			y: 4.5d
+			title: "{ftbquests.chapter.minecraft.quest50.title}"
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["081A90D678D85928"]
 			description: [
-				"&bДревние города&r полны враждебных существ, чувствующих вибрации, и редкой добычи."
-				""
-				"&9Скалк-сенсоры&r обнаруживают вибрации, включая ходьбу и взаимодействие с блоками и предметами."
-				""
-				"Они активируют &3скалк-крикунов&r, которые призывают &l&3Хранителя.&r"
-				""
-				"&l&3Хранители&r — это огромные, практически неубиваемые монстры, которые могут ослеплять игроков и наносить высокий урон."
-				""
-				"Однако их зрение основано на вибрациях — &bснежки&r и другие предметы можно использовать, чтобы отвлечь их."
+				"{ftbquests.chapter.minecraft.quest51.description1}"
+				"{ftbquests.chapter.minecraft.quest51.description2}"
+				"{ftbquests.chapter.minecraft.quest51.description3}"
 			]
 			id: "33D47E0078148427"
 			rewards: [
@@ -3295,12 +2859,6 @@
 					id: "13FD4F84D008D544"
 					item: "libraryferret:gold_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "52F46B517A1100D6"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "0B2B10985F7F2CF1"
@@ -3314,7 +2872,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Найти Древний город"
+			subtitle: "{ftbquests.chapter.minecraft.quest51.subtitle}"
 			tasks: [{
 				disable_toast: true
 				icon: "minecraft:reinforced_deepslate"
@@ -3323,17 +2881,13 @@
 				title: "Найти Древний город"
 				type: "structure"
 			}]
-			title: "Забытые глубины"
+			title: "{ftbquests.chapter.minecraft.quest51.title}"
 			x: -1.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["081A90D678D85928"]
-			description: [
-				"&eAlex's Caves&r добавляет уникальное разнообразие новых подземных биомов пещер со многими интересными новыми мобами и механиками для экспериментов."
-				""
-				"Чтобы начать, вам нужно найти подземную хижину, чтобы получить некоторые пещерные таблички, а также стол спелеолога."
-			]
+			description: ["{ftbquests.chapter.minecraft.quest52.description1}"]
 			icon: "alexscaves:cave_book"
 			id: "3A5D5C4FBFAFB109"
 			rewards: [
@@ -3343,46 +2897,31 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "6A4462870CCB72BF"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
-				{
 					id: "18F9AA9588E90881"
 					type: "xp"
 					xp: 100
 				}
 			]
-			subtitle: "Новые биомы пещер"
+			subtitle: "{ftbquests.chapter.minecraft.quest52.subtitle}"
 			tasks: [{
 				id: "1C23290C04C44FB9"
 				structure: "alexscaves:underground_cabin"
 				type: "structure"
 			}]
-			title: "Пещеры Алекса"
-			x: -1.0d
-			y: 2.5d
+			title: "{ftbquests.chapter.minecraft.quest52.title}"
+			x: 0.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3A5D5C4FBFAFB109"]
 			description: [
-				"Поместив &2кусочек бумаги&r и &eпещерную табличку&r в стол спелеолога, вы можете сыграть в мини-игру, чтобы раскрыть некоторые тайны, которые хранит табличка."
-				""
-				"Попытайтесь угадать правильное расположение скрытого слова, используя контекст предыдущих попыток."
-				""
-				"В этой мини-игре всего пять попыток на уровень, и требуется три уровня, чтобы создать пещерный кодекс."
-				""
-				"Если любой уровень провален или процесс перевода прерван, пещерная табличка будет уничтожена."
+				"{ftbquests.chapter.minecraft.quest53.description1}"
+				"{ftbquests.chapter.minecraft.quest53.description2}"
+				"{ftbquests.chapter.minecraft.quest53.description3}"
+				"{ftbquests.chapter.minecraft.quest53.description4}"
 			]
 			id: "26D860BF5D02586C"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "74FE9A5BEBD7C9B5"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "1535356DF9F30671"
 					type: "xp"
@@ -3395,24 +2934,21 @@
 					type: "item"
 				}
 			]
-			subtitle: "Исследование пещер"
+			subtitle: "{ftbquests.chapter.minecraft.quest53.subtitle}"
 			tasks: [{
 				id: "2AEBADAF7BD0BDDE"
 				item: "alexscaves:spelunkery_table"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.5d
+			title: "{ftbquests.chapter.minecraft.quest53.title}"
+			x: 0.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["26D860BF5D02586C"]
 			description: [
-				"После исследования &6Пещерного Кодекса&r его можно использовать для двух целей."
-				""
-				"1 -> Простое использование предмета в основной руке откроет больше информации о биоме кодекса в Пещерном Компендиуме."
-				""
-				""
-				"2 -> Их можно скрафтить в &6Карты Биомов Пещер.&r"
+				"{ftbquests.chapter.minecraft.quest54.description1}"
+				"{ftbquests.chapter.minecraft.quest54.description2}"
 			]
 			id: "2F7BB458FD5AFF19"
 			rewards: [
@@ -3422,18 +2958,12 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "60C2D268A476D740"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
-				{
 					id: "4D99D6F2A60749CC"
 					type: "xp"
 					xp: 100
 				}
 			]
-			subtitle: "&6🔓 Открывает главу Пещер Алекса&r"
+			subtitle: "{ftbquests.chapter.minecraft.quest54.subtitle}"
 			tasks: [{
 				id: "37EFDE1A242FC6ED"
 				item: {
@@ -3445,25 +2975,19 @@
 				}
 				type: "item"
 			}]
-			title: "Исследуйте любой пещерный кодекс"
-			x: -3.0d
-			y: 4.5d
+			title: "{ftbquests.chapter.minecraft.quest54.title}"
+			x: 0.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["731C3214BB61FDAE"]
-			description: ["Этот шлем, созданный из Сердца глубин и других трофеев, павших от &l&3Хранителя&r, обладает уникальной способностью. Он не только предоставляет отличную защиту, но и при ношении в Ином мире частично подавляет угнетающую ауру Тьмы, позволяя вам видеть дальше и чувствовать себя увереннее в этом враждебном измерении."]
+			description: ["{ftbquests.chapter.minecraft.quest55.description1}"]
 			id: "44937B2D2EB38094"
 			rewards: [
 				{
 					id: "008CE7ADB7F88333"
 					item: "libraryferret:diamond_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7023B50233BEB009"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "5183F37701C1E1D2"
@@ -3473,7 +2997,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "Используется для нейтрализации темноты в &8&lИном мире."
+			subtitle: "{ftbquests.chapter.minecraft.quest55.subtitle}"
 			tasks: [{
 				id: "42CA7AAF304767E7"
 				item: {
@@ -3485,13 +3009,13 @@
 				}
 				type: "item"
 			}]
-			title: "Скрафтить &9Шлем Хранителя"
+			title: "{ftbquests.chapter.minecraft.quest55.title}"
 			x: -4.5d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["44937B2D2EB38094"]
-			description: ["Прежде чем зажечь портал, вы должны сначала удалить все &3Скалк-прожилки&r с внутренней рамки. После очистки рамки вы можете щёлкнуть по ней правой кнопкой мыши с &bСердцем глубин&r, которое вы получили ранее, убив &l&3Хранителя&r. Портал открывает путь в Иной мир — зеркальное, искажённое подземное измерение, наполненное древними ужасами и забытыми сокровищами."]
+			description: ["{ftbquests.chapter.minecraft.quest56.description1}"]
 			id: "704CCA2CEAB23B4D"
 			rewards: [
 				{
@@ -3503,12 +3027,6 @@
 					id: "29AC607B64AEBA63"
 					item: "libraryferret:netherite_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7C05D02D3082F97C"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "69D136CE8F42EE16"
@@ -3525,13 +3043,13 @@
 				title: "Войти в Иной мир"
 				type: "dimension"
 			}]
-			title: "&lВход в:&r &8&lИной мир"
+			title: "{ftbquests.chapter.minecraft.quest56.title}"
 			x: -7.0d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["33D47E0078148427"]
-			description: ["Этот могучий подземный страж обитает в самых тёмных глубинах Древних городов. Для его вызова необходимо активировать Скалк-сенсоры или Скалк-крикунов. Он слеп, но обладает невероятным слухом и обонянием. Будьте предельно осторожны, малейший звук или вибрация привлекут его ярость."]
+			description: ["{ftbquests.chapter.minecraft.quest57.description1}"]
 			hide_until_deps_complete: true
 			id: "731C3214BB61FDAE"
 			rewards: [
@@ -3556,12 +3074,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "32A5F5A2C75FBF78"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
-				{
 					id: "62CC04C4E47CE13E"
 					type: "xp"
 					xp: 100
@@ -3569,7 +3081,7 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "Находится под землёй в &aобычном мире&r."
+			subtitle: "{ftbquests.chapter.minecraft.quest57.subtitle}"
 			tasks: [{
 				entity: "minecraft:warden"
 				icon: "minecraft:sculk_sensor"
@@ -3578,13 +3090,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "&lБосс:&r &l&3Хранитель"
-			x: -2.4499999999999993d
-			y: 6.0d
+			title: "{ftbquests.chapter.minecraft.quest57.title}"
+			x: -2.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["704CCA2CEAB23B4D"]
-			description: ["Скалк-захлопыватели — пассивные, но полезные существа Иного мира. Их можно найти бродящими в тёмных пещерах. Приручите его, используя зачарованный незеритовый нагрудник. После приручения он будет следовать за вами и периодически 'собирать' магические вибрации, сбрасывая случайные зачарованные книги, что делает его бесценным компаньоном для любого искателя приключений."]
+			description: ["{ftbquests.chapter.minecraft.quest58.description1}"]
 			icon: {
 				Count: 1
 				id: "minecraft:netherite_chestplate"
@@ -3595,11 +3107,6 @@
 			id: "0FF69526C1DC1593"
 			rewards: [
 				{
-					id: "67FB94C359F4DC55"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
 					id: "6ACAEDFDC87510EF"
 					item: "libraryferret:gold_coins_jtl"
 					type: "item"
@@ -3608,12 +3115,6 @@
 					id: "20ED9679EAC8C475"
 					item: "libraryferret:diamond_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1ADAB26A44F8BD3C"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "0612FD3977AE037B"
@@ -3641,30 +3142,19 @@
 				to_observe: "deeperdarker:sculk_snapper"
 				type: "observation"
 			}]
-			title: "Найти &2Скалк-захлопывателя"
+			title: "{ftbquests.chapter.minecraft.quest58.title}"
 			x: -6.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["704CCA2CEAB23B4D"]
-			description: ["Расколотые — призрачные существа Иного мира, состоящие из сгустков эха и печали. Они медлительны, но их атаки наносят значительный урон и могут накладывать отрицательные эффекты. Остерегайтесь их способности ненадолго становиться неосязаемыми."]
+			description: ["{ftbquests.chapter.minecraft.quest59.description1}"]
 			id: "6E7D3242496F4501"
 			rewards: [
-				{
-					id: "64D2CD3086F0814E"
-					type: "xp_levels"
-					xp_levels: 5
-				}
 				{
 					id: "7152C29FDF4B010D"
 					item: "libraryferret:gold_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4DE9FEFDE7FD08E3"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "4D744089F7905A56"
@@ -3686,30 +3176,19 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Убить &3Расколотого"
+			title: "{ftbquests.chapter.minecraft.quest59.title}"
 			x: -9.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["704CCA2CEAB23B4D"]
-			description: ["Преследователи — редкие и смертоносные охотники, вырывающиеся на свободу при разбитии Древних ваз. Они невероятно быстры, атакуют стремительными рывками и наносят несколько ударов подряд. Бой с ними требует хорошей реакции и прочной брони."]
+			description: ["{ftbquests.chapter.minecraft.quest60.description1}"]
 			id: "192EE909C57F390A"
 			rewards: [
-				{
-					id: "32D7431007C483AE"
-					type: "xp_levels"
-					xp_levels: 5
-				}
 				{
 					id: "09962FA5687846DA"
 					item: "libraryferret:gold_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "37B621015A1B529C"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "2FB0E70111A76926"
@@ -3723,7 +3202,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Редкий шанс появления после разбития &8Древней вазы&r."
+			subtitle: "{ftbquests.chapter.minecraft.quest60.subtitle}"
 			tasks: [{
 				entity: "deeperdarker:stalker"
 				icon: "deeperdarker:soul_crystal"
@@ -3732,30 +3211,19 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Убить &3Преследователя"
+			title: "{ftbquests.chapter.minecraft.quest60.title}"
 			x: -9.0d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["704CCA2CEAB23B4D"]
-			description: ["Эти гигантские черви затаились под слоями Заражённого скалка. Они атакуют неожиданно, вырываясь из-под земли, когда по ней проходят. Их атака оглушает и отбрасывает жертву. Будьте готовы к схватке на поверхности и не стойте на одном месте слишком долго."]
+			description: ["{ftbquests.chapter.minecraft.quest61.description1}"]
 			id: "3CBDB45D65737212"
 			rewards: [
-				{
-					id: "65BC1997E31DF6FD"
-					type: "xp_levels"
-					xp_levels: 5
-				}
 				{
 					id: "393855BA91FD7685"
 					item: "libraryferret:gold_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5F46BFD0BB9D35C2"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "7658C8FDAE0E8532"
@@ -3769,7 +3237,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Находится при наступлении на Заражённый скалк"
+			subtitle: "{ftbquests.chapter.minecraft.quest61.subtitle}"
 			tasks: [{
 				entity: "deeperdarker:shriek_worm"
 				icon: "deeperdarker:sculk_bone"
@@ -3778,20 +3246,15 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Убить &7Визжащего червя"
+			title: "{ftbquests.chapter.minecraft.quest61.title}"
 			x: -7.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["704CCA2CEAB23B4D"]
-			description: ["Скалк-передатчик — это продвинутое технологическое устройство, созданное из материалов Иного мира. Оно позволяет связать обычный сундук в вашей базе с переносным 'приёмником' (также сундуком), создав систему удалённого хранения на большие расстояния, даже между измерениями. Это ключевая технология для организации логистики в опасных экспедициях."]
+			description: ["{ftbquests.chapter.minecraft.quest62.description1}"]
 			id: "2807106C369DF042"
 			rewards: [
-				{
-					id: "442957F1DE63455B"
-					type: "xp_levels"
-					xp_levels: 5
-				}
 				{
 					id: "46198BF25D4A90D3"
 					item: {
@@ -3809,12 +3272,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "711EB16BE6A7D0A0"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
-				{
 					id: "3900742E4BD2C149"
 					type: "xp"
 					xp: 100
@@ -3826,31 +3283,26 @@
 					type: "item"
 				}
 			]
-			subtitle: "Раздобудьте Скалк-передатчик."
+			subtitle: "{ftbquests.chapter.minecraft.quest62.subtitle}"
 			tasks: [{
 				advancement: "deeperdarker:main/obtain_sculk_transmitter"
 				criterion: ""
 				id: "3CEA97C6362C740A"
 				type: "advancement"
 			}]
-			title: "Удалённое хранилище"
+			title: "{ftbquests.chapter.minecraft.quest62.title}"
 			x: -7.0d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3B4209C6A7D8C0A6"]
 			description: [
-				"Мир в этой сборке &cопасен&r. Хотя вы можете чувствовать себя слабым в некоторые моменты, не сдавайтесь."
-				""
-				"Есть много способов стать сильнее. Исследуйте, чтобы найти лучшее снаряжение, отправляйтесь в другие измерения и вкладывайтесь в свои постройки."
-				""
-				"Проверьте главу &9'Ведьмачьи заказы'&r, чтобы понять &3сложность каждого босса&r. Некоторые боссы относятся к поздней игре и требуют больше мощи. &aУвеличение вашего здоровья&r и &6наличие хорошего снаряжения очень важны.&r"
-				""
-				"Опасные мобы из &c&lIce and Fire&r, &l&8Born in Chaos&r, будут появляться где угодно. Действуйте на свой страх и риск."
-				""
-				"Все враждебные существа были усилены в &c2.5 раза.&r После некоторых активностей в мире, существа будут становиться ещё сильнее на некоторое время. &cБудьте аккуратней!&r "
-				" "
-				"           &6&lЖелаем Вам удачи! "
+				"{ftbquests.chapter.minecraft.quest63.description1}"
+				"{ftbquests.chapter.minecraft.quest63.description2}"
+				"{ftbquests.chapter.minecraft.quest63.description3}"
+				"{ftbquests.chapter.minecraft.quest63.description4}"
+				"{ftbquests.chapter.minecraft.quest63.description5}"
+				"{ftbquests.chapter.minecraft.quest63.description6}"
 			]
 			id: "7FEBCE21920B09B2"
 			rewards: [{
@@ -3860,39 +3312,22 @@
 			}]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "Ваши кошмары будут следовать за вами..."
+			subtitle: "{ftbquests.chapter.minecraft.quest63.subtitle}"
 			tasks: [{
 				disable_toast: true
 				id: "7A80B691C3946E9F"
 				title: "&l&aЯ не трус, я побью их всех"
 				type: "checkmark"
 			}]
-			title: "&l&4Мир опасен"
+			title: "{ftbquests.chapter.minecraft.quest63.title}"
 			x: -4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["535A8A11EFC7DB00"]
-			description: [
-				"&dАметист&r растёт в больших жеодах, выстланных базальтом и кальцитом, под землёй."
-				""
-				"Чтобы получить &5осколки аметиста&r, ищите ростовые блоки аметиста, которые нельзя убрать."
-				""
-				"Вместо этого сосредоточьтесь на аметистовых друзах, которые растут на них. Только друзы можно ломать возобновляемо, чтобы получить осколки аметиста."
-			]
+			description: ["{ftbquests.chapter.minecraft.quest64.description1}"]
 			id: "77CB99E12D41EFF3"
 			rewards: [
-				{
-					id: "0ED3DEF5CA1F0133"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "058068C1BE8F9CB2"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "028A11E21880A760"
 					type: "xp"
@@ -3905,34 +3340,21 @@
 					type: "item"
 				}
 			]
-			subtitle: "Найти жеоду"
+			subtitle: "{ftbquests.chapter.minecraft.quest64.subtitle}"
 			tasks: [{
 				id: "4300DC27A2F815BA"
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
-			title: "Аметист"
+			title: "{ftbquests.chapter.minecraft.quest64.title}"
 			x: 0.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["081A90D678D85928"]
-			description: [
-				"&bAlex's Mobs&r — это мод, который добавляет 89 новых мобов в Minecraft. Все эти мобы делятся на две категории: большинство из них — существа из реального мира, таких как гризли, кукушки-подорожники, косатки и т. д.; но некоторые из них — чисто вымышленные, такие как Эндергейд и Костяной змей."
-				""
-				"Все эти существа служат определенной цели и имеют уникальные дропы, механики или функции, так как нет чисто декоративных существ."
-				""
-				"&6Зверинец&r — это очень простое руководство и документация по каждому существу, добавленному модом, и должно дать представление об использовании каждого моба или его дропов."
-			]
 			icon: "alexsmobs:animal_dictionary"
 			id: "1A29F7503DF9B6C8"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "61836E8F3DCB838E"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "1A18E5905ED3D89E"
 					type: "xp"
@@ -3945,19 +3367,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Новые животные"
+			subtitle: "{ftbquests.chapter.minecraft.quest65.subtitle}"
 			tasks: [{
 				id: "2CCDA957C9AADBF6"
 				item: "alexsmobs:animal_dictionary"
 				type: "item"
 			}]
-			title: "Мобы Алекса"
+			title: "{ftbquests.chapter.minecraft.quest65.title}"
 			x: -1.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["750D00532E456A09"]
-			description: ["Дополнительные предметы и инструменты, которые помогут вам в выживании и строительстве."]
+			description: ["{ftbquests.chapter.minecraft.quest66.description1}"]
 			hide_lock_icon: true
 			id: "535A8A11EFC7DB00"
 			rewards: [
@@ -3965,12 +3387,6 @@
 					id: "20725AB2B500FFE1"
 					item: "libraryferret:gold_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0D13ADC76580EC2F"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "231873F362A1F4BD"
@@ -3986,30 +3402,22 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
-			subtitle: "Некоторые полезные штуки, наверное?"
+			subtitle: "{ftbquests.chapter.minecraft.quest66.subtitle}"
 			tasks: [{
 				id: "280744313571F573"
 				type: "checkmark"
 			}]
-			title: "Другие штуки"
+			title: "{ftbquests.chapter.minecraft.quest66.title}"
 			x: -1.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["535A8A11EFC7DB00"]
 			description: [
-				"Фонарь наполняет территорию &eнестабильной жизненной энергией&r,"
-				"заставляя &aрастения &aрасти быстрее нормы&r."
-				""
-				"&l&c⚠ Внимание:&r"
-				"Почва истощается. Урожай не ждёт."
-				""
-				"&2💡 Эффект:&r &aускоренный рост культур&r  "
-				""
-				"&6🧪 Катализаторы:&r яйцо, дыня, золотое яблоко, сахарный тростник, костная мука"
-				""
-				"&b✅ Примечание:&r"
-				"Идеален для &aаграрной автоматизации&r и &aферм&r."
+				"{ftbquests.chapter.minecraft.quest67.description1}"
+				"{ftbquests.chapter.minecraft.quest67.description2}"
+				"{ftbquests.chapter.minecraft.quest67.description3}"
+				"{ftbquests.chapter.minecraft.quest67.description4}"
 			]
 			id: "12D5AD1CE697FB80"
 			rewards: [
@@ -4017,12 +3425,6 @@
 					id: "3F15FCBDD35F6210"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7BC2176735B19896"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "77198D07D31F392F"
@@ -4036,28 +3438,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "&l&eБиологический &dускоритель роста&r."
+			subtitle: "{ftbquests.chapter.minecraft.quest67.subtitle}"
 			tasks: [{
 				id: "37FDF3B9D846F3E1"
 				item: "arcanelanterns:life_lantern"
 				type: "item"
 			}]
-			title: "&a⚡ ФОНАРЬ ЖИЗНИ&r"
+			title: "{ftbquests.chapter.minecraft.quest67.title}"
 			x: -1.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["535A8A11EFC7DB00"]
 			description: [
-				"Фонарь разбрасывает &eискры&r по всей территории, создавая"
-				"&fяркое сияние &bдаже в самых тёмных углах&r.."
-				""
-				"&l&c⚠ Внимание:&r"
-				"После завершения работы &cсамоуничтожается&r."
-				""
-				"&2💡 Эффект:&r &aмассовое освещение территории&r"
-				""
-				"&6🧪 Катализаторы:&r светящийся камень, фонарь Джека, огненный заряд, огненный порошок, золотой слиток"
+				"{ftbquests.chapter.minecraft.quest68.description1}"
+				"{ftbquests.chapter.minecraft.quest68.description2}"
+				"{ftbquests.chapter.minecraft.quest68.description3}"
+				"{ftbquests.chapter.minecraft.quest68.description4}"
 			]
 			id: "52986E54729D6D4E"
 			rewards: [
@@ -4065,12 +3462,6 @@
 					id: "589FCE5CE7685AAA"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0EC54DC0CCF83335"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "31A3BFAACE0681B4"
@@ -4084,28 +3475,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "&l&eАварийный &fосветительный модуль&r."
+			subtitle: "{ftbquests.chapter.minecraft.quest68.subtitle}"
 			tasks: [{
 				id: "2EEAC17070E26BDF"
 				item: "arcanelanterns:feral_lantern"
 				type: "item"
 			}]
-			title: "&6🔥 ДИКИЙ ФОНАРЬ&r"
+			title: "{ftbquests.chapter.minecraft.quest68.title}"
 			x: -1.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["535A8A11EFC7DB00"]
 			description: [
-				"Фонарь реагирует на присутствие существа."
-				"При приближении — &cкрик и тошнота&r."
-				""
-				"&l&c⚠ Внимание:&r"
-				"Подходит для &cконтроля территорий&r."
-				""
-				"&2💡 Эффект:&r &cдезориентация мобов&r"
-				""
-				"&6🧪 Катализаторы:&r слеза призрака, оплетённые корни, кремень, иглобрюх, чернильный мешок"
+				"{ftbquests.chapter.minecraft.quest69.description1}"
+				"{ftbquests.chapter.minecraft.quest69.description2}"
+				"{ftbquests.chapter.minecraft.quest69.description3}"
+				"{ftbquests.chapter.minecraft.quest69.description4}"
 			]
 			id: "53D23FC19BC2F003"
 			rewards: [
@@ -4113,12 +3499,6 @@
 					id: "7A9D6C8D86D6229B"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2595DAB75D4CA1E1"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "45F0E50F161CEF19"
@@ -4132,28 +3512,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "&l&eПсихоакустическое &cоружие&r."
+			subtitle: "{ftbquests.chapter.minecraft.quest69.subtitle}"
 			tasks: [{
 				id: "67C2059BF2410183"
 				item: "arcanelanterns:wailing_lantern"
 				type: "item"
 			}]
-			title: "&9😢 ПЛАЧУЩИЙ ФОНАРЬ &r"
+			title: "{ftbquests.chapter.minecraft.quest69.title}"
 			x: -2.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["535A8A11EFC7DB00"]
 			description: [
-				"Фонарь заставляет мобов входить в состояние &aвлюблённости&r,"
-				"нарушая их естественное поведение."
-				""
-				"&l&c⚠ Внимание:&r"
-				"Мобы становятся &cнеконтролируемыми&r."
-				""
-				"&2💡 Эффект:&r &aмобы размножаются&r"
-				""
-				"&6🧪 Катализаторы:&r алмаз, кроличья лапка, золотая морковка, свёкла, фонарь жизни, бутылка с мёдом"
+				"{ftbquests.chapter.minecraft.quest70.description1}"
+				"{ftbquests.chapter.minecraft.quest70.description2}"
+				"{ftbquests.chapter.minecraft.quest70.description3}"
+				"{ftbquests.chapter.minecraft.quest70.description4}"
 			]
 			id: "7B7FC579366D8ADA"
 			rewards: [
@@ -4161,12 +3536,6 @@
 					id: "703AD2B3C4CD3F47"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6ECBB6869AA716E8"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "23DEEE26D053E2EE"
@@ -4180,24 +3549,21 @@
 					type: "item"
 				}
 			]
-			subtitle: "&l&eМодуль &bэмоционального воздействия&r."
+			subtitle: "{ftbquests.chapter.minecraft.quest70.subtitle}"
 			tasks: [{
 				id: "6D09426473EBAF52"
 				item: "arcanelanterns:love_lantern"
 				type: "item"
 			}]
-			title: "&d💖 ЛЮБОВНЫЙ ФОНАРЬ&r"
+			title: "{ftbquests.chapter.minecraft.quest70.title}"
 			x: -3.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["535A8A11EFC7DB00"]
 			description: [
-				"Фонарь замедляет движение &cмобов и игроков&r, а также &cтушит огонь&r вокруг."
-				""
-				"&2💡 Эффект:&r &aзамедление и тушение огня&r"
-				""
-				"&6🧪 Катализаторы:&r паутина, снежок, глыба льда, кварц"
+				"{ftbquests.chapter.minecraft.quest71.description1}"
+				"{ftbquests.chapter.minecraft.quest71.description2}"
 			]
 			id: "6B70A51EF2E0D1D0"
 			rewards: [
@@ -4205,12 +3571,6 @@
 					id: "7A2F6A721CC4B375"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6DA9E28521E02EE4"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "3AE33EFAF50D9604"
@@ -4224,27 +3584,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "&l&bКрио-контроль &fтерритории&r."
+			subtitle: "{ftbquests.chapter.minecraft.quest71.subtitle}"
 			tasks: [{
 				id: "454D568501731C19"
 				item: "arcanelanterns:boreal_lantern"
 				type: "item"
 			}]
-			title: "&b❄ БОРЕАЛЬНЫЙ ФОНАРЬ &r"
+			title: "{ftbquests.chapter.minecraft.quest71.title}"
 			x: -3.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["535A8A11EFC7DB00"]
 			description: [
-				"Фонарь превращает животных в &aопыт&r."
-				""
-				"&c&l⚠ Внимание:&r"
-				"Животные уничтожаются &cнавсегда&r."
-				""
-				"&2💡 Эффект:&r &aживотные → опыт&r"
-				""
-				"&6🧪 Катализаторы:&r панцирь шалкера, бумага, снежок, призрачная мембрана"
+				"{ftbquests.chapter.minecraft.quest72.description1}"
+				"{ftbquests.chapter.minecraft.quest72.description2}"
+				"{ftbquests.chapter.minecraft.quest72.description3}"
+				"{ftbquests.chapter.minecraft.quest72.description4}"
 			]
 			id: "4F77F1D85F4FA9E8"
 			rewards: [
@@ -4252,12 +3608,6 @@
 					id: "323FBBE587784C04"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "76D3506AF79F7D2C"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "3CDD6CB63A6645C2"
@@ -4271,42 +3621,26 @@
 					type: "item"
 				}
 			]
-			subtitle: "&l&eМодуль переработки &aбиомассы&r."
+			subtitle: "{ftbquests.chapter.minecraft.quest72.subtitle}"
 			tasks: [{
 				id: "1986A5EEEF40A06A"
 				item: "arcanelanterns:brilliant_lantern"
 				type: "item"
 			}]
-			title: "&f✨ БЛЕСТЯЩИЙ ФОНАРЬ &r"
+			title: "{ftbquests.chapter.minecraft.quest72.title}"
 			x: -2.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["535A8A11EFC7DB00"]
 			description: [
-				"Фонарь удерживает всех живых существ"
-				"в пределах рабочей зоны."
-				""
-				"&c&l⚠ Внимание:&r"
-				"Выход невозможен без отключения."
-				""
-				"&2💡 Эффект:&r &cфиксация мобов&r"
-				""
-				"&6🧪 Катализаторы:&r сдерживающий фонарь, удочка, паутина, цепь"
+				"{ftbquests.chapter.minecraft.quest73.description1}"
+				"{ftbquests.chapter.minecraft.quest73.description2}"
+				"{ftbquests.chapter.minecraft.quest73.description3}"
+				"{ftbquests.chapter.minecraft.quest73.description4}"
 			]
 			id: "763660F1FADBB66A"
 			rewards: [
-				{
-					id: "2066DBD28D468569"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "14186111CC60A69A"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "772BE7BCE8D25B61"
 					type: "xp"
@@ -4319,25 +3653,21 @@
 					type: "item"
 				}
 			]
-			subtitle: "&l&eМодуль &cполной изоляции&r."
+			subtitle: "{ftbquests.chapter.minecraft.quest73.subtitle}"
 			tasks: [{
 				id: "6CADAE17037E81F7"
 				item: "arcanelanterns:containing_lantern"
 				type: "item"
 			}]
-			title: "&6⛓ ФОНАРЬ СДЕРЖИВАНИЯ &r"
+			title: "{ftbquests.chapter.minecraft.quest73.title}"
 			x: 0.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["535A8A11EFC7DB00"]
 			description: [
-				"Создаёт силовое поле, отталкивающее все живые существа,"
-				"кроме игроков."
-				""
-				"&2💡 Эффект:&r &aотталкивание мобов&r"
-				""
-				"&6🧪 Катализаторы:&r деформированный гриб, иглобрюх, железная дверь, обсидиан"
+				"{ftbquests.chapter.minecraft.quest74.description1}"
+				"{ftbquests.chapter.minecraft.quest74.description2}"
 			]
 			id: "6439483162D2C73E"
 			rewards: [
@@ -4345,12 +3675,6 @@
 					id: "09ECA1B407D843B8"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "688E203250456162"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "461F23A9B9C3C8D5"
@@ -4364,42 +3688,26 @@
 					type: "item"
 				}
 			]
-			subtitle: "&l&eАктивная &fсистема обороны&r."
+			subtitle: "{ftbquests.chapter.minecraft.quest74.subtitle}"
 			tasks: [{
 				id: "738BBD0484A8482B"
 				item: "arcanelanterns:warding_lantern"
 				type: "item"
 			}]
-			title: "&c🛡 ЗАЩИТНЫЙ ФОНАРЬ &r"
+			title: "{ftbquests.chapter.minecraft.quest74.title}"
 			x: -0.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["535A8A11EFC7DB00"]
 			description: [
-				"Фонарь наполняет территорию &l&7энергией иссушения&r,"
-				"медленно уничтожая всё живое."
-				""
-				"&l&c⚠ Внимание:&r"
-				"Экстремально опасно для &cигроков и мобов&r."
-				""
-				"&2💡 Эффект:&r &cэффект иссушения&r"
-				""
-				"&6🧪 Катализаторы:&r иссушающая роза, песок душ, звезда фейерверка, уголь"
+				"{ftbquests.chapter.minecraft.quest75.description1}"
+				"{ftbquests.chapter.minecraft.quest75.description2}"
+				"{ftbquests.chapter.minecraft.quest75.description3}"
+				"{ftbquests.chapter.minecraft.quest75.description4}"
 			]
 			id: "2E389F1D83A33C58"
 			rewards: [
-				{
-					id: "47B53DCF72353F65"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3CB83E7806130BCC"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "27AB21ED633BB0BC"
 					type: "xp"
@@ -4412,39 +3720,24 @@
 					type: "item"
 				}
 			]
-			subtitle: "&l&eЗона &7биологического распада&r."
+			subtitle: "{ftbquests.chapter.minecraft.quest75.subtitle}"
 			tasks: [{
 				id: "2E37A9161B2B0930"
 				item: "arcanelanterns:withering_lantern"
 				type: "item"
 			}]
-			title: "&8☠ ИССОХШИЙ ФОНАРЬ &r"
+			title: "{ftbquests.chapter.minecraft.quest75.title}"
 			x: -0.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["535A8A11EFC7DB00"]
 			description: [
-				"Фонарь снижает силу падения"
-				"в зоне действия, замедляя движение объектов вниз."
-				""
-				"&2💡 Эффект:&r &aмедленное падение&r"
-				""
-				"&6🧪 Катализаторы:&r призрачная мембрана, факел души, снежный блок, белая шерсть"
+				"{ftbquests.chapter.minecraft.quest76.description1}"
+				"{ftbquests.chapter.minecraft.quest76.description2}"
 			]
 			id: "3FE1553A8A926624"
 			rewards: [
-				{
-					id: "7CA092B626F18E6D"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "30856299798719FB"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "1E6674655EA20067"
 					type: "xp"
@@ -4457,24 +3750,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "&l&eГравитационный &bстабилизатор&r."
+			subtitle: "{ftbquests.chapter.minecraft.quest76.subtitle}"
 			tasks: [{
 				id: "063A22DA141F8C89"
 				item: "arcanelanterns:cloud_lantern"
 				type: "item"
 			}]
-			title: "&f☁ ОБЛАЧНЫЙ ФОНАРЬ &r"
+			title: "{ftbquests.chapter.minecraft.quest76.title}"
 			x: 0.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["06A43BCF64EECF0F"]
 			description: [
-				"Пчелиные гнёзда — это дом для диких пчёл! Их нельзя переместить, но они производят &cсоты&r, которые можно использовать для создания &eулья.&r"
-				""
-				"Чтобы безопасно срезать полное гнездо или улей, разведите под ним костёр. В противном случае пчёлы разозлятся."
-				""
-				"Поверх костров можно положить ковёр, чтобы избежать урона от огня."
+				"{ftbquests.chapter.minecraft.quest77.description1}"
+				"{ftbquests.chapter.minecraft.quest77.description2}"
+				"{ftbquests.chapter.minecraft.quest77.description3}"
 			]
 			id: "1B78054E61C50110"
 			rewards: [
@@ -4482,12 +3773,6 @@
 					id: "20295E27E00FDE4D"
 					item: "libraryferret:gold_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6C677FC2EE5B48F7"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "5D8572EEBAF99986"
@@ -4501,7 +3786,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Найти пчелиное гнездо"
+			subtitle: "{ftbquests.chapter.minecraft.quest77.subtitle}"
 			tasks: [{
 				disable_toast: true
 				icon: "minecraft:bee_nest"
@@ -4512,7 +3797,7 @@
 				to_observe: "minecraft:bee_nest"
 				type: "observation"
 			}]
-			title: "Пчелиные гнёзда"
+			title: "{ftbquests.chapter.minecraft.quest77.title}"
 			x: 2.0d
 			y: -1.5d
 		}
@@ -4522,13 +3807,10 @@
 				"68D95AFA9FA3E0E5"
 			]
 			description: [
-				"Чтобы найти это яйцо, вам нужно будет очистить &aПодозрительный Песок&r в Тёплых Океанических Руинах."
-				""
-				"Вы можете поместить яйцо в мир, и оно будет медленно вылупляться в &dМалого Нюхача&r. В обычных условиях это занимает около 20 минут, но можно поместить яйцо на блок Мха, чтобы удвоить скорость вылупления, заняв всего 10 минут."
-				""
-				"Малый Нюхач в конечном итоге вырастет во взрослого &dНюхача&r, который может вынюхивать предметы, такие как &2Семена Светоцвета&r или &2Стручки Кувшинчика&r, когда они бродят по блокам, которые могут копать."
-				""
-				"Вы можете разводить двух взрослых Нюхачей, используя Светоцветы."
+				"{ftbquests.chapter.minecraft.quest78.description1}"
+				"{ftbquests.chapter.minecraft.quest78.description2}"
+				"{ftbquests.chapter.minecraft.quest78.description3}"
+				"{ftbquests.chapter.minecraft.quest78.description4}"
 			]
 			id: "77EEE919C23E18B1"
 			rewards: [
@@ -4536,12 +3818,6 @@
 					id: "3CB8760122A9C3DA"
 					item: "libraryferret:gold_coins_jtl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "3974A1C9F173F13B"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "4367FB4F98B099D3"
@@ -4560,31 +3836,20 @@
 				item: "minecraft:sniffer_egg"
 				type: "item"
 			}]
-			title: "&a&5Нюхач&r"
+			title: "{ftbquests.chapter.minecraft.quest78.title}"
 			x: -3.5d
 			y: 2.5d
 		}
 		{
 			description: [
-				"&a&lОтважный исследователь!&r "
-				"Вы отправились в грандиозное путешествие, где творчество встречается с приключением, смешивая автоматизацией и технологиями. Добро пожаловать в мир, полный возможностей!"
-				""
-				"Ваша &2Книга Заданий&r проведет вас через прогрессию игры. Если она когда-нибудь окажется вне досягаемости, посмотрите в верхний левый угол вашего инвентаря."
-				""
-				"Выполнение заданий будет вознаграждать вас опытом и особыми предметами, улучшая ваше путешествие."
-				""
-				"В основе этой сборки лежит искусство &6автоматизации&r. "
-				""
-				"Этот мир полон приключений и опасностей, с величественными сооружениями, сложными боссами и разнообразными мирами для исследования. Будьте готовы к предстоящим испытаниям."
+				"{ftbquests.chapter.minecraft.quest79.description1}"
+				"{ftbquests.chapter.minecraft.quest79.description2}"
+				"{ftbquests.chapter.minecraft.quest79.description3}"
+				"{ftbquests.chapter.minecraft.quest79.description4}"
+				"{ftbquests.chapter.minecraft.quest79.description5}"
 			]
 			id: "3B4209C6A7D8C0A6"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "53CAA943B6F61ADB"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "5492C7E9B3F5B7C5"
 					type: "xp"
@@ -4604,7 +3869,7 @@
 				title: "&l&6Откройте Главу 1"
 				type: "checkmark"
 			}]
-			title: "&l&9Добро пожаловать!"
+			title: "{ftbquests.chapter.minecraft.quest79.title}"
 			x: -6.5d
 			y: 0.0d
 		}
@@ -4612,17 +3877,6 @@
 			dependencies: ["43E4AB9EEE8802A5"]
 			id: "3636A75AB53F8C36"
 			rewards: [
-				{
-					id: "1B82E471A74CEBA9"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "69D648113598E305"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "660C69F993E33B8A"
 					type: "xp"
@@ -4641,6 +3895,7 @@
 				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest80.title}"
 			x: 14.5d
 			y: 12.5d
 		}
@@ -4648,12 +3903,6 @@
 			dependencies: ["4B630597BCFA97AC"]
 			id: "72BAC92E25A843DB"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3A2A005BF350678E"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "5343B473828D23EF"
 					type: "xp"
@@ -4672,6 +3921,7 @@
 				item: "quark:myalite_bricks"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest81.title}"
 			x: 16.5d
 			y: 8.0d
 		}
@@ -4680,12 +3930,6 @@
 			icon: "alexsmobs:spawn_egg_enderiophage"
 			id: "0BDC4238B58B6AA3"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "14AF0AC50C9395FE"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "5D4F1808C682175F"
 					type: "xp"
@@ -4705,6 +3949,7 @@
 				type: "kill"
 				value: 10L
 			}]
+			title: "{ftbquests.chapter.minecraft.quest82.title}"
 			x: 18.0d
 			y: 8.0d
 		}
@@ -4712,12 +3957,6 @@
 			dependencies: ["0BDC4238B58B6AA3"]
 			id: "7008FF1C49CD51AD"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4404299259397FDD"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "3E49592943543254"
 					type: "xp"
@@ -4736,6 +3975,7 @@
 				item: "alexsmobs:capsid"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest83.title}"
 			x: 18.0d
 			y: 9.5d
 		}
@@ -4744,21 +3984,10 @@
 			id: "0E37113432F0E8BD"
 			rewards: [
 				{
-					id: "0B84E4384A97730F"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 16
 					id: "41505BE8BBEE534D"
 					item: "minecraft:firework_rocket"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1F10B7D544A13DEE"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "3BDD78011CBFD7EE"
@@ -4778,26 +4007,15 @@
 				item: "alexsmobs:enderiophage_rocket"
 				type: "item"
 			}]
-			title: "&dРакета энтериофага&r"
+			title: "{ftbquests.chapter.minecraft.quest84.title}"
 			x: 19.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["7008FF1C49CD51AD"]
-			description: ["&5Загадочный червь&r можно получить, поместив &cБагровую личинку комара&r внутрь &dКапсида эндерофага&r."]
+			description: ["{ftbquests.chapter.minecraft.quest85.description1}"]
 			id: "09B620FA362A1232"
 			rewards: [
-				{
-					id: "6615BBFB07989025"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "39F362F1086DA566"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "13BE608DAFD7C79A"
 					type: "xp"
@@ -4815,6 +4033,7 @@
 				item: "alexsmobs:mysterious_worm"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest85.title}"
 			x: 18.0d
 			y: 11.0d
 		}
@@ -4822,11 +4041,6 @@
 			dependencies: ["4B630597BCFA97AC"]
 			id: "7B41E22954C3A94D"
 			rewards: [
-				{
-					id: "32AD7BF49CD97C0D"
-					type: "xp"
-					xp: 100
-				}
 				{
 					count: 4
 					id: "7BF95F4628901421"
@@ -4838,12 +4052,6 @@
 					id: "47070320DC6355AE"
 					item: "minecraft:ender_eye"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5CFB68F32B2998CB"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "148EDDC8927D842A"
@@ -4864,39 +4072,26 @@
 				id: "6328BB51C46208F9"
 				type: "advancement"
 			}]
-			title: "&2Конец... Снова..."
+			title: "{ftbquests.chapter.minecraft.quest86.title}"
 			x: 14.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["43E4AB9EEE8802A5"]
 			description: [
-				"&dМимикубы&r — родственники слизней из Верхнего мира и магмовых кубов из Незера. Этих монстров можно часто встретить охраняющими города Края. В отличие от своих слизистых кузенов, эти студенистые существа обладают более мощной магией, чем почти любой другой известный зверь."
-				""
-				"Когда на них нападают, &dМимикубы&r пытаются подражать оружию и броне своего противника. Это означает, что любой, кто носит шлем и размахивает мечом, может обнаружить, что его атакует &dМимикуб&r с точно таким же снаряжением."
-				""
-				"&dМимикубы&r могут выкидывать часть своего магического геля, называемого &eМимикрим&r. Можно обуздать природную магию изменения формы &eМимикрима&r, поместив восемь &eМимикрима&r и любой повреждаемый предмет на верстак. С некоторыми ограничениями это позволяет эффективно создать скопированный инструмент или снаряжение, сохранив почти все чары оригинала."
+				"{ftbquests.chapter.minecraft.quest87.description1}"
+				"{ftbquests.chapter.minecraft.quest87.description2}"
+				"{ftbquests.chapter.minecraft.quest87.description3}"
 			]
 			icon: "alexsmobs:spawn_egg_mimicube"
 			id: "7F8E159B907F0ADD"
 			min_width: 300
 			rewards: [
 				{
-					id: "6F236421DC02AC47"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 16
 					id: "7A2D1428FA952582"
 					item: "alexsmobs:mimicream"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "434E526DF85BD370"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "4F5F2B1EC31CC2C8"
@@ -4917,6 +4112,7 @@
 				type: "kill"
 				value: 10L
 			}]
+			title: "{ftbquests.chapter.minecraft.quest87.title}"
 			x: 16.5d
 			y: 11.0d
 		}
@@ -4924,11 +4120,6 @@
 			dependencies: ["4B630597BCFA97AC"]
 			id: "43E4AB9EEE8802A5"
 			rewards: [
-				{
-					id: "59A995F843B7FF18"
-					type: "xp"
-					xp: 100
-				}
 				{
 					count: 16
 					id: "7C90A8C55BA6EB2E"
@@ -4940,12 +4131,6 @@
 					id: "6EA9C9AE04A930C4"
 					item: "minecraft:diamond"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "45F34E8BB400DC89"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "10476549FB0CCC76"
@@ -4966,6 +4151,7 @@
 				title: "Найди Город Края"
 				type: "advancement"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest88.title}"
 			x: 15.5d
 			y: 11.5d
 		}
@@ -4973,17 +4159,6 @@
 			dependencies: ["43E4AB9EEE8802A5"]
 			id: "678CA57E073C80BA"
 			rewards: [
-				{
-					id: "1FDA1578EB9F4195"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "017EF9DDF56BF065"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "6E33A877D2876328"
 					type: "xp"
@@ -5002,6 +4177,7 @@
 				item: "minecraft:shulker_shell"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest89.title}"
 			x: 16.5d
 			y: 12.482142857142854d
 		}
@@ -5009,17 +4185,6 @@
 			dependencies: ["43E4AB9EEE8802A5"]
 			id: "1E9C22F2A7A08C39"
 			rewards: [
-				{
-					id: "3BC9006FE850CD9A"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "66E4D2DA69A56977"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "486BF19D7D8CF310"
 					type: "xp"
@@ -5037,30 +4202,20 @@
 				item: "minecraft:dragon_head"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest90.title}"
 			x: 15.5d
 			y: 13.5d
 		}
 		{
 			dependencies: ["72A5DEFDD0F3470D"]
-			description: ["Пустоши Незера — это основной биом Незера. Здесь обитают гасты, группы пиглинов, зомбифицированные пиглины, изредка магмовые кубы и эндермены. Определённые структуры, такие как незер-кварцевая руда и скопления светокамня, а также незерские крепости генерируются только в Незере. Озёра воды (и другие структуры Верхнего мира) всё ещё могут генерироваться, если Незер используется в суперплоской настройке. Кровати взрываются при использовании в этом биоме."]
+			description: ["{ftbquests.chapter.minecraft.quest91.description1}"]
 			id: "61D6D62B804DAB03"
 			rewards: [
-				{
-					id: "4565A687CCA27344"
-					type: "xp"
-					xp: 10
-				}
 				{
 					count: 16
 					id: "1E6BD51F4598EE25"
 					item: "minecraft:netherrack"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5B1B4D36B3CEF8ED"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "6D3319806BCB3155"
@@ -5081,6 +4236,7 @@
 				title: "Посетить биом: &2Пустоши Незера"
 				type: "biome"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest91.title}"
 			x: 3.0d
 			y: 8.0d
 		}
@@ -5093,12 +4249,6 @@
 					id: "62ED6083D21F1560"
 					item: "minecraft:polished_basalt"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6983B964EA7BEA69"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "645C2CFDBC0E0F62"
@@ -5118,41 +4268,24 @@
 				item: "minecraft:basalt"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest92.title}"
 			x: 7.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["72A5DEFDD0F3470D"]
 			description: [
-				"Серый биом, базальтовые дельты, как говорят, являются остатками древних вулканических извержений."
-				""
-				"Земля состоит из блоков базальта и чернита, с небольшими участками незерака и лавовыми озёрами. Форма местности хаотична и неровна, что делает её несколько трудной для перемещения и строительства. В отличие от других биомов Незера, остатки бастионов не генерируются в базальтовых дельтах. Когда этот биом граничит с лавовым океаном, у побережья образуются скопления базальта."
-				""
-				"Магмовые кубы имеют высокую скорость появления в этом биоме, что делает базальтовые дельты лучшим местом для фарма магмового крема. Этот биом также содержит гораздо больше чернита по сравнению с другими биомами Незера."
-				""
-				"Исследуйте &6Базальтовые дельты&r — высокие пики и лавовые реки. Здесь обитают опасные существа и можно добыть редкий кварц."
-				""
-				"Будьте осторожны — падающая гравия и лавовые потоки могут убить неподготовленного игрока."
+				"{ftbquests.chapter.minecraft.quest93.description1}"
+				"{ftbquests.chapter.minecraft.quest93.description2}"
 			]
 			id: "01DC8326BFC1FE72"
 			min_width: 300
 			rewards: [
 				{
-					id: "29E54E273EFB2535"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 16
 					id: "0399616522BA03F0"
 					item: "minecraft:basalt"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "46746EAF8A93C0E9"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "4BAF888D687C9750"
@@ -5173,24 +4306,19 @@
 				title: "Посетить биом: &2Базальтовые дельты"
 				type: "biome"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest93.title}"
 			x: 8.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["72A5DEFDD0F3470D"]
 			description: [
-				"Долина песка душ — это большая пещера, которая простирается и прорезает обычный ландшафт Незера. Примечательными особенностями биома являются открытые незерские окаменелости различных форм и размеров, большое количество лавы, синий туман, высокие пики из базальта, огонь душ и иногда незерская крепость или остатки бастиона. Сам биом состоит из песка душ, базальта и почвы душ."
-				""
-				"Этот биом чрезвычайно опасен для передвижения из-за комбинации спавна гастов и скелетов, а песок душ замедляет скорость передвижения игрока, из-за чего игрока легко могут задавить снарядами. Кроме того, попадание огненных шаров гастов в песок душ или почву душ может создать огонь душ, который более опасен, чем обычный огонь, если игрок попадёт в него. Рекомендуется избегать этого биома, если у игрока нет достаточного снаряжения/стратегий для навигации по местности. Зачарование «Скорость души» особенно полезно для путешествия по этому биому."
+				"{ftbquests.chapter.minecraft.quest94.description1}"
+				"{ftbquests.chapter.minecraft.quest94.description2}"
 			]
 			id: "22BF9344340978A4"
 			min_width: 300
 			rewards: [
-				{
-					id: "6CCAA8261143EC0A"
-					type: "xp"
-					xp: 10
-				}
 				{
 					count: 8
 					id: "089185EE02F690BD"
@@ -5202,12 +4330,6 @@
 					id: "1345E33D551D8E72"
 					item: "minecraft:soul_soil"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2F5CA776C8FDBE32"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "3C42FFA6DE48D125"
@@ -5228,16 +4350,13 @@
 				title: "Посетить биом: &2Долина песка душ"
 				type: "biome"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest94.title}"
 			x: 4.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["72A5DEFDD0F3470D"]
-			description: [
-				"Древние обломки — редкая руда, встречающаяся в Незере, и основной источник незеритового лома. Его высокая взрывоустойчивость делает его невосприимчивым к обычным взрывам. В предметной форме он плавает на лаве и не может быть сожжён никаким видом огня."
-				""
-				"Древние обломки генерируются в Незере в виде скоплений. До двух скоплений может генерироваться на чанк: одно скопление из 1–3 древних обломков пытается сгенерироваться с периодическим нормальным распределением (аналогично лазуритовой руде) с 8 по 22 уровни, и дополнительное скопление из 0–2 древних обломков пытается сгенерироваться случайным образом с 8 по 119 уровни. В среднем наибольшее количество древних обломков на уровне Y=15."
-			]
+			description: ["{ftbquests.chapter.minecraft.quest95.description1}"]
 			id: "587B2CD4C9B4860C"
 			rewards: [
 				{
@@ -5249,17 +4368,6 @@
 					id: "0028C4371BDED46E"
 					item: "minecraft:ancient_debris"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6E449271AA5A02A6"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
-				{
-					id: "089663FD68D01433"
-					type: "xp"
-					xp: 100
 				}
 				{
 					count: 4
@@ -5275,17 +4383,15 @@
 				title: "&2Найти древние обломки"
 				type: "advancement"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest95.title}"
 			x: 5.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["72A5DEFDD0F3470D"]
 			description: [
-				"Багровый лес — это «красный» багровый биом, с искажёнными и багровыми грибами, а также огромными багровыми грибами, разбросанными по округе."
-				""
-				"Здесь есть огромные грибные структуры, с которых свисают плакучие лианы и могут быть несколько блоков светогриба. Пол биома покрыт багровым нилием, на котором растут багровые корни. Изредка по всему биому встречаются участки незерака и красных вартовых блоков. На потолке, помимо скоплений светокамня, есть редкие сталактиты из вартовых блоков с растущими лианами."
-				""
-				"Пиглины, зомбифицированные пиглины и хоглины естественным образом появляются в этом биоме. Пока игрок экипирован хотя бы одним предметом золотой брони, пиглины не должны доставлять хлопот. Хоглинов также можно отпугнуть, оставаясь рядом с искажённым грибом. Однако без этих контрмер этот биом может быть довольно враждебным для навигации. Тем не менее, обилие хоглинов в этом биоме делает его отличным источником пищи в Незере, а высокая популяция пиглинов делает этот биом идеальным местом для торговли с ними."
+				"{ftbquests.chapter.minecraft.quest96.description1}"
+				"{ftbquests.chapter.minecraft.quest96.description2}"
 			]
 			id: "38DA9B7CBFD3EF84"
 			min_width: 300
@@ -5295,12 +4401,6 @@
 					id: "46746F2250CB6988"
 					item: "minecraft:crimson_stem"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4987511361E6AD47"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "33CA12DB096B770B"
@@ -5321,37 +4421,24 @@
 				title: "Посетить биом: &2Багровый лес"
 				type: "biome"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest96.title}"
 			x: 6.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["72A5DEFDD0F3470D"]
 			description: [
-				"Искажённый лес — это плотный «сине-зелёный» искажённый биом, с искажёнными и багровыми грибами, а также огромными искажёнными грибами, разбросанными по округе."
-				""
-				"На огромных грибных структурах может быть несколько блоков светогриба. Пол биома покрыт искажённым нилием, на котором растут искажённые корни и незерские побеги. Изредка по всему биому встречаются участки необработанного незерака и искажённых вартовых блоков."
-				""
-				"Кроме лавомерок, в этом биоме появляются только эндермены, что делает искажённый лес идеальным местом для сбора жемчуга Энда для доступа в Энд. Этот биом также является относительно безопасным местом для проживания в Незере, так как здесь не появляются враждебные мобы. Однако имейте в виду, что другие враждебные мобы всё ещё могут появляться из остатков бастионов, которые генерируются здесь, а также из незерских крепостей, которые врезались в искажённый лес после генерации в другом биоме."
+				"{ftbquests.chapter.minecraft.quest97.description1}"
+				"{ftbquests.chapter.minecraft.quest97.description2}"
 			]
 			id: "6DE27D07E3DF9AE6"
 			min_width: 300
 			rewards: [
 				{
-					id: "64D0492C730CA167"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 16
 					id: "734356D773CBE616"
 					item: "minecraft:warped_stem"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "23061D1947110458"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "37CF79D8287E09C1"
@@ -5372,31 +4459,18 @@
 				title: "Посетить биом: &2Искажённый лес"
 				type: "biome"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest97.title}"
 			x: 9.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["72A5DEFDD0F3470D"]
 			description: [
-				"Остатки бастионов — это большие структуры, похожие на замки, которые можно найти в Незере во всех биомах, кроме базальтовых дельт. Они генерируются в четырёх различных вариантах, каждый с уникальной структурой и набором добычи."
-				""
-				"Пиглины и брутальные пиглины появляются в этих структурах при генерации, а хоглины могут также появляться при генерации в вариантах моста и хоглин-стойл."
-				""
-				"Остатки бастионов — единственное место, где можно найти пластинку Pigstep, шаблон знамени с мордой и спаунер магмового куба."
+				"{ftbquests.chapter.minecraft.quest98.description1}"
+				"{ftbquests.chapter.minecraft.quest98.description2}"
 			]
 			id: "740634CC501C68FB"
 			rewards: [
-				{
-					id: "340CDFD8DE8A861D"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "231AD86998D89E02"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "055CCB88EEF04465"
 					type: "xp"
@@ -5415,7 +4489,7 @@
 				id: "2B3596CCD8EEA5A8"
 				type: "advancement"
 			}]
-			title: "&2Найти остатки бастиона"
+			title: "{ftbquests.chapter.minecraft.quest98.title}"
 			x: 9.0d
 			y: 8.0d
 		}
@@ -5425,21 +4499,10 @@
 			id: "523D3DBFC0537627"
 			rewards: [
 				{
-					id: "3F1D3822327743EB"
-					type: "xp"
-					xp: 30
-				}
-				{
 					count: 8
 					id: "428F5F3626DAE76D"
 					item: "minecraft:gold_block"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "514C18AA6BE50CCC"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "122B3119689661A6"
@@ -5459,6 +4522,7 @@
 				type: "kill"
 				value: 10L
 			}]
+			title: "{ftbquests.chapter.minecraft.quest99.title}"
 			x: 9.0d
 			y: 7.0d
 		}
@@ -5468,21 +4532,10 @@
 			id: "5B81A9BB53B48203"
 			rewards: [
 				{
-					id: "79590DA84DD82D4D"
-					type: "xp"
-					xp: 50
-				}
-				{
 					count: 16
 					id: "70DBB6945BEAB299"
 					item: "minecraft:gold_block"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5D23E1FBB77807A7"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "7A8000F7A3955994"
@@ -5502,6 +4555,7 @@
 				type: "kill"
 				value: 10L
 			}]
+			title: "{ftbquests.chapter.minecraft.quest100.title}"
 			x: 10.0d
 			y: 7.0d
 		}
@@ -5510,17 +4564,6 @@
 			icon: "minecraft:magma_cube_spawn_egg"
 			id: "59A3A6B9D7C4A2D6"
 			rewards: [
-				{
-					id: "583FE66357B47571"
-					type: "xp"
-					xp: 40
-				}
-				{
-					exclude_from_claim_all: true
-					id: "05A72B0C91039125"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "7E86C7C36C8CAE8E"
 					type: "xp"
@@ -5539,6 +4582,7 @@
 				type: "kill"
 				value: 10L
 			}]
+			title: "{ftbquests.chapter.minecraft.quest101.title}"
 			x: 10.0d
 			y: 8.0d
 		}
@@ -5547,21 +4591,10 @@
 			id: "1644A256A9CD6559"
 			rewards: [
 				{
-					id: "661CCABE8778F24F"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 16
 					id: "53F42D41AD1D183A"
 					item: "minecraft:magma_block"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "754B82EE338BC5D4"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "5799B59A363DF37A"
@@ -5581,6 +4614,7 @@
 				item: "minecraft:magma_cream"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest102.title}"
 			x: 10.0d
 			y: 9.0d
 		}
@@ -5589,20 +4623,9 @@
 			id: "3B52B6A9E01EEE06"
 			rewards: [
 				{
-					id: "6F2B367AE7C295BC"
-					type: "xp"
-					xp: 100
-				}
-				{
 					id: "57C95A27B72266DC"
 					item: "alexscaves:music_disc_tasty"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2926FBE32DB70610"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "49AB60B8FB801297"
@@ -5621,6 +4644,7 @@
 				item: "minecraft:music_disc_pigstep"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest103.title}"
 			x: 9.0d
 			y: 9.0d
 		}
@@ -5629,21 +4653,10 @@
 			id: "2392C048E8B2AB48"
 			rewards: [
 				{
-					id: "741A442FB76BE7AE"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 16
 					id: "7479A9830F874469"
 					item: "minecraft:stripped_warped_stem"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1059493859A20ACC"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "4A97F4A3DDFE52E9"
@@ -5663,6 +4676,7 @@
 				item: "minecraft:warped_fungus"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest104.title}"
 			x: 9.0d
 			y: 6.0d
 		}
@@ -5670,17 +4684,6 @@
 			dependencies: ["38DA9B7CBFD3EF84"]
 			id: "162B792C03B6722C"
 			rewards: [
-				{
-					id: "7708E592B8B94514"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "41824D1398F60CDD"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "3929508D3B3FC705"
 					type: "xp"
@@ -5699,6 +4702,7 @@
 				item: "minecraft:crimson_fungus"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest105.title}"
 			x: 6.0d
 			y: 9.0d
 		}
@@ -5706,17 +4710,6 @@
 			dependencies: ["162B792C03B6722C"]
 			id: "03F7CB67AACB4095"
 			rewards: [
-				{
-					id: "6841BE055824ED21"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "039CF0A76C95B729"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "3A7DC6C7C8508B65"
 					type: "xp"
@@ -5735,6 +4728,7 @@
 				item: "minecraft:shroomlight"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest106.title}"
 			x: 6.0d
 			y: 10.0d
 		}
@@ -5744,21 +4738,10 @@
 			id: "4D33C82879480A1F"
 			rewards: [
 				{
-					id: "424D5AE176ADB8CE"
-					type: "xp"
-					xp: 20
-				}
-				{
 					count: 16
 					id: "78175804D4823DD4"
 					item: "minecraft:leather"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1D18946023E99F78"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "05A9013D029729F9"
@@ -5778,6 +4761,7 @@
 				type: "kill"
 				value: 10L
 			}]
+			title: "{ftbquests.chapter.minecraft.quest107.title}"
 			x: 5.0d
 			y: 10.0d
 		}
@@ -5786,17 +4770,6 @@
 			icon: "alexsmobs:spawn_egg_crimson_mosquito"
 			id: "5F7199C4BDEFA2D4"
 			rewards: [
-				{
-					id: "5C0463321A250CD2"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "404BE5809CE41592"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "7D25B725FAF9DF61"
 					type: "xp"
@@ -5816,30 +4789,20 @@
 				type: "kill"
 				value: 10L
 			}]
+			title: "{ftbquests.chapter.minecraft.quest108.title}"
 			x: 5.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["587B2CD4C9B4860C"]
-			description: ["Незеритовый лом — это материал, выплавляемый из древних обломков, которые находятся в Незере. Он используется исключительно для создания незеритовых слитков. Как и большинство предметов из незерита, он не горит."]
+			description: ["{ftbquests.chapter.minecraft.quest109.description1}"]
 			id: "3AE4F193DBC2464B"
 			rewards: [
-				{
-					id: "7ABE999438E5D3F9"
-					type: "xp"
-					xp: 50
-				}
 				{
 					count: 16
 					id: "07ADB817404D8E09"
 					item: "minecraft:gold_ingot"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2F61D563099D1710"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "41EE66CE9D27327F"
@@ -5859,31 +4822,21 @@
 				item: "minecraft:netherite_scrap"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest109.title}"
 			x: 4.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["3AE4F193DBC2464B"]
-			description: ["Незеритовые слитки — это предметы, получаемые при крафте незеритового лома и золотых слитков вместе, а также в качестве добычи из сундуков с лутом в остатках бастиона. В отличие от других предметов, они невосприимчивы к урону от огня и лавы. Они в основном используются для улучшения алмазного снаряжения и создания магнитов."]
+			description: ["{ftbquests.chapter.minecraft.quest110.description1}"]
 			id: "317B80BB771DEDF6"
 			rewards: [
-				{
-					id: "21A375926FEC32DB"
-					type: "xp"
-					xp: 100
-				}
 				{
 					count: 2
 					id: "428EDD39BB4D1264"
 					item: "minecraft:netherite_ingot"
 					random_bonus: 1
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "75A0E2A61E2247F2"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "7419069F82DD7170"
@@ -5903,21 +4856,16 @@
 				item: "minecraft:netherite_ingot"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest110.title}"
 			x: 4.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["317B80BB771DEDF6"]
-			description: ["Блок незерита — это блок из драгоценного металла, созданный из девяти незеритовых слитков. В отличие от большинства предметов, он устойчив к огню и лаве."]
+			description: ["{ftbquests.chapter.minecraft.quest111.description1}"]
 			icon_scale: 1.5d
 			id: "799BD4941482FA9D"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "16A5A93889E728C5"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "17A8A8C79B828818"
 					type: "xp"
@@ -5937,6 +4885,7 @@
 				item: "minecraft:netherite_block"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest111.title}"
 			x: 4.0d
 			y: 10.0d
 		}
@@ -5945,12 +4894,6 @@
 			icon: "minecraft:ghast_spawn_egg"
 			id: "577D3DA1895B6D5F"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "268BB9B58A94791D"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "5127540D5F3A34BC"
 					type: "xp"
@@ -5969,6 +4912,7 @@
 				type: "kill"
 				value: 10L
 			}]
+			title: "{ftbquests.chapter.minecraft.quest112.title}"
 			x: 2.0d
 			y: 7.0d
 		}
@@ -5977,22 +4921,11 @@
 			id: "3619853C17BBA191"
 			rewards: [
 				{
-					id: "1859E520DDC70D44"
-					type: "xp"
-					xp: 150
-				}
-				{
 					count: 8
 					id: "1EAE9A2908DA9D72"
 					item: "minecraft:fire_charge"
 					random_bonus: 4
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2B2A98BB9213F204"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "046FAE41E3A50D80"
@@ -6013,6 +4946,7 @@
 				title: "&2Убить гаста его же оружием"
 				type: "advancement"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest113.title}"
 			x: 3.0d
 			y: 7.0d
 		}
@@ -6020,17 +4954,6 @@
 			dependencies: ["577D3DA1895B6D5F"]
 			id: "41125601D0C31176"
 			rewards: [
-				{
-					id: "6BD9C2CEF709F5D4"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "287C3FFA35554E92"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "4E8D03DF58F6E11D"
 					type: "xp"
@@ -6049,6 +4972,7 @@
 				item: "minecraft:ghast_tear"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest114.title}"
 			x: 2.0d
 			y: 6.0d
 		}
@@ -6057,12 +4981,6 @@
 			icon: "minecraft:bone_block"
 			id: "43B9BC1D5EA35B9E"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5D1D2FE131F0A973"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "51B6FB7E34B01064"
 					type: "xp"
@@ -6081,26 +4999,18 @@
 				item: "minecraft:bone_block"
 				type: "item"
 			}]
-			title: "&2Незерские окаменелости"
+			title: "{ftbquests.chapter.minecraft.quest115.title}"
 			x: 4.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["22BF9344340978A4"]
 			description: [
-				"Песок душ — это блок, встречающийся естественным образом только в Незере. Песок душ обычно замедляет передвижение мобов и игроков, идущих по нему. Он также используется для выращивания незерского нароста и для создания иссушителя."
-				""
-				"Почва душ — это блок, встречающийся естественным образом только в долине песка душ."
-				"В отличие от песка душ, почва душ не замедляет мобов и не создаёт пузырьковые колонны."
+				"{ftbquests.chapter.minecraft.quest116.description1}"
+				"{ftbquests.chapter.minecraft.quest116.description2}"
 			]
 			id: "2A739D919882BCC1"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "527AF2BE368D6ECC"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "1E3C1C54D18C9B3A"
 					type: "xp"
@@ -6127,7 +5037,7 @@
 					type: "item"
 				}
 			]
-			title: "Песок душ и Почва душ"
+			title: "{ftbquests.chapter.minecraft.quest116.title}"
 			x: 3.0d
 			y: 6.0d
 		}
@@ -6135,12 +5045,6 @@
 			dependencies: ["01DC8326BFC1FE72"]
 			id: "756C7A17DA1095F0"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "21636193B4F23352"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "3BBBBCCD3BEDF845"
 					type: "xp"
@@ -6159,6 +5063,7 @@
 				item: "minecraft:blackstone"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest117.title}"
 			x: 8.0d
 			y: 9.0d
 		}
@@ -6171,12 +5076,6 @@
 					id: "51A19512E3D55FA3"
 					item: "minecraft:ender_pearl"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "388A77021C0B6AF4"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "5FD6148C109B762C"
@@ -6196,6 +5095,7 @@
 				item: "minecraft:polished_blackstone_bricks"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest118.title}"
 			x: 8.0d
 			y: 10.0d
 		}
@@ -6208,17 +5108,6 @@
 					id: "2E87CCD4C3EA48C0"
 					type: "xp"
 					xp: 150
-				}
-				{
-					exclude_from_claim_all: true
-					id: "78D5668F35E2EF18"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
-				{
-					id: "7D85268A991E5D11"
-					type: "xp"
-					xp: 100
 				}
 				{
 					count: 4
@@ -6234,6 +5123,7 @@
 				type: "kill"
 				value: 10L
 			}]
+			title: "{ftbquests.chapter.minecraft.quest119.title}"
 			x: 7.0d
 			y: 9.0d
 		}
@@ -6241,17 +5131,6 @@
 			dependencies: ["6A6CF24AC6305BED"]
 			id: "70D1BB8EC25D71BE"
 			rewards: [
-				{
-					id: "7B7A86BD016B2B53"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "05B096D37B9F03D4"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "03791F971704E2BB"
 					type: "xp"
@@ -6270,6 +5149,7 @@
 				item: "minecraft:crying_obsidian"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest120.title}"
 			x: 7.0d
 			y: 10.0d
 		}
@@ -6278,17 +5158,6 @@
 			icon: "minecraft:wither_skeleton_spawn_egg"
 			id: "67E6E91784357EA5"
 			rewards: [
-				{
-					id: "2356492D7ED2F36D"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "40D9F5334D318748"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "3D551769091EC678"
 					type: "xp"
@@ -6307,6 +5176,7 @@
 				type: "kill"
 				value: 10L
 			}]
+			title: "{ftbquests.chapter.minecraft.quest121.title}"
 			x: 4.0d
 			y: 12.0d
 		}
@@ -6314,11 +5184,6 @@
 			dependencies: ["7A990724DDEBCDE9"]
 			id: "6AD7D2C1D779E242"
 			rewards: [
-				{
-					id: "4791DCA88B1AA563"
-					type: "xp"
-					xp: 50
-				}
 				{
 					count: 16
 					id: "7EA1E71B69B4774C"
@@ -6330,12 +5195,6 @@
 					id: "046B93CAC91AE37D"
 					item: "minecraft:red_nether_bricks"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "55740FEF1A79B03B"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "7165F091B8BB89A9"
@@ -6355,7 +5214,7 @@
 				id: "2C1AFC6E7DCE8C5D"
 				type: "advancement"
 			}]
-			title: "&2Найти незерскую крепость"
+			title: "{ftbquests.chapter.minecraft.quest122.title}"
 			x: 3.0d
 			y: 11.0d
 		}
@@ -6364,21 +5223,10 @@
 			id: "7A990724DDEBCDE9"
 			rewards: [
 				{
-					id: "5C2C7F02B537276F"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 16
 					id: "71054D704E7BC652"
 					item: "minecraft:glowstone"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1FDB8C54841E3A41"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "7A48DAF5C1D9E1FA"
@@ -6398,6 +5246,7 @@
 				item: "minecraft:glowstone_dust"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest123.title}"
 			x: 3.0d
 			y: 10.0d
 		}
@@ -6406,21 +5255,10 @@
 			id: "2D5B898FA770B44E"
 			rewards: [
 				{
-					id: "2139616842E0BF0C"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 8
 					id: "7975E5E8E27F7F8D"
 					item: "minecraft:nether_wart_block"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "412CF6785C68F0CD"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "454AAF9E7DDBB593"
@@ -6440,6 +5278,7 @@
 				item: "minecraft:nether_wart"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest124.title}"
 			x: 3.0d
 			y: 12.0d
 		}
@@ -6450,17 +5289,6 @@
 			rewards: [
 				{
 					id: "03D1A88B622355E0"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2905584700AD52E5"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
-				{
-					id: "74465065046C53F5"
 					type: "xp"
 					xp: 100
 				}
@@ -6477,6 +5305,7 @@
 				type: "kill"
 				value: 10L
 			}]
+			title: "{ftbquests.chapter.minecraft.quest125.title}"
 			x: 4.0d
 			y: 11.0d
 		}
@@ -6490,12 +5319,6 @@
 					item: "minecraft:blaze_powder"
 					random_bonus: 4
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5ECA45CB70BFF73D"
-					table_id: 8467335450115844063L
-					type: "random"
 				}
 				{
 					id: "7772FF9AC9763429"
@@ -6515,6 +5338,7 @@
 				item: "minecraft:blaze_rod"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest126.title}"
 			x: 5.0d
 			y: 11.0d
 		}
@@ -6522,12 +5346,6 @@
 			dependencies: ["67E6E91784357EA5"]
 			id: "084807CC5D12528B"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "44E2DA25FA2F21D7"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
 				{
 					id: "19A82142CFF18D5F"
 					type: "xp"
@@ -6546,6 +5364,7 @@
 				item: "minecraft:wither_skeleton_skull"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest127.title}"
 			x: 5.0d
 			y: 12.0d
 		}
@@ -6556,24 +5375,13 @@
 				{
 					id: "42193E2D8590E586"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 				{
 					count: 16
 					id: "7034DA6E127646D6"
 					item: "minecraft:quartz_block"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2A52002C23066D8C"
-					table_id: 8467335450115844063L
-					type: "random"
-				}
-				{
-					id: "28348433A7B67F8D"
-					type: "xp"
-					xp: 100
 				}
 				{
 					count: 4
@@ -6588,6 +5396,7 @@
 				item: "minecraft:quartz"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.minecraft.quest128.title}"
 			x: 3.0d
 			y: 9.0d
 		}

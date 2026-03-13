@@ -10,8 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["47A6ACAA667AD14A"]
-			description: ["Thermal Series — это модульная серия модов, которая добавляет в ваш Minecraft богатое сочетание магии и технологий!"]
+			description: ["{ftbquests.chapter.thermal_expansion.quest1.description1}"]
 			icon: "thermal:upgrade_augment_3"
 			id: "2C50B0E024C3D92E"
 			rewards: [
@@ -39,16 +38,15 @@
 				id: "3AFA27A173E61110"
 				type: "checkmark"
 			}]
-			title: "Добро пожаловать в &9Thermal Series&r!"
+			title: "{ftbquests.chapter.thermal_expansion.quest1.title}"
 			x: -4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"Краснокаменная печь использует RF/FE вместо угля для переплавки предметов."
-				""
-				"Как и все механизмы в Thermal Series, эту машину можно улучшать с помощью улучшений, чтобы увеличить скорость каждого процесса."
+				"{ftbquests.chapter.thermal_expansion.quest2.description1}"
+				"{ftbquests.chapter.thermal_expansion.quest2.description2}"
 			]
 			id: "22BC123D486CC3E3"
 			rewards: [
@@ -70,19 +68,17 @@
 					type: "item"
 				}
 			]
-			subtitle: "Электрическая печь"
 			tasks: [{
 				id: "288B38C43A7C6D48"
 				item: "thermal:machine_furnace"
 				type: "item"
 			}]
-			title: "Краснокаменная печь"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["22BC123D486CC3E3"]
-			description: ["Дробилка разбивает сырые руды в пыль и имеет 25%% шанс создать дополнительную пыль."]
+			description: ["{ftbquests.chapter.thermal_expansion.quest3.description1}"]
 			id: "55C8DD9A754545BD"
 			rewards: [
 				{
@@ -103,7 +99,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Превращает руды в пыль"
+			subtitle: "{ftbquests.chapter.thermal_expansion.quest3.subtitle}"
 			tasks: [{
 				id: "06665E87CB134F3C"
 				item: "thermal:machine_pulverizer"
@@ -115,9 +111,8 @@
 		{
 			dependencies: ["55C8DD9A754545BD"]
 			description: [
-				"Индукционная печь соединяет материалы для создания новых сплавов."
-				""
-				"Это также полезно при переплавке Древнего мусора в Незеритовый лом."
+				"{ftbquests.chapter.thermal_expansion.quest4.description1}"
+				"{ftbquests.chapter.thermal_expansion.quest4.description2}"
 			]
 			id: "452F51995AD0461C"
 			rewards: [
@@ -139,7 +134,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Создатель сплавов"
+			subtitle: "{ftbquests.chapter.thermal_expansion.quest4.subtitle}"
 			tasks: [{
 				id: "63C10CF0EF19F2C8"
 				item: "thermal:machine_smelter"
@@ -150,7 +145,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["Рамка механизма необходима для создания различных машин в Thermal Series."]
+			description: ["{ftbquests.chapter.thermal_expansion.quest5.description1}"]
 			id: "5F385CBA98795C62"
 			rewards: [
 				{
@@ -172,7 +167,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Базовая рамка для механизмов"
+			subtitle: "{ftbquests.chapter.thermal_expansion.quest5.subtitle}"
 			tasks: [{
 				id: "3EC446E752907C94"
 				item: "thermal:machine_frame"
@@ -205,7 +200,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Вырабатывает энергию, сжигая предметы!"
+			subtitle: "{ftbquests.chapter.thermal_expansion.quest6.subtitle}"
 			tasks: [{
 				id: "4BEE939AC38768ED"
 				item: "thermal:dynamo_stirling"
@@ -216,7 +211,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["Примечание: работает с Древесным маслом, Креозотовым маслом и Очищенным топливом."]
+			description: ["{ftbquests.chapter.thermal_expansion.quest7.description1}"]
 			hide_dependency_lines: true
 			id: "7FE2EED58AB791E8"
 			rewards: [
@@ -239,7 +234,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Вырабатывает энергию, используя жидкое топливо!"
+			subtitle: "{ftbquests.chapter.thermal_expansion.quest7.subtitle}"
 			tasks: [{
 				id: "6E5C2E9D729210C9"
 				item: "thermal:dynamo_compression"
@@ -272,7 +267,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Вырабатывает энергию, используя лаву!"
+			subtitle: "{ftbquests.chapter.thermal_expansion.quest8.subtitle}"
 			tasks: [{
 				id: "52A52D9AC73D57A6"
 				item: "thermal:dynamo_magmatic"
@@ -305,7 +300,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Вырабатывает энергию, используя самоцветы!"
+			subtitle: "{ftbquests.chapter.thermal_expansion.quest9.subtitle}"
 			tasks: [{
 				id: "7B973B2B2EED7921"
 				item: "thermal:dynamo_lapidary"
@@ -339,7 +334,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Вырабатывает энергию, используя зачарованные предметы!"
+			subtitle: "{ftbquests.chapter.thermal_expansion.quest10.subtitle}"
 			tasks: [{
 				id: "0E3CDD1130A56248"
 				item: "thermal:dynamo_disenchantment"
@@ -372,7 +367,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Вырабатывает энергию, используя еду?"
+			subtitle: "{ftbquests.chapter.thermal_expansion.quest11.subtitle}"
 			tasks: [{
 				id: "795A2D642A7B7D50"
 				item: "thermal:dynamo_gourmand"
@@ -384,9 +379,8 @@
 		{
 			dependencies: ["2C50B0E024C3D92E"]
 			description: [
-				"Это базовое улучшение для всех машин и предметов."
-				""
-				"Примечание: Хотя в машину можно установить несколько базовых улучшений, действует только самое высокое."
+				"{ftbquests.chapter.thermal_expansion.quest12.description1}"
+				"{ftbquests.chapter.thermal_expansion.quest12.description2}"
 			]
 			hide_dependency_lines: true
 			id: "76084BE1BBCF941F"
@@ -410,7 +404,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Базовое улучшение 1-го уровня"
+			subtitle: "{ftbquests.chapter.thermal_expansion.quest12.subtitle}"
 			tasks: [{
 				id: "3EE6189C5B2FDD2F"
 				item: "thermal:upgrade_augment_1"
@@ -422,9 +416,8 @@
 		{
 			dependencies: ["2C50B0E024C3D92E"]
 			description: [
-				"Это улучшение 2-го уровня для предметов и машин Thermal Series."
-				""
-				"Примечание: Хотя в машину можно установить несколько базовых улучшений, действует только самое высокое."
+				"{ftbquests.chapter.thermal_expansion.quest13.description1}"
+				"{ftbquests.chapter.thermal_expansion.quest13.description2}"
 			]
 			hide_dependency_lines: true
 			id: "246CD1925FD6761C"
@@ -448,7 +441,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Базовое улучшение 2-го уровня"
+			subtitle: "{ftbquests.chapter.thermal_expansion.quest13.subtitle}"
 			tasks: [{
 				id: "6AD321AC8D6BFDAD"
 				item: "thermal:upgrade_augment_2"
@@ -459,7 +452,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["Примечание: Хотя в машину можно установить несколько базовых улучшений, действует только самое высокое."]
+			description: ["{ftbquests.chapter.thermal_expansion.quest14.description1}"]
 			hide_dependency_lines: true
 			id: "034FC4BCCCD7D154"
 			rewards: [
@@ -482,7 +475,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Базовое улучшение 3-го уровня"
+			subtitle: "{ftbquests.chapter.thermal_expansion.quest14.subtitle}"
 			tasks: [{
 				id: "5237B4381DA7BE1B"
 				item: "thermal:upgrade_augment_3"
@@ -494,9 +487,8 @@
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"Может превращать некоторые блоки в жидкости."
-				""
-				"Это полезно для получения лавы из булыжника, незеррака и т.д."
+				"{ftbquests.chapter.thermal_expansion.quest15.description1}"
+				"{ftbquests.chapter.thermal_expansion.quest15.description2}"
 			]
 			id: "0897F7A3203E45AF"
 			rewards: [
@@ -530,9 +522,8 @@
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"Этот механизм работает как Ботанический горшок, Садовая колба и т.д."
-				""
-				"При подаче воды и семян он будет выращивать семена внутри механизма и автоматически выводить продукты в механизм."
+				"{ftbquests.chapter.thermal_expansion.quest16.description1}"
+				"{ftbquests.chapter.thermal_expansion.quest16.description2}"
 			]
 			id: "648B483B128A32F5"
 			rewards: [
@@ -597,7 +588,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["Про-совет: ты можешь зачаровать их на &9Вместимость&r, чтобы увеличить хранилище!"]
+			description: ["{ftbquests.chapter.thermal_expansion.quest18.description1}"]
 			hide_dependency_lines: true
 			id: "037E566ACC83FE07"
 			rewards: [
@@ -637,7 +628,6 @@
 				}
 				type: "item"
 			}]
-			title: "Хранение энергии"
 			x: -1.25d
 			y: 1.9499999999999997d
 		}
@@ -677,14 +667,13 @@
 								Amount: 0
 								Capacity: 32000
 								FluidName: "minecraft:empty"
-								Tank: 0b
+								Tank: 0
 							}]
 						}
 					}
 				}
 				type: "item"
 			}]
-			title: "Хранение жидкостей"
 			x: 5.25d
 			y: 1.9499999999999997d
 		}
@@ -712,7 +701,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Позволяет хранить опыт"
+			subtitle: "{ftbquests.chapter.thermal_expansion.quest20.subtitle}"
 			tasks: [{
 				id: "66656B02B957573F"
 				item: "thermal:xp_storage_augment"
@@ -777,7 +766,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Уничтожает побочные продукты"
+			subtitle: "{ftbquests.chapter.thermal_expansion.quest22.subtitle}"
 			tasks: [{
 				id: "784D4494897AF202"
 				item: "thermal:machine_null_augment"
@@ -788,7 +777,7 @@
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
-			description: ["Этот механизм в основном используется для извлечения красителей из цветов или для разделения рудных смесей обратно на компоненты."]
+			description: ["{ftbquests.chapter.thermal_expansion.quest23.description1}"]
 			id: "3475E12711B6BB98"
 			rewards: [
 				{
@@ -810,7 +799,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Разделяет предметы на компоненты крафта"
+			subtitle: "{ftbquests.chapter.thermal_expansion.quest23.subtitle}"
 			tasks: [{
 				id: "2183800CED355EEB"
 				item: "thermal:machine_centrifuge"
@@ -822,9 +811,8 @@
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"Создаёт «Пресс-формы» с помощью литейных форм."
-				""
-				"Пластины, шестерни и т.д."
+				"{ftbquests.chapter.thermal_expansion.quest24.description1}"
+				"{ftbquests.chapter.thermal_expansion.quest24.description2}"
 			]
 			hide_dependency_lines: true
 			id: "5963FBEB78A79668"
@@ -859,9 +847,8 @@
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"Превращает предметы из жидкости в твёрдое состояние, некоторым требуются литейные формы."
-				""
-				"Также есть рецепт яйца призыва пчелы, который она может создать."
+				"{ftbquests.chapter.thermal_expansion.quest25.description1}"
+				"{ftbquests.chapter.thermal_expansion.quest25.description2}"
 			]
 			id: "469443A3BA0C3BEE"
 			rewards: [
@@ -894,7 +881,7 @@
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
-			description: ["Может превращать жидкости в предметы или другие полезные жидкости."]
+			description: ["{ftbquests.chapter.thermal_expansion.quest26.description1}"]
 			hide_dependency_lines: true
 			id: "627D6FDC3D8C42F6"
 			rewards: [
@@ -928,9 +915,8 @@
 		{
 			dependencies: ["5F385CBA98795C62"]
 			description: [
-				"Работает как коксовая печь, но упрощённо."
-				""
-				"Помести «топливо», например уголь, и она произведёт угольный кокс и побочный продукт."
+				"{ftbquests.chapter.thermal_expansion.quest27.description1}"
+				"{ftbquests.chapter.thermal_expansion.quest27.description2}"
 			]
 			hide_dependency_lines: true
 			id: "5ECC93FB8F676E3F"
@@ -964,7 +950,7 @@
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
-			description: ["Соединяет жидкости с предметами"]
+			description: ["{ftbquests.chapter.thermal_expansion.quest28.description1}"]
 			hide_dependency_lines: true
 			id: "469663FE3DA932EF"
 			rewards: [
@@ -997,7 +983,7 @@
 		}
 		{
 			dependencies: ["5F385CBA98795C62"]
-			description: ["Может создавать «Жидкие» зелья, которые затем можно разлить по бутылкам."]
+			description: ["{ftbquests.chapter.thermal_expansion.quest29.description1}"]
 			hide_dependency_lines: true
 			id: "1BCE8D02CDD13838"
 			rewards: [
@@ -1052,7 +1038,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Автоматический верстак!"
+			subtitle: "{ftbquests.chapter.thermal_expansion.quest30.subtitle}"
 			tasks: [{
 				id: "72EC640A6F6C69C1"
 				item: "thermal:machine_crafter"
@@ -1295,7 +1281,6 @@
 					type: "item"
 				}
 			]
-			title: "Очень удобные гранаты"
 			x: 3.5d
 			y: -3.5d
 		}
@@ -1562,7 +1547,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["The &6Aqueous Accumulator&r creates an &o&binfinite water source&r when placed between two &9Water&r source blocks."]
+			description: ["{ftbquests.chapter.thermal_expansion.quest45.description1}"]
 			id: "38927231CC75A693"
 			rewards: [
 				{
@@ -1594,9 +1579,8 @@
 		{
 			dependencies: ["2C50B0E024C3D92E"]
 			description: [
-				"&6Igneous Extruder&r can produce several types of &7Stone&r."
-				""
-				"Place &o&b1&r &eLava&r source block on one side, and &o&b1&r &9Water&r source block on the other to generate cobblestone. Check the &dJEI&r to see the other kinds of stone you can create!"
+				"{ftbquests.chapter.thermal_expansion.quest46.description1}"
+				"{ftbquests.chapter.thermal_expansion.quest46.description2}"
 			]
 			id: "2B80E4B53C19B90A"
 			rewards: [
@@ -1694,7 +1678,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["&6Decoctive Deffuser&r can be used to spreads &dPotion Effects&r to an area."]
+			description: ["{ftbquests.chapter.thermal_expansion.quest49.description1}"]
 			hide_dependency_lines: true
 			id: "62B7B50F811DB8EF"
 			rewards: [
@@ -1716,7 +1700,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Spreads Potion Effects to an area"
+			subtitle: "{ftbquests.chapter.thermal_expansion.quest49.subtitle}"
 			tasks: [{
 				id: "6246F549067542F0"
 				item: "thermal:device_potion_diffuser"
@@ -1847,7 +1831,7 @@
 			]
 			shape: "rsquare"
 			size: 0.5d
-			subtitle: "Amplifies Potion Effect"
+			subtitle: "{ftbquests.chapter.thermal_expansion.quest53.subtitle}"
 			tasks: [{
 				id: "0D90CB34AAE7E59F"
 				item: "thermal:potion_amplifier_augment"
@@ -1881,7 +1865,7 @@
 			]
 			shape: "rsquare"
 			size: 0.5d
-			subtitle: "Increases Duration of Potion Effect"
+			subtitle: "{ftbquests.chapter.thermal_expansion.quest54.subtitle}"
 			tasks: [{
 				id: "5B2BC09A892796F2"
 				item: "thermal:potion_duration_augment"
@@ -2228,7 +2212,7 @@
 		}
 		{
 			dependencies: ["2C50B0E024C3D92E"]
-			description: ["&6Energetic Infuser&r charges the items placed inside."]
+			description: ["{ftbquests.chapter.thermal_expansion.quest61.description1}"]
 			id: "27173F39706C7206"
 			rewards: [
 				{
@@ -2362,12 +2346,8 @@
 		{
 			dependencies: ["27173F39706C7206"]
 			description: [
-				"&9Flux Capacitor&r can be &denchant&r with &6Holding&r to increase the storage!"
-				""
-				"&aHolding I&r - &b750.00k RF&r"
-				"&aHolding II&r - &b1.00M RF&r"
-				"&aHolding III&r - &b1.25M RF&r"
-				"&aHolding IV&r - &b1.50M RF&r "
+				"{ftbquests.chapter.thermal_expansion.quest65.description1}"
+				"{ftbquests.chapter.thermal_expansion.quest65.description2}"
 			]
 			id: "3E9E451AA51A09E5"
 			rewards: [

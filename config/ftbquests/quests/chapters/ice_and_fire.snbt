@@ -54,6 +54,7 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.ice_and_fire.quest1.title}"
 			x: -3.0d
 			y: -1.5d
 		}
@@ -240,6 +241,7 @@
 					value: 1L
 				}
 			]
+			title: "{ftbquests.chapter.ice_and_fire.quest6.title}"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -311,6 +313,7 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.ice_and_fire.quest7.title}"
 			x: -3.0d
 			y: -5.5d
 		}
@@ -382,6 +385,7 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.ice_and_fire.quest8.title}"
 			x: -3.0d
 			y: -4.0d
 		}
@@ -453,6 +457,7 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.ice_and_fire.quest9.title}"
 			x: -3.0d
 			y: -8.5d
 		}
@@ -524,6 +529,7 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.ice_and_fire.quest10.title}"
 			x: -3.0d
 			y: -10.0d
 		}
@@ -595,6 +601,7 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.ice_and_fire.quest11.title}"
 			x: -4.5d
 			y: -8.5d
 		}
@@ -666,6 +673,7 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.ice_and_fire.quest12.title}"
 			x: -1.5d
 			y: -8.5d
 		}
@@ -737,6 +745,7 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.ice_and_fire.quest13.title}"
 			x: -3.0d
 			y: -7.0d
 		}
@@ -1082,9 +1091,8 @@
 		{
 			dependencies: ["5F7B4E456CD5AD52"]
 			description: [
-				"&dИнструменты из Драконьей стали&r — это инструменты, сделанные из слитков &6огненной&r, &bледяной&r или &eгрозовой&r Драконьей стали. Они &nочень прочные&r, полностью превосходя снаряжение из &0Незерита&r благодаря своим &o&bпассивным способностям&r и &o&bулучшенным характеристикам&r."
-				""
-				"Инструменты из &6огненной&r Драконьей стали наносят относительно &o&bбольшой урон&r, &o&bподжигая&r и &o&bотбрасывая&r цели. Инструменты из &bледяной&r Драконьей стали наносят относительно &nбольшой урон&r и &o&bзамораживают&r цели. Инструменты из &eгрозовой&r Драконьей стали наносят относительно &nбольшой урон&r и поражают цели &o&bмолнией&r."
+				"{ftbquests.chapter.ice_and_fire.quest23.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest23.description2}"
 			]
 			hide_dependency_lines: true
 			id: "44117F70E9596B2B"
@@ -1160,18 +1168,16 @@
 					type: "item"
 				}
 			]
-			title: "Инструменты из Драконьей стали"
+			title: "{ftbquests.chapter.ice_and_fire.quest23.title}"
 			x: 11.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5F7B4E456CD5AD52"]
 			description: [
-				"Основное назначение &dДраконьей брони&r — защищать дракона, который её носит, уменьшая получаемый урон в зависимости от использованного материала."
-				""
-				"Чтобы надеть броню, сначала откройте &o&bинвентарь дракона&r, нажав &eShift+ПКМ&r по его брюху."
-				""
-				"&dДраконья броня&r может быть скрафчена из блоков &6огненной&r, &bледяной&r или &eгрозовой&r Драконьей стали. Для крафта достаточного количества блоков, чтобы сделать &nполный комплект брони&r, требуется &o&b189&r слитков."
+				"{ftbquests.chapter.ice_and_fire.quest24.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest24.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest24.description3}"
 			]
 			hide_dependency_lines: true
 			id: "79222FD515377830"
@@ -1250,15 +1256,15 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.ice_and_fire.quest24.title}"
 			x: 11.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["5F7B4E456CD5AD52"]
 			description: [
-				"Сеты из Драконьей стали — &bЛедяной&r, &6Огненный&r или &eГрозовой&r — являются прямым улучшением &o&bсвоих костяных аналогов&r."
-				""
-				"Это означает, что &6огненные&r мечи из Драконьей стали имеют &nтот же&r эффект поджигания. Их &o&bбазовый урон&r намного выше, что делает &o&bковку&r стоящей всех хлопот."
+				"{ftbquests.chapter.ice_and_fire.quest25.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest25.description2}"
 			]
 			id: "13F3473F3041F8BE"
 			min_width: 320
@@ -1304,9 +1310,8 @@
 		{
 			dependencies: ["5F7B4E456CD5AD52"]
 			description: [
-				"&5Броня из Драконьей стали&r — это броня, созданная из слитков &6огненной&r, &bледяной&r или &eгрозовой&r Драконьей стали."
-				""
-				"Она обеспечивает защиту от &o&bатак дыханием драконов&r."
+				"{ftbquests.chapter.ice_and_fire.quest26.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest26.description2}"
 			]
 			hide_dependency_lines: true
 			id: "27158F9244EA2788"
@@ -1392,18 +1397,16 @@
 					type: "item"
 				}
 			]
-			title: "Броня из Драконьей стали"
+			title: "{ftbquests.chapter.ice_and_fire.quest26.title}"
 			x: 11.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["586BC8112DF3B5FA"]
 			description: [
-				"Основное назначение &dДраконьей брони&r — защищать дракона, который её носит, уменьшая получаемый урон в зависимости от использованного материала."
-				""
-				"Чтобы надеть броню, сначала откройте &o&bинвентарь дракона&r, нажав &eShift+ПКМ&r по его брюху."
-				""
-				"&dДраконья броня&r может быть скрафчена из блоков &6огненной&r, &bледяной&r или &eгрозовой&r Драконьей стали. Для крафта достаточного количества блоков, чтобы сделать &nполный комплект брони&r, требуется &o&b189&r слитков."
+				"{ftbquests.chapter.ice_and_fire.quest27.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest27.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest27.description3}"
 			]
 			hide_dependency_lines: true
 			id: "47FBF871DC42B9F0"
@@ -1482,15 +1485,15 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.ice_and_fire.quest27.title}"
 			x: 11.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["586BC8112DF3B5FA"]
 			description: [
-				"Сеты из Драконьей стали — &bЛедяной&r, &6Огненный&r или &eГрозовой&r — являются прямым улучшением &o&bсвоих костяных аналогов&r."
-				""
-				"Это означает, что &bледяные&r мечи из Драконьей стали имеют эффект заморозки. Их &o&bбазовый урон&r намного выше, что делает &o&bковку&r стоящей всех хлопот."
+				"{ftbquests.chapter.ice_and_fire.quest28.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest28.description2}"
 			]
 			id: "14B446040569CF12"
 			min_width: 320
@@ -1536,9 +1539,8 @@
 		{
 			dependencies: ["586BC8112DF3B5FA"]
 			description: [
-				"&5Броня из Драконьей стали&r — это броня, созданная из слитков &6огненной&r, &bледяной&r или &eгрозовой&r Драконьей стали."
-				""
-				"Она обеспечивает защиту от &o&bатак дыханием драконов&r."
+				"{ftbquests.chapter.ice_and_fire.quest29.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest29.description2}"
 			]
 			hide_dependency_lines: true
 			id: "62638BBF2AB81B65"
@@ -1629,16 +1631,15 @@
 					type: "item"
 				}
 			]
-			title: "Броня из Драконьей стали"
+			title: "{ftbquests.chapter.ice_and_fire.quest29.title}"
 			x: 11.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["586BC8112DF3B5FA"]
 			description: [
-				"&dИнструменты из Драконьей стали&r — это инструменты, сделанные из слитков &6огненной&r, &bледяной&r или &eгрозовой&r Драконьей стали. Они &nчрезвычайно прочны&r, полностью превосходя снаряжение из &0Незерита&r благодаря своим &o&bпассивным способностям&r и &o&bулучшенным характеристикам&r."
-				""
-				"Инструменты из &bледяной&r Драконьей стали наносят относительно &nбольшой урон&r и &o&bзамораживают&r цели. "
+				"{ftbquests.chapter.ice_and_fire.quest30.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest30.description2}"
 			]
 			hide_dependency_lines: true
 			id: "403F6D4DD0791D26"
@@ -1714,16 +1715,15 @@
 					type: "item"
 				}
 			]
-			title: "Инструменты из Драконьей стали"
+			title: "{ftbquests.chapter.ice_and_fire.quest30.title}"
 			x: 12.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2BFCFAF2EF10A54E"]
 			description: [
-				"&dИнструменты из Драконьей стали&r — это инструменты, сделанные из слитков &6огненной&r, &bледяной&r или &eгрозовой&r Драконьей стали. Они &nочень прочные&r, полностью превосходя снаряжение из &0Незерита&r благодаря своим &o&bпассивным способностям&r и &o&bулучшенным характеристикам&r."
-				""
-				"Инструменты из &6огненной&r Драконьей стали наносят относительно &o&bбольшой урон&r, &o&bподжигая&r и &o&bотбрасывая&r цели. Инструменты из &bледяной&r Драконьей стали наносят относительно &nбольшой урон&r и &o&bзамораживают&r цели. Инструменты из &eгрозовой&r Драконьей стали наносят относительно &nбольшой урон&r и поражают цели &o&bмолнией&r."
+				"{ftbquests.chapter.ice_and_fire.quest31.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest31.description2}"
 			]
 			hide_dependency_lines: true
 			id: "27B5323C5BB49F13"
@@ -1799,18 +1799,16 @@
 					type: "item"
 				}
 			]
-			title: "Инструменты из Драконьей стали"
+			title: "{ftbquests.chapter.ice_and_fire.quest31.title}"
 			x: 11.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2BFCFAF2EF10A54E"]
 			description: [
-				"Основное назначение &dДраконьей брони&r — защищать дракона, который её носит, уменьшая получаемый урон в зависимости от использованного материала."
-				""
-				"Чтобы надеть броню, сначала откройте &o&bинвентарь дракона&r, нажав &eShift+ПКМ&r по его брюху."
-				""
-				"&dДраконья броня&r может быть скрафчена из блоков &6огненной&r, &bледяной&r или &eгрозовой&r Драконьей стали. Для крафта достаточного количества блоков, чтобы сделать &nполный комплект брони&r, требуется &o&b189&r слитков."
+				"{ftbquests.chapter.ice_and_fire.quest32.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest32.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest32.description3}"
 			]
 			hide_dependency_lines: true
 			id: "7004E82094588EBB"
@@ -1889,15 +1887,15 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.ice_and_fire.quest32.title}"
 			x: 11.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["2BFCFAF2EF10A54E"]
 			description: [
-				"&5Броня из Драконьей стали&r — это броня, сделанная из слитков &6огненной&r, &bледяной&r и &eгрозовой&r Драконьей стали."
-				""
-				"Она обеспечивает защиту от &o&bдыхательных атак драконов&r."
+				"{ftbquests.chapter.ice_and_fire.quest33.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest33.description2}"
 			]
 			hide_dependency_lines: true
 			id: "59FAEE03C6A088F6"
@@ -1988,16 +1986,15 @@
 					type: "item"
 				}
 			]
-			title: "Броня из Драконьей стали"
+			title: "{ftbquests.chapter.ice_and_fire.quest33.title}"
 			x: 11.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["2BFCFAF2EF10A54E"]
 			description: [
-				"Сеты из Драконьей стали — &bЛедяной&r, &6Огненный&r или &eГрозовой&r — являются прямым улучшением &o&bсвоих костяных аналогов&r."
-				""
-				"&eГрозовые мечи&r поражают цели молнией. Их &o&bбазовый урон&r намного выше, что делает &o&bковку&r стоящей всех хлопот."
+				"{ftbquests.chapter.ice_and_fire.quest34.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest34.description2}"
 			]
 			id: "6F46536FE6DBE744"
 			min_width: 320
@@ -2042,7 +2039,7 @@
 		}
 		{
 			dependencies: ["752042A08C0343CE"]
-			description: ["&5Слитки Драконьей стали&r — это мощный металл, создаваемый в &6Драконьей кузнице&r с использованием &3Дыхания дракона&r."]
+			description: ["{ftbquests.chapter.ice_and_fire.quest35.description1}"]
 			id: "2BFCFAF2EF10A54E"
 			min_width: 320
 			rewards: [
@@ -2083,7 +2080,7 @@
 		}
 		{
 			dependencies: ["596E4BBBE5ECB9C5"]
-			description: ["&5Слитки Драконьей стали&r — это мощный металл, создаваемый в &6Драконьей кузнице&r с использованием &3Дыхания дракона&r."]
+			description: ["{ftbquests.chapter.ice_and_fire.quest36.description1}"]
 			id: "586BC8112DF3B5FA"
 			min_width: 320
 			rewards: [
@@ -2125,9 +2122,8 @@
 		{
 			dependencies: ["09882BA9CA9D8453"]
 			description: [
-				"&5Слитки Драконьей стали&r — это мощный металл, создаваемый в &6Драконьей кузнице&r с использованием &3Дыхания дракона&r."
-				""
-				"&6Слитки огненной Драконьей стали&r создаются из &o&bстального слитка&r и &o&bкрови огненного дракона&r в &6Огненной драконьей кузнице&r, питаемой драконом &o&b5&r, &o&b4&r, &o&b3&r или &o&b2 уровня&r — &6Огненным драконом&r. Для питания кузницы можно использовать как &nдикого&r, так и &nприрученного&r дракона."
+				"{ftbquests.chapter.ice_and_fire.quest37.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest37.description2}"
 			]
 			id: "5F7B4E456CD5AD52"
 			min_width: 300
@@ -2170,11 +2166,9 @@
 		{
 			dependencies: ["54761D5F9843BF91"]
 			description: [
-				"&dТухлое яйцо&r — это предмет, который &nкрайне редко&r (&o&b3.22%&r) &eКурица&r может снести &o&bвместо обычного яйца&r."
-				""
-				"Эти яйца &nнельзя&r использовать для приготовления &cТортов&r или для &o&bвысиживания цыплят&r. Однако, если его бросить, есть &o&b25%&r шанс прирученного &2Детёныша василиска&r, и &o&b3.125%&r шанс, что появится сразу &o&b4&r."
-				""
-				"Когда курица сносит &dТухлое яйцо&r, она издаёт болезненный крик, как будто &o&bполучила урон&r."
+				"{ftbquests.chapter.ice_and_fire.quest38.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest38.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest38.description3}"
 			]
 			id: "05A7E9B1299D7219"
 			min_width: 300
@@ -2215,11 +2209,9 @@
 		}
 		{
 			description: [
-				"&2Василиски&r — это кошмарные &o&bптицеподобные твари&r, которые рыщут по саваннам и &o&bвысасывают жизнь&r из всего, &nчто посмотрит на них&r пристальным взглядом."
-				""
-				"&2Василиски&r — это существа, внешне напоминающие &o&bдинозавра-дромеозаврида&r, с телом &9курицы&r, зубами и хвостом &aящерицы&r, крючковатым клювом и когтистыми чешуйчатыми руками. Они бывают &o&b4&r различных цветовых вариаций: Коричнево-зелёный петух (&nсамец&r) с &o&bзелёным хвостом&r (с тёмно-зелёными перьями на конце), Белая курица (&nсамка&r) с &o&bкоричневым хвостом&r, &5Птенец-самец&r с &o&bжёлтым пухом&r и &o&bзелёным хвостом&r, и &4Птенец-самка&r с &o&bбелым пухом&r и &o&bкоричневым хвостом&r."
-				""
-				"Детёнышей &2Василиски&r можно вылупить, бросив &3Тухлое яйцо&r."
+				"{ftbquests.chapter.ice_and_fire.quest39.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest39.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest39.description3}"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -2264,9 +2256,8 @@
 		{
 			dependencies: ["258C78455C763EA7"]
 			description: [
-				"The &5Cockatrice Scepter&r is a &o&2Legendary Weapon&r that &nwithers&r target when used and can target &o&bmultiple close entities&r."
-				""
-				"To do so &eRight-click&r and hold with the weapon on any entity. This weapon has a durability of &o&b700&r."
+				"{ftbquests.chapter.ice_and_fire.quest40.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest40.description2}"
 			]
 			id: "25BBC91BCA52747E"
 			min_width: 300
@@ -2306,9 +2297,8 @@
 		{
 			dependencies: ["54761D5F9843BF91"]
 			description: [
-				"&5Глаз василиска&r — это предмет, получаемый в качестве &nредкого выпадения&r (&o&b2.5%&r) с &eВасилиска&r, если он убит игроком."
-				""
-				"&5Глаз василиска&r используется для создания &6Скипетра василиска&r."
+				"{ftbquests.chapter.ice_and_fire.quest41.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest41.description2}"
 			]
 			id: "258C78455C763EA7"
 			rewards: [
@@ -2340,7 +2330,7 @@
 		}
 		{
 			dependencies: ["752042A08C0343CE"]
-			description: ["&eКристалл призыва грозового дракона&r можно использовать, чтобы &o&bтелепортировать&r &o&bпривязанного&r &eГрозового дракона&r к себе, нажав &eПКМ&r."]
+			description: ["{ftbquests.chapter.ice_and_fire.quest42.description1}"]
 			id: "2A58AD42BCAFD8E2"
 			min_width: 270
 			rewards: [
@@ -2377,19 +2367,18 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.ice_and_fire.quest42.title}"
 			x: 8.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["10A3EC802FAA1206"]
 			description: [
-				"&4Кровь дракона&r — это предмет, который можно получить, либо &nразлив по бутылкам&r &2Тушу мёртвого дракона&r (&o&bОбязательно должна быть с кожей&r), либо &nдобыв&r её из &9Склепа ужаса&r (&o&bВнутри склепа можно найти только Ледяную кровь дракона&r)."
-				""
-				"Её основное применение — создание &6Оружия из Крови дракона&r. Чтобы разлить по бутылкам &2Тушу мёртвого дракона&r, нажмите &eПКМ&r с пустыми бутылками. &nМаксимум&r &4Крови дракона&r, который можно получить с дракона &o&b3 уровня&r, составляет &o&b5-6&r. Это сильно отличается от драконов &o&b5 уровня&r, которые дают вам &o&b12&r &aсочных склянок&r крови."
-				""
-				"Вы &nне получите&r &dЧешую&r, &9Сердца дракона&r, &cПлоть&r, &3Яйца дракона&r (&o&b4+&r &2уровня&r), если вы &nполностью&r разольёте по бутылкам &4Кровь дракона&r. Если вы хотите получить &nкакие-либо дополнительные&r &dЧешуйки&r и другие предметы, оставьте для них место, &o&bне выцеживая столько крови&r, так как вам понадобится всего &o&b1-3&r, если вы находитесь на &o&bсередине игры&r."
-				""
-				"Когда вы достигнете &o&bконца игры&r, вам стоит начать &nполностью&r собирать &4Кровь дракона&r по бутылкам из-за &5Драконьей стали&r."
+				"{ftbquests.chapter.ice_and_fire.quest43.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest43.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest43.description3}"
+				"{ftbquests.chapter.ice_and_fire.quest43.description4}"
+				"{ftbquests.chapter.ice_and_fire.quest43.description5}"
 			]
 			id: "752042A08C0343CE"
 			rewards: [
@@ -2425,20 +2414,17 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.ice_and_fire.quest43.title}"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["752042A08C0343CE"]
 			description: [
-				"&3Драконий костяной меч&r можно &dулучшить&r с помощью &4Крови дракона&r на верстаке, чтобы получить варианты &6Пламенный&r, &bЛедяной&r или &eШоковый&r."
-				""
-				"&eГрозовой драконий костяной меч&r — это &o&2Легендарное оружие&r"
-				""
-				"&cУрон&r: &o&b+9.5&r и &o&b+4&r урона против &bЛедяных драконов&r и &6Огненных драконов&r"
-				"&aПрочность&r: &o&b2 000&r"
-				""
-				"Поражает цели &eмолнией&r."
+				"{ftbquests.chapter.ice_and_fire.quest44.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest44.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest44.description3}"
+				"{ftbquests.chapter.ice_and_fire.quest44.description4}"
 			]
 			id: "4374C6812B288DC4"
 			min_width: 310
@@ -2479,12 +2465,13 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.ice_and_fire.quest44.title}"
 			x: 8.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["596E4BBBE5ECB9C5"]
-			description: ["&bКристалл призыва ледяного дракона&r можно использовать, чтобы &o&bтелепортировать&r &o&bпривязанного&r &bЛедяного дракона&r к себе, нажав &eПКМ&r."]
+			description: ["{ftbquests.chapter.ice_and_fire.quest45.description1}"]
 			id: "44D34FC0F25E3719"
 			min_width: 270
 			rewards: [
@@ -2521,19 +2508,18 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.ice_and_fire.quest45.title}"
 			x: 8.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3E9CCB8DB588089C"]
 			description: [
-				"&4Кровь дракона&r — это предмет, который можно получить, либо &nразлив по бутылкам&r &2Тушу мёртвого дракона&r (&o&bОбязательно должна быть с кожей&r), либо &nдобыв&r её из &9Склепа ужаса&r (&o&bВнутри склепа можно найти только Ледяную кровь дракона&r)."
-				""
-				"Её основное применение — создание &6Оружия из Крови дракона&r. Чтобы разлить по бутылкам &2Тушу мёртвого дракона&r, нажмите &eПКМ&r с пустыми бутылками. &nМаксимум&r &4Крови дракона&r, который можно получить с дракона &o&b3 уровня&r, составляет &o&b5-6&r. Это сильно отличается от драконов &o&b5 уровня&r, которые дают вам &o&b12&r &aсочных склянок&r крови."
-				""
-				"Вы &nне получите&r &dЧешую&r, &9Сердца дракона&r, &cПлоть&r, &3Яйца дракона&r (&o&b4+&r &2уровня&r), если вы &nполностью&r разольёте по бутылкам &4Кровь дракона&r. Если вы хотите получить &nкакие-либо дополнительные&r &dЧешуйки&r и другие предметы, оставьте для них место, &o&bне выцеживая столько крови&r, так как вам понадобится всего &o&b1-3&r, если вы находитесь на &o&bсередине игры&r."
-				""
-				"Когда вы достигнете &o&bконца игры&r, вам стоит начать &nполностью&r собирать &4Кровь дракона&r по бутылкам из-за &5Драконьей стали&r."
+				"{ftbquests.chapter.ice_and_fire.quest46.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest46.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest46.description3}"
+				"{ftbquests.chapter.ice_and_fire.quest46.description4}"
+				"{ftbquests.chapter.ice_and_fire.quest46.description5}"
 			]
 			id: "596E4BBBE5ECB9C5"
 			rewards: [
@@ -2569,20 +2555,17 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.ice_and_fire.quest46.title}"
 			x: 7.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["596E4BBBE5ECB9C5"]
 			description: [
-				"&3Драконий костяной меч&r можно &dулучшить&r с помощью &4Крови дракона&r на верстаке, чтобы получить варианты &6Пламенный&r, &bЛедяной&r или &eШоковый&r."
-				""
-				"&bЛедяной драконий костяной меч&r — это &o&2Легендарное оружие&r"
-				""
-				"&cУрон&r: &o&b+9.5&r и &o&b+8&r урона &6Огненным драконам&r"
-				"&aПрочность&r: &o&b2 000&r"
-				""
-				"&9Замороживает&r врагов."
+				"{ftbquests.chapter.ice_and_fire.quest47.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest47.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest47.description3}"
+				"{ftbquests.chapter.ice_and_fire.quest47.description4}"
 			]
 			id: "668B64CA5C7C8280"
 			min_width: 300
@@ -2623,12 +2606,13 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.ice_and_fire.quest47.title}"
 			x: 8.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["09882BA9CA9D8453"]
-			description: ["&6Кристалл призыва огненного дракона&r можно использовать, чтобы &o&bтелепортировать&r &o&bпривязанного&r &6Огненного дракона&r к себе, нажав &eПКМ&r."]
+			description: ["{ftbquests.chapter.ice_and_fire.quest48.description1}"]
 			id: "42178C8AE0F6403F"
 			min_width: 270
 			rewards: [
@@ -2665,19 +2649,18 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.ice_and_fire.quest48.title}"
 			x: 8.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["1EE1729CD3AEBD42"]
 			description: [
-				"&4Кровь дракона&r — это предмет, который можно получить, либо &nразлив по бутылкам&r &2Тушу мёртвого дракона&r (&o&bОбязательно должна быть с кожей&r), либо &nдобыв&r её из &9Склепа ужаса&r (&o&bВнутри склепа можно найти только Ледяную кровь дракона&r)."
-				""
-				"Её основное применение — создание &6Оружия из Крови дракона&r. Чтобы разлить по бутылкам &2Тушу мёртвого дракона&r, нажмите &eПКМ&r с пустыми бутылками. &nМаксимум&r &4Крови дракона&r, который можно получить с дракона &o&b3 уровня&r, составляет &o&b5-6&r. Это сильно отличается от драконов &o&b5 уровня&r, которые дают вам &o&b12&r &aсочных склянок&r крови."
-				""
-				"Вы &nне получите&r &dЧешую&r, &9Сердца дракона&r, &cПлоть&r, &3Яйца дракона&r (&o&b4+&r &2уровня&r), если вы &nполностью&r разольёте по бутылкам &4Кровь дракона&r. Если вы хотите получить &nкакие-либо дополнительные&r &dЧешуйки&r и другие предметы, оставьте для них место, &o&bне выцеживая столько крови&r, так как вам понадобится всего &o&b1-3&r, если вы находитесь на &o&bсередине игры&r."
-				""
-				"Когда вы достигнете &o&bконца игры&r, вам стоит начать &nполностью&r собирать &4Кровь дракона&r по бутылкам из-за &5Драконьей стали&r."
+				"{ftbquests.chapter.ice_and_fire.quest49.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest49.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest49.description3}"
+				"{ftbquests.chapter.ice_and_fire.quest49.description4}"
+				"{ftbquests.chapter.ice_and_fire.quest49.description5}"
 			]
 			id: "09882BA9CA9D8453"
 			min_width: 300
@@ -2714,20 +2697,17 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.ice_and_fire.quest49.title}"
 			x: 7.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["09882BA9CA9D8453"]
 			description: [
-				"&3Драконий костяной меч&r можно &dулучшить&r с помощью &4Крови дракона&r на верстаке, чтобы получить варианты &6Пламенный&r, &bЛедяной&r или &eШоковый&r."
-				""
-				"&6Пламенный драконий костяной меч&r — это &o&2Легендарное оружие&r"
-				""
-				"&cУрон&r: &o&b+9.5&r и &o&b+8&r урона &bЛедяным драконам&r"
-				"&aПрочность&r: &o&b2 000&r"
-				""
-				"&eПоджигает&r, но не зажаривает добычу и отбрасывает врагов."
+				"{ftbquests.chapter.ice_and_fire.quest50.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest50.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest50.description3}"
+				"{ftbquests.chapter.ice_and_fire.quest50.description4}"
 			]
 			id: "2D16B44C7D383ED2"
 			min_width: 300
@@ -2768,21 +2748,19 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.ice_and_fire.quest50.title}"
 			x: 8.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["4E8A99E032F0A61D"]
 			description: [
-				"&6Драконья кузница&r используется для создания соответствующих &dслитков Драконьей стали&r своего типа с помощью &o&bбутылочек с кровью дракона&r и &3стальных&r слитков."
-				""
-				"Когда дракон &o&b3+ уровня&r находится рядом с полностью построенной &6Драконьей кузницей&r, он &nавтоматически&r дышит на неё соответствующим дыханием и начинает процесс создания &dслитков Драконьей стали&r."
-				""
-				"Обратите внимание, что &nтип&r &4Крови дракона&r, &6Драконьей кузницы&r и &2Дракона&r &b&oдолжен совпадать&r."
-				""
-				"Важно отметить, что &6Драконья кузница&r — это не просто один крафтовый блок, а куб из блоков размером &o&b3x3x3&r. Требуемые блоки следующие: &o&b1&r &5Ядро драконьей кузницы&r, &o&b1&r &aВход драконьей кузницы&r (&o&bОтверстие драконьей кузницы&r), &o&b8&r &7Блоков костей дракона&r и &o&b17&r &9Кирпичей драконьей кузницы&r."
-				""
-				"Проверьте &bЛедяную драконью кузницу&r для получения дополнительной информации."
+				"{ftbquests.chapter.ice_and_fire.quest51.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest51.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest51.description3}"
+				"{ftbquests.chapter.ice_and_fire.quest51.description4}"
+				"{ftbquests.chapter.ice_and_fire.quest51.description5}"
+				"{ftbquests.chapter.ice_and_fire.quest51.description6}"
 			]
 			id: "1EE1729CD3AEBD42"
 			min_width: 300
@@ -2837,16 +2815,16 @@
 					type: "item"
 				}
 			]
-			title: "&6Драконья кузница&r"
+			title: "{ftbquests.chapter.ice_and_fire.quest51.title}"
 			x: 6.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["40E40EAE5E9F826B"]
 			description: [
-				"&6Сердце дракона&r — это предмет, выпадающий &o&bпри убийстве дракона&r."
-				""
-				"&4Огненные драконы&r роняют сердце &o&bкрасного/оранжевого&r цвета, &bЛедяные драконы&r — &o&bголубого&r, а &5Грозовые драконы&r — &o&bфиолетового&r. Их основное применение — создание &3Драконьей кузницы&r. Кроме того, из них также можно сделать &o&bуникальный узор для знамени&r."
+				"{ftbquests.chapter.ice_and_fire.quest52.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest52.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest52.description3}"
 			]
 			id: "4E8A99E032F0A61D"
 			min_width: 300
@@ -2882,17 +2860,16 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.ice_and_fire.quest52.title}"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4338263D9AD6EF0C"]
 			description: [
-				"&9Драконьи кирпичи&r можно скрафтить из &6Чешуи дракона&r, причём получаемые &9Драконьи кирпичи&r зависят от &nтипа чешуи&r (&4Огненной&r, &bЛедяной&r или &eГрозовой&r)."
-				""
-				"&9Драконьи кирпичи&r можно добывать &nлюбой&r киркой &o&bалмазного уровня или выше&r. При добыче &nбез&r кирки алмазного уровня или выше &nничего не выпадает&r."
-				""
-				"&9Драконьи кирпичи&r в основном используются для создания &5Драконьей кузницы&r."
+				"{ftbquests.chapter.ice_and_fire.quest53.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest53.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest53.description3}"
 			]
 			id: "40E40EAE5E9F826B"
 			min_width: 300
@@ -2921,18 +2898,16 @@
 				item: "iceandfire:dragonforge_fire_brick"
 				type: "item"
 			}]
-			title: "&9Драконьи кирпичи&r"
+			title: "{ftbquests.chapter.ice_and_fire.quest53.title}"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["78DE93CC03F45921"]
 			description: [
-				"&9Драконьи кирпичи&r можно скрафтить из &6Чешуи дракона&r, причём получаемые &9Драконьи кирпичи&r зависят от &nтипа чешуи&r (&4Огненной&r, &bЛедяной&r или &eГрозовой&r)."
-				""
-				"&9Драконьи кирпичи&r можно добывать &nлюбой&r киркой &o&bалмазного уровня или выше&r. При добыче &nбез&r кирки алмазного уровня или выше &nничего не выпадает&r."
-				""
-				"&9Драконьи кирпичи&r в основном используются для создания &5Драконьей кузницы&r."
+				"{ftbquests.chapter.ice_and_fire.quest54.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest54.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest54.description3}"
 			]
 			id: "46F53F4EBEC22267"
 			rewards: [
@@ -2960,16 +2935,16 @@
 				item: "iceandfire:dragonforge_ice_brick"
 				type: "item"
 			}]
-			title: "&9Драконьи кирпичи&r"
+			title: "{ftbquests.chapter.ice_and_fire.quest54.title}"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["46F53F4EBEC22267"]
 			description: [
-				"&6Сердце дракона&r — это предмет, выпадающий &o&bпри убийстве дракона&r."
-				""
-				"&4Огненные драконы&r роняют сердце &o&bкрасного/оранжевого&r цвета, &bЛедяные драконы&r — &o&bголубого&r, а &5Грозовые драконы&r — &o&bфиолетового&r. Их основное применение — создание &3Драконьей кузницы&r. Кроме того, из них также можно сделать &o&bуникальный узор для знамени&r."
+				"{ftbquests.chapter.ice_and_fire.quest55.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest55.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest55.description3}"
 			]
 			id: "569F7C8844F12952"
 			rewards: [
@@ -3004,17 +2979,16 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.ice_and_fire.quest55.title}"
 			x: 4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["569F7C8844F12952"]
 			description: [
-				"После правильной постройки вы можете поместить внутрь &3Стальные слитки&r и &4Кровь дракона&r. В зависимости от того, &o&bкакую кузницу&r вы использовали, будет создан &dДраконья сталь&r &o&bтого же типа&r, что и &6Драконья кузница&r."
-				""
-				"Когда вы будете готовы создать &3Драконью сталь&r, вам понадобится &2Дракон&r &o&b3+ уровня&r &nтого типа&r, &5Драконью сталь&r которого вы хотите &o&bполучить&r."
-				""
-				"&nРекомендуется&r строить &6Драконью кузницу&r подальше от базы, так как  &nвсё&r вокруг неё будет либо объято &cогнём&r, либо &9заморожено&r, в зависимости от типа кузницы&r."
+				"{ftbquests.chapter.ice_and_fire.quest56.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest56.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest56.description3}"
 			]
 			id: "3E9CCB8DB588089C"
 			min_width: 300
@@ -3069,7 +3043,7 @@
 					type: "item"
 				}
 			]
-			title: "&6Драконья кузница&r"
+			title: "{ftbquests.chapter.ice_and_fire.quest56.title}"
 			x: 6.0d
 			y: -1.5d
 		}
@@ -3129,16 +3103,16 @@
 					type: "item"
 				}
 			]
-			title: "&6Драконья кузница&r"
+			title: "{ftbquests.chapter.ice_and_fire.quest57.title}"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["23CDD6B3A75C0039"]
 			description: [
-				"&6Сердце дракона&r — это предмет, выпадающий &o&bпри убийстве дракона&r."
-				""
-				"&4Огненные драконы&r роняют сердце &o&bкрасного/оранжевого&r цвета, &bЛедяные драконы&r — &o&bголубого&r, а &5Грозовые драконы&r — &o&bфиолетового&r. Их основное применение — создание &3Драконьей кузницы&r. Кроме того, из них также можно сделать &o&bуникальный узор для знамени&r."
+				"{ftbquests.chapter.ice_and_fire.quest58.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest58.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest58.description3}"
 			]
 			id: "66764D2E1627DD07"
 			rewards: [
@@ -3173,6 +3147,7 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.ice_and_fire.quest58.title}"
 			x: 4.5d
 			y: 0.0d
 		}
@@ -3182,9 +3157,8 @@
 				"7E2723DCFE5FBCBB"
 			]
 			description: [
-				"&6Флейта сирены&r — это мощное &o&2Легендарное оружие&r, связанное с &eСиреной&r."
-				""
-				"При использовании &6Флейта сирены&r заставит большинство ближайших мобов &nвременно&r &o&bвлюбиться в вас&r и стать &nпассивными&r существами на &o&b10&r секунд."
+				"{ftbquests.chapter.ice_and_fire.quest59.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest59.description2}"
 			]
 			id: "78AF108A06581B8A"
 			min_width: 300
@@ -3222,7 +3196,7 @@
 			y: -8.5d
 		}
 		{
-			description: ["&6Блестящая чешуя&r — это &nобычный выпад&r с &eСирены&r и &dГиппокампа&r, в большинстве случаев дающий &o&b1-4&r чешуек после смерти."]
+			description: ["{ftbquests.chapter.ice_and_fire.quest60.description1}"]
 			hide_dependency_lines: true
 			id: "7E2723DCFE5FBCBB"
 			rewards: [
@@ -3257,9 +3231,8 @@
 		{
 			dependencies: ["0DBDC4BAA4465307"]
 			description: [
-				"&5Кинжал стимфалийской птицы&r — это &o&2Легендарное оружие&r, связанное с &eСтимфалийскими птицами&r."
-				""
-				"Он &o&bатакует&r как обычный меч, но &nочень быстр&r, наносит &o&b6&r единиц &cурона&r (равно &3Железному мечу&r) и имеет огромную &o&b3&r &aскорости атаки&r."
+				"{ftbquests.chapter.ice_and_fire.quest61.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest61.description2}"
 			]
 			id: "5D715FBCE0F2D6DC"
 			min_width: 300
@@ -3304,9 +3277,8 @@
 		{
 			dependencies: ["0DBDC4BAA4465307"]
 			description: [
-				"&5Связка перьев стимфалийской птицы&r — это &o&2Легендарное оружие&r, связанное с &eСтимфалийской птицей&r."
-				""
-				"Это предмет &nодноразового использования&r, который выпускает перья в &o&bвосьми направлениях&r вокруг пользователя. Подобрать можно только &nодно&r из перьев."
+				"{ftbquests.chapter.ice_and_fire.quest62.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest62.description2}"
 			]
 			id: "04B14007299FC09B"
 			min_width: 300
@@ -3342,20 +3314,17 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.ice_and_fire.quest62.title}"
 			x: 9.75d
 			y: -8.5d
 		}
 		{
 			description: [
-				"&cСтимфалийские птицы&r — это кровожадные плотоядные птицы, которые летают над &o&bболотистыми местностями&r стаями по &o&b3-20&r особей и пускают в свою добычу &o&bметаллические перья&r."
-				""
-				"При смерти &cСтимфалийские птицы&r выкидывают:"
-				""
-				"&o&b2-6&r &eперьев стимфалийской птицы&r"
-				"&o&b0-4&r &3железных&r слитка"
-				"&o&b1&r &dчереп стимфалийской птицы&r (шанс &o&b2.5%&r)"
-				"&o&b0-4&r &6медных&r слитка"
-				"&o&b0-4&r &6медных&r самородка"
+				"{ftbquests.chapter.ice_and_fire.quest63.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest63.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest63.description3}"
+				"{ftbquests.chapter.ice_and_fire.quest63.description4}"
+				"{ftbquests.chapter.ice_and_fire.quest63.description5}"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -3400,9 +3369,8 @@
 		{
 			dependencies: ["0DBDC4BAA4465307"]
 			description: [
-				"&2Стрелы стимфалийской птицы&r — это стрелы, созданные с использованием перьев &eСтимфалийской птицы&r вместо обычных перьев."
-				""
-				"Они обладают &o&bособой способностью&r: &nне подвержены&r гравитации, что делает их &nочень полезными&r на &o&bбольших дистанциях&r, куда &o&bобычными стрелами попасть&r было бы сложно."
+				"{ftbquests.chapter.ice_and_fire.quest64.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest64.description2}"
 			]
 			id: "425F7CE940B05FD5"
 			min_width: 240
@@ -3431,13 +3399,12 @@
 				item: "iceandfire:stymphalian_arrow"
 				type: "item"
 			}]
-			title: "Stymphalian Arrows"
 			x: 10.75d
 			y: -7.5d
 		}
 		{
 			dependencies: ["339AB5DB4166878E"]
-			description: ["&dКоготь гиппогрифа&r — это предмет, получаемый в качестве &nредкого выпадения&r (&o&b2.5%&r) с &eГиппогрифа&r, если он убит игроком."]
+			description: ["{ftbquests.chapter.ice_and_fire.quest65.description1}"]
 			id: "0D1A2A3B6AAAACF8"
 			rewards: [
 				{
@@ -3477,13 +3444,9 @@
 		{
 			dependencies: ["0D1A2A3B6AAAACF8"]
 			description: [
-				"&5Меч из когтя гиппогрифа&r — это &o&2Легендарное оружие&r, связанное с &eГиппогрифами&r."
-				""
-				"Он атакует как &nобычный меч&r и создаётся из &0Когтей гиппогрифа&r."
-				""
-				"Наносит дополнительный урон. Когда в главной руке:"
-				""
-				"&o&b1.6&r &aСкорости атаки&r, &o&b6.5&r &cУрона атаки&r."
+				"{ftbquests.chapter.ice_and_fire.quest66.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest66.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest66.description3}"
 			]
 			id: "56E6BF8029B230A5"
 			min_width: 320
@@ -3521,7 +3484,7 @@
 			y: -6.5d
 		}
 		{
-			description: ["&7Бивень тролля&r — это предмет, выпадающий при убийстве &eТроллей&r. Используется в рецепте &9Брони из шкуры тролля&r."]
+			description: ["{ftbquests.chapter.ice_and_fire.quest67.description1}"]
 			id: "3491C4CCEF1E4619"
 			min_width: 225
 			rewards: [
@@ -3561,11 +3524,9 @@
 		}
 		{
 			description: [
-				"&dГолова горгоны&r — это &o&2Легендарное оружие&r, а также &nодноразовый предмет&r, который может превратить &o&bодного моба на ваш выбор&r (&nкроме&r &0Дракона Края&r) в статую, точно так же, как это делает живая &3Горгона&r. Однако на &9Смертельных червей&r это &nне действует&r из-за отсутствия у них глаз."
-				""
-				"&7Скелеты драконов&r можно превратить в камень, и &o&bдаже разграбить&r после этого. Однако &o&bесли вы разграбите&r скелет &nпосле&r того, как превратите его в камень, то &o&bон исчезнет полностью&r. Также его можно использовать для создания &o&bуникального узора для знамени&r."
-				""
-				"Вы можете разбить каменную статую, ударив по ней киркой &o&b10&r раз; кирка с &dШёлковым касанием&r позволяет получить саму статую."
+				"{ftbquests.chapter.ice_and_fire.quest68.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest68.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest68.description3}"
 			]
 			id: "5F9AC0AB15154C7D"
 			min_width: 300
@@ -3609,9 +3570,8 @@
 		}
 		{
 			description: [
-				"&5Глаз циклопа&r — это &o&2Легендарное оружие&r, выпадающее с &eЦиклопа&r после смерти."
-				""
-				"Когда &5Глаз циклопа&r находится в любой из рук, он даёт &dСлабость II&r ближайшим &nвраждебным&r мобам. Следует отметить, что этот эффект &o&bработает только против атак ближнего боя&r, что делает его бесполезным против &o&bдальнобойного оружия&r и особых атак, таких как &o&bстрелы скелетов&r, &o&bвзрывы криперов&r, &o&bдыхание драконов&r и &o&bиссушающие лучи петуатриксов&r."
+				"{ftbquests.chapter.ice_and_fire.quest69.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest69.description2}"
 			]
 			id: "4576D3B3A1577D84"
 			min_width: 340
@@ -3656,11 +3616,9 @@
 		{
 			dependencies: ["64F7780D82B56A8D"]
 			description: [
-				"&dЭктоплазма&r — это частый выпад с &eПризраков&r."
-				""
-				"Её также можно найти в &o&bкладбищенских сундуках&r. Используется для создания &aПроклятого сундука&r и &cКладбищенской почвы&r."
-				""
-				"Создайте &o&bбольшой участок кладбищенской почвы&r, на котором &nбудут появляться призраки&r вместо обычных мобов. Обратите внимание, что &bПризраки&r, появившиеся из &aПроклятых сундуков&r, не могут выкинуть &dЭктоплазму&r или &9Призрачные слитки&r."
+				"{ftbquests.chapter.ice_and_fire.quest70.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest70.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest70.description3}"
 			]
 			id: "5474A3F78B629DB9"
 			min_width: 280
@@ -3702,9 +3660,8 @@
 		{
 			dependencies: ["2E484E07D5C38F84"]
 			description: [
-				"&5Хлопушка гиппокампа&r — это комичное &o&2Легендарное оружие&r ближнего боя, связанное с &eГиппокампом&r."
-				""
-				"&5Хлопушка гиппокампа&r имеет ту же &o&bскорость атаки&r, что и меч, но наносит всего &o&b2&r &cединицы урона&r за удар. Вдобавок, &5Хлопушка гиппокампа&r накладывает на цель эффекты &dТошноты II&r (&o&b0:05&r) и &dЗамедления II&r (&o&b0:05&r)."
+				"{ftbquests.chapter.ice_and_fire.quest71.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest71.description2}"
 			]
 			id: "1B5106514B471C24"
 			min_width: 300
@@ -3743,7 +3700,7 @@
 		}
 		{
 			dependencies: ["7E2723DCFE5FBCBB"]
-			description: ["&9Плавник гиппокампа&r — это предмет, получаемый в качестве &nредкого выпадения&r (&o&b2.5%&r) с &eГиппокампа&r, если он убит игроком."]
+			description: ["{ftbquests.chapter.ice_and_fire.quest72.description1}"]
 			id: "2E484E07D5C38F84"
 			rewards: [
 				{
@@ -3775,9 +3732,8 @@
 		{
 			dependencies: ["1B2BDBEA1BEF2D23"]
 			description: [
-				"&dТрезубец прилива&r — это &o&2Легендарное оружие&r, связанное с мобом &eЛевиафан&r."
-				""
-				"&dТрезубец прилива&r — это &nочень мощное&r оружие-трезубец, которое может &o&bпронзать несколько врагов&r насквозь. Его можно &o&bзарядить&r, а затем метнуть во врага, чтобы нанести урон."
+				"{ftbquests.chapter.ice_and_fire.quest73.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest73.description2}"
 			]
 			id: "36B2CCC6F007D418"
 			min_width: 270
@@ -3816,14 +3772,10 @@
 		}
 		{
 			description: [
-				"&6Призраки&r — это гневные духи, которые по ночам преследуют свои места захоронений и неустанно досаждают нарушителям."
-				""
-				"&6Призраков&r можно найти на &3Кладбищах&r — небольших огороженных участках захоронений, которые случайным образом появляются во всех биомах; они поднимаются из &7Кладбищенской почвы&r ночью, а также появляются, когда открыть &eПроклятый сундук&r, спрятанный в небольшой катакомбе. Кроме того, они могут появиться, если игрок убит другим игроком."
-				""
-				"При смерти призраки выкидывают:"
-				""
-				"&o&b0-1&r кусок &bЭктоплазмы&r"
-				"&o&b1&r &dПризрачный слиток&r (шанс &o&b2.5%&r)"
+				"{ftbquests.chapter.ice_and_fire.quest74.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest74.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest74.description3}"
+				"{ftbquests.chapter.ice_and_fire.quest74.description4}"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -3868,9 +3820,8 @@
 		{
 			dependencies: ["64F7780D82B56A8D"]
 			description: [
-				"&6Призрачный слиток&r — это предмет выпадения, который можно использовать в &cКузнечном столе&r вместе с &3Драконьим костяным мечом&r, чтобы создать &dПризрачный меч&r."
-				""
-				"&6Призрачный слиток&r выпадает с &eПризраков&r с шансом &o&b2.5%&r."
+				"{ftbquests.chapter.ice_and_fire.quest75.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest75.description2}"
 			]
 			id: "1E4783908222E61C"
 			min_width: 225
@@ -3912,9 +3863,8 @@
 		{
 			dependencies: ["1B2BDBEA1BEF2D23"]
 			description: [
-				"&9Стрелы прилива&r — это боеприпасы для &eлука&r. Они &nне намокают&r в воде!"
-				""
-				"Для создания &9Стрел прилива&r вам понадобятся &dЧешуя морского змея&r (&nлюбого цвета&r), &3палка&r и &aКлык морского змея&r."
+				"{ftbquests.chapter.ice_and_fire.quest76.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest76.description2}"
 			]
 			id: "6E6CF051655D0C41"
 			min_width: 240
@@ -3943,12 +3893,11 @@
 				item: "iceandfire:sea_serpent_arrow"
 				type: "item"
 			}]
-			title: "Tide Arrows"
 			x: 7.75d
 			y: -7.5d
 		}
 		{
-			description: ["&aКлык левиафана&r — это предмет, получаемый в качестве выпадения с &3Морского змея&r и используемый для создания &dТрезубца прилива&r и &eСтрел прилива&r."]
+			description: ["{ftbquests.chapter.ice_and_fire.quest77.description1}"]
 			id: "1B2BDBEA1BEF2D23"
 			rewards: [
 				{
@@ -3986,7 +3935,7 @@
 			y: -6.5d
 		}
 		{
-			description: ["&6Слеза сирены&r — это предмет, получаемый в качестве &nредкого выпадения&r (&o&b2.5%&r) с &eСирены&r, если она убита игроком."]
+			description: ["{ftbquests.chapter.ice_and_fire.quest78.description1}"]
 			hide_dependency_lines: true
 			id: "0047A5D92B057234"
 			rewards: [
@@ -4025,7 +3974,7 @@
 			y: -8.5d
 		}
 		{
-			description: ["&cКлыки гидры&r — это обычный выпад с &eГидры&r, используемый для создания &9Стрел гидры&r."]
+			description: ["{ftbquests.chapter.ice_and_fire.quest79.description1}"]
 			id: "0ADD071E01154009"
 			rewards: [
 				{
@@ -4064,7 +4013,7 @@
 		}
 		{
 			dependencies: ["0ADD071E01154009"]
-			description: ["&5Стрелы гидры&r — это боеприпасы для &3лука&r, которые &nотравляют&r цели и &nвысасывают из них жизнь&r."]
+			description: ["{ftbquests.chapter.ice_and_fire.quest80.description1}"]
 			id: "1FAC7A56D40CB602"
 			rewards: [
 				{
@@ -4091,16 +4040,14 @@
 				item: "iceandfire:hydra_arrow"
 				type: "item"
 			}]
-			title: "Hydra Arrows"
 			x: 6.75d
 			y: -7.5d
 		}
 		{
 			dependencies: ["1FAC7A56D40CB602"]
 			description: [
-				"&5Сердце гидры&r — это редкий выпад с &eГидры&r и &o&2Легендарное оружие&r."
-				""
-				"Находясь на &3панели быстрого доступа&r, оно даёт усиливающуюся &dРегенерацию&r в зависимости от того, насколько ранен владелец. &nЧем ниже&r ваше здоровье, тем &nсильнее&r будет регенерация."
+				"{ftbquests.chapter.ice_and_fire.quest81.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest81.description2}"
 			]
 			id: "77444F5105A251CC"
 			min_width: 230
@@ -4141,7 +4088,7 @@
 		}
 		{
 			dependencies: ["53F95089CB6FF9CF"]
-			description: ["&6Стрелы амфитеры&r — это боеприпасы для &3лука&r, которые &nотбрасывают&r всех мобов назад силой &dкрыльев амфитеры&r!"]
+			description: ["{ftbquests.chapter.ice_and_fire.quest82.description1}"]
 			id: "5C3C5DB070C1A47C"
 			rewards: [
 				{
@@ -4168,18 +4115,15 @@
 				item: "iceandfire:amphithere_arrow"
 				type: "item"
 			}]
-			title: "&6Стрелы амфитеры"
 			x: 6.75d
 			y: -5.5d
 		}
 		{
 			dependencies: ["1E4783908222E61C"]
 			description: [
-				"&6Призрачный клинок&r — это &o&2Легендарное оружие&r, на которое можно положиться на &nмногих этапах&r игры, и которое можно использовать для \"&o&bпрохождения&r\" битв с драконами, &o&bметая в них снаряды&r с &nбольшого расстояния&r."
-				""
-				"&o&b11&r &cединиц урона&r, &o&b3&r &aскорости атаки&r."
-				""
-				"Он может метать &dПризрачные клинки&r, которые &o&bпроходят сквозь блоки&r и наносят урон мобам, при &eнажатии ЛКМ&r. Каждый снаряд наносит &b5&r &cурона&r."
+				"{ftbquests.chapter.ice_and_fire.quest83.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest83.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest83.description3}"
 			]
 			id: "6E1A96AF0E1B0F18"
 			min_width: 300
@@ -4222,11 +4166,7 @@
 			y: -5.5d
 		}
 		{
-			description: [
-				"&5Перо амфитеры&r выпадает с &eАмфитеры&r."
-				""
-				"&5Перья амфитеры&r можно использовать для создания &6Макуаитля амфитеры&r или &3Стрел амфитеры&r."
-			]
+			description: ["{ftbquests.chapter.ice_and_fire.quest84.description1}"]
 			hide_dependency_lines: true
 			id: "53F95089CB6FF9CF"
 			min_width: 250
@@ -4267,9 +4207,8 @@
 		}
 		{
 			description: [
-				"&cЯзык смертельного червя&r — это предмет, получаемый в качестве &nредкого выпадения&r (&o&b2.5%&r) с &eСмертельных червей&r, если они убиты игроком."
-				""
-				"&cЯзык смертельного червя&r используется для создания &dНаруча смертельного червя&r."
+				"{ftbquests.chapter.ice_and_fire.quest85.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest85.description2}"
 			]
 			id: "556A07D30BC8D028"
 			rewards: [
@@ -4310,9 +4249,8 @@
 		{
 			dependencies: ["53F95089CB6FF9CF"]
 			description: [
-				"&5Макуаитль амфитеры&r — это &o&2Легендарное оружие&r, которое &nотбрасывает&r существа вверх и назад, а также &o&bвыводит из строя щиты&r."
-				""
-				"Наносит &o&b5&r &cединиц урона&r и имеет &o&b1.6&r &aскорости атаки&r."
+				"{ftbquests.chapter.ice_and_fire.quest86.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest86.description2}"
 			]
 			id: "0638813A7CD7CB60"
 			min_width: 250
@@ -4357,11 +4295,8 @@
 		{
 			dependencies: ["5C42AD1E351785EA"]
 			description: [
-				"&9Рога дракона&r можно использовать для &o&bхранения драконов&r."
-				""
-				"Нажмите &eПКМ&r по &dприрученному дракону&r, держа в руке &9Рог дракона&r, и он будет &o&bпомещён внутрь&r. Обратно его можно призвать, &o&bзажав&r &eПКМ&r."
-				""
-				"Драконы &nне растут&r, находясь внутри &9Рога дракона&r."
+				"{ftbquests.chapter.ice_and_fire.quest87.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest87.description2}"
 			]
 			id: "6C82D3C21252DD57"
 			min_width: 300
@@ -4402,11 +4337,7 @@
 		}
 		{
 			dependencies: ["5C42AD1E351785EA"]
-			description: [
-				"&dКорм для дракона&r используется, чтобы &nрастить&r и &nповышать уровень&r ваших драконов."
-				""
-				"Каждая порция корма &nувеличит прогресс&r дракона на &o&bодин день&r, фактически пропуская ожидание прогресса в один день."
-			]
+			description: ["{ftbquests.chapter.ice_and_fire.quest88.description1}"]
 			id: "1DCD8CFCE09D656F"
 			min_width: 220
 			rewards: [
@@ -4446,19 +4377,14 @@
 		}
 		{
 			description: [
-				"&6Яйца драконов&r — это размещаемые сущности, из которых вылупляются &o&bдетёныши драконов&r; они выпадают с драконов &o&b4-5 уровня&r &dсамок&r и используются для выведения прирученных детёнышей драконов."
-				""
-				"Из &6Яиц драконов&r вылупляются детёныши (&o&b1 уровня&r), которые &nприручаются&r сразу после вылупления (&o&bпри условии, что игрок находится рядом с яйцом&r), но на них &nнельзя ездить&r, зато их можно посадить себе на плечо."
-				""
-				"Игрок &nможет повышать уровень&r дракона с помощью &4Корма для дракона&r или просто находясь рядом, пока он &nпассивно&r повышает уровень. Как только дракон достигнет &o&b3 уровня&r (это можно проверить, взаимодействуя с драконом, &eкрадучись&r), на нём &nможно будет ездить&r."
-				""
-				"Из &6Яиц драконов&r вылупляется детёныш &o&b1 уровня&r &nтого же цвета&r. &4Огненные&r, &bЛедяные&r и &eГрозовые&r яйца &o&bимеют разные условия вылупления&r."
-				""
-				"&4Огненные&r яйца драконов (Красные, Серые, Изумрудные и Бронзовые) &nдолжны быть&r помещены &o&bв огонь&r, чтобы &aначался&r процесс вылупления. Как только яйцо начнёт шевелиться, вылупление займёт несколько минут."
-				""
-				"&bЛедяные&r яйца драконов (Голубые, Сапфировые, Белые и Серебряные) &nдолжны быть&r помещены в &o&bводу, которая может быть окружена льдом&r. Как только яйцо начнёт шевелиться, вылупление займёт несколько минут."
-				""
-				"&eГрозовые&r яйца драконов (Медные, Электрик, Аметистовые и Чёрные) &nдолжны быть&r под открытым небом во время &o&bдождя&r, чтобы &aначался&r процесс вылупления. Как только яйцо начнёт шевелиться, вылупление займёт несколько минут. (Если дождь &cпрекратится&r, процесс вылупления &o&bтоже остановится&r.) Когда из &eГрозового&r яйца вылупляется дракон, происходит &o&bудар молнии&r."
+				"{ftbquests.chapter.ice_and_fire.quest89.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest89.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest89.description3}"
+				"{ftbquests.chapter.ice_and_fire.quest89.description4}"
+				"{ftbquests.chapter.ice_and_fire.quest89.description5}"
+				"{ftbquests.chapter.ice_and_fire.quest89.description6}"
+				"{ftbquests.chapter.ice_and_fire.quest89.description7}"
+				"{ftbquests.chapter.ice_and_fire.quest89.description8}"
 			]
 			hide_dependency_lines: true
 			id: "5C42AD1E351785EA"
@@ -4495,7 +4421,7 @@
 		}
 		{
 			dependencies: ["5C42AD1E351785EA"]
-			description: ["&5Жезл управления драконом&r — это предмет, с помощью которого можно заставить вашего дракона &nстоять на месте&r, бродить или сопровождать вас. Также его можно использовать &o&bдля задания домашней позиции&r &nприрученных существ&r с помощью &eShift+ПКМ&r."]
+			description: ["{ftbquests.chapter.ice_and_fire.quest90.description1}"]
 			id: "51C4C91587A70CBA"
 			min_width: 300
 			rewards: [
@@ -4536,9 +4462,8 @@
 		{
 			dependencies: ["5C42AD1E351785EA"]
 			description: [
-				"&dКостяная флейта дракона&r — это предмет, при игре на котором &6прирученный дракон&r, &cАмфитера&r и &eГиппогриф&r &o&bперестают лететь и падают вниз&r, при условии, что играющий — их владелец."
-				""
-				"&dКостяную флейту дракона&r можно использовать для создания &4Флейты сирены&r."
+				"{ftbquests.chapter.ice_and_fire.quest91.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest91.description2}"
 			]
 			id: "313CAD78364A3D66"
 			min_width: 300
@@ -4579,7 +4504,7 @@
 		}
 		{
 			dependencies: ["1DCD8CFCE09D656F"]
-			description: ["&cГнилой корм для дракона&r, с другой стороны, &o&bполностью останавливает рост дракона&r."]
+			description: ["{ftbquests.chapter.ice_and_fire.quest92.description1}"]
 			id: "4451F4351231A711"
 			rewards: [
 				{
@@ -4619,11 +4544,9 @@
 		{
 			dependencies: ["548CE3B927114C4A"]
 			description: [
-				"&9Кости дракона&r — это предметы, выпадающие из &o&bскелетов драконов&r."
-				""
-				"Нажмите &eПКМ&r по скелету &o&bпустой рукой&r, чтобы &o&bсобрать кости&r."
-				""
-				"&9Кости дракона&r можно использовать как &o&bкомпонент для крафта&r во многих рецептах."
+				"{ftbquests.chapter.ice_and_fire.quest93.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest93.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest93.description3}"
 			]
 			id: "49AD80E916672BBE"
 			min_width: 250
@@ -4659,17 +4582,16 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.ice_and_fire.quest93.title}"
 			x: -1.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["4D45DE1B53B194BF"]
 			description: [
-				"Основная функция &2Повязки на глаза&r — дать игроку эффект &dСлепота III&r, чтобы &o&bстать невосприимчивым&r к окаменяющему взгляду &3Горгоны&r или к высасывающему жизнь взору &4Петуатрикса&r."
-				""
-				"&6Беруши&r можно использовать для защиты от &o&bчарующих песен&r &dСирены&r. Они дают одно очко. Они также защищают от &nслабости&r, вызываемой &o&bрёвом дракона&r."
-				""
-				"Оба предмета можно надеть в слот &eшлема&r."
+				"{ftbquests.chapter.ice_and_fire.quest94.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest94.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest94.description3}"
 			]
 			id: "6F01B57E645C7665"
 			min_width: 250
@@ -4716,18 +4638,14 @@
 					type: "item"
 				}
 			]
-			title: "Повязки на глаза"
 			x: -3.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["4D45DE1B53B194BF"]
 			description: [
-				"&9Склепы&r — это мрачные комплексы из непробиваемого дредстоуна, которые &o&bгенерируются в холодных биомах&r."
-				""
-				"Их двери из дредвуда можно открыть только с помощью &6Ключа Хозяина Склепа&r, который можно получить, убив &dДред-лича&r."
-				""
-				"Внутри находятся спаунеры &cДред-слуг&r и приспешников, которые &o&bне отключаются тусклым светом&r &eДредстоуновых факелов&r и порождают их &nтак быстро&r, что вас могут задавить &cДред-слуги&r. Там есть &o&bмножество сундуков&r, содержащих различные предметы, но, пожалуй, &o&bлучшая награда&r — это &nчастично недостроенная&r &5Ледяная драконья кузница&r."
+				"{ftbquests.chapter.ice_and_fire.quest95.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest95.description2}"
 			]
 			id: "1F464E151EBF2088"
 			min_width: 400
@@ -4750,7 +4668,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "Discover the Mausoleum lock"
+			subtitle: "{ftbquests.chapter.ice_and_fire.quest95.subtitle}"
 			tasks: [{
 				icon: "iceandfire:dreadwood_planks_lock"
 				id: "692B6D5D0FA5B40D"
@@ -4760,13 +4678,12 @@
 				to_observe: "iceandfire:dreadwood_planks_lock"
 				type: "observation"
 			}]
-			title: "Склепы"
 			x: -1.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["1F464E151EBF2088"]
-			description: ["Удачи в поисках этого... &5Могильщики&r появляются &nне так уж и часто&r."]
+			description: ["{ftbquests.chapter.ice_and_fire.quest96.description1}"]
 			id: "0215C0DA01B8935B"
 			rewards: [
 				{
@@ -4787,7 +4704,7 @@
 					type: "random"
 				}
 			]
-			subtitle: "The Rarest Key"
+			subtitle: "{ftbquests.chapter.ice_and_fire.quest96.subtitle}"
 			tasks: [{
 				id: "1075CD3B67FBCC0A"
 				item: {
@@ -4801,23 +4718,18 @@
 				}
 				type: "item"
 			}]
-			title: "&5Ключ Могильщика"
+			title: "{ftbquests.chapter.ice_and_fire.quest96.title}"
 			x: 0.0d
 			y: -0.5d
 		}
 		{
 			description: [
-				"&2Гиппогрифы&r — это загадочные альпийские летающие плотоядные существа, которых можно &o&bприручить&r и на которых можно &o&bездить&r."
-				""
-				"&2Гиппогрифов&r можно приручить с помощью &3Кроличьих лапок&r. Чтобы приручить гиппогрифа, нужно просто бросить &o&b8&r кроличьих лапок рядом с ним; он съест угощение и &o&bначнёт приручаться сам&r."
-				""
-				"Как только зверь приручён, он &o&bсядет&r. Прирученных гиппогрифов можно &o&bседлать&r, они могут &o&bносить сундуки&r и их можно экипировать &o&bбронёй&r. К счастью, &eКостяную флейту дракона&r можно использовать, чтобы приказать любому гиппогрифу &nприземлиться&r."
-				""
-				"В дополнение к этому, прирученные гиппогрифы &o&bатакуют мобов и игроков, которые нападают на их хозяина&r, и любой прирученный гиппогриф, летящий в воздухе и не сидящий, упадёт на землю и начнёт атаковать моба или враждебного игрока."
-				""
-				"&eКрадучись&r при взаимодействии с гиппогрифом с помощью &7палки&r или &6Жезла управления драконом&r установит &nдомашнюю позицию&r в том месте, где он находится, и он &o&bне будет далеко уходить&r от этой позиции. Домашнюю позицию &cможно удалить&r, снова &eкрадучись&r используя &6Жезл управления драконом&r."
-				""
-				"Двух гиппогрифов &4можно разводить&r, кормя их &9Рагу из кролика&r. Они разводятся так же, как и другие ванильные животные; в данном случае &eПКМ&r по каждому гиппогрифу с &9Рагу из кролика&r заставит их размножаться. Разведение двух гиппогрифов даст &nяйцо&r."
+				"{ftbquests.chapter.ice_and_fire.quest97.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest97.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest97.description3}"
+				"{ftbquests.chapter.ice_and_fire.quest97.description4}"
+				"{ftbquests.chapter.ice_and_fire.quest97.description5}"
+				"{ftbquests.chapter.ice_and_fire.quest97.description6}"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -4862,11 +4774,9 @@
 		{
 			dependencies: ["74A00818AFFA6764"]
 			description: [
-				"&9Драконьи кирпичи&r можно скрафтить из &6Чешуи дракона&r, причём получаемые &9Драконьи кирпичи&r зависят от &nтипа чешуи&r (&4Огненной&r, &bЛедяной&r или &eГрозовой&r)."
-				""
-				"&9Драконьи кирпичи&r можно добывать &nлюбой&r киркой &o&bалмазного уровня или выше&r. При добыче &nбез&r кирки алмазного уровня или выше &nничего не выпадает&r."
-				""
-				"&9Драконьи кирпичи&r в основном используются для создания &5Драконьей кузницы&r."
+				"{ftbquests.chapter.ice_and_fire.quest98.description1}"
+				"{ftbquests.chapter.ice_and_fire.quest98.description2}"
+				"{ftbquests.chapter.ice_and_fire.quest98.description3}"
 			]
 			id: "23CDD6B3A75C0039"
 			rewards: [
@@ -4894,7 +4804,7 @@
 				item: "iceandfire:dragonforge_lightning_brick"
 				type: "item"
 			}]
-			title: "&9Драконьи кирпичи&r"
+			title: "{ftbquests.chapter.ice_and_fire.quest98.title}"
 			x: 3.0d
 			y: 0.0d
 		}

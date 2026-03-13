@@ -108,24 +108,24 @@
 		{ item: "alexscaves:cooked_mussel" }
 		{ item: "alexscaves:sea_pig" }
 		{ item: "alexscaves:cooked_tripodfish" }
-		{ item: "alexscaves:small_peppermint" }
-		{ item: "alexscaves:large_peppermint" }
 		{ item: "alexscaves:gingerbread_crumbs" }
 		{ item: "alexscaves:peppermint_powder" }
 		{ item: "alexscaves:gelatin_pink" }
 		{ item: "alexscaves:gelatin_blue" }
 		{ item: "alexscaves:gelatin_yellow" }
 		{ item: "alexscaves:gelatin_green" }
-		{ item: "alexscaves:gelatin_red" }
 		{ item: "alexscaves:lollipop_bunch" }
 		{ item: "alexscaves:candy_cane" }
 		{ item: "alexscaves:giant_sweetberry" }
-		{ item: "alexscaves:sweetberry_ice_cream" }
-		{ item: "alexscaves:vanilla_ice_cream" }
-		{ item: "alexscaves:chocolate_ice_cream" }
 		{ item: "alexscaves:licoroot" }
 		{ item: "alexscaves:licoroot_vine" }
 		{ item: "alexscaves:licoroot_sprout" }
+		{ item: "minecraft:mushroom_stew" }
+		{ item: "minecraft:beetroot_soup" }
+		{ item: "minecraft:rabbit_stew" }
+		{ item: "upgrade_aquatic:mulberry_pie" }
+		{ item: "minecraft:pufferfish" }
+		{ item: "alexscaves:darkened_apple" }
 	]
 	title: "Food"
 }

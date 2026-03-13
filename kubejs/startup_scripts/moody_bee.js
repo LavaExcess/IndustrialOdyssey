@@ -214,7 +214,7 @@ ForestryEvents.apiculture(apiculture => {
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Меркурий
-    apiculture.registerSpecies('lexlav:mercury_bee', 'diapis', 'mercurius', true, Color.of('#A0522D'))
+    apiculture.registerSpecies('lexlav:mercury_bee', 'diapis', 'mercurius', true, Color.of('#313130'))
         .addProduct('lexlav:mercury_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/mercury_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/mercury_boulder', 0.75)
@@ -234,14 +234,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#A0522D'))
-        .setStripes(Color.of('#A0522D'))
+        .setBody(Color.of('#464444'))
+        .setStripes(Color.of('#691818'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Венера
-    apiculture.registerSpecies('lexlav:venus_bee', 'diapis', 'veneris', true, Color.of('#FFD700'))
+    apiculture.registerSpecies('lexlav:venus_bee', 'diapis', 'veneris', true, Color.of('#ffe345'))
         .addProduct('lexlav:venusian_comb', 0.25)
         .addProduct('ad_astra:calorite_nugget', 1)
         .addProduct('industrialupgrade:itemspace/venus_pebble', 1)
@@ -263,8 +263,8 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);//Скорость опыления
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE); //размер территории 9x6x9
         })
-        .setBody(Color.of('#FFD700'))
-        .setStripes(Color.of('#FFA500'))
+        .setBody(Color.of('#ffe345'))
+        .setStripes(Color.of('#f5ba4d'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(true)
@@ -298,7 +298,7 @@ ForestryEvents.apiculture(apiculture => {
         .setHumidity('NORMAL')
         .setGlint(true)
         .setAuthority('LavaExcess');
-    // Марс (с продуктами)
+    // Марс 
     apiculture.registerSpecies('lexlav:martian_bee', 'diapis', 'martis', true, Color.of('#B22222'))
         .addProduct('lexlav:martian_comb', 0.25)
         .addProduct('ad_astra:ostrum_nugget', 1)
@@ -328,7 +328,7 @@ ForestryEvents.apiculture(apiculture => {
         .setGlint(true)
         .setAuthority('LavaExcess');
     // Фобос
-    apiculture.registerSpecies('lexlav:phobos_bee', 'diapis', 'phobos', true, Color.of('#8B4513'))
+    apiculture.registerSpecies('lexlav:phobos_bee', 'diapis', 'phobos', true, Color.of('#f0e7e1'))
         .addProduct('lexlav:phobos_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/phobos_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/phobos_boulder', 0.75)
@@ -348,8 +348,8 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#8B4513'))
-        .setStripes(Color.of('#7c3807'))
+        .setBody(Color.of('#eee2da'))
+        .setStripes(Color.of('#96928f'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
@@ -382,7 +382,7 @@ ForestryEvents.apiculture(apiculture => {
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Астероиды
-    apiculture.registerSpecies('lexlav:asteroids_bee', 'diapis', 'asteroides', true, Color.of('#B8860B'))
+    apiculture.registerSpecies('lexlav:asteroids_bee', 'diapis', 'asteroides', true, Color.of('#585857'))
         .addProduct('lexlav:asteroids_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/asteroids_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/asteroids_boulder', 0.75)
@@ -402,14 +402,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#B8860B'))
-        .setStripes(Color.of('#B8860B'))
+        .setBody(Color.of('#686867'))
+        .setStripes(Color.of('#727170'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Церера
-    apiculture.registerSpecies('lexlav:ceres_bee', 'diapis', 'cereris', true, Color.of('#CD7F32'))
+    apiculture.registerSpecies('lexlav:ceres_bee', 'diapis', 'cereris', true, Color.of('#b3b3b3'))
         .addProduct('lexlav:ceres_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/ceres_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/ceres_boulder', 0.75)
@@ -429,14 +429,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#CD7F32'))
-        .setStripes(Color.of('#CD7F32'))
+        .setBody(Color.of('#dadada'))
+        .setStripes(Color.of('#8a827b'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Ио
-    apiculture.registerSpecies('lexlav:io_bee', 'diapis', 'io', true, Color.of('#FF4500'))
+    apiculture.registerSpecies('lexlav:io_bee', 'diapis', 'io', true, Color.of('#c4e021'))
         .addProduct('lexlav:io_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/io_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/io_boulder', 0.75)
@@ -456,14 +456,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#FF4500'))
-        .setStripes(Color.of('#FF4500'))
+        .setBody(Color.of('#bed303'))
+        .setStripes(Color.of('#596304'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Европа
-    apiculture.registerSpecies('lexlav:europe_bee', 'diapis', 'europa', true, Color.of('#00FA9A'))
+    apiculture.registerSpecies('lexlav:europe_bee', 'diapis', 'europa', true, Color.of('#c7c4b2'))
         .addProduct('lexlav:europe_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/europe_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/europe_boulder', 0.75)
@@ -483,14 +483,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#00FA9A'))
-        .setStripes(Color.of('#00FA9A'))
+        .setBody(Color.of('#b9b691'))
+        .setStripes(Color.of('#8b8a69'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Ганимед
-    apiculture.registerSpecies('lexlav:ganymede_bee', 'diapis', 'ganymedis', true, Color.of('#4682B4'))
+    apiculture.registerSpecies('lexlav:ganymede_bee', 'diapis', 'ganymedis', true, Color.of('#7c6b60'))
         .addProduct('lexlav:ganymede_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/ganymede_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/ganymede_boulder', 0.75)
@@ -510,14 +510,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#4682B4'))
-        .setStripes(Color.of('#4682B4'))
+        .setBody(Color.of('#927249'))
+        .setStripes(Color.of('#504635'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Каллисто
-    apiculture.registerSpecies('lexlav:callisto_bee', 'diapis', 'callistus', true, Color.of('#2E8B57'))
+    apiculture.registerSpecies('lexlav:callisto_bee', 'diapis', 'callistus', true, Color.of('#8f6a33'))
         .addProduct('lexlav:callisto_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/callisto_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/callisto_boulder', 0.75)
@@ -537,8 +537,8 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#2E8B57'))
-        .setStripes(Color.of('#2E8B57'))
+        .setBody(Color.of('#a87a34'))
+        .setStripes(Color.of('#685943'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
@@ -598,7 +598,7 @@ ForestryEvents.apiculture(apiculture => {
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Тефия
-    apiculture.registerSpecies('lexlav:tethys_bee', 'diapis', 'tethys', true, Color.of('#B0E0E6'))
+    apiculture.registerSpecies('lexlav:tethys_bee', 'diapis', 'tethys', true, Color.of('#6c7d80'))
         .addProduct('lexlav:tethys_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/tethys_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/tethys_boulder', 0.75)
@@ -618,14 +618,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#B0E0E6'))
-        .setStripes(Color.of('#B0E0E6'))
+        .setBody(Color.of('#6c7f81'))
+        .setStripes(Color.of('#414b4d'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Диона
-    apiculture.registerSpecies('lexlav:dione_bee', 'diapis', 'dione', true, Color.of('#F5F5DC'))
+    apiculture.registerSpecies('lexlav:dione_bee', 'diapis', 'dione', true, Color.of('#838379'))
         .addProduct('lexlav:dione_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/dione_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/dione_boulder', 0.75)
@@ -645,14 +645,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#F5F5DC'))
-        .setStripes(Color.of('#F5F5DC'))
+        .setBody(Color.of('#9c9c8c'))
+        .setStripes(Color.of('#6e6e62'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Рея
-    apiculture.registerSpecies('lexlav:rhea_bee', 'diapis', 'rhea', true, Color.of('#D2B48C'))
+    apiculture.registerSpecies('lexlav:rhea_bee', 'diapis', 'rhea', true, Color.of('#474643'))
         .addProduct('lexlav:rhea_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/rhea_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/rhea_boulder', 0.75)
@@ -672,14 +672,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#D2B48C'))
-        .setStripes(Color.of('#D2B48C'))
+        .setBody(Color.of('#464340'))
+        .setStripes(Color.of('#423f3c'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Титан
-    apiculture.registerSpecies('lexlav:titan_bee', 'diapis', 'titanis', true, Color.of('#FFA500'))
+    apiculture.registerSpecies('lexlav:titan_bee', 'diapis', 'titanis', true, Color.of('#ffb52d'))
         .addProduct('lexlav:titan_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/titan_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/titan_boulder', 0.75)
@@ -699,14 +699,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#FFA500'))
-        .setStripes(Color.of('#FFA500'))
+        .setBody(Color.of('#fdb838'))
+        .setStripes(Color.of('#f8cb77'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Миранда
-    apiculture.registerSpecies('lexlav:miranda_bee', 'diapis', 'miranda', true, Color.of('#E6E6FA'))
+    apiculture.registerSpecies('lexlav:miranda_bee', 'diapis', 'miranda', true, Color.of('#7a7a91'))
         .addProduct('lexlav:miranda_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/miranda_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/miranda_boulder', 0.75)
@@ -726,14 +726,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#E6E6FA'))
-        .setStripes(Color.of('#E6E6FA'))
+        .setBody(Color.of('#636380'))
+        .setStripes(Color.of('#4b4b63'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Ариэль
-    apiculture.registerSpecies('lexlav:ariel_bee', 'diapis', 'ariel', true, Color.of('#ADD8E6'))
+    apiculture.registerSpecies('lexlav:ariel_bee', 'diapis', 'ariel', true, Color.of('#5a696e'))
         .addProduct('lexlav:ariel_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/ariel_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/ariel_boulder', 0.75)
@@ -753,14 +753,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#ADD8E6'))
-        .setStripes(Color.of('#ADD8E6'))
+        .setBody(Color.of('#59496b'))
+        .setStripes(Color.of('#54465e'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Умбриэль
-    apiculture.registerSpecies('lexlav:umbriel_bee', 'diapis', 'umbriel', true, Color.of('#483D8B'))
+    apiculture.registerSpecies('lexlav:umbriel_bee', 'diapis', 'umbriel', true, Color.of('#7c71c0'))
         .addProduct('lexlav:umbriel_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/umbriel_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/umbriel_boulder', 0.75)
@@ -780,14 +780,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#483D8B'))
-        .setStripes(Color.of('#483D8B'))
+        .setBody(Color.of('#60598d'))
+        .setStripes(Color.of('#615e72'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Титания
-    apiculture.registerSpecies('lexlav:titania_bee', 'diapis', 'titania', true, Color.of('#9370DB'))
+    apiculture.registerSpecies('lexlav:titania_bee', 'diapis', 'titania', true, Color.of('#5c3d0f'))
         .addProduct('lexlav:titania_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/titania_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/titania_boulder', 0.75)
@@ -807,14 +807,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#9370DB'))
-        .setStripes(Color.of('#9370DB'))
+        .setBody(Color.of('#ac9675'))
+        .setStripes(Color.of('#7e6a4b'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Оберон
-    apiculture.registerSpecies('lexlav:oberon_bee', 'diapis', 'oberon', true, Color.of('#7B68EE'))
+    apiculture.registerSpecies('lexlav:oberon_bee', 'diapis', 'oberon', true, Color.of('#643509'))
         .addProduct('lexlav:oberon_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/oberon_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/oberon_boulder', 0.75)
@@ -834,14 +834,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#7B68EE'))
-        .setStripes(Color.of('#7B68EE'))
+        .setBody(Color.of('#805024'))
+        .setStripes(Color.of('#583e24'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Тритон
-    apiculture.registerSpecies('lexlav:triton_bee', 'diapis', 'triton', true, Color.of('#20B2AA'))
+    apiculture.registerSpecies('lexlav:triton_bee', 'diapis', 'triton', true, Color.of('#c4f3f1'))
         .addProduct('lexlav:triton_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/triton_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/triton_boulder', 0.75)
@@ -861,14 +861,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#20B2AA'))
-        .setStripes(Color.of('#20B2AA'))
+        .setBody(Color.of('#cbfaf8'))
+        .setStripes(Color.of('#c6e9e8'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Протей
-    apiculture.registerSpecies('lexlav:proteus_bee', 'diapis', 'proteus', true, Color.of('#778899'))
+    apiculture.registerSpecies('lexlav:proteus_bee', 'diapis', 'proteus', true, Color.of('#c0d6ec'))
         .addProduct('lexlav:proteus_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/proteus_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/proteus_boulder', 0.75)
@@ -888,14 +888,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#778899'))
-        .setStripes(Color.of('#778899'))
+        .setBody(Color.of('#bad3ec'))
+        .setStripes(Color.of('#acadaf'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Плутон
-    apiculture.registerSpecies('lexlav:pluto_bee', 'diapis', 'pluto', true, Color.of('#CD853F'))
+    apiculture.registerSpecies('lexlav:pluto_bee', 'diapis', 'pluto', true, Color.of('#f7d3af'))
         .addProduct('lexlav:pluto_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/pluto_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/pluto_boulder', 0.75)
@@ -915,14 +915,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#CD853F'))
+        .setBody(Color.of('#f8e0c7'))
         .setStripes(Color.of('#CD853F'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Харон
-    apiculture.registerSpecies('lexlav:charon_bee', 'diapis', 'charon', true, Color.of('#696969'))
+    apiculture.registerSpecies('lexlav:charon_bee', 'diapis', 'charon', true, Color.of('#fff3f3'))
         .addProduct('lexlav:charon_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/charon_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/charon_boulder', 0.75)
@@ -942,14 +942,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#696969'))
-        .setStripes(Color.of('#696969'))
+        .setBody(Color.of('#f3dfdf'))
+        .setStripes(Color.of('#a3a3a3'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Макемаке
-    apiculture.registerSpecies('lexlav:makemake_bee', 'diapis', 'makemake', true, Color.of('#9ACD32'))
+    apiculture.registerSpecies('lexlav:makemake_bee', 'diapis', 'makemake', true, Color.of('#cd6b32'))
         .addProduct('lexlav:makemake_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/makemake_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/makemake_boulder', 0.75)
@@ -969,14 +969,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#9ACD32'))
-        .setStripes(Color.of('#9ACD32'))
+        .setBody(Color.of('#b83c26'))
+        .setStripes(Color.of('#7c1e12'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Хаумеа
-    apiculture.registerSpecies('lexlav:haumea_bee', 'diapis', 'haumea', true, Color.of('#FF69B4'))
+    apiculture.registerSpecies('lexlav:haumea_bee', 'diapis', 'haumea', true, Color.of('#ffe9f4'))
         .addProduct('lexlav:haumea_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/haumea_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/haumea_boulder', 0.75)
@@ -996,14 +996,14 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#FF69B4'))
-        .setStripes(Color.of('#FF69B4'))
+        .setBody(Color.of('#f7d4e5'))
+        .setStripes(Color.of('#ad9292'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')
         .setGlint(false)
         .setAuthority('LavaExcess');
     // Эрида
-    apiculture.registerSpecies('lexlav:eris_bee', 'diapis', 'eris', true, Color.of('#4B0082'))
+    apiculture.registerSpecies('lexlav:eris_bee', 'diapis', 'eris', true, Color.of('#debaf7'))
         .addProduct('lexlav:eris_comb', 0.25)
         .addProduct('industrialupgrade:itemspace/eris_pebble', 1.0)
         .addSpecialty('industrialupgrade:itemspace/eris_boulder', 0.75)
@@ -1023,7 +1023,7 @@ ForestryEvents.apiculture(apiculture => {
             genome.set(BeeChromosomes.POLLINATION, ForestryAlleles.POLLINATION_SLOWEST);
             genome.set(BeeChromosomes.TERRITORY, ForestryAlleles.TERRITORY_AVERAGE);
         })
-        .setBody(Color.of('#4B0082'))
+        .setBody(Color.of('#a196a8'))
         .setStripes(Color.of('#4B0082'))
         .setTemperature('NORMAL')
         .setHumidity('NORMAL')

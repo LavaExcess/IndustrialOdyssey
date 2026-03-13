@@ -20,7 +20,10 @@
 	quests: [
 		{
 			dependencies: ["78425DC3875B9854"]
-			description: ["Две самые первые вещи, которые тебе понадобятся в AE2, — это &bЗарядное устройство&f и &bПечатная плата&f.\\n\\n&bЗарядное устройство&f, если подать на него энергию, будет заряжать &eкристаллы кварца Certus&r. Эти &eзаряженные кристаллы&r затем можно использовать для создания &eFluix&f, ещё одного важного ресурса мода. Также оно может заряжать любые предметы, которые хранят энергию.\\n\\n&bПечатная плата&f позволяет превращать различные кварцевые кристаллы AE2 в пыль, но, что более важно, она используется для изготовления специальных &eпечатных схем&f и &eпроцессоров&f, как станет ясно в следующем квесте."]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest1.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest1.description2}"
+			]
 			id: "68B0B3DAF1145191"
 			rewards: [
 				{
@@ -41,7 +44,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Первые механизмы"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest1.subtitle}"
 			tasks: [
 				{
 					id: "29C4195E8366DBDD"
@@ -54,13 +57,13 @@
 					type: "item"
 				}
 			]
-			title: "Сначала самое главное"
+			title: "{ftbquests.chapter.applied_energistics_2.quest1.title}"
 			x: 2.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["68B0B3DAF1145191"]
-			description: ["Пора найти &eметеориты&f, содержащие &bНебесный камень&f. Они могут быть как на поверхности, так и под землёй, а в центре такого метеорита находится &bТаинственный куб&f.\\n\\nЭтот куб содержит все виды &eпресс-форм&f, используемых в Печатной плате для создания особых компонентов AE2.\\n\\nПроще всего найти метеорит, создав &eМетеоритный компас&r, поместив обычный компас в Зарядное устройство."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest2.description1}"]
 			icon: "ae2:calculation_processor_press"
 			id: "51236544BFEF487B"
 			rewards: [
@@ -82,7 +85,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "В поисках метеорита"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest2.subtitle}"
 			tasks: [
 				{
 					id: "4D57E005D20BEDB9"
@@ -96,13 +99,13 @@
 					type: "advancement"
 				}
 			]
-			title: "Охота за метеоритами"
+			title: "{ftbquests.chapter.applied_energistics_2.quest2.title}"
 			x: 4.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["68B0B3DAF1145191"]
-			description: ["Хотя Печатная плата и Зарядное устройство могут работать от RF/FE, подавляющее большинство ME-сети использует собственную систему энергии, называемую AE.\\n\\nRF/FE можно преобразовать в AE в соотношении 2:1 (RF:AE) либо напрямую через ME-контроллер, либо через &bПриёмник энергии&f, который можно подключить к любой части сети."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest3.description1}"]
 			id: "00611844AFD5C31E"
 			rewards: [
 				{
@@ -123,19 +126,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Подключайся"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest3.subtitle}"
 			tasks: [{
 				id: "5B4DDF66C36AF356"
 				item: "ae2:energy_acceptor"
 				type: "item"
 			}]
-			title: "Приёмник энергии"
+			title: "{ftbquests.chapter.applied_energistics_2.quest3.title}"
 			x: 3.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["00611844AFD5C31E"]
-			description: ["По умолчанию ME-сеть без контроллера имеет внутренний буфер всего 800 AE. Контроллер добавляет по 8k AE на каждый блок. Для больших сетей этого может не хватить, и сеть будет периодически отключаться при попытке перераспределить энергию для подключённых устройств.\\n\\n&bЭнергоячейка&f позволяет ME-сети хранить значительно больше энергии, добавляя 200k AE на обычную ячейку и 1.6M AE на &bплотную&f энергоячейку. Их можно размещать в любом месте сети."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest4.description1}"]
 			id: "037488EF1F3581CE"
 			rewards: [
 				{
@@ -176,13 +179,13 @@
 					type: "item"
 				}
 			]
-			title: "Энергоячейка"
+			title: "{ftbquests.chapter.applied_energistics_2.quest4.title}"
 			x: 5.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["51236544BFEF487B"]
-			description: ["Как только у тебя будет полный набор необходимых &eпресс-форм&r, пора приступать к созданию &eпроцессоров&f. Это важный компонент для создания подавляющего большинства ME-устройств."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest5.description1}"]
 			id: "15564C11744D6AA0"
 			rewards: [
 				{
@@ -220,13 +223,13 @@
 					type: "item"
 				}
 			]
-			title: "Процессоры"
+			title: "{ftbquests.chapter.applied_energistics_2.quest5.title}"
 			x: 6.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["68B0B3DAF1145191"]
-			description: ["Пожалуй, самый важный ресурс, который понадобится тебе дальше, — это &eFluix&f. Он используется в подавляющем большинстве устройств AE2 и служит основой для создания всех кабелей ME-сети.\\n\\nТебе нужно будет производить его в больших количествах. Для создания &bкристалла Fluix&f брось &eкварц Нижнего мира&f, &e&oзаряженный&r&e кварц Certus&f и &eкрасную пыль&f в одну кучу в воде. Это даст тебе &eкристалл Fluix&r, который затем можно превратить в пыль в Печатной плате."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest6.description1}"]
 			icon: "ae2:fluix_crystal"
 			id: "4BF0BB763BFFACF0"
 			rewards: [
@@ -260,13 +263,17 @@
 					type: "item"
 				}
 			]
-			title: "Кристаллы Fluix"
+			title: "{ftbquests.chapter.applied_energistics_2.quest6.title}"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4BF0BB763BFFACF0"]
-			description: ["Чтобы соединить большую часть ME-сети, тебе понадобятся кабели. &eСтеклянный кабель ME&f — самый первый и базовый тип кабеля. Ты будешь делать их постоянно, как первый шаг к созданию других видов кабелей.\\n\\nКак стеклянные кабели, так и их &eпокрытые&f аналоги могут передавать до 8 каналов на один сегмент кабеля. В отличие от стеклянных, покрытые кабели можно затем превратить в &eплотные&f покрытые кабели, способные передавать до 32 каналов. Однако большинство устройств (например, шины и терминалы) нельзя напрямую подключить к плотным кабелям — для соединения нужны кабели обычной ширины.\\n\\nВсе кабели можно красить. Неокрашенные (Fluix) кабели могут соединяться с любым другим цветом, но иначе кабели разных цветов никогда не будут соединяться друг с другом."]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest7.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest7.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest7.description3}"
+			]
 			id: "5C22E3103544B120"
 			min_width: 300
 			rewards: [
@@ -311,13 +318,13 @@
 					type: "item"
 				}
 			]
-			title: "Базовые кабели"
+			title: "{ftbquests.chapter.applied_energistics_2.quest7.title}"
 			x: 5.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["15564C11744D6AA0"]
-			description: ["&eТерминалы&f предоставляют доступ к содержимому ME-сети. Обычный &eтерминал ME&f просто отображает всё содержимое сети в виде одной большой сетки, из которой можно брать и класть предметы, как из одного инвентаря.\\n\\n&eТерминал крафта ME&f — это расширение обычного терминала, которое также содержит встроенную сетку крафта, позволяя удобно крафтить из любых предметов, хранящихся в сети."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest8.description1}"]
 			id: "22C4318523A43B49"
 			rewards: [
 				{
@@ -338,13 +345,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "Терминалы"
 			tasks: [{
 				id: "6C7282A058006A21"
 				item: "ae2:terminal"
 				type: "item"
 			}]
-			title: "Терминалы"
+			title: "{ftbquests.chapter.applied_energistics_2.quest8.title}"
 			x: 8.0d
 			y: 0.5d
 		}
@@ -353,7 +359,7 @@
 				"40A7CC56DACC2623"
 				"2F16B6A173525277"
 			]
-			description: ["Самый важный аспект Applied Energistics 2 — это его система хранения, использующая цифровые &eячейки хранения&f. Доступ к ним осуществляется либо через &eсундук ME&r для одной ячейки, либо через &eпривод ME&r для нескольких ячеек.\\n\\n&bСундук ME&f вмещает одну ячейку, и к её содержимому можно получить доступ из любого терминала в сети. Также у сундука есть собственный экран терминала сверху, дающий доступ только к помещённой в него ячейке.\\n\\n&bПривод ME&f может вмещать до 10 различных ячеек хранения в одном блоке и использует один канал ME. Однако у него нет своего терминала, поэтому для доступа к хранилищу нужен внешний терминал."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest9.description1}"]
 			id: "4E8A05C3BFA80540"
 			rewards: [
 				{
@@ -375,7 +381,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "Предметы как файловая система"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest9.subtitle}"
 			tasks: [
 				{
 					id: "74AA3FA06B3574A8"
@@ -388,13 +394,13 @@
 					type: "item"
 				}
 			]
-			title: "Хранилище"
+			title: "{ftbquests.chapter.applied_energistics_2.quest9.title}"
 			x: 11.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["40A7CC56DACC2623"]
-			description: ["Чтобы облегчить себе жизнь, AE2 предлагает целый набор устройств для управления ME-данными, т.е. перемещения предметов по миру.\\n\\n&bИнтерфейс ME&f — одно из таких устройств. Как принимающее устройство, интерфейс позволяет помещать в него предметы/жидкости извне (например, трубами), которые затем автоматически сохраняются в подключённой ME-сети.\\n\\nКак выдающее устройство, интерфейс можно настроить на поддержание определённого запаса предмета из ME-сети в своём внутреннем инвентаре. Это позволяет внешнему потребителю (игроку или механизму) забирать эти предметы."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest10.description1}"]
 			icon: "ae2:interface"
 			id: "74FC0DDDB91DB172"
 			rewards: [
@@ -418,14 +424,13 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Ввод-вывод"
 			tasks: [{
 				id: "7241918F270CA402"
 				item: "ae2:interface"
 				title: "Интерфейс ME"
 				type: "item"
 			}]
-			title: "Ввод-вывод"
+			title: "{ftbquests.chapter.applied_energistics_2.quest10.title}"
 			x: 24.0d
 			y: 1.5d
 		}
@@ -434,7 +439,7 @@
 				"40A7CC56DACC2623"
 				"74FC0DDDB91DB172"
 			]
-			description: ["&bШина импорта ME&f периодически забирает предметы из внешнего хранилища, к которому она подключена. При желании её можно настроить на приём только определённых предметов из этого инвентаря."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest11.description1}"]
 			id: "5E7E35CCAF1C88EE"
 			rewards: [
 				{
@@ -456,19 +461,18 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Шина импорта"
 			tasks: [{
 				id: "060BD30C77262BDA"
 				item: "ae2:import_bus"
 				type: "item"
 			}]
-			title: "Шина импорта ME"
+			title: "{ftbquests.chapter.applied_energistics_2.quest11.title}"
 			x: 23.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["74FC0DDDB91DB172"]
-			description: ["&bШина экспорта ME&f периодически выбрасывает предметы из своего белого списка во внешнее хранилище, к которому подключена. В отличие от шины импорта, шина экспорта не может работать без фильтра."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest12.description1}"]
 			id: "083D458032F0325C"
 			rewards: [
 				{
@@ -490,19 +494,18 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Шина экспорта"
 			tasks: [{
 				id: "6D6E070CB7998FA1"
 				item: "ae2:export_bus"
 				type: "item"
 			}]
-			title: "Шина экспорта ME"
+			title: "{ftbquests.chapter.applied_energistics_2.quest12.title}"
 			x: 25.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["5E7E35CCAF1C88EE"]
-			description: ["&bПлоскость уничтожения ME&f можно использовать для автоматического разрушения блоков перед собой. Всё, что выпадает при разрушении, отправляется прямиком в ME-сеть.\\n\\nКроме того, плоскость уничтожения можно зачаровывать так же, как обычный инструмент, и это повлияет на добычу соответствующим образом. Например, с чарами Удача она идеально подходит для переработки руд.\\nЛюбые наложенные чары значительно увеличивают потребление энергии плоскостью при разрушении блока. Эффективность снижает общее потребление от всех других чар, а Прочность даёт шанс не тратить энергию иногда, как и на обычных инструментах."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest13.description1}"]
 			id: "6C1DE9E63DAC603B"
 			rewards: [
 				{
@@ -524,19 +527,18 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Плоскость уничтожения"
 			tasks: [{
 				id: "32AE42F588C42AB6"
 				item: "ae2:annihilation_plane"
 				type: "item"
 			}]
-			title: "Плоскость уничтожения ME"
+			title: "{ftbquests.chapter.applied_energistics_2.quest13.title}"
 			x: 23.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["083D458032F0325C"]
-			description: ["&bПлоскость формирования ME&f действует аналогично шине хранения, но использует сам мир как среду хранения. Проще говоря, она размещает блок из своего фильтра прямо перед собой.\\n\\nЭто может быть полезно в ситуациях, когда блок нужно просто поставить и затем разрушить определённым инструментом."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest14.description1}"]
 			id: "4803F782F380718B"
 			rewards: [
 				{
@@ -558,19 +560,18 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Плоскость формирования"
 			tasks: [{
 				id: "4EBEE0A30321642B"
 				item: "ae2:formation_plane"
 				type: "item"
 			}]
-			title: "Плоскость формирования ME"
+			title: "{ftbquests.chapter.applied_energistics_2.quest14.title}"
 			x: 25.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["74FC0DDDB91DB172"]
-			description: ["Система &bP2P&f (peer-to-peer, «равный к равному») — мощная функция AE2, позволяющая передавать предметы, жидкости и многое другое без необходимости в промежуточном ME-хранилище.\\n\\nЕсли кликнуть ПКМ по P2P-туннелю определённым предметом, его можно &eнастроить&f на передачу чего-то другого: предметов (через трубы), энергии (через провода), редстоун-сигналов и (по умолчанию) даже самих ME-соединений.\\n\\nP2P-туннели нужно связывать друг с другом с помощью &eкарты памяти&f, о которой подробнее в следующем квесте."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest15.description1}"]
 			id: "1710B3D05215A71E"
 			rewards: [
 				{
@@ -592,19 +593,18 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "P2P-туннели"
 			tasks: [{
 				id: "36A7C775D94798EE"
 				item: "ae2:me_p2p_tunnel"
 				type: "item"
 			}]
-			title: "P2P-туннели"
+			title: "{ftbquests.chapter.applied_energistics_2.quest15.title}"
 			x: 26.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["74FC0DDDB91DB172"]
-			description: ["&bШина хранения ME&f, если её направить на внешний контейнер, позволяет использовать этот контейнер так, словно он является частью ME-сети. Предметы можно извлекать из него или помещать в него прямо через ME.\\n\\nШины хранения можно фильтровать и задавать им приоритет, чтобы определённые предметы сначала попадали в подключённое хранилище, но они не будут перемещать отфильтрованные предметы из других частей сети в это хранилище задним числом."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest16.description1}"]
 			id: "7EFBAF3E281D2EBE"
 			rewards: [
 				{
@@ -626,19 +626,18 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Шина хранения"
 			tasks: [{
 				id: "294FA6663BE38B7C"
 				item: "ae2:storage_bus"
 				type: "item"
 			}]
-			title: "Шина хранения ME"
+			title: "{ftbquests.chapter.applied_energistics_2.quest16.title}"
 			x: 24.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["1710B3D05215A71E"]
-			description: ["&bКарта памяти&f — инструмент с двумя функциями. Самая простая — сохранение конфигурации различных устройств (например, белых списков) для копирования на другое устройство того же типа.\\n\\nВторая функция карты памяти — связывание &eP2P-туннелей&f. При связывании туннелю присваивается уникальный ID, который сохраняется на карте памяти для дальнейшего использования."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest17.description1}"]
 			id: "55186B8602689B66"
 			rewards: [
 				{
@@ -670,13 +669,13 @@
 				title: "Карта памяти"
 				type: "item"
 			}]
-			title: "Карта памяти"
+			title: "{ftbquests.chapter.applied_energistics_2.quest17.title}"
 			x: 26.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["74FC0DDDB91DB172"]
-			description: ["Важная концепция AE2 — использование &eподсетей&f. Это отдельная ME-сеть, которая работает вместе с основной для выполнения специализированных задач.\\n\\nПодсеть обычно отделяется от основной с помощью &bКварцевого волокна&f. Если разместить его между двумя не соединёнными иначе отрезками кабеля, волокно не будет передавать данные или каналы, только энергию.\\n\\nТаким образом, подсеть может питаться от основного источника энергии без необходимости отдельного генератора."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest18.description1}"]
 			id: "2077D64428E9C067"
 			rewards: [
 				{
@@ -698,19 +697,19 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Это пригодится не только для крафта кабелей"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest18.subtitle}"
 			tasks: [{
 				id: "05A8DD006B623032"
 				item: "ae2:quartz_fiber"
 				type: "item"
 			}]
-			title: "Чуть не забыл"
+			title: "{ftbquests.chapter.applied_energistics_2.quest18.title}"
 			x: 25.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["5C22E3103544B120"]
-			description: ["Теперь, когда у тебя есть всё необходимое, пора поговорить о самом важном: &eканалах&f.\\n\\nВ Applied Energistics 2 каждая ME-сеть имеет определённое количество доступных &eканалов&f. Это, по сути, ограничение на количество устройств, которые могут быть одновременно подключены к сети.\\n\\nЛюбое устройство, которое непосредственно работает с ME-данными (хранит, передаёт) и выполняет ввод-вывод, занимает канал. Компоненты, отвечающие только за внутреннее питание, например &eэнергоячейки&f и &eпечатные платы&f, каналы &oне&r занимают.\\n\\nСети без &bME-контроллера&f называются «одноранговыми» и поддерживают максимум 8 каналов."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest19.description1}"]
 			id: "78311531069807DE"
 			rewards: [
 				{
@@ -736,7 +735,7 @@
 				id: "7E0D9E6342295AB0"
 				type: "checkmark"
 			}]
-			title: "Предисловие о каналах"
+			title: "{ftbquests.chapter.applied_energistics_2.quest19.title}"
 			x: 7.0d
 			y: 1.5d
 		}
@@ -745,7 +744,7 @@
 				"22C4318523A43B49"
 				"78311531069807DE"
 			]
-			description: ["Последний элемент пазла для любой большой ME-сети — &bME-контроллер&f.\\n\\nКонтроллер даёт сети гораздо больше каналов, чем стандартные 8 для одноранговых сетей: 32 канала с каждой грани блока, то есть до 216 каналов от одного блока.\\n\\nНо это только для одного блока. На самом деле ME-контроллер — многоблочная структура. Его размер может достигать 7x7x7 блоков, и его можно собирать в любой форме в пределах этого объёма. Каждый отдельный блок контроллера добавляет свои собственные каналы, при условии, что ни один блок не окружён четырьмя другими по одной плоскости.\\n\\nВ ME-сети может быть только один многоблочный контроллер. Попытка соединить два контроллера в разных частях сети приведёт к конфликту и отключению всей сети."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest20.description1}"]
 			id: "2F16B6A173525277"
 			rewards: [
 				{
@@ -773,13 +772,13 @@
 				item: "ae2:controller"
 				type: "item"
 			}]
-			title: "ME-контроллер"
+			title: "{ftbquests.chapter.applied_energistics_2.quest20.title}"
 			x: 9.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["22C4318523A43B49"]
-			description: ["&bИнструмент для работы с сетью&f — важный инструмент AE2, который отображает на экране различные параметры сети: потребление энергии, объём хранилища и т.д.\\n\\nВ качестве бонуса у него есть небольшой инвентарь для &eмодулей&f. Если открыть интерфейс любого устройства, поддерживающего модули, можно быстро их переставлять, используя инвентарь этого инструмента. Но он не может вращать блоки сети, как обычный гаечный ключ, только демонтировать их (приседая)."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest21.description1}"]
 			id: "6431A384DDFBF439"
 			rewards: [
 				{
@@ -805,13 +804,13 @@
 				item: "ae2:network_tool"
 				type: "item"
 			}]
-			title: "Инструменты сети"
+			title: "{ftbquests.chapter.applied_energistics_2.quest21.title}"
 			x: 9.0d
-			y: -0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4E8A05C3BFA80540"]
-			description: ["У каждой ячейки есть определённая ёмкость, зависящая от &eкомпонента&f, с которым она сделана.\\n\\nПервый из компонентов — &bКомпонент хранилища ME 1k&f, дающий &e1024&f «байта» памяти для ячейки. Подробнее об этом позже."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest22.description1}"]
 			id: "2FB231069D2E4E77"
 			rewards: [
 				{
@@ -833,13 +832,13 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Первый килобайт"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest22.subtitle}"
 			tasks: [{
 				id: "64CCF1FB42AA41CE"
 				item: "ae2:cell_component_1k"
 				type: "item"
 			}]
-			title: "Создание первой ячейки хранения"
+			title: "{ftbquests.chapter.applied_energistics_2.quest22.title}"
 			x: 13.0d
 			y: 1.5d
 		}
@@ -848,7 +847,7 @@
 				"64CCF1FB42AA41CE"
 				"2FB231069D2E4E77"
 			]
-			description: ["Второй уровень компонента хранения, дающий &e4096&f байт."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest23.description1}"]
 			id: "3B42CCC19D23EC6D"
 			rewards: [
 				{
@@ -870,13 +869,13 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "x4"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest23.subtitle}"
 			tasks: [{
 				id: "066F1BBF3D0863C5"
 				item: "ae2:cell_component_4k"
 				type: "item"
 			}]
-			title: "4k Компонент хранилища"
+			title: "{ftbquests.chapter.applied_energistics_2.quest23.title}"
 			x: 15.0d
 			y: 3.5d
 		}
@@ -885,7 +884,7 @@
 				"066F1BBF3D0863C5"
 				"3B42CCC19D23EC6D"
 			]
-			description: ["Третий уровень компонента хранения, дающий &e16384&f байта."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest24.description1}"]
 			id: "219932CB19258C16"
 			rewards: [
 				{
@@ -907,13 +906,13 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "x4²"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest24.subtitle}"
 			tasks: [{
 				id: "076237ECA6D5DE58"
 				item: "ae2:cell_component_16k"
 				type: "item"
 			}]
-			title: "16k Компонент хранилища"
+			title: "{ftbquests.chapter.applied_energistics_2.quest24.title}"
 			x: 14.5d
 			y: 4.0d
 		}
@@ -922,7 +921,7 @@
 				"076237ECA6D5DE58"
 				"219932CB19258C16"
 			]
-			description: ["Четвёртый уровень компонента хранения, дающий &e65536&f байт."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest25.description1}"]
 			id: "523853C1C4E688BA"
 			rewards: [
 				{
@@ -944,13 +943,13 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "x4³"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest25.subtitle}"
 			tasks: [{
 				id: "32FFC36DEEA7792D"
 				item: "ae2:cell_component_64k"
 				type: "item"
 			}]
-			title: "64k Компонент хранилища"
+			title: "{ftbquests.chapter.applied_energistics_2.quest25.title}"
 			x: 15.0d
 			y: 4.5d
 		}
@@ -959,7 +958,7 @@
 				"32FFC36DEEA7792D"
 				"523853C1C4E688BA"
 			]
-			description: ["Пятый и последний стандартный уровень компонента хранения AE2, дающий &e262144&f байта."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest26.description1}"]
 			id: "5F56892CD904C40F"
 			rewards: [
 				{
@@ -981,13 +980,13 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "x4⁴"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest26.subtitle}"
 			tasks: [{
 				id: "2C4616CD2EBB58C6"
 				item: "ae2:cell_component_256k"
 				type: "item"
 			}]
-			title: "256k Компонент хранилища"
+			title: "{ftbquests.chapter.applied_energistics_2.quest26.title}"
 			x: 15.5d
 			y: 4.0d
 		}
@@ -996,7 +995,7 @@
 				"2C4616CD2EBB58C6"
 				"5F56892CD904C40F"
 			]
-			description: ["&bКомпонент хранилища MEGA 1M&f, дающий 1024 &oкилобайта&r, т.е. &e1048576&f байт."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest27.description1}"]
 			id: "460A8F17F3ED6CAF"
 			rewards: [
 				{
@@ -1019,13 +1018,13 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Первый МЕГАбайт"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest27.subtitle}"
 			tasks: [{
 				id: "19BF2D67291056DE"
 				item: "megacells:cell_component_1m"
 				type: "item"
 			}]
-			title: "1M Компонент хранилища"
+			title: "{ftbquests.chapter.applied_energistics_2.quest27.title}"
 			x: 18.5d
 			y: 4.0d
 		}
@@ -1034,7 +1033,7 @@
 				"19BF2D67291056DE"
 				"460A8F17F3ED6CAF"
 			]
-			description: ["Второй уровень MEGA-компонента, дающий &e4194304&f байта (4096k)."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest28.description1}"]
 			id: "25DBA00422301EDC"
 			rewards: [
 				{
@@ -1061,7 +1060,7 @@
 				item: "megacells:cell_component_4m"
 				type: "item"
 			}]
-			title: "4M Компонент хранилища"
+			title: "{ftbquests.chapter.applied_energistics_2.quest28.title}"
 			x: 21.0d
 			y: 3.9999999999999996d
 		}
@@ -1070,7 +1069,7 @@
 				"32340AD4F677375F"
 				"25DBA00422301EDC"
 			]
-			description: ["Третий уровень MEGA-компонента, дающий &e16777216&f байт (16384k)."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest29.description1}"]
 			id: "0E809747193ED3A9"
 			rewards: [
 				{
@@ -1097,7 +1096,7 @@
 				item: "megacells:cell_component_16m"
 				type: "item"
 			}]
-			title: "16M Компонент хранилища"
+			title: "{ftbquests.chapter.applied_energistics_2.quest29.title}"
 			x: 21.5d
 			y: 4.499999999999998d
 		}
@@ -1106,7 +1105,7 @@
 				"76A0C582AECC4702"
 				"0E809747193ED3A9"
 			]
-			description: ["Четвёртый уровень MEGA-компонента, дающий &e67108864&f байт (65536k)."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest30.description1}"]
 			id: "3CE3D9245F8EC005"
 			rewards: [
 				{
@@ -1133,7 +1132,7 @@
 				item: "megacells:cell_component_64m"
 				type: "item"
 			}]
-			title: "64M Компонент хранилища"
+			title: "{ftbquests.chapter.applied_energistics_2.quest30.title}"
 			x: 22.0d
 			y: 3.9999999999999996d
 		}
@@ -1142,7 +1141,7 @@
 				"50CD83AC904EC47E"
 				"3CE3D9245F8EC005"
 			]
-			description: ["Пятый и последний MEGA-компонент, дающий &e268435456&f байт (262144k)."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest31.description1}"]
 			id: "51A57E142C686C8F"
 			rewards: [
 				{
@@ -1169,13 +1168,18 @@
 				item: "megacells:cell_component_256m"
 				type: "item"
 			}]
-			title: "256M Компонент хранилища"
+			title: "{ftbquests.chapter.applied_energistics_2.quest31.title}"
 			x: 21.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["2FB231069D2E4E77"]
-			description: ["Имея Компонент хранилища 1k, ты теперь можешь создать Ячейку хранения предметов ME 1k и начать свою цифровую систему хранения. Скорее всего, основная часть твоего хранилища будет занята предметами, так что тебе понадобится несколько таких ячеек.\\n\\nЯчейки хранения предметов ME могут хранить до 63 различных типов предметов. Каждый новый тип, добавленный в ячейку, занимает определённую часть от общего объёма ячейки в байтах. На каждый уже имеющийся тип приходится 1 байт, и каждый байт позволяет хранить 8 предметов этого типа.\\n\\nНапример, ячейка хранения предметов 1k, содержащая только булыжник, может вместить 8128 булыжника (8*1024б - 8б/тип * 1 тип).\\n\\nПустую ячейку можно разобрать обратно на компонент и корпус, если красться и нажать ПКМ в воздухе с ячейкой в руке."]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest32.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest32.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest32.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest32.description4}"
+			]
 			id: "361CCBD353D6FF34"
 			rewards: [
 				{
@@ -1207,13 +1211,13 @@
 				title: "Ячейка хранения предметов ME"
 				type: "item"
 			}]
-			title: "Хранение предметов"
+			title: "{ftbquests.chapter.applied_energistics_2.quest32.title}"
 			x: 16.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["361CCBD353D6FF34"]
-			description: ["Помимо обычных ячеек, можно также сделать ячейки для &bмассового хранения&f с помощью незерита.\\n\\nАддон &dMEGA Cells&f предлагает &bЯчейку массового хранения предметов&f, которая ограничена &oодним&r типом предмета, но может хранить практически &o&lбесконечное*&r количество этого типа. Перед использованием её нужно отфильтровать в Верстаке ячеек.\\n\\n*&oТехнически до «максимального long». Кто знает, тот поймёт."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest33.description1}"]
 			id: "0F03E75CF79BADD7"
 			rewards: [
 				{
@@ -1234,7 +1238,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Массовое хранение"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest33.subtitle}"
 			tasks: [{
 				id: "4C2F435902156183"
 				item: {
@@ -1244,13 +1248,13 @@
 				}
 				type: "item"
 			}]
-			title: "Массовое хранение предметов"
+			title: "{ftbquests.chapter.applied_energistics_2.quest33.title}"
 			x: 17.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["4E8A05C3BFA80540"]
-			description: ["&bВерстак ячеек&f позволяет «разметить» ячейку на хранение определённых предметов (т.е. задать белый список фильтр). Также в нём можно устанавливать в ячейку модули, например инвертирующий, который превратит белый список в чёрный.\\n\\nЧерез верстак ячейкам также можно задавать приоритет, чтобы они заполнялись в первую очередь или, наоборот, ждали, пока заполнятся другие ячейки с более высоким приоритетом."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest34.description1}"]
 			id: "7234DC43D95D0597"
 			rewards: [
 				{
@@ -1277,13 +1281,13 @@
 				item: "ae2:cell_workbench"
 				type: "item"
 			}]
-			title: "Верстак ячеек"
+			title: "{ftbquests.chapter.applied_energistics_2.quest34.title}"
 			x: 12.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["4E8A05C3BFA80540"]
-			description: ["&bПорт ввода-вывода ME&f позволяет быстро перераспределять содержимое хранилища ME между разными носителями, например, ME-ячейками и внешними контейнерами, подключёнными через шины хранения.\\n\\nЕсли поместить ячейку в левый слот (вход), порт можно переключить в режим либо опустошения ячейки в другие ME-хранилища, либо заполнения (предварительно размеченной) ячейки предметами из других хранилищ."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest35.description1}"]
 			id: "7B7D1F0CB326B28F"
 			rewards: [
 				{
@@ -1305,19 +1309,19 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Дефрагментация"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest35.subtitle}"
 			tasks: [{
 				id: "23261340EF9D48AF"
 				item: "ae2:io_port"
 				type: "item"
 			}]
-			title: "Порт ввода-вывода ME"
+			title: "{ftbquests.chapter.applied_energistics_2.quest35.title}"
 			x: 12.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["2C04B3BA507D5673"]
-			description: ["&bМолекулярный сборщик&f — аналог автоматического верстака в AE2. Он выполняет задания по &eкрафту&f из шаблонов.\\n\\nМолекулярные сборщики могут передавать энергию и каналы другим подключённым ME-устройствам, но сами канал не занимают. К одному поставщику шаблонов можно подключить до 6 сборщиков для параллельного выполнения крафта.\\n\\nУ каждого сборщика также есть отдельный слот для одного шаблона, что позволяет ему работать автономно. В этом режиме любые подходящие предметы, помещённые в сборщик, будут автоматически скрафчены в результат по шаблону."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest36.description1}"]
 			id: "4597D3B3BDC2BED5"
 			rewards: [
 				{
@@ -1344,13 +1348,13 @@
 				item: "ae2:molecular_assembler"
 				type: "item"
 			}]
-			title: "Молекулярный сборщик"
+			title: "{ftbquests.chapter.applied_energistics_2.quest36.title}"
 			x: 16.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["5C22E3103544B120"]
-			description: ["Последние три предмета — это, скорее, дополнительные игрушки от AE2, которые не совсем вписываются в остальные квесты.\\n\\n&bЗаряженный посох&f — простой питаемый посох, наносящий 3 сердца урона и тратящий 300 AE за удар. Он использует механику боя до 1.9, так что можно кликать им так же быстро, как в старые добрые времена.\\n\\n&bМанипулятор энтропии&f, если &oиспользовать&r его на некоторых блоках, переплавляет их на месте: песок в стекло, руды в слитки и т.д. В противном случае он просто поджигает блок.\\n\\nНаконец, &bМатериальная пушка&f работает аналогично устройству для нанесения цвета — это специальная ячейка для «боеприпасов» (материальных шаров, золотых/железных самородков). Их можно выстреливать, нанося урон мобам или разрушая блоки. Вместо материальных шаров можно использовать &bкрасящие шары&f, которые оставляют цветные пятна на поверхности. &bСветящиеся красящие шары&f — их вариант, который к тому же даёт свет."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest37.description1}"]
 			hide_dependency_lines: true
 			id: "5CD8D169181C7339"
 			rewards: [
@@ -1373,7 +1377,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Слишком опасно для ATF"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest37.subtitle}"
 			tasks: [
 				{
 					id: "3AC5F84892DC0717"
@@ -1395,13 +1399,13 @@
 					type: "item"
 				}
 			]
-			title: "Оружие?"
+			title: "{ftbquests.chapter.applied_energistics_2.quest37.title}"
 			x: 15.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["2F16B6A173525277"]
-			description: ["Хранилище — это, конечно, хорошо, но какой в нём прок, если оно забито сырьём, а тебе всё равно приходится крафтить нужные вещи вручную?\\n\\nСистема &eавтоматического крафта&f в AE2 начинается с &bПоставщика шаблонов ME&f. Поставщик содержит особые предметы — &bШаблоны&f (рассмотрены в следующем квесте), в которых записаны рецепты превращения входных предметов в определённый результат. В один поставщик можно поместить до 9 шаблонов.\\n\\nПоставщиков часто будет много по всей базе, поэтому удобно использовать &bТерминал доступа к шаблонам&f для удалённого доступа ко всем поставщикам в сети."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest38.description1}"]
 			icon: "ae2:pattern_provider"
 			id: "51DE3157DE3E57B8"
 			rewards: [
@@ -1425,7 +1429,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Ваш заказ готов"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest38.subtitle}"
 			tasks: [
 				{
 					id: "338A6DA0D711B7DC"
@@ -1439,13 +1443,13 @@
 					type: "item"
 				}
 			]
-			title: "Автоматический крафт"
+			title: "{ftbquests.chapter.applied_energistics_2.quest38.title}"
 			x: 13.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["51DE3157DE3E57B8"]
-			description: ["&bШаблоны&f содержат закодированный рецепт, который должен выполнить Поставщик шаблонов. Для записи рецепта на шаблон используется &bТерминал записи шаблонов ME&f.\\n\\nШаблоны можно настроить на обычный &eкрафт&f, который требует &eМолекулярный сборщик&f перед поставщиком, или на &eобработку&f, когда предметы просто выводятся поставщиком в другой механизм."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest39.description1}"]
 			icon: "ae2:blank_pattern"
 			id: "2C04B3BA507D5673"
 			rewards: [
@@ -1480,13 +1484,13 @@
 					type: "item"
 				}
 			]
-			title: "Шаблоны"
+			title: "{ftbquests.chapter.applied_energistics_2.quest39.title}"
 			x: 14.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["51DE3157DE3E57B8"]
-			description: ["&bME-излучатель уровня&f, если настроить его на определённый предмет и его количество, будет выдавать редстоун-сигнал в зависимости от того, ниже, выше или равно это значение количеству предмета в сети.\\n\\nЭто можно использовать, например, для автоматического включения крафта ресурса, когда его количество падает ниже заданного минимума."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest40.description1}"]
 			id: "3DDB0DDA7571B2C1"
 			rewards: [
 				{
@@ -1513,13 +1517,13 @@
 				item: "ae2:level_emitter"
 				type: "item"
 			}]
-			title: "Излучатель уровня ME"
+			title: "{ftbquests.chapter.applied_energistics_2.quest40.title}"
 			x: 15.049999999999999d
 			y: -1.7500000000000004d
 		}
 		{
 			dependencies: ["51DE3157DE3E57B8"]
-			description: ["AE2 предлагает свой способ ускорить рост кристаллов.\\n\\nРазмести это рядом со своими растущими кристаллами, подведи энергию, и они будут расти быстрее!"]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest41.description1}"]
 			id: "5AA3E5DFECB4AC4D"
 			rewards: [
 				{
@@ -1545,13 +1549,13 @@
 				item: "ae2:growth_accelerator"
 				type: "item"
 			}]
-			title: "Ускоритель роста"
+			title: "{ftbquests.chapter.applied_energistics_2.quest41.title}"
 			x: 12.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["40A7CC56DACC2623"]
-			description: ["Помимо хранения предметов и жидкостей, AE2 предлагает нативный способ хранить целые &eструктуры&f в специальных ячейках — похоже на мод Compact Machines.\\n\\n&bПространственный порт ввода-вывода&f позволяет захватывать структуры, размещённые внутри &bПространственной удерживающей структуры&f, в специальную ячейку. Захват активируется редстоун-сигналом.\\n\\nЕсли моб или игрок окажется внутри удерживающей структуры во время захвата, он тоже переместится туда, куда и структура, т.е. в специальное пространственное измерение. Только убедись, что у тебя есть способ вернуться, если ты сам попался."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest42.description1}"]
 			id: "01F3F0C25BA72BDA"
 			rewards: [
 				{
@@ -1579,13 +1583,13 @@
 				item: "ae2:spatial_io_port"
 				type: "item"
 			}]
-			title: "Пространственный ввод-вывод"
+			title: "{ftbquests.chapter.applied_energistics_2.quest42.title}"
 			x: 12.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["01F3F0C25BA72BDA"]
-			description: ["Пространственная удерживающая структура (SCS) состоит из каркаса из &bПространственных пилонов&f, охватывающих объём, который ты хочешь уместить в пространственную ячейку. Минимально требуется три линии пилонов — по одной на каждое измерение (длина, ширина, высота).\\n\\nОднако пространственный ввод-вывод требует огромного количества энергии, особенно для больших объёмов (до 128x128x128). Чем больше пилонов будет в структуре вокруг нужного объёма, тем выше будет &eэффективность&f, и энергии будет тратиться меньше.\\n\\nУчти, каждый отдельный пилон (независимо от длины) занимает один канал. Для очень больших объёмов, возможно, придётся строить отдельную сеть с контроллером."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest43.description1}"]
 			id: "18DFB25DC48D8BF7"
 			rewards: [
 				{
@@ -1612,13 +1616,13 @@
 				title: "Компонент пространственной ячейки"
 				type: "item"
 			}]
-			title: "Пространственный пилон"
+			title: "{ftbquests.chapter.applied_energistics_2.quest43.title}"
 			x: 12.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["18DFB25DC48D8BF7"]
-			description: ["&bПространственные ячейки хранения&f используются для хранения одного объёма каждая. Они бывают трёх размеров: до 2x2x2, 16x16x16 и 128x128x128 блоков.\\n\\nПри кодировании ячейке выделяется участок в пространственном измерении с уникальным ID. Закодированную ячейку можно использовать в порте ввода-вывода, чтобы вернуть структуру в обычный мир или наоборот."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest44.description1}"]
 			id: "2897FA291E5A38D8"
 			rewards: [
 				{
@@ -1644,13 +1648,18 @@
 				item: "ae2:spatial_anchor"
 				type: "item"
 			}]
-			title: "Пространственный якорь"
+			title: "{ftbquests.chapter.applied_energistics_2.quest44.title}"
 			x: 14.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["5C22E3103544B120"]
-			description: ["&bКварцевый режущий нож&f, как и гаечный ключ, бывает из незер-кварца и кварца Certus. Это полезный инструмент для крафта.\\n\\nКабели можно разделять, не окрашивая их, с помощью &bКабельного анкера&f, который крафтится из этого ножа. Один нож можно использовать до 50 раз, прежде чем он сломается.\\n\\nКабельные анкеры также нужны для создания &bКабельных фасадов&f, позволяющих маскировать кабели под стены, покрывая их лицевой стороной любого блока. Хотя в JEI рецепты фасадов скрыты, их можно скрафтить, окружив любой обычный блок четырьмя кабельными анкерами.\\n\\nКроме того, режущий нож имеет ещё одно применение: клик ПКМ с ножом открывает интерфейс для создания &bИменных пресс-форм&f. Задав имя, такую пресс-форму можно использовать в Печатной плате, чтобы переименовать любой предмет. Две такие пресс-формы можно объединить, чтобы имя получилось из верхней и нижней."]
+			description: [
+				"{ftbquests.chapter.applied_energistics_2.quest45.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest45.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest45.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest45.description4}"
+			]
 			icon: "ae2:cable_anchor"
 			id: "6144202A97C6CD1C"
 			min_width: 300
@@ -1674,20 +1683,8 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Под ножом"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest45.subtitle}"
 			tasks: [
-				{
-					id: "23D186249A999B8C"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "ae2:knife"
-						}
-					}
-					title: "Кварцевый режущий нож"
-					type: "item"
-				}
 				{
 					id: "2B8EC37AF863F9A6"
 					item: "ae2:cable_anchor"
@@ -1702,8 +1699,19 @@
 					}
 					type: "item"
 				}
+				{
+					id: "768C4C4C0C6BFF48"
+					item: {
+						Count: 1
+						id: "ae2:nether_quartz_cutting_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
-			title: "Кабельный анкер"
+			title: "{ftbquests.chapter.applied_energistics_2.quest45.title}"
 			x: 4.5d
 			y: 2.5d
 		}
@@ -1713,7 +1721,7 @@
 				"19CE95EDCB04AA89"
 				"5C22E3103544B120"
 			]
-			description: ["&bУстройство для нанесения цвета&f — это заряжаемый инструмент, позволяющий красить кабели прямо в мире. По сути, это специализированная &eячейка&f, в которую загружаются красители или &eкрасящие шары&f, а также &eснежки&f, чтобы смывать цвет и возвращать кабели в состояние Fluix.\\n\\nПокраска одного сегмента кабеля тратит 100 AE энергии, так что заряда хватит на 3400 сегментов."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest46.description1}"]
 			id: "1D1C9D1D90C531A8"
 			rewards: [
 				{
@@ -1744,13 +1752,13 @@
 				}
 				type: "item"
 			}]
-			title: "Устройство для нанесения цвета"
+			title: "{ftbquests.chapter.applied_energistics_2.quest46.title}"
 			x: 5.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["2F16B6A173525277"]
-			description: ["Следующее, что нужно сделать для беспроводного доступа к сети, — это &bТочка беспроводного доступа ME&f. Она открывает сеть для беспроводного подключения через &eбеспроводной терминал&f. Дальность действия ограничена, но её можно увеличить, вставив в точку доступа &bУсилители сигнала&f."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest47.description1}"]
 			hide_dependency_lines: true
 			id: "2B31E6C1707D8195"
 			rewards: [
@@ -1785,13 +1793,13 @@
 					type: "item"
 				}
 			]
-			title: "Точка беспроводного доступа ME"
+			title: "{ftbquests.chapter.applied_energistics_2.quest47.title}"
 			x: 11.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["2F16B6A173525277"]
-			description: ["Первым шагом к беспроводному расширению ME-сети может быть... несколько неортодоксальным.\\n\\n&bКонденсатор материи&f — это аналог мусорки в AE2, он уничтожает помещаемые в него предметы. Если вставить в него &eКомпонент хранилища&f, конденсатор начнёт накапливать остаточную энергию от уничтоженных предметов и создавать из неё специальные предметы.\\n\\nПервый из них — &bМатериальный шар&f. Для его создания нужен компонент хранилища минимум 1k и 256 единиц «материи» (уничтоженных предметов)."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest48.description1}"]
 			hide_dependency_lines: true
 			id: "5BB887411B8B38FA"
 			rewards: [
@@ -1826,13 +1834,13 @@
 					type: "item"
 				}
 			]
-			title: "Конденсатор материи"
+			title: "{ftbquests.chapter.applied_energistics_2.quest48.title}"
 			x: 7.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["5BB887411B8B38FA"]
-			description: ["Если использовать компонент хранилища 64k или выше, конденсатор сможет накопить достаточно энергии для создания &bСингулярности&f. На одну сингулярность уходит 256 000 предметов. Это &oровно 4000 стаков&r!\\n\\nПопробуй бросить эту сингулярность на землю вместе с &eэндер-пылью&f. Придётся немного подорвать окружение, но в AE2 есть своя &bКрошечная ТНТ&f, чтобы минимизировать ущерб."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest49.description1}"]
 			icon: "ae2:singularity"
 			id: "3E3DF8E967D95DB0"
 			rewards: [
@@ -1855,7 +1863,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Не совсем антиматерия"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest49.subtitle}"
 			tasks: [
 				{
 					id: "3458474D44BD443F"
@@ -1873,13 +1881,13 @@
 					type: "item"
 				}
 			]
-			title: "Сверхконцентрированная материя"
+			title: "{ftbquests.chapter.applied_energistics_2.quest49.title}"
 			x: 5.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["3E3DF8E967D95DB0"]
-			description: ["Если ты правильно выполнил предыдущий квест, у тебя должна была получиться пара &bКвантово-запутанных сингулярностей&f. Они используются для соединения двух колец &eКвантового моста&f.\\n\\nКогда два таких моста связаны сингулярностями и на них подано питание (например, от энергоячейки), ME-сеть может расширяться беспроводно через этот мост на огромные расстояния или даже между измерениями."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest50.description1}"]
 			id: "0B218DD73FE8D985"
 			rewards: [
 				{
@@ -1921,13 +1929,13 @@
 					type: "item"
 				}
 			]
-			title: "Квантовый мост"
+			title: "{ftbquests.chapter.applied_energistics_2.quest50.title}"
 			x: 3.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["2B31E6C1707D8195"]
-			description: ["&bБеспроводной терминал&f работает точно так же, как обычный, но без проводов.\\n\\nПрежде чем использовать его для доступа к сети, его нужно &eпривязать&f к сети, поместив в правый верхний слот интерфейса &eТочки беспроводного доступа&r. Если терминал не привязан, вне зоны действия или разряжен, он не будет работать.\\n\\nБеспроводные терминалы можно улучшать &eЭнергетическими модулями&f для увеличения внутренней батареи."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest51.description1}"]
 			id: "16299B9AE87257DC"
 			rewards: [
 				{
@@ -1949,7 +1957,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Ради чего ты здесь"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest51.subtitle}"
 			tasks: [
 				{
 					id: "195B7DC4D7815D29"
@@ -1962,18 +1970,15 @@
 					type: "item"
 				}
 			]
-			title: "Беспроводные терминалы"
+			title: "{ftbquests.chapter.applied_energistics_2.quest51.title}"
 			x: 11.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["361CCBD353D6FF34"]
 			description: [
-				"Предметы — не единственное, что можно хранить в ячейках ME. &bЯчейки хранения жидкостей ME&f могут хранить жидкости, такие как вода, лава и любые разновидности модовых масел и топлива, просто чтобы привести несколько примеров."
-				""
-				"Обратите внимание, что все ячейки хранения, независимо от того, что они предназначены хранить, различаются только своим корпусом; как ячейки для предметов, так и для жидкостей используют один и тот же тип компонента хранения для создания."
-				""
-				"Для жидкостей 1 байт равен 8 вёдрам (8000 мб)."
+				"{ftbquests.chapter.applied_energistics_2.quest52.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest52.description2}"
 			]
 			id: "3E9FA4241DD2A49F"
 			rewards: [
@@ -2001,13 +2006,13 @@
 				title: "Ячейка хранения жидкостей ME"
 				type: "item"
 			}]
-			title: "Хранение жидкостей"
+			title: "{ftbquests.chapter.applied_energistics_2.quest52.title}"
 			x: 17.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["5F99D59B31FF34D4"]
-			description: ["Используйте кремниевый пресс в инсцибаторе для создания печатного кремния. Это важный компонент для создания процессоров, которые являются основой всех вычислительных устройств в AE2."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest53.description1}"]
 			id: "5B24C4560809333B"
 			rewards: [
 				{
@@ -2033,12 +2038,13 @@
 				item: "ae2:printed_silicon"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.applied_energistics_2.quest53.title}"
 			x: 2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["78425DC3875B9854"]
-			description: ["Создайте кремний из кварцевой пыли. Кремний является основным материалом для производства печатных плат и процессоров в AE2. Используйте печь для обжига кварцевой пыли."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest54.description1}"]
 			id: "5F99D59B31FF34D4"
 			rewards: [
 				{
@@ -2064,15 +2070,15 @@
 				item: "ae2:silicon"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.applied_energistics_2.quest54.title}"
 			x: 0.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["78425DC3875B9854"]
 			description: [
-				"&bКварцевый гаечный ключ&f делает то же, что и любой обычный гаечный ключ из технических модов. Он поворачивает блоки и устройства по грани, по которой вы щёлкаете ПКМ, и разбирает их при щелчке ПКМ с приседанием."
-				""
-				"Гаечный ключ AE2 бывает двух видов: из сертусового и из незеритового кварца."
+				"{ftbquests.chapter.applied_energistics_2.quest55.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest55.description2}"
 			]
 			id: "5D3EA637C19E26F4"
 			rewards: [
@@ -2100,14 +2106,14 @@
 				title: "Кварцевый гаечный ключ"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.applied_energistics_2.quest55.title}"
 			x: 0.5d
 			y: -1.0d
 		}
 		{
 			description: [
-				"&eApplied Energistics 2 (AE2)&r — это универсальный мод для цифрового хранения, предлагающий эффективное хранение и автоматизацию для вашего опыта в Minecraft."
-				""
-				"В этой главе объясняется, как работает AE2, с целью создания &cКонтроллера ME&r для перехода к следующей главе."
+				"{ftbquests.chapter.applied_energistics_2.quest56.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest56.description2}"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -2131,13 +2137,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&lДобро пожаловать в &bApplied Energistics 2&f!"
+			subtitle: "{ftbquests.chapter.applied_energistics_2.quest56.subtitle}"
 			tasks: [{
 				id: "51AA3BC3AFF2FEDA"
 				title: "Нажмите для подтверждения"
 				type: "checkmark"
 			}]
-			title: "Виртуальная система хранения"
+			title: "{ftbquests.chapter.applied_energistics_2.quest56.title}"
 			x: 0.5d
 			y: 0.5d
 		}
@@ -2168,16 +2174,15 @@
 				item: "ae2:fluix_pearl"
 				type: "item"
 			}]
-			title: "Жемчуг Флюикс"
+			title: "{ftbquests.chapter.applied_energistics_2.quest57.title}"
 			x: 3.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["68B0B3DAF1145191"]
 			description: [
-				"Как и &bДатчик дневного света&r использует незер-кварц для определения света, этот незерский &dКварцевый излучатель&r выдаёт &cсигнал красного камня&r в зависимости от уровня света поблизости."
-				""
-				"Начинает выдавать сигнал с &eуровня света&r &o6&r (сила &cсигнала&r &o1&r) и достигает максимума при &eуровне света&r &o15&r (сила &cсигнала&r &o9&r)."
+				"{ftbquests.chapter.applied_energistics_2.quest58.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest58.description2}"
 			]
 			id: "2DC17ADCC2004930"
 			rewards: [
@@ -2204,16 +2209,15 @@
 				item: "ae2:light_detector"
 				type: "item"
 			}]
-			title: "Датчик света"
+			title: "{ftbquests.chapter.applied_energistics_2.quest58.title}"
 			x: 2.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["68B0B3DAF1145191"]
 			description: [
-				"Декоративный &eисточник света&r, который можно разместить на любой твёрдой поверхности. Даже на потолке."
-				""
-				"В отличие от &6Факелов&r, этот блок не смывается &9водой&r."
+				"{ftbquests.chapter.applied_energistics_2.quest59.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest59.description2}"
 			]
 			id: "52457414595358B0"
 			rewards: [
@@ -2242,13 +2246,13 @@
 				title: "Кварцевый светильник"
 				type: "item"
 			}]
-			title: "Кварцевый светильник"
+			title: "{ftbquests.chapter.applied_energistics_2.quest59.title}"
 			x: 2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["22C4318523A43B49"]
-			description: ["Предмет, содержащий конфигурацию, подобную &aЯчейке хранения&r, позволяющий &nнастраивать&r фильтрацию конкретного &dME-терминала&r."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest60.description1}"]
 			id: "3F9C3B8B2458C023"
 			rewards: [
 				{
@@ -2274,16 +2278,15 @@
 				item: "ae2:view_cell"
 				type: "item"
 			}]
-			title: "Ячейка просмотра"
+			title: "{ftbquests.chapter.applied_energistics_2.quest60.title}"
 			x: 9.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["22C4318523A43B49"]
 			description: [
-				"&dME-терминал крафта&r — это улучшенная версия &2ME-терминала&r, имеющая встроенную сетку крафта с доступом к &eсетевому хранилищу ME-сети&r."
-				""
-				"Как и &2ME-терминал&r, для работы ему требуется &eканал&r."
+				"{ftbquests.chapter.applied_energistics_2.quest61.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest61.description2}"
 			]
 			id: "2D650086FAE56FED"
 			rewards: [
@@ -2310,20 +2313,20 @@
 				item: "ae2:crafting_terminal"
 				type: "item"
 			}]
-			title: "Терминал крафта"
+			title: "{ftbquests.chapter.applied_energistics_2.quest61.title}"
 			x: 8.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["22C4318523A43B49"]
 			description: [
-				"Даёт удалённый доступ ко всем &bслотам шаблонов&r &bпоставщиков шаблонов&r в вашей сети, сгруппированных по типу машины, к которой они подключены."
-				""
-				"В терминале будет отображаться &nтип&r машины, однако вы можете переименовать &eПоставщик шаблонов ME&r в &2Печатной плате&r или &0наковальне&r, чтобы изменить имя, отображаемое в &cТерминале доступа к шаблонам ME&r."
-				""
-				"В сочетании с возможностью скрывать отображение &bпоставщика шаблонов&r это даёт вам контроль над отображением в терминале шаблонов."
-				""
-				"Вы также можете &nвыбрать&r отображение &bпоставщиков шаблонов&r, чей инвентарь шаблонов уже &nзаполнен&r."
+				"{ftbquests.chapter.applied_energistics_2.quest62.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest62.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest62.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest62.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest62.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest62.description6}"
+				"{ftbquests.chapter.applied_energistics_2.quest62.description7}"
 			]
 			id: "7C28AA08CFAEBB7C"
 			min_width: 300
@@ -2355,30 +2358,22 @@
 				}
 				type: "item"
 			}]
-			title: "Терминал доступа к шаблонам"
+			title: "{ftbquests.chapter.applied_energistics_2.quest62.title}"
 			x: 8.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["22C4318523A43B49"]
 			description: [
-				"Специализированная версия &6ME-терминала крафта&r, предназначенная для кодирования &7Пустых шаблонов&r в &3Шаблоны крафта&r или &bШаблоны обработки&r."
-				""
-				"Смотрите раздел &eАвтоматический крафт&r для более подробной информации об автоматическом крафте в целом."
-				""
-				"Позволяет просматривать содержимое вашей сети, как и другие терминалы, но также содержит область для создания шаблонов."
-				""
-				"Существует &nдва режима&r кодирования шаблонов: &aШаблоны крафта&r и &cШаблоны обработки&r."
-				""
-				"&cШаблоны обработки&r предназначены для использования с машинами, которые не используют стандартные рецепты крафта; например, с печами или другими механизмами."
-				""
-				"Чтобы выбрать режим, нажмите кнопку справа от интерфейса; когда она показывает обычный верстак, будут создаваться &7Шаблоны крафта&r, а когда показывает печь — &cШаблоны обработки&r."
-				""
-				"Для &aШаблонов крафта&r (\"Крафтит...\") вы указываете ингредиенты на стандартной &nсетке 3x3&r, а результаты определяются &nавтоматически&r."
-				""
-				"Для &cШаблонов обработки&r (\"Создаёт...\") вы указываете входные и выходные материалы, включая количество, помещая стаки предметов в интерфейс."
-				""
-				"Если операция обработки не гарантирует успех (например, побочные продукты некоторых машин), она не будет правильно работать в качестве &cШаблона обработки&r."
+				"{ftbquests.chapter.applied_energistics_2.quest63.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest63.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest63.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest63.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest63.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest63.description6}"
+				"{ftbquests.chapter.applied_energistics_2.quest63.description7}"
+				"{ftbquests.chapter.applied_energistics_2.quest63.description8}"
+				"{ftbquests.chapter.applied_energistics_2.quest63.description9}"
 			]
 			id: "4F6576A528B9A134"
 			min_width: 450
@@ -2410,17 +2405,15 @@
 				}
 				type: "item"
 			}]
-			title: "Терминал записи шаблонов"
+			title: "{ftbquests.chapter.applied_energistics_2.quest63.title}"
 			x: 8.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["22C4318523A43B49"]
 			description: [
-				"В основном &bдекоративный&r запитанный &eисточник света&r, который можно крепить к &9Стеклянным кабелям ME из Fluix&r или другим не плотным кабелям."
-				""
-				"Также используется как &nингредиент&r в крафте."
-				""
+				"{ftbquests.chapter.applied_energistics_2.quest64.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest64.description2}"
 			]
 			id: "01C5CD72BF9C571A"
 			min_width: 300
@@ -2448,24 +2441,19 @@
 				item: "ae2:semi_dark_monitor"
 				type: "item"
 			}]
-			title: "Полутёмный монитор"
-			x: 9.0d
-			y: -2.5d
+			title: "{ftbquests.chapter.applied_energistics_2.quest64.title}"
+			x: 7.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["22C4318523A43B49"]
 			description: [
-				"&dME-монитор хранилища&r — это простой способ увидеть текущее количество определённого предмета."
-				""
-				"Существует несколько способов взаимодействия с ним:"
-				""
-				"&bПКМ&r с &aпредметом&r — &nотобразит&r текущее хранящееся количество этого предмета, если монитор не заблокирован"
-				""
-				"&bПКМ&r &7пустой рукой&r — сбросит отображение, если монитор &nне&r заблокирован"
-				""
-				"&bShift+ПКМ&r &7пустой рукой&r — переключит &nблокировку&r"
-				""
-				"&bПКМ&r &eгаечным ключом&r — &nповернёт&r монитор, если он заблокирован и находится на земле или потолке."
+				"{ftbquests.chapter.applied_energistics_2.quest65.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest65.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest65.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest65.description4}"
+				"{ftbquests.chapter.applied_energistics_2.quest65.description5}"
+				"{ftbquests.chapter.applied_energistics_2.quest65.description6}"
 			]
 			id: "0AEDCC541861BD60"
 			min_width: 300
@@ -2493,22 +2481,17 @@
 				item: "ae2:storage_monitor"
 				type: "item"
 			}]
-			title: "Монитор хранилища"
+			title: "{ftbquests.chapter.applied_energistics_2.quest65.title}"
 			x: 7.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["22C4318523A43B49"]
 			description: [
-				"Он добавляет возможность &nнапрямую&r забирать или помещать &aпредметы&r в &dME-сеть&r."
-				""
-				"В дополнение к взаимодействиям &2Монитора хранилища&r, конверсионные мониторы поддерживают следующие действия:"
-				""
-				"&bЛКМ&r — &nизвлекает&r стак отображаемого предмета в &nваш инвентарь&r"
-				""
-				"&bПКМ&r с &eпредметом&r — &nпомещает&r предмет из руки в &nсеть&r"
-				""
-				"&bПКМ&r &7пустой рукой&r — &nпомещает&r все отображаемые предметы из &nвашего инвентаря&r в &nсеть&r."
+				"{ftbquests.chapter.applied_energistics_2.quest66.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest66.description2}"
+				"{ftbquests.chapter.applied_energistics_2.quest66.description3}"
+				"{ftbquests.chapter.applied_energistics_2.quest66.description4}"
 			]
 			id: "4663376CDE2E7517"
 			min_width: 300
@@ -2536,7 +2519,7 @@
 				item: "ae2:conversion_monitor"
 				type: "item"
 			}]
-			title: "Конверсионный монитор"
+			title: "{ftbquests.chapter.applied_energistics_2.quest66.title}"
 			x: 7.0d
 			y: -1.5d
 		}
@@ -2571,13 +2554,13 @@
 				title: "&6Обычный модуль"
 				type: "item"
 			}]
-			title: "Обычные модули"
+			title: "{ftbquests.chapter.applied_energistics_2.quest67.title}"
 			x: 16.900000000000002d
 			y: -1.7500000000000004d
 		}
 		{
 			dependencies: ["22316BC31E774896"]
-			description: ["&aМодуль уничтожения переполнения&f — это &bулучшение для ячеек&r, позволяющее ячейкам хранения &nудалять&r (аннигилировать) любые предметы типа, уже содержащегося в них, при попытке поместить в ячейку новые предметы, когда ячейка уже заполнена."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest68.description1}"]
 			id: "503D1CF48222F105"
 			rewards: [
 				{
@@ -2605,13 +2588,13 @@
 				item: "ae2:void_card"
 				type: "item"
 			}]
-			title: "Модуль уничтожения"
+			title: "{ftbquests.chapter.applied_energistics_2.quest68.title}"
 			x: 16.900000000000002d
 			y: -2.4499999999999997d
 		}
 		{
 			dependencies: ["22316BC31E774896"]
-			description: ["Отдельные ME-устройства тоже можно настроить на реакцию на редстоун. Если установить в устройство &bМодуль красного камня&f, оно сможет работать только при подаче сигнала (или наоборот).\\n\\nТакое поведение можно применить и к целым &oучасткам&r сети с помощью &bШины переключения ME&f. Она подключает часть сети с другой стороны только при подаче сигнала (или отключает, если используется &eинвертированная&f шина)."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest69.description1}"]
 			id: "726812D3EE16E261"
 			rewards: [
 				{
@@ -2639,13 +2622,13 @@
 				item: "ae2:redstone_card"
 				type: "item"
 			}]
-			title: "Модуль красного камня"
+			title: "{ftbquests.chapter.applied_energistics_2.quest69.title}"
 			x: 16.199999999999996d
 			y: -1.7500000000000004d
 		}
 		{
 			dependencies: ["22316BC31E774896"]
-			description: ["Если установить &bМодуль крафта&f в поддерживающее устройство (интерфейс, шину экспорта и т.д.), оно сможет автоматически отправлять запросы на крафт необходимого (отфильтрованного) предмета. Процессорные блоки крафта можно настроить на обработку только таких запросов, чтобы не занимать их крафтами от игрока.\\n\\nЕсли установить модуль крафта в &eИзлучатель уровня&f, он сможет выдавать сигнал для запуска крафта, когда предмета недостаточно."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest70.description1}"]
 			id: "673586E9AF5B0638"
 			min_width: 300
 			rewards: [
@@ -2674,16 +2657,15 @@
 				item: "ae2:crafting_card"
 				type: "item"
 			}]
-			title: "Модуль крафта"
+			title: "{ftbquests.chapter.applied_energistics_2.quest70.title}"
 			x: 16.900000000000002d
 			y: -1.0499999999999994d
 		}
 		{
 			dependencies: ["22316BC31E774896"]
 			description: [
-				"&aМодуль ёмкости&f позволяет шине, в которую он установлен, иметь больший фильтр."
-				""
-				"Шины &9импорта&r и &cэкспорта&r, улучшенные модулями ёмкости, могут перейти от поддержки только одного фильтруемого предмета к максимуму в &nдевять слотов&r фильтра, в то время как шины &eхранения&r увеличат количество слотов с &o18&r до максимума &o63&r."
+				"{ftbquests.chapter.applied_energistics_2.quest71.description1}"
+				"{ftbquests.chapter.applied_energistics_2.quest71.description2}"
 			]
 			id: "1571481388A50E75"
 			rewards: [
@@ -2712,13 +2694,13 @@
 				item: "ae2:capacity_card"
 				type: "item"
 			}]
-			title: "Модуль ёмкости"
+			title: "{ftbquests.chapter.applied_energistics_2.quest71.title}"
 			x: 17.599999999999998d
 			y: -1.7500000000000004d
 		}
 		{
 			dependencies: ["240A8C880CCC4867"]
-			description: ["&cЭнергетический модуль&f можно применить к большинству заряжаемых устройств, таких как &dПортативные ячейки&r и &9Беспроводные терминалы&r, чтобы также увеличить &oих&r энергетический буфер."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest72.description1}"]
 			id: "4D64DE8C9F6E6361"
 			rewards: [
 				{
@@ -2746,13 +2728,13 @@
 				item: "ae2:energy_card"
 				type: "item"
 			}]
-			title: "Энергетический модуль"
+			title: "{ftbquests.chapter.applied_energistics_2.quest72.title}"
 			x: 18.2d
 			y: -2.8d
 		}
 		{
 			dependencies: ["240A8C880CCC4867"]
-			description: ["&bИнвертирующий модуль&f переключает фильтр на таких шинах с &bбелого списка&r на &0чёрный список&r."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest73.description1}"]
 			id: "3313D6AFD832BCDD"
 			rewards: [
 				{
@@ -2780,7 +2762,7 @@
 				item: "ae2:inverter_card"
 				type: "item"
 			}]
-			title: "Инвертирующий модуль"
+			title: "{ftbquests.chapter.applied_energistics_2.quest73.title}"
 			x: 17.5d
 			y: -2.8d
 		}
@@ -2815,17 +2797,13 @@
 				title: "&bПродвинутый модуль"
 				type: "item"
 			}]
-			title: "Продвинутые модули"
+			title: "{ftbquests.chapter.applied_energistics_2.quest74.title}"
 			x: 17.849999999999998d
 			y: -3.500000000000001d
 		}
 		{
 			dependencies: ["240A8C880CCC4867"]
-			description: [
-				"&bМодуль равномерного распределения&f — это улучшение для &6ячеек хранения&r, которое предварительно выделяет определённое количество предметов, которое может быть занято любым отдельным типом."
-				""
-				"Это поведение сравнимо с чем-то вроде &aЯщика функционального хранения&r, где каждый отсек хранит фиксированное количество стаков, а не позволяет предметам из одного отсека просачиваться в другие и вытеснять другие виды предметов."
-			]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest75.description1}"]
 			id: "1829BFE17972A3AE"
 			rewards: [
 				{
@@ -2853,13 +2831,13 @@
 				item: "ae2:equal_distribution_card"
 				type: "item"
 			}]
-			title: "Модуль равномерного распределения"
+			title: "{ftbquests.chapter.applied_energistics_2.quest75.title}"
 			x: 17.849999999999998d
 			y: -4.2d
 		}
 		{
 			dependencies: ["240A8C880CCC4867"]
-			description: ["&bНечёткий модуль&f позволяет сопоставлять фильтруемый предмет независимо от любых (&bNBT&r) метаданных, таких как &cпрочность&r или &dчары&r."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest76.description1}"]
 			id: "6CD5A638376A645B"
 			rewards: [
 				{
@@ -2887,13 +2865,13 @@
 				item: "ae2:fuzzy_card"
 				type: "item"
 			}]
-			title: "Нечёткий модуль"
+			title: "{ftbquests.chapter.applied_energistics_2.quest76.title}"
 			x: 17.15d
 			y: -3.500000000000001d
 		}
 		{
 			dependencies: ["240A8C880CCC4867"]
-			description: ["&bМодуль ускорения&f в зависимости от устройства либо увеличивает скорость его работы, либо позволяет выполнять больше операций за раз.\\n\\nВ случае &eМолекулярного сборщика&f полный набор из 5 модулей сокращает время крафта с одной секунды (без модулей) до одного &oтика&r."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest77.description1}"]
 			id: "73CAAD4501C9E350"
 			rewards: [
 				{
@@ -2921,7 +2899,7 @@
 				item: "ae2:speed_card"
 				type: "item"
 			}]
-			title: "Модуль ускорения"
+			title: "{ftbquests.chapter.applied_energistics_2.quest77.title}"
 			x: 18.55d
 			y: -3.500000000000001d
 		}
@@ -2952,7 +2930,7 @@
 				item: "ae2:wireless_receiver"
 				type: "item"
 			}]
-			title: "Беспроводной приёмник"
+			title: "{ftbquests.chapter.applied_energistics_2.quest78.title}"
 			x: 9.5d
 			y: 4.5d
 		}
@@ -2989,7 +2967,7 @@
 				}
 				type: "item"
 			}]
-			title: "Беспроводной терминал крафта"
+			title: "{ftbquests.chapter.applied_energistics_2.quest79.title}"
 			x: 11.0d
 			y: 7.5d
 		}
@@ -3022,7 +3000,7 @@
 				item: "ae2:spatial_cell_component_2"
 				type: "item"
 			}]
-			title: "Компонент пространственной ячейки 2"
+			title: "{ftbquests.chapter.applied_energistics_2.quest80.title}"
 			x: 12.950000000000001d
 			y: 10.15d
 		}
@@ -3055,7 +3033,7 @@
 				item: "ae2:spatial_cell_component_16"
 				type: "item"
 			}]
-			title: "Компонент пространственной ячейки 16"
+			title: "{ftbquests.chapter.applied_energistics_2.quest81.title}"
 			x: 12.950000000000001d
 			y: 9.45d
 		}
@@ -3088,13 +3066,13 @@
 				item: "ae2:spatial_cell_component_128"
 				type: "item"
 			}]
-			title: "Компонент пространственной ячейки 128"
+			title: "{ftbquests.chapter.applied_energistics_2.quest82.title}"
 			x: 12.950000000000001d
 			y: 8.75d
 		}
 		{
 			dependencies: ["18DFB25DC48D8BF7"]
-			description: ["Используется с &6Пространственным портом ввода-вывода&r для хранения пространственных областей."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest83.description1}"]
 			id: "2B812BCD626DDFF6"
 			rewards: [
 				{
@@ -3122,13 +3100,13 @@
 				item: "ae2:spatial_storage_cell_128"
 				type: "item"
 			}]
-			title: "Пространственная ячейка хранения 128"
+			title: "{ftbquests.chapter.applied_energistics_2.quest83.title}"
 			x: 12.25d
 			y: 8.75d
 		}
 		{
 			dependencies: ["18DFB25DC48D8BF7"]
-			description: ["Используется с &6Пространственным портом ввода-вывода&r для хранения пространственных областей."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest84.description1}"]
 			id: "059E39BB699320F2"
 			rewards: [
 				{
@@ -3156,13 +3134,13 @@
 				item: "ae2:spatial_storage_cell_16"
 				type: "item"
 			}]
-			title: "Пространственная ячейка хранения 16"
+			title: "{ftbquests.chapter.applied_energistics_2.quest84.title}"
 			x: 12.25d
 			y: 9.45d
 		}
 		{
 			dependencies: ["18DFB25DC48D8BF7"]
-			description: ["Используется с &6Пространственным портом ввода-вывода&r для хранения пространственных областей."]
+			description: ["{ftbquests.chapter.applied_energistics_2.quest85.description1}"]
 			id: "08D7B0D11AB87001"
 			rewards: [
 				{
@@ -3190,7 +3168,7 @@
 				item: "ae2:spatial_storage_cell_2"
 				type: "item"
 			}]
-			title: "Пространственная ячейка хранения 2"
+			title: "{ftbquests.chapter.applied_energistics_2.quest85.title}"
 			x: 12.25d
 			y: 10.15d
 		}
@@ -3221,7 +3199,7 @@
 				item: "ae2:1k_crafting_storage"
 				type: "item"
 			}]
-			title: "Накопитель крафта 1k"
+			title: "{ftbquests.chapter.applied_energistics_2.quest86.title}"
 			x: 14.0d
 			y: -0.5d
 		}
@@ -3255,7 +3233,7 @@
 				item: "megacells:mega_crafting_accelerator"
 				type: "item"
 			}]
-			title: "Мега-ускоритель крафта"
+			title: "{ftbquests.chapter.applied_energistics_2.quest87.title}"
 			x: 15.0d
 			y: -0.5d
 		}
@@ -3287,7 +3265,7 @@
 				item: "ae2:crafting_unit"
 				type: "item"
 			}]
-			title: "Блок крафта"
+			title: "{ftbquests.chapter.applied_energistics_2.quest88.title}"
 			x: 14.0d
 			y: 0.5d
 		}
@@ -3318,7 +3296,7 @@
 				item: "ae2:4k_crafting_storage"
 				type: "item"
 			}]
-			title: "Накопитель крафта 4k"
+			title: "{ftbquests.chapter.applied_energistics_2.quest89.title}"
 			x: 15.0d
 			y: 2.5d
 		}
@@ -3349,7 +3327,7 @@
 				item: "ae2:16k_crafting_storage"
 				type: "item"
 			}]
-			title: "Накопитель крафта 16k"
+			title: "{ftbquests.chapter.applied_energistics_2.quest90.title}"
 			x: 13.5d
 			y: 4.0d
 		}
@@ -3380,7 +3358,7 @@
 				item: "ae2:64k_crafting_storage"
 				type: "item"
 			}]
-			title: "Накопитель крафта 64k"
+			title: "{ftbquests.chapter.applied_energistics_2.quest91.title}"
 			x: 15.0d
 			y: 5.5d
 		}
@@ -3411,7 +3389,7 @@
 				item: "ae2:256k_crafting_storage"
 				type: "item"
 			}]
-			title: "Накопитель крафта 256k"
+			title: "{ftbquests.chapter.applied_energistics_2.quest92.title}"
 			x: 16.5d
 			y: 4.0d
 		}
@@ -3442,7 +3420,7 @@
 				item: "megacells:1m_crafting_storage"
 				type: "item"
 			}]
-			title: "Мега-накопитель крафта 1M"
+			title: "{ftbquests.chapter.applied_energistics_2.quest93.title}"
 			x: 18.5d
 			y: 5.5d
 		}
@@ -3473,7 +3451,7 @@
 				item: "megacells:4m_crafting_storage"
 				type: "item"
 			}]
-			title: "Мега-накопитель крафта 4M"
+			title: "{ftbquests.chapter.applied_energistics_2.quest94.title}"
 			x: 20.0d
 			y: 4.0d
 		}
@@ -3504,7 +3482,7 @@
 				item: "megacells:16m_crafting_storage"
 				type: "item"
 			}]
-			title: "Мега-накопитель крафта 16M"
+			title: "{ftbquests.chapter.applied_energistics_2.quest95.title}"
 			x: 21.5d
 			y: 5.5d
 		}
@@ -3535,7 +3513,7 @@
 				item: "megacells:64m_crafting_storage"
 				type: "item"
 			}]
-			title: "Мега-накопитель крафта 64M"
+			title: "{ftbquests.chapter.applied_energistics_2.quest96.title}"
 			x: 23.0d
 			y: 4.0d
 		}
@@ -3566,7 +3544,7 @@
 				item: "megacells:256m_crafting_storage"
 				type: "item"
 			}]
-			title: "Мега-накопитель крафта 256M"
+			title: "{ftbquests.chapter.applied_energistics_2.quest97.title}"
 			x: 21.5d
 			y: 2.5d
 		}
@@ -3597,7 +3575,7 @@
 				item: "megacells:mega_pattern_provider"
 				type: "item"
 			}]
-			title: "Мега-поставщик шаблонов"
+			title: "{ftbquests.chapter.applied_energistics_2.quest98.title}"
 			x: 13.0d
 			y: -1.0d
 		}
@@ -3628,7 +3606,7 @@
 				item: "megacells:mega_interface"
 				type: "item"
 			}]
-			title: "Мега-интерфейс"
+			title: "{ftbquests.chapter.applied_energistics_2.quest99.title}"
 			x: 22.5d
 			y: 1.5d
 		}
