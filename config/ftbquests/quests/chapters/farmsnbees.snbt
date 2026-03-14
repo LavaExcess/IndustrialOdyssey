@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "farmsnbees"
-	group: "127FCDB3BF44B5FC"
+	group: "43F397064768B66D"
 	icon: "forestry:farm_gearbox_mossy_stone_brick"
 	id: "08FE95241AF1B7FA"
-	order_index: 1
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -917,7 +917,7 @@
 				id: "3CDE94988F813AD3"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.forestry.quest9.title}"
+			title: "&d{ftbquests.chapter.forestry.quest9.title}"
 			x: 1.5d
 			y: 1.5d
 		}
@@ -2096,5 +2096,5 @@
 			y: 5.0d
 		}
 	]
-	title: "{ftbquests.chapter_groups_forestry_fresh.title}"
+	title: "{ftbquests.chapter.forestry.title}"
 }

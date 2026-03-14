@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "minecraft"
-	group: ""
+	group: "127FCDB3BF44B5FC"
 	icon: {
 		Count: 1
 		id: "minecraft:grass_block"
@@ -387,7 +387,6 @@
 					xp: 100
 				}
 				{
-					count: 4
 					id: "65ADBCC48F7FC398"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
@@ -414,9 +413,14 @@
 					xp: 100
 				}
 				{
-					count: 4
 					id: "55AEC8B9F3BDC2DB"
 					item: "libraryferret:iron_coins_jtl"
+					type: "item"
+				}
+				{
+					count: 48
+					id: "29A6DC256C82E008"
+					item: "minecraft:coal"
 					type: "item"
 				}
 			]
@@ -455,7 +459,6 @@
 					xp: 100
 				}
 				{
-					count: 4
 					id: "79578FBC2D63F523"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
@@ -488,10 +491,15 @@
 					xp: 100
 				}
 				{
-					count: 4
 					id: "1C6AD3496DCBFDD9"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42443FFB40BDBE22"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -526,21 +534,11 @@
 			id: "750D00532E456A09"
 			rewards: [
 				{
-					id: "7C429CD64D172DF1"
-					item: {
-						Count: 1
-						id: "minecraft:experience_bottle"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
 					id: "2CA1CD9264278226"
 					type: "xp"
 					xp: 100
 				}
 				{
-					count: 4
 					id: "3ED9A608D988AEDA"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
@@ -574,10 +572,16 @@
 					xp: 100
 				}
 				{
-					count: 4
+					count: 2
 					id: "3F1B3B8BCDD0C347"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A847B4603A2C751"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -612,6 +616,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "55D71A95F1E2F02A"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "696296FD1E751B00"
@@ -643,6 +653,12 @@
 					id: "3C75075DF062B7D9"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33F780B6930A04F5"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -688,6 +704,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "4DEFE2D863C7346D"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [
 				{
@@ -726,10 +748,15 @@
 					xp: 100
 				}
 				{
-					count: 4
 					id: "3353E23DD0B3D1C3"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21B228C0376A8F59"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -756,10 +783,16 @@
 					xp: 100
 				}
 				{
-					count: 4
+					count: 2
 					id: "70E7311758486C0C"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56F862E8B970ED04"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -793,6 +826,12 @@
 					id: "6819C287B28C46E2"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30254BA62D38D8C7"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -839,6 +878,12 @@
 					id: "7132A19235828342"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3603C4678F976BF8"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -895,6 +940,12 @@
 					id: "3E9D36E74C0A4005"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "268FC4D4AC7D9DD4"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -982,6 +1033,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "3BDFFD0B1879EA76"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				count: 16L
@@ -1031,6 +1088,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "3396935DFF4B375B"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "0E9301CDE127A4DE"
@@ -1061,6 +1124,12 @@
 					id: "118E7FC1B21A4CBE"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "625063DB1482D8D6"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -1217,6 +1286,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "400DDC7B3D67A25F"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "479EBD1B625D40CA"
@@ -1258,6 +1333,12 @@
 					id: "50A532B66E830463"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04334652A69DAFF4"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -1306,6 +1387,12 @@
 					id: "65FA33AD5797445E"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "138EC7CE783F5181"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -1361,10 +1448,16 @@
 					xp: 100
 				}
 				{
-					count: 4
+					count: 2
 					id: "6AFA9D3233755919"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "140CC2AEF8E4CF7F"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1397,6 +1490,12 @@
 					id: "51CBC4E32EE20294"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FE095672E9EB6B8"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -1434,6 +1533,12 @@
 					id: "4694172C6FB9464C"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C2093C984BF5F3B"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			subtitle: "{ftbquests.chapter.minecraft.quest24.subtitle}"
@@ -1667,6 +1772,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "370A3B850511525D"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [
 				{
@@ -1739,6 +1850,12 @@
 					id: "23F620D8F5C7EA54"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D3C401BE63E1120"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -1891,10 +2008,16 @@
 					xp: 100
 				}
 				{
-					count: 4
+					count: 2
 					id: "311054E05C8B5BE0"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D3036A053B52CAC"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1928,6 +2051,12 @@
 					id: "05524C3B31BFD416"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29ECF44F24BBE00D"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -1963,6 +2092,12 @@
 					id: "3D3ED5C1F14E56FD"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "765583A5BDF378ED"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -2025,6 +2160,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "1629AA375054180B"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [
 				{
@@ -2075,6 +2216,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "2EBE5B813E2614D2"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				consume_items: true
@@ -2105,6 +2252,12 @@
 					id: "5864B98A54698B0F"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "440940110F5E78FA"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2148,6 +2301,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "58D0C79BA208C997"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				id: "177640F987749CF9"
@@ -2168,11 +2327,6 @@
 			id: "6C03CC8955CF5416"
 			rewards: [
 				{
-					id: "0F3D71EA1897076E"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
 					id: "3F8A7C8FF9C47226"
 					type: "xp"
 					xp: 100
@@ -2182,6 +2336,12 @@
 					id: "1C33A51661F0E4A3"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65CDEC5B7536D9F1"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -2259,6 +2419,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "75462430A84C7797"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			shape: "hexagon"
 			tasks: [{
@@ -2289,6 +2455,12 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					exclude_from_claim_all: true
+					id: "6349DEF00E0819DF"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			size: 2.0d
 			subtitle: "{ftbquests.chapter.minecraft.quest36.subtitle}"
@@ -2317,10 +2489,10 @@
 					xp: 100
 				}
 				{
-					count: 4
-					id: "14534D5D9859BA4A"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "513932BC32ED019D"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			subtitle: "{ftbquests.chapter.minecraft.quest37.subtitle}"
@@ -2355,10 +2527,10 @@
 					xp: 100
 				}
 				{
-					count: 4
-					id: "7A69D67D09492EA8"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "11B8C184BC03586B"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -2394,10 +2566,10 @@
 					xp: 100
 				}
 				{
-					count: 4
-					id: "7663D66620239226"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "6F0938A03EAA4003"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -2432,10 +2604,10 @@
 					xp: 100
 				}
 				{
-					count: 4
-					id: "729F2FE27D6CE79D"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "5A788C218CA5F339"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -2475,10 +2647,10 @@
 					xp: 100
 				}
 				{
-					count: 4
-					id: "1F3524E1D7317827"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "120D05E5F7C0F2E3"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -2513,10 +2685,10 @@
 					xp: 100
 				}
 				{
-					count: 4
-					id: "2CBC0E5EF2241700"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "1F86076B84F78204"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -2546,11 +2718,6 @@
 			id: "112F3359CF96132C"
 			rewards: [
 				{
-					id: "3CBBCE91FFC9C7D6"
-					item: "libraryferret:gold_coins_jtl"
-					type: "item"
-				}
-				{
 					id: "0CE07956850998B5"
 					item: "libraryferret:diamond_coins_jtl"
 					type: "item"
@@ -2561,10 +2728,10 @@
 					xp: 100
 				}
 				{
-					count: 4
-					id: "751CC7E9274D8E55"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "58C96F313D38D9E5"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			subtitle: "{ftbquests.chapter.minecraft.quest43.subtitle}"
@@ -2590,11 +2757,6 @@
 			optional: true
 			rewards: [
 				{
-					id: "4513341E157C3D34"
-					item: "libraryferret:gold_coins_jtl"
-					type: "item"
-				}
-				{
 					id: "57FAB42A4ED2B210"
 					item: "libraryferret:diamond_coins_jtl"
 					type: "item"
@@ -2605,10 +2767,10 @@
 					xp: 100
 				}
 				{
-					count: 4
-					id: "14475309ADEFE439"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "3EF74F4AEC2DDE0C"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			subtitle: "{ftbquests.chapter.minecraft.quest44.subtitle}"
@@ -2653,6 +2815,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "2309A72883E2F2E8"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			size: 2.0d
 			tasks: [{
@@ -2683,10 +2851,10 @@
 					xp: 100
 				}
 				{
-					count: 4
-					id: "24EE3AB6AEC1ADC2"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "7687F5FC3A7ACDCB"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -2723,6 +2891,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "79D227B62005F71F"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			size: 1.0d
 			tasks: [{
@@ -2755,6 +2929,12 @@
 					id: "6B929334CD06BAB3"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3281DE7478CF8629"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			subtitle: "{ftbquests.chapter.minecraft.quest48.subtitle}"
@@ -2798,6 +2978,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "78CC22BFA7143C90"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			subtitle: "{ftbquests.chapter.minecraft.quest49.subtitle}"
 			tasks: [{
@@ -2830,10 +3016,10 @@
 					xp: 100
 				}
 				{
-					count: 4
-					id: "75C0B80FA5105740"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "7C003E0548951C7D"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			shape: "circle"
@@ -2866,10 +3052,10 @@
 					xp: 100
 				}
 				{
-					count: 4
-					id: "00CCA526BAE1DD9B"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "61E1EA643DCFF884"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			subtitle: "{ftbquests.chapter.minecraft.quest51.subtitle}"
@@ -2900,6 +3086,12 @@
 					id: "18F9AA9588E90881"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42C1601047C3EA6A"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			subtitle: "{ftbquests.chapter.minecraft.quest52.subtitle}"
@@ -2933,6 +3125,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "0A5A7E2FAE9E7D96"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			subtitle: "{ftbquests.chapter.minecraft.quest53.subtitle}"
 			tasks: [{
@@ -2961,6 +3159,12 @@
 					id: "4D99D6F2A60749CC"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "510FFA7624CC11ED"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			subtitle: "{ftbquests.chapter.minecraft.quest54.subtitle}"
@@ -2993,6 +3197,12 @@
 					id: "5183F37701C1E1D2"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BE4EE3AFCC54DDB"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -3033,6 +3243,12 @@
 					type: "xp"
 					xp: 100
 				}
+				{
+					exclude_from_claim_all: true
+					id: "359A35D06D434A7E"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			shape: "rsquare"
 			size: 2.0d
@@ -3059,16 +3275,6 @@
 					type: "item"
 				}
 				{
-					id: "756F5F1CA255DE69"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-				{
-					id: "29CDD2740E8BB648"
-					item: "libraryferret:gold_coins_jtl"
-					type: "item"
-				}
-				{
 					id: "6CEF83BD7715C511"
 					item: "libraryferret:diamond_coins_jtl"
 					type: "item"
@@ -3077,6 +3283,12 @@
 					id: "62CC04C4E47CE13E"
 					type: "xp"
 					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D3CEB697D16403D"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			shape: "rsquare"
@@ -3107,11 +3319,6 @@
 			id: "0FF69526C1DC1593"
 			rewards: [
 				{
-					id: "6ACAEDFDC87510EF"
-					item: "libraryferret:gold_coins_jtl"
-					type: "item"
-				}
-				{
 					id: "20ED9679EAC8C475"
 					item: "libraryferret:diamond_coins_jtl"
 					type: "item"
@@ -3122,10 +3329,10 @@
 					xp: 100
 				}
 				{
-					count: 4
-					id: "012B4333C1EF7031"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "1FCCB92439BAD1DF"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -3162,10 +3369,10 @@
 					xp: 100
 				}
 				{
-					count: 4
-					id: "4FAD84265FCADB70"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "781506E72E0B3C3E"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -3196,10 +3403,10 @@
 					xp: 100
 				}
 				{
-					count: 4
-					id: "4DDD4A1A3887BF84"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "423A8D982D20EBFE"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			subtitle: "{ftbquests.chapter.minecraft.quest60.subtitle}"
@@ -3231,10 +3438,10 @@
 					xp: 100
 				}
 				{
-					count: 4
-					id: "783078DC797003E9"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "10D3E0574F413F82"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			subtitle: "{ftbquests.chapter.minecraft.quest61.subtitle}"
@@ -3277,10 +3484,10 @@
 					xp: 100
 				}
 				{
-					count: 4
-					id: "6B1AF42B88254240"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "7628A3C804F6AFD0"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			subtitle: "{ftbquests.chapter.minecraft.quest62.subtitle}"
@@ -3324,7 +3531,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["535A8A11EFC7DB00"]
+			dependencies: ["750D00532E456A09"]
 			description: ["{ftbquests.chapter.minecraft.quest64.description1}"]
 			id: "77CB99E12D41EFF3"
 			rewards: [
@@ -3339,16 +3546,21 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "32EAC44DCD263DE8"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
-			subtitle: "{ftbquests.chapter.minecraft.quest64.subtitle}"
 			tasks: [{
 				id: "4300DC27A2F815BA"
 				item: "minecraft:amethyst_shard"
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.minecraft.quest64.title}"
-			x: 0.5d
-			y: -2.0d
+			x: -1.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["081A90D678D85928"]
@@ -3366,6 +3578,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "640058A9549B962F"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			subtitle: "{ftbquests.chapter.minecraft.quest65.subtitle}"
 			tasks: [{
@@ -3376,389 +3594,6 @@
 			title: "{ftbquests.chapter.minecraft.quest65.title}"
 			x: -1.0d
 			y: 3.5d
-		}
-		{
-			dependencies: ["750D00532E456A09"]
-			description: ["{ftbquests.chapter.minecraft.quest66.description1}"]
-			hide_lock_icon: true
-			id: "535A8A11EFC7DB00"
-			rewards: [
-				{
-					id: "20725AB2B500FFE1"
-					item: "libraryferret:gold_coins_jtl"
-					type: "item"
-				}
-				{
-					id: "231873F362A1F4BD"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "64F7DD164FD8AFDF"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			size: 1.5d
-			subtitle: "{ftbquests.chapter.minecraft.quest66.subtitle}"
-			tasks: [{
-				id: "280744313571F573"
-				type: "checkmark"
-			}]
-			title: "{ftbquests.chapter.minecraft.quest66.title}"
-			x: -1.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["535A8A11EFC7DB00"]
-			description: [
-				"{ftbquests.chapter.minecraft.quest67.description1}"
-				"{ftbquests.chapter.minecraft.quest67.description2}"
-				"{ftbquests.chapter.minecraft.quest67.description3}"
-				"{ftbquests.chapter.minecraft.quest67.description4}"
-			]
-			id: "12D5AD1CE697FB80"
-			rewards: [
-				{
-					id: "3F15FCBDD35F6210"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-				{
-					id: "77198D07D31F392F"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "31D1E25080B6592F"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.minecraft.quest67.subtitle}"
-			tasks: [{
-				id: "37FDF3B9D846F3E1"
-				item: "arcanelanterns:life_lantern"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.minecraft.quest67.title}"
-			x: -1.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["535A8A11EFC7DB00"]
-			description: [
-				"{ftbquests.chapter.minecraft.quest68.description1}"
-				"{ftbquests.chapter.minecraft.quest68.description2}"
-				"{ftbquests.chapter.minecraft.quest68.description3}"
-				"{ftbquests.chapter.minecraft.quest68.description4}"
-			]
-			id: "52986E54729D6D4E"
-			rewards: [
-				{
-					id: "589FCE5CE7685AAA"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-				{
-					id: "31A3BFAACE0681B4"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "2357BCF6A1EE8389"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.minecraft.quest68.subtitle}"
-			tasks: [{
-				id: "2EEAC17070E26BDF"
-				item: "arcanelanterns:feral_lantern"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.minecraft.quest68.title}"
-			x: -1.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["535A8A11EFC7DB00"]
-			description: [
-				"{ftbquests.chapter.minecraft.quest69.description1}"
-				"{ftbquests.chapter.minecraft.quest69.description2}"
-				"{ftbquests.chapter.minecraft.quest69.description3}"
-				"{ftbquests.chapter.minecraft.quest69.description4}"
-			]
-			id: "53D23FC19BC2F003"
-			rewards: [
-				{
-					id: "7A9D6C8D86D6229B"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-				{
-					id: "45F0E50F161CEF19"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "63E0516604C32420"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.minecraft.quest69.subtitle}"
-			tasks: [{
-				id: "67C2059BF2410183"
-				item: "arcanelanterns:wailing_lantern"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.minecraft.quest69.title}"
-			x: -2.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["535A8A11EFC7DB00"]
-			description: [
-				"{ftbquests.chapter.minecraft.quest70.description1}"
-				"{ftbquests.chapter.minecraft.quest70.description2}"
-				"{ftbquests.chapter.minecraft.quest70.description3}"
-				"{ftbquests.chapter.minecraft.quest70.description4}"
-			]
-			id: "7B7FC579366D8ADA"
-			rewards: [
-				{
-					id: "703AD2B3C4CD3F47"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-				{
-					id: "23DEEE26D053E2EE"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "284244AA15C3FD2D"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.minecraft.quest70.subtitle}"
-			tasks: [{
-				id: "6D09426473EBAF52"
-				item: "arcanelanterns:love_lantern"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.minecraft.quest70.title}"
-			x: -3.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["535A8A11EFC7DB00"]
-			description: [
-				"{ftbquests.chapter.minecraft.quest71.description1}"
-				"{ftbquests.chapter.minecraft.quest71.description2}"
-			]
-			id: "6B70A51EF2E0D1D0"
-			rewards: [
-				{
-					id: "7A2F6A721CC4B375"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-				{
-					id: "3AE33EFAF50D9604"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "7F7C02BDA0551D6F"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.minecraft.quest71.subtitle}"
-			tasks: [{
-				id: "454D568501731C19"
-				item: "arcanelanterns:boreal_lantern"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.minecraft.quest71.title}"
-			x: -3.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["535A8A11EFC7DB00"]
-			description: [
-				"{ftbquests.chapter.minecraft.quest72.description1}"
-				"{ftbquests.chapter.minecraft.quest72.description2}"
-				"{ftbquests.chapter.minecraft.quest72.description3}"
-				"{ftbquests.chapter.minecraft.quest72.description4}"
-			]
-			id: "4F77F1D85F4FA9E8"
-			rewards: [
-				{
-					id: "323FBBE587784C04"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-				{
-					id: "3CDD6CB63A6645C2"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "55AD08C096618D13"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.minecraft.quest72.subtitle}"
-			tasks: [{
-				id: "1986A5EEEF40A06A"
-				item: "arcanelanterns:brilliant_lantern"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.minecraft.quest72.title}"
-			x: -2.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["535A8A11EFC7DB00"]
-			description: [
-				"{ftbquests.chapter.minecraft.quest73.description1}"
-				"{ftbquests.chapter.minecraft.quest73.description2}"
-				"{ftbquests.chapter.minecraft.quest73.description3}"
-				"{ftbquests.chapter.minecraft.quest73.description4}"
-			]
-			id: "763660F1FADBB66A"
-			rewards: [
-				{
-					id: "772BE7BCE8D25B61"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "57AFE831E33CF69A"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.minecraft.quest73.subtitle}"
-			tasks: [{
-				id: "6CADAE17037E81F7"
-				item: "arcanelanterns:containing_lantern"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.minecraft.quest73.title}"
-			x: 0.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["535A8A11EFC7DB00"]
-			description: [
-				"{ftbquests.chapter.minecraft.quest74.description1}"
-				"{ftbquests.chapter.minecraft.quest74.description2}"
-			]
-			id: "6439483162D2C73E"
-			rewards: [
-				{
-					id: "09ECA1B407D843B8"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-				{
-					id: "461F23A9B9C3C8D5"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "1D5C217B10AF9C4D"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.minecraft.quest74.subtitle}"
-			tasks: [{
-				id: "738BBD0484A8482B"
-				item: "arcanelanterns:warding_lantern"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.minecraft.quest74.title}"
-			x: -0.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["535A8A11EFC7DB00"]
-			description: [
-				"{ftbquests.chapter.minecraft.quest75.description1}"
-				"{ftbquests.chapter.minecraft.quest75.description2}"
-				"{ftbquests.chapter.minecraft.quest75.description3}"
-				"{ftbquests.chapter.minecraft.quest75.description4}"
-			]
-			id: "2E389F1D83A33C58"
-			rewards: [
-				{
-					id: "27AB21ED633BB0BC"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "6BD5F3C260EF135A"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.minecraft.quest75.subtitle}"
-			tasks: [{
-				id: "2E37A9161B2B0930"
-				item: "arcanelanterns:withering_lantern"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.minecraft.quest75.title}"
-			x: -0.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["535A8A11EFC7DB00"]
-			description: [
-				"{ftbquests.chapter.minecraft.quest76.description1}"
-				"{ftbquests.chapter.minecraft.quest76.description2}"
-			]
-			id: "3FE1553A8A926624"
-			rewards: [
-				{
-					id: "1E6674655EA20067"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "532576A25ED25C67"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-			]
-			subtitle: "{ftbquests.chapter.minecraft.quest76.subtitle}"
-			tasks: [{
-				id: "063A22DA141F8C89"
-				item: "arcanelanterns:cloud_lantern"
-				type: "item"
-			}]
-			title: "{ftbquests.chapter.minecraft.quest76.title}"
-			x: 0.5d
-			y: -4.5d
 		}
 		{
 			dependencies: ["06A43BCF64EECF0F"]
@@ -3784,6 +3619,12 @@
 					id: "3615467D1B4199D1"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DAB406BCE8A15D4"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			subtitle: "{ftbquests.chapter.minecraft.quest77.subtitle}"
@@ -3825,10 +3666,10 @@
 					xp: 100
 				}
 				{
-					count: 4
-					id: "0C790856F9B2DC05"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
+					exclude_from_claim_all: true
+					id: "72A531CC50131D95"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -3849,24 +3690,16 @@
 				"{ftbquests.chapter.minecraft.quest79.description5}"
 			]
 			id: "3B4209C6A7D8C0A6"
-			rewards: [
-				{
-					id: "5492C7E9B3F5B7C5"
-					type: "xp"
-					xp: 100
-				}
-				{
-					count: 4
-					id: "7879E1E7FCF4C299"
-					item: "libraryferret:iron_coins_jtl"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5492C7E9B3F5B7C5"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
 				id: "7EA50C7F7EC85F81"
-				title: "&l&6Откройте Главу 1"
+				title: "&l&6Откройте главу "
 				type: "checkmark"
 			}]
 			title: "{ftbquests.chapter.minecraft.quest79.title}"
@@ -3887,6 +3720,12 @@
 					id: "6827AD30A822EDB7"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4330D13B790974E3"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -3913,6 +3752,12 @@
 					id: "3B5B57FD7715CC3F"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16F8A70D013B0DBB"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -3941,6 +3786,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "1F52D9E408A33E9C"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				entity: "alexsmobs:enderiophage"
@@ -3967,6 +3818,12 @@
 					id: "7058EB7975229C91"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CF4BB962175E7B4"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -4000,6 +3857,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "1F7F341FC081E6F8"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				count: 3L
@@ -4026,6 +3889,12 @@
 					id: "7A75DD72536FC71C"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4599B8A5D98946BA"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -4063,6 +3932,12 @@
 					id: "7C6C68263C73F92D"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FFA297D1C4EBD0E"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			size: 1.0d
@@ -4104,6 +3979,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "3E4BEA60A3FBF544"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				entity: "alexsmobs:mimicube"
@@ -4127,12 +4008,6 @@
 					type: "item"
 				}
 				{
-					count: 8
-					id: "6EA9C9AE04A930C4"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-				{
 					id: "10476549FB0CCC76"
 					type: "xp"
 					xp: 100
@@ -4142,6 +4017,12 @@
 					id: "1BD4B79C1B254171"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B8DC396CAC3E221"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -4170,6 +4051,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "2D18BAFDAC74B24F"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				count: 64L
@@ -4195,6 +4082,12 @@
 					id: "5E7AA823DC3A2901"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C9F686849D78119"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -4227,6 +4120,12 @@
 					id: "66B526F169361474"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F6DCCBBE0913865"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -4261,6 +4160,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "2B3B88514E9F2210"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				count: 64L
@@ -4274,10 +4179,7 @@
 		}
 		{
 			dependencies: ["72A5DEFDD0F3470D"]
-			description: [
-				"{ftbquests.chapter.minecraft.quest93.description1}"
-				"{ftbquests.chapter.minecraft.quest93.description2}"
-			]
+			description: ["{ftbquests.chapter.minecraft.quest93.description1}"]
 			id: "01DC8326BFC1FE72"
 			min_width: 300
 			rewards: [
@@ -4297,6 +4199,12 @@
 					id: "077ACC4422DBE19F"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46A3658A397DC4E7"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -4342,6 +4250,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "2E2187F7774C31AA"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				biome: "minecraft:soul_sand_valley"
@@ -4374,6 +4288,12 @@
 					id: "530369964CCD14DC"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51B290D04F0D4C26"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -4413,6 +4333,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "6B07867933741535"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				biome: "minecraft:crimson_forest"
@@ -4451,6 +4377,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "335948214D4AF6F0"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				biome: "minecraft:warped_forest"
@@ -4481,6 +4413,12 @@
 					id: "7747A6A2134A9A72"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43DBA4E933EF7BF3"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -4515,6 +4453,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "45C2691A1FA1330F"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				entity: "minecraft:piglin"
@@ -4548,6 +4492,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "2F4AF80A05C8A7DC"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				entity: "minecraft:piglin_brute"
@@ -4574,6 +4524,12 @@
 					id: "6C49537E5D745F3E"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58FEE3D8FC4F3C09"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -4607,6 +4563,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "135A2EDFCC282EA9"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				count: 16L
@@ -4637,6 +4599,12 @@
 					id: "487CDB0E754907D5"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1962B385D7BD34B4"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -4669,6 +4637,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "0083A992F4F9AB7E"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				count: 64L
@@ -4695,6 +4669,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "7872E02CFFC85934"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				count: 64L
@@ -4720,6 +4700,12 @@
 					id: "6804EBCD9F3CB7D3"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DB984CF3DE7070B"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -4754,6 +4740,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "54A6DDFF3767BC0B"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				entity: "minecraft:hoglin"
@@ -4780,6 +4772,12 @@
 					id: "1F2ABF2090CE2B68"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "543120FF0D0AE99F"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -4815,6 +4813,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "1F8CDF0C40646FE0"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				count: 16L
@@ -4849,6 +4853,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "4ED30E1FFCB875B3"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				count: 16L
@@ -4877,6 +4887,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "239676EC546EEEE2"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			shape: "hexagon"
 			tasks: [{
@@ -4904,6 +4920,12 @@
 					id: "23F77A72417865AD"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "229229BB16B6AB00"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -4938,6 +4960,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "5BB45282D4A0A23F"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				advancement: "minecraft:nether/return_to_sender"
@@ -4965,6 +4993,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "554F6DD711CF20AB"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				count: 16L
@@ -4991,6 +5025,12 @@
 					id: "38BD4E75025C6D4C"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "054E3B6ADA671BEC"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -5021,6 +5061,12 @@
 					id: "0869578D287767F9"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74D19AB84E4CB08D"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [
@@ -5056,6 +5102,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "416A65AA180BA455"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				count: 64L
@@ -5088,6 +5140,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "5C92BFAB9D598207"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				count: 64L
@@ -5114,6 +5172,12 @@
 					id: "479FB221F287F163"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48D54F3BB0C06FCE"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -5142,6 +5206,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "6804D5DE872286FF"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				count: 32L
@@ -5168,6 +5238,12 @@
 					id: "6995AD693E0257FC"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F8121C2359F195F"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -5207,6 +5283,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "042C8CEC5B0349EA"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				advancement: "minecraft:nether/find_fortress"
@@ -5238,6 +5320,12 @@
 					id: "346D8A2B20A68BD4"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E1DF4A72AFA5F59"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -5271,6 +5359,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "73BDEE1E81891386"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				count: 64L
@@ -5297,6 +5391,12 @@
 					id: "05789AD54779262E"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C65B4278DA5C6B7"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -5331,6 +5431,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "4985F91A966A7066"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				count: 16L
@@ -5356,6 +5462,12 @@
 					id: "36E08AF28A7CF279"
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DC35E5A1F226793"
+					table_id: 8467335450115844063L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -5389,6 +5501,12 @@
 					item: "libraryferret:iron_coins_jtl"
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "639CD1548312ECE8"
+					table_id: 8467335450115844063L
+					type: "random"
+				}
 			]
 			tasks: [{
 				count: 64L
@@ -5401,5 +5519,5 @@
 			y: 9.0d
 		}
 	]
-	title: "{ftbquests.chapter_groups_minecraft.title}"
+	title: "{ftbquests.chapter.minecraft.title}"
 }
