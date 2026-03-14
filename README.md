@@ -24,6 +24,6 @@
 **Industrial Odyssey** is not for everyone. Are you ready to accept the challenge?
 
 **Download**
-[**Client**](https://drive.google.com/file/d/1bCxhj6rNiXAjvM7ZR-9yDJ6VL7jniDZI/view?usp=sharing)
-[**Server**](https://drive.google.com/file/d/1E43K3DzN2Gy6VG-JKRXVIm7vaUucervN/view?usp=sharing)
+-[**Client**](https://drive.google.com/file/d/1bCxhj6rNiXAjvM7ZR-9yDJ6VL7jniDZI/view?usp=sharing)
+-[**Server**](https://drive.google.com/file/d/1E43K3DzN2Gy6VG-JKRXVIm7vaUucervN/view?usp=sharing)
 
