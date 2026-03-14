@@ -8,7 +8,6 @@
 	images: [
 		{
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image0.hover0}"]
 			image: "industrialforegoing:block/reactor_front_mycelial"
 			rotation: 0.0d
 			width: 1.0d
@@ -17,7 +16,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image1.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_crimed"
 			rotation: 0.0d
 			width: 1.0d
@@ -26,7 +24,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image2.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_culinary"
 			rotation: 0.0d
 			width: 1.0d
@@ -35,7 +32,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image3.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_death"
 			rotation: 0.0d
 			width: 1.0d
@@ -44,7 +40,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image4.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_disenchantment"
 			rotation: 0.0d
 			width: 1.0d
@@ -53,7 +48,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image5.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_ender"
 			rotation: 0.0d
 			width: 1.0d
@@ -62,7 +56,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image6.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_explosive"
 			rotation: 0.0d
 			width: 1.0d
@@ -71,7 +64,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image7.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_frosty"
 			rotation: 0.0d
 			width: 1.0d
@@ -80,7 +72,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image8.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_furnace"
 			rotation: 0.0d
 			width: 1.0d
@@ -89,7 +80,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image9.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_halitosis"
 			rotation: 0.0d
 			width: 1.0d
@@ -98,7 +88,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image10.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_magmatic"
 			rotation: 0.0d
 			width: 1.0d
@@ -107,7 +96,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image11.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_meatallurgic"
 			rotation: 0.0d
 			width: 1.0d
@@ -116,7 +104,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image12.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_netherstar"
 			rotation: 0.0d
 			width: 1.0d
@@ -125,7 +112,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image13.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_pink"
 			rotation: 0.0d
 			width: 1.0d
@@ -134,7 +120,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image14.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_potion"
 			rotation: 0.0d
 			width: 1.0d
@@ -143,7 +128,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image15.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_rocket"
 			rotation: 0.0d
 			width: 1.0d
@@ -152,7 +136,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image16.hover0}"]
 			image: "industrialforegoing:block/generators/generator_front_slimey"
 			rotation: 0.0d
 			width: 1.0d
@@ -162,7 +145,6 @@
 		{
 			click: "#0EC2053B191C55C6"
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image17.hover0}"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -172,7 +154,6 @@
 		{
 			click: "#294C729B9EBD7A3C"
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image18.hover0}"]
 			image: "industrialforegoing:block/block_placer_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -181,7 +162,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image19.hover0}"]
 			image: "minecraft:block/acacia_log_top"
 			rotation: 0.0d
 			width: 1.0d
@@ -191,7 +171,6 @@
 		{
 			click: "#0EC2053B191C55C6"
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image20.hover0}"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -201,7 +180,6 @@
 		{
 			click: "#0EC2053B191C55C6"
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image21.hover0}"]
 			image: "industrialforegoing:block/tree_fluid_extractor_back"
 			rotation: 0.0d
 			width: 1.0d
@@ -211,7 +189,6 @@
 		{
 			click: "#6FF04DD735346BED"
 			height: 1.0d
-			hover: ["{ftbquests.chapter.industrial_foregoing.image22.hover0}"]
 			image: "industrialforegoing:block/latex_processing_unit_front"
 			rotation: 0.0d
 			width: 1.0d
@@ -1162,7 +1139,6 @@
 				item: "industrialforegoing:machine_frame_advanced"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.industrial_foregoing.quest25.title}"
 			x: 11.5d
 			y: -6.5d
 		}
@@ -2768,7 +2744,7 @@
 				title: "Эфир"
 				type: "checkmark"
 			}]
-			x: 13.5d
+			x: 13.25d
 			y: -8.5d
 		}
 		{
@@ -2810,5 +2786,5 @@
 			y: -3.5d
 		}
 	]
-	title: "{ftbquests.chapter_groups_6489874184484817333.title}"
+	title: "{ftbquests.chapter.foregoing.title}"
 }

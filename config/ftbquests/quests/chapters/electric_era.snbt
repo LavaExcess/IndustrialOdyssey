@@ -141,9 +141,9 @@
 				"53FB84AE37DAC487"
 			]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest84.description1}"
+				"{ftbquests.chapter.electric_era.quest1.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest84.description2}"
+				"{ftbquests.chapter.electric_era.quest1.description2}"
 			]
 			id: "3ADCAC47D56711D4"
 			rewards: [{
@@ -183,13 +183,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest85.title}"
+			title: "{ftbquests.chapter.electric_era.quest2.title}"
 			x: -3.0d
 			y: -16.0d
 		}
 		{
 			dependencies: ["4EDDFEECAECAFBFF"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest86.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest3.description1}"]
 			hide_dependency_lines: true
 			id: "1B3B31EF280D570C"
 			rewards: [{
@@ -208,11 +208,11 @@
 		{
 			dependencies: ["268264E1A12C0C81"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest83.description1}"
+				"{ftbquests.chapter.electric_era.quest4.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest83.description2}"
+				"{ftbquests.chapter.electric_era.quest4.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest83.description3}"
+				"{ftbquests.chapter.electric_era.quest4.description3}"
 			]
 			id: "1D1061DEB9B8E1A7"
 			rewards: [{
@@ -236,9 +236,9 @@
 				"3ADCAC47D56711D4"
 			]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest87.description1}"
+				"{ftbquests.chapter.electric_era.quest5.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest87.description2}"
+				"{ftbquests.chapter.electric_era.quest5.description2}"
 			]
 			id: "268264E1A12C0C81"
 			rewards: [{
@@ -257,9 +257,9 @@
 		{
 			dependencies: ["4EDDFEECAECAFBFF"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest80.description1}"
+				"{ftbquests.chapter.electric_era.quest6.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest80.description2}"
+				"{ftbquests.chapter.electric_era.quest6.description2}"
 			]
 			hide_dependency_lines: true
 			id: "50B322DFAC72B804"
@@ -314,9 +314,9 @@
 				"1D1061DEB9B8E1A7"
 			]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest78.description1}"
+				"{ftbquests.chapter.electric_era.quest9.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest78.description2}"
+				"{ftbquests.chapter.electric_era.quest9.description2}"
 			]
 			id: "0949BB0088A9C6D5"
 			rewards: [{
@@ -341,7 +341,7 @@
 				"18C0A3D436B3CF1A"
 				"1D1061DEB9B8E1A7"
 			]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest79.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest10.description1}"]
 			id: "2DB3BA3F69422E74"
 			rewards: [{
 				id: "080761F0D1F3BCB2"
@@ -382,11 +382,11 @@
 		{
 			dependencies: ["0949BB0088A9C6D5"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest105.description1}"
+				"{ftbquests.chapter.electric_era.quest12.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest105.description2}"
+				"{ftbquests.chapter.electric_era.quest12.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest105.description3}"
+				"{ftbquests.chapter.electric_era.quest12.description3}"
 			]
 			id: "0C70B32D150C57CA"
 			rewards: [{
@@ -409,9 +409,9 @@
 		{
 			dependencies: ["744D6ED942E252B4"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest111.description1}"
+				"{ftbquests.chapter.electric_era.quest13.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest111.description2}"
+				"{ftbquests.chapter.electric_era.quest13.description2}"
 			]
 			id: "4B58B31A206D74FA"
 			rewards: [{
@@ -433,7 +433,7 @@
 		}
 		{
 			dependencies: ["744D6ED942E252B4"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest112.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest14.description1}"]
 			id: "280AA112AE8B1F97"
 			rewards: [{
 				id: "7DB952014D0A31F2"
@@ -451,11 +451,11 @@
 		{
 			dependencies: ["744D6ED942E252B4"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest99.description1}"
+				"{ftbquests.chapter.electric_era.quest15.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest99.description2}"
+				"{ftbquests.chapter.electric_era.quest15.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest99.description3}"
+				"{ftbquests.chapter.electric_era.quest15.description3}"
 			]
 			id: "3429D59BF804F39E"
 			rewards: [{
@@ -478,11 +478,9 @@
 		{
 			dependencies: ["35839CB07EB073D5"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest76.description1}"
+				"{ftbquests.chapter.electric_era.quest16.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest76.description2}"
-				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest76.description3}"
+				"{ftbquests.chapter.electric_era.quest16.description3}"
 			]
 			id: "744D6ED942E252B4"
 			rewards: [{
@@ -492,19 +490,21 @@
 			}]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "{ftbquests.chapter.electric_era.quest140.subtitle}"
 			tasks: [{
 				id: "4F25576E2B2BF6C7"
 				item: "industrialupgrade:upgrades/overclocker"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.extended_electric_era.title}"
 			x: -10.0d
 			y: -13.0d
 		}
 		{
 			dependencies: ["744D6ED942E252B4"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest113.description1}"
-				"{ftbquests.chapter.56AEAC22236F88E3.quest113.description2}"
+				"{ftbquests.chapter.electric_era.quest17.description1}"
+				"{ftbquests.chapter.electric_era.quest17.description2}"
 			]
 			id: "2E7A4352418EC8FD"
 			rewards: [{
@@ -537,7 +537,7 @@
 		}
 		{
 			dependencies: ["744D6ED942E252B4"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest114.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest18.description1}"]
 			id: "753CF40323196C98"
 			rewards: [{
 				id: "49582916D669F8F4"
@@ -572,7 +572,7 @@
 				"73FF88080F039888"
 				"7DE603645323C369"
 			]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest73.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest19.description1}"]
 			id: "35839CB07EB073D5"
 			rewards: [{
 				id: "39B989498B818451"
@@ -589,7 +589,7 @@
 		}
 		{
 			dependencies: ["35839CB07EB073D5"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest100.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest20.description1}"]
 			id: "5C7AB32C61427DA4"
 			rewards: [{
 				id: "4BB8632D83762E68"
@@ -626,7 +626,7 @@
 		}
 		{
 			dependencies: ["7B4FD830C19155A2"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest102.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest22.description1}"]
 			id: "40960CEB371D96E0"
 			rewards: [{
 				id: "346F716F9A56EDA8"
@@ -644,9 +644,9 @@
 		{
 			dependencies: ["40960CEB371D96E0"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest103.description1}"
+				"{ftbquests.chapter.electric_era.quest23.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest103.description2}"
+				"{ftbquests.chapter.electric_era.quest23.description2}"
 			]
 			id: "70215038730DBFE5"
 			rewards: [{
@@ -672,6 +672,7 @@
 				item: "libraryferret:iron_coins_jtl"
 				type: "item"
 			}]
+			subtitle: "{ftbquests.chapter.electric_era.quest24.subtitle}"
 			tasks: [{
 				id: "7837B4CA94CE95A2"
 				item: {
@@ -687,13 +688,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest71.title}"
+			title: "{ftbquests.chapter.electric_era.quest24.title}"
 			x: -13.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["66BE9569A4532C7B"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest70.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest25.description1}"]
 			id: "7DE603645323C369"
 			rewards: [{
 				id: "77F2D3722685AE3B"
@@ -715,18 +716,18 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest70.title}"
+			title: "{ftbquests.chapter.electric_era.quest25.title}"
 			x: -13.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["4EDDFEECAECAFBFF"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest72.description1}"
+				"{ftbquests.chapter.electric_era.quest26.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest72.description2}"
+				"{ftbquests.chapter.electric_era.quest26.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest72.description3}"
+				"{ftbquests.chapter.electric_era.quest26.description3}"
 			]
 			hide_dependency_lines: true
 			id: "0A1290B65902B13E"
@@ -753,7 +754,7 @@
 		}
 		{
 			dependencies: ["23E6B642B3CCD977"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest52.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest27.description1}"]
 			hide_dependency_lines: true
 			id: "20FB221896274758"
 			rewards: [{
@@ -778,13 +779,14 @@
 				"113212D6E881ADC0"
 				"20FB221896274758"
 			]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest69.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest28.description1}"]
 			id: "73FF88080F039888"
 			rewards: [{
 				id: "780C0A333B9EE762"
 				item: "libraryferret:iron_coins_jtl"
 				type: "item"
 			}]
+			subtitle: "{ftbquests.chapter.electric_era.quest28.subtitle}"
 			tasks: [{
 				id: "2800A63E222E175D"
 				item: {
@@ -800,7 +802,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest69.title}"
+			title: "{ftbquests.chapter.electric_era.quest28.title}"
 			x: -10.0d
 			y: -9.5d
 		}
@@ -830,13 +832,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest66.title}"
+			title: "{ftbquests.chapter.electric_era.quest29.title}"
 			x: -10.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["569360BC3FA51833"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest68.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest30.description1}"]
 			id: "113212D6E881ADC0"
 			rewards: [{
 				id: "11F3F9068DE57B97"
@@ -858,18 +860,16 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest68.title}"
+			title: "{ftbquests.chapter.electric_era.quest30.title}"
 			x: -8.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["73FF88080F039888"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest74.description1}"
+				"{ftbquests.chapter.electric_era.quest31.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest74.description2}"
-				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest74.description3}"
+				"{ftbquests.chapter.electric_era.quest31.description3}"
 			]
 			id: "0E102C946EB16DC7"
 			optional: true
@@ -878,6 +878,7 @@
 				item: "libraryferret:iron_coins_jtl"
 				type: "item"
 			}]
+			subtitle: "{ftbquests.chapter.electric_era.quest31.description1}"
 			tasks: [{
 				id: "2CF69A7A1A0A3163"
 				item: {
@@ -898,7 +899,7 @@
 		}
 		{
 			dependencies: ["6551A0EE85259C95"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest64.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest32.description1}"]
 			id: "65C9854BC3D4E11E"
 			rewards: [{
 				id: "7248E2E6728ADC34"
@@ -1240,9 +1241,9 @@
 		{
 			dependencies: ["754A3D01A701B1D7"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest24.description1}"
+				"{ftbquests.chapter.electric_era.quest46.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest24.description2}"
+				"{ftbquests.chapter.electric_era.quest46.description2}"
 			]
 			id: "5EF722BAC5D22F4F"
 			rewards: [{
@@ -1259,8 +1260,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -10.0d
+			x: 5.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["42195EC979DF2208"]
@@ -1304,13 +1305,14 @@
 		}
 		{
 			dependencies: ["0FDDA57535030E0E"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest90.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest49.description1}"]
 			id: "47E71D696F19E7A6"
 			rewards: [{
 				id: "13A9D6AC6466C09F"
 				item: "libraryferret:gold_coins_jtl"
 				type: "item"
 			}]
+			subtitle: "{ftbquests.chapter.electric_era.quest49.subtitle}"
 			tasks: [{
 				id: "1CABAAFC7C10161C"
 				item: {
@@ -1326,19 +1328,20 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest90.title}"
+			title: "{ftbquests.chapter.electric_era.quest49.title}"
 			x: 4.0d
 			y: -12.5d
 		}
 		{
 			dependencies: ["47E71D696F19E7A6"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest89.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest50.description1}"]
 			id: "2EE743E4B014019A"
 			rewards: [{
 				id: "6025FE8A08A19BED"
 				item: "libraryferret:gold_coins_jtl"
 				type: "item"
 			}]
+			subtitle: "{ftbquests.chapter.electric_era.quest50.subtitle}"
 			tasks: [{
 				id: "2DB077A9653A0A0F"
 				item: {
@@ -1354,16 +1357,16 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest89.title}"
+			title: "{ftbquests.chapter.electric_era.quest50.title}"
 			x: 4.0d
 			y: -14.5d
 		}
 		{
 			dependencies: ["2EE743E4B014019A"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest88.description1}"
+				"{ftbquests.chapter.electric_era.quest51.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest88.description2}"
+				"{ftbquests.chapter.electric_era.quest51.description2}"
 			]
 			id: "10305A9C5E67E049"
 			rewards: [{
@@ -1381,7 +1384,7 @@
 		}
 		{
 			dependencies: ["10305A9C5E67E049"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest115.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest52.description1}"]
 			id: "0CD92F65FEAF421F"
 			optional: true
 			rewards: [{
@@ -1403,13 +1406,14 @@
 		}
 		{
 			dependencies: ["3E996A03017D8499"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest91.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest53.description1}"]
 			id: "0FDDA57535030E0E"
 			rewards: [{
 				id: "37ACCDD841A7ECA7"
 				item: "libraryferret:gold_coins_jtl"
 				type: "item"
 			}]
+			subtitle: "{ftbquests.chapter.electric_era.quest53.subtitle}"
 			tasks: [{
 				id: "5E3BB4E79D362B9E"
 				item: {
@@ -1425,19 +1429,20 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest91.title}"
+			title: "{ftbquests.chapter.electric_era.quest53.title}"
 			x: 6.0d
 			y: -12.5d
 		}
 		{
 			dependencies: ["6B2ECD0D3792B9E0"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest92.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest54.description1}"]
 			id: "3E996A03017D8499"
 			rewards: [{
 				id: "62E04450F1748B48"
 				item: "libraryferret:gold_coins_jtl"
 				type: "item"
 			}]
+			subtitle: "{ftbquests.chapter.electric_era.quest54.subtitle}"
 			tasks: [{
 				id: "2D73255AB7AD552A"
 				item: {
@@ -1453,16 +1458,16 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest92.title}"
+			title: "{ftbquests.chapter.electric_era.quest54.title}"
 			x: 6.0d
 			y: -10.5d
 		}
 		{
 			dependencies: ["1E814C9AAE478ACD"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest93.description1}"
+				"{ftbquests.chapter.electric_era.quest55.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest93.description2}"
+				"{ftbquests.chapter.electric_era.quest55.description2}"
 			]
 			id: "6B2ECD0D3792B9E0"
 			rewards: [{
@@ -1471,33 +1476,33 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "561F7E17BB91F914"
+				id: "3051872D2554F7B8"
 				item: {
 					Count: 1
 					id: "industrialupgrade:itemcell/itemcell"
 					tag: {
 						Fluid: {
 							Amount: 1000
-							FluidName: "industrialupgrade:iufluidazot"
+							FluidName: "industrialupgrade:iufluidnitrogen"
 						}
 					}
 				}
-				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest93.title}"
+			title: "{ftbquests.chapter.electric_era.quest55.title}"
 			x: 8.0d
 			y: -10.5d
 		}
 		{
 			dependencies: ["647476813A948984"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest94.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest56.description1}"]
 			id: "1E814C9AAE478ACD"
 			rewards: [{
 				id: "5019E3EF7EB9D862"
 				item: "libraryferret:gold_coins_jtl"
 				type: "item"
 			}]
+			subtitle: "{ftbquests.chapter.electric_era.quest56.subtitle}"
 			tasks: [{
 				id: "15C4ACA90D01ED17"
 				item: {
@@ -1513,7 +1518,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest94.title}"
+			title: "{ftbquests.chapter.electric_era.quest56.title}"
 			x: 8.0d
 			y: -8.5d
 		}
@@ -1535,7 +1540,7 @@
 		}
 		{
 			dependencies: ["587550792D9D021E"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest96.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest58.description1}"]
 			id: "53598599FAB8A360"
 			rewards: [{
 				id: "125FB05FBE8A1F06"
@@ -1552,9 +1557,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest97.description1}"
+				"{ftbquests.chapter.electric_era.quest59.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest97.description2}"
+				"{ftbquests.chapter.electric_era.quest59.description2}"
 			]
 			id: "587550792D9D021E"
 			rewards: [{
@@ -1573,21 +1578,21 @@
 		{
 			dependencies: ["082068DE8BF5602C"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest108.description1}"
+				"{ftbquests.chapter.electric_era.quest60.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest108.description2}"
+				"{ftbquests.chapter.electric_era.quest60.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest108.description3}"
-				"{ftbquests.chapter.56AEAC22236F88E3.quest108.description4}"
+				"{ftbquests.chapter.electric_era.quest60.description3}"
+				"{ftbquests.chapter.electric_era.quest60.description4}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest108.description5}"
-				"{ftbquests.chapter.56AEAC22236F88E3.quest108.description6}"
+				"{ftbquests.chapter.electric_era.quest60.description5}"
+				"{ftbquests.chapter.electric_era.quest60.description6}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest108.description7}"
+				"{ftbquests.chapter.electric_era.quest60.description7}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.56AEAC22236F88E3.quest108.image0}"
+				"{ftbquests.chapter.electric_era.quest60.image0}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest108.image2}"
+				"{ftbquests.chapter.electric_era.quest60.image2}"
 			]
 			id: "01200CA6D5815989"
 			rewards: [{
@@ -1611,13 +1616,13 @@
 		{
 			dependencies: ["4EDDFEECAECAFBFF"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest98.description1}"
+				"{ftbquests.chapter.electric_era.quest61.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest98.description2}"
+				"{ftbquests.chapter.electric_era.quest61.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest98.description3}"
+				"{ftbquests.chapter.electric_era.quest61.description3}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest98.description4}"
+				"{ftbquests.chapter.electric_era.quest61.description4}"
 			]
 			id: "082068DE8BF5602C"
 			rewards: [{
@@ -1638,20 +1643,21 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["08EBC8AF4E908B6B"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest1.description1}"
+				"{ftbquests.chapter.electric_era.quest62.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest1.description2}"
+				"{ftbquests.chapter.electric_era.quest62.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest1.description3}"
+				"{ftbquests.chapter.electric_era.quest62.description3}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest1.description4}"
+				"{ftbquests.chapter.electric_era.quest62.description4}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest1.description5}"
+				"{ftbquests.chapter.electric_era.quest62.description5}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest1.description6}"
+				"{ftbquests.chapter.electric_era.quest62.description6}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest1.description7}"
+				"{ftbquests.chapter.electric_era.quest62.description7}"
 			]
 			id: "4EDDFEECAECAFBFF"
 			rewards: [{
@@ -1663,21 +1669,21 @@
 			size: 1.3d
 			tasks: [{
 				id: "478D985EB75E8BD7"
-				title: "{ftbquests.chapter.56AEAC22236F88E3.quest1.task_5155944680979860439.title}"
+				title: "{ftbquests.chapter.electric_era.quest62.task_478D985EB75E8BD7.title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest1.title}"
+			title: "{ftbquests.chapter.electric_era.quest62.title}"
 			x: 5.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["4EDDFEECAECAFBFF"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest16.description1}"
+				"{ftbquests.chapter.electric_era.quest63.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest16.description2}"
+				"{ftbquests.chapter.electric_era.quest63.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest16.description3}"
+				"{ftbquests.chapter.electric_era.quest63.description3}"
 			]
 			id: "6FFC0518A149EF3F"
 			rewards: [{
@@ -1697,11 +1703,11 @@
 		{
 			dependencies: ["4EDDFEECAECAFBFF"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest23.description1}"
+				"{ftbquests.chapter.electric_era.quest64.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest23.description2}"
+				"{ftbquests.chapter.electric_era.quest64.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest23.description3}"
+				"{ftbquests.chapter.electric_era.quest64.description3}"
 			]
 			id: "754A3D01A701B1D7"
 			rewards: [{
@@ -1720,14 +1726,14 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -8.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["754A3D01A701B1D7"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest25.description1}"
+				"{ftbquests.chapter.electric_era.quest65.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest25.description2}"
+				"{ftbquests.chapter.electric_era.quest65.description2}"
 			]
 			id: "3D986028A8068D74"
 			rewards: [{
@@ -1750,11 +1756,11 @@
 		{
 			dependencies: ["5EDEECD91F46F229"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest118.description1}"
+				"{ftbquests.chapter.electric_era.quest66.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest118.description2}"
+				"{ftbquests.chapter.electric_era.quest66.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest118.image0}"
+				"{ftbquests.chapter.electric_era.quest66.image0}"
 			]
 			id: "759264C4CF329251"
 			rewards: [{
@@ -1793,11 +1799,11 @@
 				"46AE76C8304AF2F5"
 			]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest117.description1}"
+				"{ftbquests.chapter.electric_era.quest68.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest117.description2}"
+				"{ftbquests.chapter.electric_era.quest68.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest117.description3}"
+				"{ftbquests.chapter.electric_era.quest68.description3}"
 			]
 			id: "5EDEECD91F46F229"
 			rewards: [{
@@ -1857,11 +1863,11 @@
 		{
 			dependencies: ["4EDDFEECAECAFBFF"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest116.description1}"
+				"{ftbquests.chapter.electric_era.quest71.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest116.description2}"
+				"{ftbquests.chapter.electric_era.quest71.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest116.description3}"
+				"{ftbquests.chapter.electric_era.quest71.description3}"
 			]
 			id: "46AE76C8304AF2F5"
 			rewards: [{
@@ -1900,9 +1906,9 @@
 		{
 			dependencies: ["23E6B642B3CCD977"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest51.description1}"
+				"{ftbquests.chapter.electric_era.quest73.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest51.description2}"
+				"{ftbquests.chapter.electric_era.quest73.description2}"
 			]
 			id: "362584D2983BB7D8"
 			rewards: [{
@@ -1921,11 +1927,11 @@
 		{
 			dependencies: ["78C3BBC50DB28920"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest20.description1}"
+				"{ftbquests.chapter.electric_era.quest74.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest20.description2}"
+				"{ftbquests.chapter.electric_era.quest74.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest20.description3}"
+				"{ftbquests.chapter.electric_era.quest74.description3}"
 			]
 			id: "0EF429E933F43356"
 			rewards: [{
@@ -1948,9 +1954,9 @@
 		{
 			dependencies: ["78C3BBC50DB28920"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest21.description1}"
+				"{ftbquests.chapter.electric_era.quest75.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest21.description2}"
+				"{ftbquests.chapter.electric_era.quest75.description2}"
 			]
 			id: "0768D27583996FB1"
 			rewards: [{
@@ -1973,9 +1979,9 @@
 		{
 			dependencies: ["78C3BBC50DB28920"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest18.description1}"
+				"{ftbquests.chapter.electric_era.quest76.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest18.description2}"
+				"{ftbquests.chapter.electric_era.quest76.description2}"
 			]
 			id: "10518709890CC5AE"
 			rewards: [{
@@ -1997,7 +2003,7 @@
 		}
 		{
 			dependencies: ["4EDDFEECAECAFBFF"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest22.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest77.description1}"]
 			id: "78C3BBC50DB28920"
 			rewards: [{
 				id: "5965943F28A11470"
@@ -2006,7 +2012,7 @@
 			}]
 			tasks: [{
 				id: "5965943F28A1146F"
-				title: "{ftbquests.chapter.56AEAC22236F88E3.quest22.task_6441717841008858223.title}"
+				title: "{ftbquests.chapter.electric_era.quest77.task_5965943F28A1146F.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -2015,11 +2021,11 @@
 		{
 			dependencies: ["78C3BBC50DB28920"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest19.description1}"
+				"{ftbquests.chapter.electric_era.quest78.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest19.description2}"
+				"{ftbquests.chapter.electric_era.quest78.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest19.description3}"
+				"{ftbquests.chapter.electric_era.quest78.description3}"
 			]
 			id: "44F765EFFC3FFC2C"
 			rewards: [{
@@ -2098,18 +2104,18 @@
 					type: "item"
 				}
 			]
-			title: "Улучшенные детали"
+			title: "{ftbquests.chapter.electric_era.quest80.title}"
 			x: 2.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["2194BF77FF362C85"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest110.description1}"
+				"{ftbquests.chapter.electric_era.quest81.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest110.description2}"
+				"{ftbquests.chapter.electric_era.quest81.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest110.description3}"
+				"{ftbquests.chapter.electric_era.quest81.description3}"
 			]
 			id: "502F41554584EA20"
 			rewards: [{
@@ -2128,13 +2134,13 @@
 		{
 			dependencies: ["5DFFD1E6D5EC6A8A"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest109.description1}"
+				"{ftbquests.chapter.electric_era.quest82.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest109.description2}"
+				"{ftbquests.chapter.electric_era.quest82.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest109.description3}"
+				"{ftbquests.chapter.electric_era.quest82.description3}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest109.description4}"
+				"{ftbquests.chapter.electric_era.quest82.description4}"
 			]
 			id: "2194BF77FF362C85"
 			rewards: [{
@@ -2147,7 +2153,7 @@
 				item: "industrialupgrade:basemachine3/energy_controller"
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest109.title}"
+			title: "{ftbquests.chapter.electric_era.quest82.title}"
 			x: -0.5d
 			y: 1.0d
 		}
@@ -2173,7 +2179,7 @@
 		}
 		{
 			dependencies: ["5DFFD1E6D5EC6A8A"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest31.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest84.description1}"]
 			id: "1CECD81236C048E7"
 			rewards: [{
 				id: "2FD03A63CBF1E283"
@@ -2194,7 +2200,7 @@
 				"41BF5EC6AA574C55"
 				"1CECD81236C048E7"
 			]
-			description: [""]
+			description: ["{ftbquests.chapter.electric_era.quest16.description3}"]
 			id: "0658B78DEB1015A4"
 			rewards: [{
 				count: 4
@@ -2204,22 +2210,24 @@
 			}]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "{ftbquests.chapter.electric_era.quest140.subtitle}"
 			tasks: [{
 				id: "5C1ED30576433ACE"
 				item: "industrialupgrade:basemachine1/adv_alloy_smelter"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.extended_electric_era.title}"
 			x: -0.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["0658B78DEB1015A4"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest120.description1}"
+				"{ftbquests.chapter.electric_era.quest86.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest120.description2}"
+				"{ftbquests.chapter.electric_era.quest86.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest120.description3}"
+				"{ftbquests.chapter.electric_era.quest86.description3}"
 			]
 			id: "2145F9716C9C2348"
 			optional: true
@@ -2367,7 +2375,7 @@
 		}
 		{
 			dependencies: ["3C0C78CA44539F74"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest46.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest92.description1}"]
 			id: "15BA350AC87FDD2D"
 			rewards: [{
 				id: "70EB2695FB01E4C5"
@@ -2402,9 +2410,9 @@
 				"6589E8CC5686F747"
 			]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest61.description1}"
+				"{ftbquests.chapter.electric_era.quest94.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest61.description2}"
+				"{ftbquests.chapter.electric_era.quest94.description2}"
 			]
 			id: "163CEF525870D7D8"
 			rewards: [{
@@ -2422,7 +2430,7 @@
 		}
 		{
 			dependencies: ["03C53DF1878B972C"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest62.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest95.description1}"]
 			id: "6589E8CC5686F747"
 			rewards: [{
 				id: "733B38FBD8CEB51C"
@@ -2444,9 +2452,9 @@
 		{
 			dependencies: ["65C9854BC3D4E11E"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest63.description1}"
+				"{ftbquests.chapter.electric_era.quest96.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest63.description2}"
+				"{ftbquests.chapter.electric_era.quest96.description2}"
 			]
 			id: "236FD95CAEC5D219"
 			rewards: [{
@@ -2489,13 +2497,13 @@
 				"1CB6F5FEACCA3BB5"
 			]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest59.description1}"
+				"{ftbquests.chapter.electric_era.quest98.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest59.description2}"
+				"{ftbquests.chapter.electric_era.quest98.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest59.description3}"
+				"{ftbquests.chapter.electric_era.quest98.description3}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest59.description4}"
+				"{ftbquests.chapter.electric_era.quest98.description4}"
 			]
 			id: "0E5A440D7A43A632"
 			rewards: [{
@@ -2538,6 +2546,7 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.electric_era.quest98.title}"
 			x: -10.0d
 			y: -5.0d
 		}
@@ -2601,15 +2610,15 @@
 					type: "item"
 				}
 			]
-			title: "Ракетные компаненты"
+			title: "Ракетные компоненты"
 			x: -1.5d
 			y: 2.5d
 		}
 		{
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest5.description1}"
+				"{ftbquests.chapter.electric_era.quest101.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest5.description2}"
+				"{ftbquests.chapter.electric_era.quest101.description2}"
 			]
 			id: "5636F9C89E8FAE8A"
 			rewards: [{
@@ -2627,9 +2636,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest6.description1}"
+				"{ftbquests.chapter.electric_era.quest102.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest6.description2}"
+				"{ftbquests.chapter.electric_era.quest102.description2}"
 			]
 			id: "0BEF86EEB360F9FA"
 			rewards: [{
@@ -2647,9 +2656,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest3.description1}"
+				"{ftbquests.chapter.electric_era.quest103.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest3.description2}"
+				"{ftbquests.chapter.electric_era.quest103.description2}"
 			]
 			id: "3DD2F37E7A2BB49B"
 			rewards: [{
@@ -2666,7 +2675,7 @@
 			y: 4.5d
 		}
 		{
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest7.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest104.description1}"]
 			id: "25620FBD89BCEDC2"
 			rewards: [{
 				id: "5E9E3CED6D5785F9"
@@ -2682,7 +2691,7 @@
 			y: 6.5d
 		}
 		{
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest8.rich_description1}{ftbquests.chapter.56AEAC22236F88E3.quest8.rich_description2}{ftbquests.chapter.56AEAC22236F88E3.quest8.rich_description3}"]
+			description: ["{ftbquests.chapter.electric_era.quest105.description1}{ftbquests.chapter.electric_era.quest105.description2}{ftbquests.chapter.electric_era.quest105.description3}"]
 			id: "58344F08DBF07AB1"
 			rewards: [{
 				id: "52706779400D6DF6"
@@ -2699,9 +2708,9 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest4.description1}"
+				"{ftbquests.chapter.electric_era.quest106.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest4.description2}"
+				"{ftbquests.chapter.electric_era.quest106.description2}"
 			]
 			id: "562BF588C9AE77F3"
 			rewards: [{
@@ -2723,17 +2732,17 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest15.description1}"
+				"{ftbquests.chapter.electric_era.quest107.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest15.description2}"
+				"{ftbquests.chapter.electric_era.quest107.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest15.description3}"
+				"{ftbquests.chapter.electric_era.quest107.description3}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest15.description4}"
+				"{ftbquests.chapter.electric_era.quest107.description4}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest15.description5}"
+				"{ftbquests.chapter.electric_era.quest107.description5}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest15.description6}"
+				"{ftbquests.chapter.electric_era.quest107.description6}"
 			]
 			id: "791C9FCDC0A22034"
 			rewards: [{
@@ -2745,7 +2754,7 @@
 			tasks: [
 				{
 					id: "0D57B16A81201DD9"
-					title: "{ftbquests.chapter.56AEAC22236F88E3.quest15.task_961432116457905625.title}"
+					title: "{ftbquests.chapter.electric_era.quest107.task_0D57B16A81201DD9.title}"
 					type: "checkmark"
 				}
 				{
@@ -2759,29 +2768,29 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest17.description1}"
+				"{ftbquests.chapter.electric_era.quest108.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest17.description2}"
+				"{ftbquests.chapter.electric_era.quest108.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest17.description3}"
+				"{ftbquests.chapter.electric_era.quest108.description3}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest17.description4}"
+				"{ftbquests.chapter.electric_era.quest108.description4}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest17.description5}"
+				"{ftbquests.chapter.electric_era.quest108.description5}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest17.description6}"
+				"{ftbquests.chapter.electric_era.quest108.description6}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.56AEAC22236F88E3.quest17.description7}"
-				"{ftbquests.chapter.56AEAC22236F88E3.quest17.description8}"
-				"{ftbquests.chapter.56AEAC22236F88E3.quest17.description9}"
-				"{ftbquests.chapter.56AEAC22236F88E3.quest17.description10}"
-				"{ftbquests.chapter.56AEAC22236F88E3.quest17.description11}"
-				"{ftbquests.chapter.56AEAC22236F88E3.quest17.description12}"
-				"{ftbquests.chapter.56AEAC22236F88E3.quest17.description13}"
-				"{ftbquests.chapter.56AEAC22236F88E3.quest17.description14}"
-				"{ftbquests.chapter.56AEAC22236F88E3.quest17.description15}"
-				"{ftbquests.chapter.56AEAC22236F88E3.quest17.description16}"
-				"{ftbquests.chapter.56AEAC22236F88E3.quest17.description17}"
+				"{ftbquests.chapter.electric_era.quest108.description7}"
+				"{ftbquests.chapter.electric_era.quest108.description8}"
+				"{ftbquests.chapter.electric_era.quest108.description9}"
+				"{ftbquests.chapter.electric_era.quest108.description10}"
+				"{ftbquests.chapter.electric_era.quest108.description11}"
+				"{ftbquests.chapter.electric_era.quest108.description12}"
+				"{ftbquests.chapter.electric_era.quest108.description13}"
+				"{ftbquests.chapter.electric_era.quest108.description14}"
+				"{ftbquests.chapter.electric_era.quest108.description15}"
+				"{ftbquests.chapter.electric_era.quest108.description16}"
+				"{ftbquests.chapter.electric_era.quest108.description17}"
 			]
 			id: "0810029C62E8695F"
 			rewards: [{
@@ -2793,7 +2802,7 @@
 			tasks: [
 				{
 					id: "699775BFD6A37535"
-					title: "{ftbquests.chapter.56AEAC22236F88E3.quest17.task_7608679562265982261.title}"
+					title: "{ftbquests.chapter.electric_era.quest108.task_699775BFD6A37535.title}"
 					type: "checkmark"
 				}
 				{
@@ -2806,7 +2815,7 @@
 			y: 5.5d
 		}
 		{
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest9.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest109.description1}"]
 			id: "457DB28DFC8CFB01"
 			rewards: [{
 				id: "4C2AFBA46124DFE1"
@@ -2823,17 +2832,17 @@
 		}
 		{
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest10.description1}"
+				"{ftbquests.chapter.electric_era.quest110.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest10.description2}"
+				"{ftbquests.chapter.electric_era.quest110.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest10.description3}"
+				"{ftbquests.chapter.electric_era.quest110.description3}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest10.description4}"
+				"{ftbquests.chapter.electric_era.quest110.description4}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest10.description5}"
+				"{ftbquests.chapter.electric_era.quest110.description5}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest10.description6}"
+				"{ftbquests.chapter.electric_era.quest110.description6}"
 			]
 			id: "75DAE253BE05CE0C"
 			rewards: [{
@@ -2859,7 +2868,7 @@
 		}
 		{
 			dependencies: ["6CA7685B316EAB9D"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest11.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest111.description1}"]
 			id: "5793E76CCAC97F70"
 			rewards: [{
 				id: "0BAB38DC5B5DCF75"
@@ -2876,7 +2885,7 @@
 		}
 		{
 			dependencies: ["6CA7685B316EAB9D"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest12.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest112.description1}"]
 			id: "23ABFD34C28E58D8"
 			rewards: [{
 				id: "34CFA3E8EA5CEB9E"
@@ -2893,7 +2902,7 @@
 		}
 		{
 			dependencies: ["5F2908B005E0F7AC"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest13.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest113.description1}"]
 			id: "6CA7685B316EAB9D"
 			rewards: [{
 				id: "55DD435DEB5E74D8"
@@ -2915,15 +2924,15 @@
 		{
 			dependencies: ["4EDDFEECAECAFBFF"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest14.description1}"
+				"{ftbquests.chapter.electric_era.quest114.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest14.description2}"
+				"{ftbquests.chapter.electric_era.quest114.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest14.description3}"
+				"{ftbquests.chapter.electric_era.quest114.description3}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest14.description4}"
+				"{ftbquests.chapter.electric_era.quest114.description4}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest14.description5}"
+				"{ftbquests.chapter.electric_era.quest114.description5}"
 			]
 			hide_dependency_lines: true
 			id: "5F2908B005E0F7AC"
@@ -2947,18 +2956,18 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest14.title}"
+			title: "{ftbquests.chapter.electric_era.quest114.title}"
 			x: -3.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["795D6EED90CBD783"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest104.description1}"
+				"{ftbquests.chapter.electric_era.quest115.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest104.description2}"
+				"{ftbquests.chapter.electric_era.quest115.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest104.description3}"
+				"{ftbquests.chapter.electric_era.quest115.description3}"
 			]
 			id: "68CEE7C4BC7FE46D"
 			rewards: [{
@@ -2991,7 +3000,7 @@
 		}
 		{
 			dependencies: ["795D6EED90CBD783"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest67.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest116.description1}"]
 			id: "724FF2B0CEF84E20"
 			rewards: [{
 				id: "09D97E951E82B08A"
@@ -3034,9 +3043,9 @@
 				"69DB6129A483C9F1"
 			]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest38.description1}"
+				"{ftbquests.chapter.electric_era.quest118.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest38.description2}"
+				"{ftbquests.chapter.electric_era.quest118.description2}"
 			]
 			id: "107FC78F9702D8A7"
 			rewards: [{
@@ -3059,13 +3068,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest38.title}"
+			title: "{ftbquests.chapter.electric_era.quest118.title}"
 			x: -6.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["795D6EED90CBD783"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest39.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest119.description1}"]
 			id: "3BABDECA88C13932"
 			rewards: [{
 				id: "2D55D98708B0573F"
@@ -3087,13 +3096,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest39.title}"
+			title: "{ftbquests.chapter.electric_era.quest119.title}"
 			x: -6.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["7B84DB24EF0A5F46"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest40.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest120.description1}"]
 			id: "795D6EED90CBD783"
 			rewards: [{
 				id: "0588257BE628D069"
@@ -3115,18 +3124,18 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest40.title}"
+			title: "{ftbquests.chapter.electric_era.quest120.title}"
 			x: -6.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["4EDDFEECAECAFBFF"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest47.description1}"
+				"{ftbquests.chapter.electric_era.quest121.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest47.description2}"
+				"{ftbquests.chapter.electric_era.quest121.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest47.description3}"
+				"{ftbquests.chapter.electric_era.quest121.description3}"
 			]
 			hide_dependency_lines: true
 			id: "7B84DB24EF0A5F46"
@@ -3145,7 +3154,7 @@
 		}
 		{
 			dependencies: ["795D6EED90CBD783"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest44.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest122.description1}"]
 			id: "47B70385C57C63BB"
 			rewards: [{
 				id: "260EDC1C527B82BE"
@@ -3167,13 +3176,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest44.title}"
+			title: "{ftbquests.chapter.electric_era.quest122.title}"
 			x: -7.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["7B84DB24EF0A5F46"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest45.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest123.description1}"]
 			id: "54EF2969AAAF483A"
 			rewards: [{
 				id: "56BE5031AC7972E5"
@@ -3195,7 +3204,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest45.title}"
+			title: "{ftbquests.chapter.electric_era.quest123.title}"
 			x: -9.0d
 			y: 7.5d
 		}
@@ -3204,7 +3213,7 @@
 				"47B70385C57C63BB"
 				"54EF2969AAAF483A"
 			]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest43.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest124.description1}"]
 			id: "41C9A15C241B1701"
 			rewards: [{
 				id: "5A5EF2529F031EF4"
@@ -3226,13 +3235,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest43.title}"
+			title: "{ftbquests.chapter.electric_era.quest124.title}"
 			x: -9.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["41C9A15C241B1701"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest42.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest125.description1}"]
 			id: "6CD1DBFDBFEE6F44"
 			rewards: [{
 				id: "3C7408B490C17EE2"
@@ -3254,18 +3263,18 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest42.title}"
+			title: "{ftbquests.chapter.electric_era.quest125.title}"
 			x: -9.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["6CD1DBFDBFEE6F44"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest36.description1}"
+				"{ftbquests.chapter.electric_era.quest126.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest36.description2}"
+				"{ftbquests.chapter.electric_era.quest126.description2}"
 				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.56AEAC22236F88E3.quest36.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.56AEAC22236F88E3.quest36.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"0949BB0088A9C6D5\"}}]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.electric_era.quest126.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.electric_era.quest126.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"0949BB0088A9C6D5\"}}]"
 			]
 			id: "6EAEF2D6BEED01CC"
 			rewards: [{
@@ -3273,6 +3282,7 @@
 				item: "libraryferret:gold_coins_jtl"
 				type: "item"
 			}]
+			subtitle: "{ftbquests.chapter.electric_era.quest126.subtitle}"
 			tasks: [{
 				id: "76E307930F4DF2A3"
 				item: {
@@ -3288,13 +3298,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest36.title}"
+			title: "{ftbquests.chapter.electric_era.quest126.title}"
 			x: -9.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6EAEF2D6BEED01CC"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest34.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest127.description1}"]
 			id: "79FCDF606D93D8FE"
 			rewards: [{
 				id: "00052A74E91F96CE"
@@ -3347,7 +3357,7 @@
 		}
 		{
 			dependencies: ["474565EE29ECBFB1"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest57.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest130.description1}"]
 			id: "53C288486B2EA61F"
 			rewards: [{
 				id: "35043D88FB15B2BD"
@@ -3365,13 +3375,13 @@
 		{
 			dependencies: ["0949BB0088A9C6D5"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest58.description1}"
+				"{ftbquests.chapter.electric_era.quest131.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest58.description2}"
+				"{ftbquests.chapter.electric_era.quest131.description2}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest58.description3}"
+				"{ftbquests.chapter.electric_era.quest131.description3}"
 				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.56AEAC22236F88E3.quest58.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.56AEAC22236F88E3.quest58.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"0949BB0088A9C6D5\"}}]"
+				"[\"\",{\"translate\":\"ftbquests.chapter.electric_era.quest131.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.electric_era.quest131.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"0949BB0088A9C6D5\"}}]"
 			]
 			hide_dependency_lines: true
 			id: "474565EE29ECBFB1"
@@ -3390,7 +3400,7 @@
 		}
 		{
 			dependencies: ["474565EE29ECBFB1"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest107.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest132.description1}"]
 			id: "54FA580CBCCDF600"
 			optional: true
 			rewards: [{
@@ -3408,7 +3418,7 @@
 		}
 		{
 			dependencies: ["54FA580CBCCDF600"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest119.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest133.description1}"]
 			id: "1BC37EF28D052E6B"
 			optional: true
 			rewards: [{
@@ -3475,7 +3485,7 @@
 				"79FCDF606D93D8FE"
 				"18D46661CA09EC91"
 			]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest32.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest136.description1}"]
 			id: "3C0C78CA44539F74"
 			rewards: [{
 				id: "1EAD0CD24FE09CE3"
@@ -3492,7 +3502,7 @@
 		}
 		{
 			dependencies: ["09E438DA724A4817"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest33.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest137.description1}"]
 			id: "29429B10F7F31827"
 			rewards: [{
 				id: "59D9E4C5A9EF737A"
@@ -3510,11 +3520,12 @@
 		{
 			dependencies: ["5D91E8CC1DC90D5C"]
 			description: [
-				"{ftbquests.chapter.56AEAC22236F88E3.quest35.description1}"
+				"{ftbquests.chapter.electric_era.quest138.description1}"
 				""
-				"{ftbquests.chapter.56AEAC22236F88E3.quest35.description2}"
+				"{ftbquests.chapter.electric_era.quest138.description2}"
 				""
-				"[\"\",{\"translate\":\"ftbquests.chapter.56AEAC22236F88E3.quest35.rich_description1\"},{\"underlined\":1,\"translate\":\"ftbquests.chapter.56AEAC22236F88E3.quest35.rich_description2\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"0949BB0088A9C6D5\"}}]"
+				"{\"text\":\"Крафт тория \",\"color\":\"white\"}"
+				"{\"text\":\"производится в этом механизме\",\"underlined\":true,\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"0949BB0088A9C6D5\"}}"
 			]
 			id: "09E438DA724A4817"
 			rewards: [{
@@ -3522,6 +3533,7 @@
 				item: "libraryferret:gold_coins_jtl"
 				type: "item"
 			}]
+			subtitle: "{ftbquests.chapter.electric_era.quest138.subtitle}"
 			tasks: [{
 				id: "08A01A2AE04AB0F7"
 				item: {
@@ -3537,13 +3549,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest35.title}"
+			title: "{ftbquests.chapter.electric_era.quest138.title}"
 			x: -6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["107FC78F9702D8A7"]
-			description: ["{ftbquests.chapter.56AEAC22236F88E3.quest37.description1}"]
+			description: ["{ftbquests.chapter.electric_era.quest139.description1}"]
 			id: "5D91E8CC1DC90D5C"
 			rewards: [{
 				id: "33EA4895AA43B66E"
@@ -3565,10 +3577,10 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.56AEAC22236F88E3.quest37.title}"
+			title: "{ftbquests.chapter.electric_era.quest139.title}"
 			x: -6.0d
 			y: 3.0d
 		}
 	]
-	title: "{ftbquests.chapter.56AEAC22236F88E3.title}"
+	title: "{ftbquests.chapter.electric_era.title}"
 }

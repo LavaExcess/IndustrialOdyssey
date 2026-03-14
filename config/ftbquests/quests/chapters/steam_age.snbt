@@ -66,6 +66,7 @@
 				item: "industrialupgrade:blockresource/machine"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.electric_era.title}"
 			x: 5.0d
 			y: -11.0d
 		}
