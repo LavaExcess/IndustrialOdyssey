@@ -11,52 +11,44 @@
 	id: "30E595CA20DEE39A"
 	images: [
 		{
-			height: 2.0d
-			image: "kubejs:textures/quests/chemical_plant.png"
-			rotation: 0.0d
-			width: 3.3d
-			x: -10.0d
-			y: 4.5d
-		}
-		{
 			height: 1.0d
 			image: "industrialupgrade:textures/gui/radiation.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -16.5d
-			y: 1.0d
+			x: -1.5d
+			y: 8.5d
 		}
 		{
 			height: 1.0d
 			image: "industrialupgrade:block/water_reactor/chamber/chamber_side"
 			rotation: 0.0d
 			width: 1.0d
-			x: -16.5d
-			y: -1.0d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			height: 1.0d
 			image: "industrialupgrade:block/gas_reactor/controller/controller_front"
 			rotation: 0.0d
 			width: 1.0d
-			x: -16.5d
-			y: -3.0d
+			x: -1.5d
+			y: 4.0d
 		}
 		{
-			height: 2.0d
+			height: 1.5d
 			image: "industrialupgrade:item/daynight/gra"
 			rotation: 0.0d
-			width: 2.0d
-			x: -10.0d
-			y: -2.5d
+			width: 1.5d
+			x: -3.5d
+			y: 4.5d
 		}
 		{
 			height: 3.0d
 			image: "kubejs:textures/quests/replicator.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: -12.5d
-			y: -6.0d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
 			height: 2.0d
@@ -89,22 +81,6 @@
 			width: 2.0d
 			x: 1.0d
 			y: -1.0d
-		}
-		{
-			height: 3.3d
-			image: "kubejs:textures/quests/qe.png"
-			rotation: 0.0d
-			width: 5.7d
-			x: -3.5d
-			y: -1.0d
-		}
-		{
-			height: 5.6d
-			image: "kubejs:textures/quests/steam_turbine.png"
-			rotation: 0.0d
-			width: 4.0d
-			x: -3.5d
-			y: 3.0d
 		}
 		{
 			height: 2.0d
@@ -162,13 +138,37 @@
 			x: 9.5d
 			y: 2.5d
 		}
+		{
+			height: 3.0d
+			image: "industrialupgrade:block/steam_turbine_per_controller_main"
+			rotation: 0.0d
+			width: 3.0d
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "industrialupgrade:item/generation0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			image: "industrialupgrade:block/chemical_plant_transport"
+			rotation: 0.0d
+			width: 1.5d
+			x: -14.0d
+			y: 4.5d
+		}
 	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["516E22CDCFD1611C"]
-			description: ["Создайте бром для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest1.description1}"]
 			hide_dependency_lines: true
 			id: "36183FCC6DBEC481"
 			rewards: [{
@@ -192,16 +192,16 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest68.title}"
-			x: -3.0d
-			y: 9.5d
+			title: "{ftbquests.chapter.extended_electric_era.quest1.title}"
+			x: -17.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
 				"0044F7335921C592"
 				"36183FCC6DBEC481"
 			]
-			description: ["Создайте дибромопропан для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest2.description1}"]
 			id: "3F7E4AFC538087D7"
 			rewards: [{
 				count: 5
@@ -224,13 +224,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest66.title}"
-			x: -4.5d
-			y: 9.5d
+			title: "{ftbquests.chapter.extended_electric_era.quest2.title}"
+			x: -17.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6BBFD7D15277A352"]
-			description: ["Создайте пропан для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest3.description1}"]
 			id: "0044F7335921C592"
 			rewards: [{
 				count: 5
@@ -253,13 +253,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest69.title}"
-			x: -4.5d
-			y: 8.0d
+			title: "{ftbquests.chapter.extended_electric_era.quest3.title}"
+			x: -16.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["516E22CDCFD1611C"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest59.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest4.description1}"]
 			hide_dependency_lines: true
 			id: "6BBFD7D15277A352"
 			rewards: [{
@@ -283,13 +283,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest59.title}"
-			x: -3.0d
-			y: 6.5d
+			title: "{ftbquests.chapter.extended_electric_era.quest4.title}"
+			x: -15.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6BBFD7D15277A352"]
-			description: ["Создайте метан для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest5.description1}"]
 			id: "777CFD47EF71B16A"
 			rewards: [{
 				count: 5
@@ -312,13 +312,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest58.title}"
-			x: -4.5d
-			y: 6.5d
+			title: "{ftbquests.chapter.extended_electric_era.quest5.title}"
+			x: -14.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["777CFD47EF71B16A"]
-			description: ["Создайте ацетилен для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest6.description1}"]
 			id: "05F7F3666804C70A"
 			rewards: [{
 				count: 5
@@ -341,13 +341,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest57.title}"
-			x: -6.0d
-			y: 6.5d
+			title: "{ftbquests.chapter.extended_electric_era.quest6.title}"
+			x: -14.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["516E22CDCFD1611C"]
-			description: ["Получите азот для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest7.description1}"]
 			hide_dependency_lines: true
 			id: "3B953D07266D08CD"
 			rewards: [{
@@ -371,13 +371,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest64.title}"
-			x: -6.0d
-			y: 8.0d
+			title: "{ftbquests.chapter.extended_electric_era.quest7.title}"
+			x: -16.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3B953D07266D08CD"]
-			description: ["Создайте гидрид азота для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest8.description1}"]
 			id: "7A56AB8E55DE0B94"
 			rewards: [{
 				count: 5
@@ -400,13 +400,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest63.title}"
-			x: -7.5d
-			y: 8.0d
+			title: "{ftbquests.chapter.extended_electric_era.quest8.title}"
+			x: -16.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["05F7F3666804C70A"]
-			description: ["Создайте этилен для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest9.description1}"]
 			id: "151D5D46A7FBCE50"
 			rewards: [{
 				count: 5
@@ -429,13 +429,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest56.title}"
-			x: -7.5d
-			y: 6.5d
+			title: "{ftbquests.chapter.extended_electric_era.quest9.title}"
+			x: -14.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["3F7E4AFC538087D7"]
-			description: ["Создайте пропилен для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest10.description1}"]
 			id: "3EE8A52A397420C8"
 			rewards: [{
 				count: 5
@@ -458,13 +458,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest65.title}"
-			x: -7.5d
-			y: 9.5d
+			title: "{ftbquests.chapter.extended_electric_era.quest10.title}"
+			x: -18.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7A56AB8E55DE0B94"]
-			description: ["Создайте оксид азота для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest11.description1}"]
 			id: "6FE7F5367B5DF0FF"
 			rewards: [{
 				count: 5
@@ -487,13 +487,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest62.title}"
-			x: -9.0d
-			y: 8.0d
+			title: "{ftbquests.chapter.extended_electric_era.quest11.title}"
+			x: -16.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["151D5D46A7FBCE50"]
-			description: ["Создайте этанол для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest12.description1}"]
 			id: "7ABF429849034B8D"
 			rewards: [{
 				count: 5
@@ -516,13 +516,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest55.title}"
-			x: -9.0d
-			y: 6.5d
+			title: "{ftbquests.chapter.extended_electric_era.quest12.title}"
+			x: -14.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7ABF429849034B8D"]
-			description: ["Создайте бутадиен для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest13.description1}"]
 			id: "61A50CE1868DDD85"
 			rewards: [{
 				count: 5
@@ -544,16 +544,16 @@
 				}
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest54.title}"
-			x: -10.5d
-			y: 6.5d
+			title: "{ftbquests.chapter.extended_electric_era.quest13.title}"
+			x: -14.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
 				"62CCE859F4B8ED60"
 				"6FE7F5367B5DF0FF"
 			]
-			description: ["Создайте акрилонитрил для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest14.description1}"]
 			id: "0C8F284A24CE2BA4"
 			rewards: [{
 				count: 5
@@ -576,16 +576,16 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest60.title}"
-			x: -10.5d
-			y: 8.0d
+			title: "{ftbquests.chapter.extended_electric_era.quest14.title}"
+			x: -16.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"3EE8A52A397420C8"
 				"22FDFFCBB913C309"
 			]
-			description: ["Создайте полипроп для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest15.description1}"]
 			id: "62CCE859F4B8ED60"
 			rewards: [{
 				count: 5
@@ -608,13 +608,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest61.title}"
-			x: -10.5d
-			y: 9.5d
+			title: "{ftbquests.chapter.extended_electric_era.quest15.title}"
+			x: -18.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["516E22CDCFD1611C"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest67.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest16.description1}"]
 			hide_dependency_lines: true
 			id: "22FDFFCBB913C309"
 			optional: true
@@ -633,12 +633,12 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: 9.5d
+			x: -18.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0C8F284A24CE2BA4"]
-			description: ["Создайте полиакрилонитрил для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest17.description1}"]
 			id: "065523175D36C55C"
 			rewards: [{
 				count: 5
@@ -661,13 +661,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest53.title}"
-			x: -12.0d
-			y: 8.0d
+			title: "{ftbquests.chapter.extended_electric_era.quest17.title}"
+			x: -15.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["61A50CE1868DDD85"]
-			description: ["Создайте полибутадиен для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest18.description1}"]
 			id: "7895B04970A6190F"
 			rewards: [{
 				count: 5
@@ -690,16 +690,16 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest52.title}"
-			x: -12.0d
-			y: 6.5d
+			title: "{ftbquests.chapter.extended_electric_era.quest18.title}"
+			x: -14.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
 				"7895B04970A6190F"
 				"065523175D36C55C"
 			]
-			description: ["Создайте бутадиен-нитрил для производства резины."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest19.description1}"]
 			id: "55CF4B72E2940626"
 			rewards: [{
 				count: 5
@@ -722,13 +722,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest51.title}"
-			x: -13.5d
-			y: 6.5d
+			title: "{ftbquests.chapter.extended_electric_era.quest19.title}"
+			x: -14.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["55CF4B72E2940626"]
-			description: ["Создайте синтетическую резину для промышленных нужд."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest20.description1}"]
 			id: "1B7564162C8AF355"
 			rewards: [{
 				count: 4
@@ -741,12 +741,12 @@
 				item: "industrialupgrade:synthetic_rubber"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 4.5d
+			x: -14.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1B7564162C8AF355"]
-			description: ["Создайте синтетическую пластину для промышленности."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest21.description1}"]
 			id: "402FB43E4B1AC967"
 			rewards: [{
 				count: 4
@@ -759,12 +759,12 @@
 				item: "industrialupgrade:synthetic_plate"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 4.5d
+			x: -14.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["402FB43E4B1AC967"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest72.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest22.description1}"]
 			id: "43FD417D07561254"
 			rewards: [{
 				count: 4
@@ -777,12 +777,12 @@
 				item: "industrialupgrade:wiring/universal"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -16.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1B7564162C8AF355"]
-			description: ["Создайте стеклянную проводку для электроники."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest23.description1}"]
 			id: "05AAC54B6DB5E60D"
 			rewards: [{
 				count: 3
@@ -795,25 +795,25 @@
 				item: "industrialupgrade:wiring/glass"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 3.0d
+			x: -16.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["402FB43E4B1AC967"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest73.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest24.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest73.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest24.description2}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest73.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest24.description3}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest73.description4}"
+				"{ftbquests.chapter.extended_electric_era.quest24.description4}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest73.description5}"
+				"{ftbquests.chapter.extended_electric_era.quest24.description5}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest73.description6}"
+				"{ftbquests.chapter.extended_electric_era.quest24.description6}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest73.description7}"
+				"{ftbquests.chapter.extended_electric_era.quest24.description7}"
 			]
 			id: "11AA6206513C4BC4"
 			rewards: [{
@@ -865,12 +865,13 @@
 					type: "item"
 				}
 			]
-			x: -10.0d
+			title: "{ftbquests.chapter.extended_electric_era.quest24.title}"
+			x: -14.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["362E0B282D7F58DD"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest93.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest25.description1}"]
 			id: "08FC89937E1959E7"
 			rewards: [{
 				count: 4
@@ -884,12 +885,12 @@
 				item: "industrialupgrade:upgrades/overclockerupgrade2"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -11.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["11AA6206513C4BC4"]
-			description: ["Создайте криогенную жидкость."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest26.description1}"]
 			id: "255842E9171DA2D7"
 			rewards: [{
 				count: 5
@@ -912,7 +913,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -8.0d
+			title: "{ftbquests.chapter.extended_electric_era.quest26.title}"
+			x: -12.5d
 			y: 4.5d
 		}
 		{
@@ -920,7 +922,7 @@
 				"255842E9171DA2D7"
 				"4B45AF89CBD9D092"
 			]
-			description: ["Создайте криогенную охлаждающую смесь."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest27.description1}"]
 			id: "362E0B282D7F58DD"
 			rewards: [{
 				count: 4
@@ -933,12 +935,12 @@
 				item: "industrialupgrade:cryogenic_cooling_mixture"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -11.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["194FA8E138BB6B59"]
-			description: ["Получите калифорниевый самоцвет."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest28.description1}"]
 			id: "4B45AF89CBD9D092"
 			rewards: [{
 				count: 3
@@ -951,12 +953,12 @@
 				item: "industrialupgrade:radiationresources/california_gem"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 1.0d
+			x: -10.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["194FA8E138BB6B59"]
-			description: ["Получите эйнштейниевый самоцвет."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest29.description1}"]
 			id: "7C479C5615D8F585"
 			rewards: [{
 				count: 3
@@ -969,12 +971,12 @@
 				item: "industrialupgrade:radiationresources/einsteinium_gem"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 1.0d
+			x: -10.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["194FA8E138BB6B59"]
-			description: ["Получите берклеевый самоцвет."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest30.description1}"]
 			id: "4646D2C154406D58"
 			rewards: [{
 				count: 3
@@ -987,12 +989,12 @@
 				item: "industrialupgrade:radiationresources/berkelium_gem"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 1.0d
+			x: -10.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7473C24712114AFD"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest87.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest31.description1}"]
 			id: "194FA8E138BB6B59"
 			rewards: [{
 				count: 5
@@ -1005,12 +1007,12 @@
 				item: "industrialupgrade:basemachine1/synthesis"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -1.0d
+			x: -8.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7473C24712114AFD"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest92.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest32.description1}"]
 			id: "0BC38E255C3A8C80"
 			rewards: [{
 				count: 4
@@ -1027,8 +1029,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -2.0d
+			x: -7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["516E22CDCFD1611C"]
@@ -1045,12 +1047,12 @@
 				item: "industrialupgrade:crafting_elements/crafting_100_element"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -1.0d
+			x: -7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["194FA8E138BB6B59"]
-			description: ["Получите фермий."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest34.description1}"]
 			id: "35596B3DE3243E65"
 			rewards: [{
 				count: 3
@@ -1063,12 +1065,12 @@
 				item: "industrialupgrade:radiationresources/fermium"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 1.0d
+			x: -10.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2C12689D0F6CD3FC"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest114.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest35.description1}"]
 			id: "025374A19B8B7FBB"
 			rewards: [{
 				count: 3
@@ -1081,12 +1083,12 @@
 				item: "industrialupgrade:basemachine3/rotor_modifier"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 1.5d
+			x: -4.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["516E22CDCFD1611C"]
-			description: ["Создайте продвинутый ветрогенератор."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest36.description1}"]
 			id: "2C12689D0F6CD3FC"
 			rewards: [{
 				count: 5
@@ -1099,12 +1101,12 @@
 				item: "industrialupgrade:basemachine3/adv_wind_generator"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 0.5d
+			x: -4.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["516E22CDCFD1611C"]
-			description: ["Создайте продвинутый водяной генератор."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest37.description1}"]
 			id: "7715F801AA82C736"
 			rewards: [{
 				count: 5
@@ -1117,12 +1119,12 @@
 				item: "industrialupgrade:basemachine3/adv_water_generator"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 0.5d
+			x: -5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7715F801AA82C736"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest113.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest38.description1}"]
 			id: "33A520435BBF82FB"
 			rewards: [{
 				count: 3
@@ -1135,12 +1137,12 @@
 				item: "industrialupgrade:basemachine3/water_modifier"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 1.5d
+			x: -5.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["744D6ED942E252B4"]
-			description: ["Поздравляем! Вы создали молекулярный трансформатор - ключевой компонент для продвинутой промышленности."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest39.description1}"]
 			hide_dependency_lines: false
 			id: "516E22CDCFD1611C"
 			rewards: [{
@@ -1160,46 +1162,44 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
-			y: -1.0d
+			x: -5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["516E22CDCFD1611C"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest2.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest40.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest2.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest40.description2}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest2.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest40.description3}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest2.description4}"
+				"{ftbquests.chapter.extended_electric_era.quest40.description4}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest2.description5}"
+				"{ftbquests.chapter.extended_electric_era.quest40.description5}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.18F4452C86824019.quest2.description6}"
+				"{ftbquests.chapter.extended_electric_era.quest40.description6}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest2.description7}"
-				"{ftbquests.chapter.18F4452C86824019.quest2.description8}"
+				"{ftbquests.chapter.extended_electric_era.quest40.description7}"
+				"{ftbquests.chapter.extended_electric_era.quest40.description8}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest2.description9}"
+				"{ftbquests.chapter.extended_electric_era.quest40.description9}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest2.description10}"
+				"{ftbquests.chapter.extended_electric_era.quest40.description10}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest2.description11}"
+				"{ftbquests.chapter.extended_electric_era.quest40.description11}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest2.description12}"
-				"{ftbquests.chapter.18F4452C86824019.quest2.description13}"
+				"{ftbquests.chapter.extended_electric_era.quest40.description12}"
+				"{ftbquests.chapter.extended_electric_era.quest40.description13}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest2.description14}"
-				"{ftbquests.chapter.18F4452C86824019.quest2.description15}"
-				"{ftbquests.chapter.18F4452C86824019.quest2.description16}"
-				"{ftbquests.chapter.18F4452C86824019.quest2.description17}"
+				"{ftbquests.chapter.extended_electric_era.quest40.description14}"
+				"{ftbquests.chapter.extended_electric_era.quest40.description15}"
+				"{ftbquests.chapter.extended_electric_era.quest40.description16}"
+				"{ftbquests.chapter.extended_electric_era.quest40.description17}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.18F4452C86824019.quest2.description18}"
-				"{ftbquests.chapter.18F4452C86824019.quest2.image0}"
-				"{ftbquests.chapter.18F4452C86824019.quest2.description19}"
-				""
-				"{ftbquests.chapter.18F4452C86824019.quest2.description20}"
+				"{ftbquests.chapter.extended_electric_era.quest40.description18}"
+				"{ftbquests.chapter.extended_electric_era.quest40.image0}"
+				"{ftbquests.chapter.extended_electric_era.quest40.description19}"
 			]
 			id: "02E78DB9BC2ECF01"
 			rewards: [{
@@ -1265,17 +1265,18 @@
 					type: "item"
 				}
 			]
-			x: -15.5d
-			y: -1.0d
+			title: "{ftbquests.chapter.extended_electric_era.quest40.title}"
+			x: -2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["02E78DB9BC2ECF01"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest3.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest41.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest3.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest41.description2}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest3.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest41.description3}"
 			]
 			id: "79AC6CF9BCD94562"
 			optional: true
@@ -1294,19 +1295,20 @@
 				}
 				type: "item"
 			}]
-			x: -15.5d
-			y: 0.5d
+			title: "{ftbquests.chapter.extended_electric_era.quest41.title}"
+			x: -2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["79AC6CF9BCD94562"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest4.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest42.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest4.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest42.description2}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest4.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest42.description3}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest4.description4}"
+				"{ftbquests.chapter.extended_electric_era.quest42.description4}"
 			]
 			id: "4EE9470A1D754F3B"
 			optional: true
@@ -1336,8 +1338,9 @@
 					type: "item"
 				}
 			]
-			x: -15.5d
-			y: 2.0d
+			title: "{ftbquests.chapter.extended_electric_era.quest42.title}"
+			x: -2.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -1345,9 +1348,9 @@
 				"18F2CD6FCCD48F5C"
 			]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest125.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest43.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest125.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest43.description2}"
 			]
 			id: "00F68C2489283808"
 			rewards: [{
@@ -1361,37 +1364,38 @@
 				item: "industrialupgrade:reactormodules/generation0"
 				type: "item"
 			}]
-			x: -16.5d
-			y: -2.0d
+			x: -0.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["02E78DB9BC2ECF01"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest124.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest44.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest124.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest44.description2}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest124.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest44.description3}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest124.description4}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.extended_electric_era.quest44.description4}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest124.description5}"
+				"{ftbquests.chapter.extended_electric_era.quest44.description5}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest124.description6}"
+				"{ftbquests.chapter.extended_electric_era.quest44.description6}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest124.description7}"
+				"{ftbquests.chapter.extended_electric_era.quest44.description7}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest124.description8}"
+				"{ftbquests.chapter.extended_electric_era.quest44.description8}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest124.description9}"
+				"{ftbquests.chapter.extended_electric_era.quest44.description9}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest124.description10}"
-				"{ftbquests.chapter.18F4452C86824019.quest124.description11}"
+				"{ftbquests.chapter.extended_electric_era.quest44.description10}"
+				"{ftbquests.chapter.extended_electric_era.quest44.description11}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest124.description12}"
-				"{ftbquests.chapter.18F4452C86824019.quest124.description13}"
-				"{ftbquests.chapter.18F4452C86824019.quest124.description14}"
-				"{ftbquests.chapter.18F4452C86824019.quest124.description15}"
+				"{ftbquests.chapter.extended_electric_era.quest44.description12}"
+				"{ftbquests.chapter.extended_electric_era.quest44.description13}"
+				"{ftbquests.chapter.extended_electric_era.quest44.description14}"
+				"{ftbquests.chapter.extended_electric_era.quest44.description15}"
 			]
 			id: "18F2CD6FCCD48F5C"
 			rewards: [{
@@ -1460,12 +1464,13 @@
 					type: "item"
 				}
 			]
-			x: -15.5d
-			y: -3.0d
+			title: "{ftbquests.chapter.extended_electric_era.quest44.title}"
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2176FE08DADCE5C9"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest118.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest46.description1}"]
 			id: "4369E99F75866627"
 			rewards: [{
 				count: 3
@@ -1478,12 +1483,12 @@
 				item: "industrialupgrade:additionmodule/purifier"
 				type: "item"
 			}]
-			x: -14.5d
-			y: -2.5d
+			x: -8.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6DDEC89145503A86"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest117.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest45.description1}"]
 			id: "2176FE08DADCE5C9"
 			rewards: [{
 				count: 4
@@ -1500,17 +1505,17 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
-			y: -2.5d
+			x: -7.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["516E22CDCFD1611C"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest116.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest47.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest116.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest47.description2}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest116.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest47.description3}"
 			]
 			id: "6DDEC89145503A86"
 			rewards: [{
@@ -1524,28 +1529,29 @@
 				item: "industrialupgrade:machines/advanced_solar_paneliu"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -2.5d
+			title: "{ftbquests.chapter.extended_electric_era.quest47.title}"
+			x: -5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6DDEC89145503A86"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest115.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest48.description2}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest115.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest48.description3}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest115.description4}"
+				"{ftbquests.chapter.extended_electric_era.quest48.description4}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest115.description5}"
-				"{ftbquests.chapter.18F4452C86824019.quest115.description6}"
+				"{ftbquests.chapter.extended_electric_era.quest48.description5}"
+				"{ftbquests.chapter.extended_electric_era.quest48.description6}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest115.description7}"
+				"{ftbquests.chapter.extended_electric_era.quest48.description7}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.18F4452C86824019.quest115.description8}"
+				"{ftbquests.chapter.extended_electric_era.quest48.description8}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest115.description9}"
+				"{ftbquests.chapter.extended_electric_era.quest48.description9}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest115.description10}"
+				"{ftbquests.chapter.extended_electric_era.quest48.description10}"
 			]
 			id: "1D29278B7ECAC773"
 			rewards: [{
@@ -1555,18 +1561,19 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "{ftbquests.chapter.18F4452C86824019.quest115.description1}"
+			subtitle: "{ftbquests.chapter.extended_electric_era.quest48.description1}"
 			tasks: [{
 				id: "51E405D50D027260"
 				item: "industrialupgrade:basemachine3/minipanel"
 				type: "item"
 			}]
-			x: -10.0d
-			y: -2.5d
+			title: "{ftbquests.chapter.extended_electric_era.quest48.title}"
+			x: -3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["18F2CD6FCCD48F5C"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest126.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest49.description1}"]
 			id: "57701B467B68BE83"
 			rewards: [{
 				count: 5
@@ -1583,12 +1590,12 @@
 				}
 				type: "item"
 			}]
-			x: -15.5d
-			y: -4.5d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["36AB4F56DAECF99F"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest77.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest50.description1}"]
 			id: "7BADAC5EFC018DDA"
 			rewards: [{
 				count: 5
@@ -1605,12 +1612,12 @@
 				}
 				type: "item"
 			}]
-			x: -16.5d
-			y: -5.5d
+			x: -7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7BADAC5EFC018DDA"]
-			description: ["Создайте ровер для исследования планет."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest51.description1}"]
 			id: "239933900C1D6EDE"
 			rewards: [{
 				count: 5
@@ -1627,12 +1634,12 @@
 				}
 				type: "item"
 			}]
-			x: -16.5d
-			y: -7.0d
+			x: -9.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["239933900C1D6EDE"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest78.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest52.description1}"]
 			id: "23A28C422CC6EF2C"
 			rewards: [{
 				count: 4
@@ -1645,37 +1652,39 @@
 				item: "industrialupgrade:basemachine3/upgrade_rover"
 				type: "item"
 			}]
-			x: -18.0d
-			y: -7.0d
+			x: -10.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["584E194EBE79AE51"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest5.description2}"
-				"{ftbquests.chapter.18F4452C86824019.quest5.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest53.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest53.description3}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest5.description4}"
-				"{ftbquests.chapter.18F4452C86824019.quest5.description5}"
-				"{ftbquests.chapter.18F4452C86824019.quest5.description6}"
+				"{ftbquests.chapter.extended_electric_era.quest53.description4}"
+				"{ftbquests.chapter.extended_electric_era.quest53.description5}"
+				"{ftbquests.chapter.extended_electric_era.quest53.description6}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest5.description7}"
-				"{ftbquests.chapter.18F4452C86824019.quest5.description8}"
+				"{ftbquests.chapter.extended_electric_era.quest53.description7}"
+				"{ftbquests.chapter.extended_electric_era.quest53.description8}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest5.description9}"
+				"{ftbquests.chapter.extended_electric_era.quest53.description9}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest5.description10}"
+				"{ftbquests.chapter.extended_electric_era.quest53.description10}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest5.description11}"
+				"{ftbquests.chapter.extended_electric_era.quest53.description11}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest5.description12}"
+				"{ftbquests.chapter.extended_electric_era.quest53.description12}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest5.description13}"
-				"{ftbquests.chapter.18F4452C86824019.quest5.description14}"
+				"{@pagebreak}"
+				"{ftbquests.chapter.extended_electric_era.quest53.description13}"
+				"{ftbquests.chapter.extended_electric_era.quest53.description14}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest5.description15}"
-				"{ftbquests.chapter.18F4452C86824019.quest5.description16}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest5.description17}"
+				"{ftbquests.chapter.extended_electric_era.quest53.description15}"
+				"{ftbquests.chapter.extended_electric_era.quest53.description16}"
+				""
+				"{ftbquests.chapter.extended_electric_era.quest53.description17}"
 			]
 			id: "418F8F035463E8A0"
 			rewards: [{
@@ -1684,14 +1693,15 @@
 				item: "libraryferret:iron_coins_jtl"
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.18F4452C86824019.quest5.description1}"
+			subtitle: "{ftbquests.chapter.extended_electric_era.quest53.description1}"
 			tasks: [{
 				id: "668C99D339A7BED3"
 				item: "industrialupgrade:basemachine3/research_table_space"
 				type: "item"
 			}]
-			x: -18.0d
-			y: -8.5d
+			title: "{ftbquests.chapter.extended_electric_era.quest53.title}"
+			x: -7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -1700,9 +1710,9 @@
 				"239933900C1D6EDE"
 			]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest6.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest54.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest6.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest54.description2}"
 			]
 			id: "64A058A6FF5A790E"
 			rewards: [{
@@ -1716,15 +1726,15 @@
 				item: "industrialupgrade:basemachine3/rocket_launch_pad"
 				type: "item"
 			}]
-			x: -16.5d
-			y: -8.5d
+			x: -9.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"703F16AB6A1317A5"
 				"338D18EDD37A7408"
 			]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest7.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest55.description1}"]
 			id: "24FE832D98E94A5C"
 			rewards: [{
 				count: 3
@@ -1747,16 +1757,16 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest7.title}"
-			x: -16.5d
-			y: -10.0d
+			title: "{ftbquests.chapter.extended_electric_era.quest55.title}"
+			x: -10.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"0CAAA4DAACC03D9C"
 				"0402D6742A1D20C9"
 			]
-			description: ["Создайте гипохлорит натрия для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest56.description1}"]
 			id: "703F16AB6A1317A5"
 			rewards: [{
 				count: 3
@@ -1779,13 +1789,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest9.title}"
-			x: -15.5d
-			y: -11.5d
+			title: "{ftbquests.chapter.extended_electric_era.quest56.title}"
+			x: -10.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["516E22CDCFD1611C"]
-			description: ["Получите хлор для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest57.description1}"]
 			hide_dependency_lines: true
 			id: "0CAAA4DAACC03D9C"
 			rewards: [{
@@ -1809,13 +1819,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest13.title}"
-			x: -15.5d
-			y: -13.0d
+			title: "{ftbquests.chapter.extended_electric_era.quest57.title}"
+			x: -10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6581A80E8ED2A0E3"]
-			description: ["Создайте гидроксид натрия для химических реакций."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest58.description1}"]
 			id: "0402D6742A1D20C9"
 			rewards: [{
 				count: 5
@@ -1838,13 +1848,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest12.title}"
-			x: -17.0d
-			y: -11.5d
+			title: "{ftbquests.chapter.extended_electric_era.quest58.title}"
+			x: -11.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["516E22CDCFD1611C"]
-			description: ["Создайте пыль натрия для продвинутого крафта."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest59.description1}"]
 			hide_dependency_lines: true
 			id: "4DCF78AAF959EFA5"
 			optional: true
@@ -1859,8 +1869,8 @@
 				item: "industrialupgrade:crafting_elements/crafting_460_element"
 				type: "item"
 			}]
-			x: -17.5d
-			y: -13.0d
+			x: -13.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -1868,7 +1878,7 @@
 				"4DCF78AAF959EFA5"
 				"1C96C5A69C4F8AE4"
 			]
-			description: ["Получите натриевую пыль для химических реакций."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest60.description1}"]
 			id: "6581A80E8ED2A0E3"
 			rewards: [{
 				count: 3
@@ -1881,12 +1891,12 @@
 				item: "industrialupgrade:itemdust/sodium_dust"
 				type: "item"
 			}]
-			x: -18.5d
-			y: -11.5d
+			x: -12.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["516E22CDCFD1611C"]
-			description: ["Создайте фосфат натрия для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest61.description1}"]
 			hide_dependency_lines: true
 			id: "5A352BB4B63B0CBF"
 			optional: true
@@ -1901,12 +1911,12 @@
 				item: "industrialupgrade:itemdust/sodium_phosphate_dust"
 				type: "item"
 			}]
-			x: -18.5d
-			y: -13.0d
+			x: -12.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["516E22CDCFD1611C"]
-			description: ["Создайте щелочную смесь для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest62.description1}"]
 			hide_dependency_lines: true
 			id: "1C96C5A69C4F8AE4"
 			optional: true
@@ -1921,12 +1931,13 @@
 				item: "industrialupgrade:itemdust/alkaline_mixture_dust"
 				type: "item"
 			}]
-			x: -19.5d
-			y: -13.0d
+			title: "{ftbquests.chapter.extended_electric_era.quest62.title}"
+			x: -11.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["516E22CDCFD1611C"]
-			description: ["Получите азот для химических процессов."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest63.description1}"]
 			hide_dependency_lines: true
 			id: "13BFFB4D6F93945F"
 			rewards: [{
@@ -1950,13 +1961,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest11.title}"
-			x: -19.5d
-			y: -11.0d
+			title: "{ftbquests.chapter.extended_electric_era.quest63.title}"
+			x: -12.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["516E22CDCFD1611C"]
-			description: ["Получите водород для химических реакций."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest64.description1}"]
 			hide_dependency_lines: true
 			id: "592C40E45B7D0C48"
 			rewards: [{
@@ -1980,16 +1991,16 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest10.title}"
-			x: -19.5d
-			y: -9.5d
+			title: "{ftbquests.chapter.extended_electric_era.quest64.title}"
+			x: -12.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["36AB4F56DAECF99F"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest28.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest65.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest28.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest65.description2}"
 			]
 			id: "584E194EBE79AE51"
 			rewards: [{
@@ -1998,21 +2009,21 @@
 				item: "libraryferret:gold_coins_jtl"
 				type: "item"
 			}]
-			shape: "square"
+			shape: "circle"
 			tasks: [{
 				id: "11F3998F2DBCABA1"
 				item: "industrialupgrade:research_lens/lens_1"
 				type: "item"
 			}]
-			x: -19.5d
-			y: -8.5d
+			x: -5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0658B78DEB1015A4"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest79.description1}"
+				"&e{ftbquests.chapter.extended_electric_era.quest66.description1}&r"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest79.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest66.description2}"
 			]
 			id: "36AB4F56DAECF99F"
 			rewards: [{
@@ -2025,38 +2036,33 @@
 			size: 1.5d
 			tasks: [{
 				id: "1CA61C0D5CC6BD8B"
-				title: "{ftbquests.chapter.18F4452C86824019.quest79.task_2064368322912632203.title}"
+				title: "&5&l{ftbquests.chapter.extended_electric_era.quest66.task0_title}"
 				type: "checkmark"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest79.title}"
-			x: -19.5d
-			y: -5.5d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["36AB4F56DAECF99F"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest80.description1}"
+				"&e{ftbquests.chapter.extended_electric_era.quest67.description1}&r"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest80.description2}"
-				"{ftbquests.chapter.18F4452C86824019.quest80.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest67.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest67.description3}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest80.description4}"
-				"{ftbquests.chapter.18F4452C86824019.quest80.description5}"
+				"{ftbquests.chapter.extended_electric_era.quest67.description4}"
+				"{ftbquests.chapter.extended_electric_era.quest67.description5}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest80.description6}"
+				"{ftbquests.chapter.extended_electric_era.quest67.description6}"
+				"{ftbquests.chapter.extended_electric_era.quest67.description7}"
+				"{ftbquests.chapter.extended_electric_era.quest67.description8}"
+				"{ftbquests.chapter.extended_electric_era.quest67.description9}"
+				"{ftbquests.chapter.extended_electric_era.quest67.description10}"
+				"{ftbquests.chapter.extended_electric_era.quest67.description11}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest80.description7}"
+				"{ftbquests.chapter.extended_electric_era.quest67.description12}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest80.description8}"
-				""
-				"{ftbquests.chapter.18F4452C86824019.quest80.description9}"
-				""
-				"{ftbquests.chapter.18F4452C86824019.quest80.description10}"
-				""
-				"{ftbquests.chapter.18F4452C86824019.quest80.description11}"
-				"{ftbquests.chapter.18F4452C86824019.quest80.description12}"
-				""
-				"{ftbquests.chapter.18F4452C86824019.quest80.description13}"
+				"&7{ftbquests.chapter.extended_electric_era.quest67.description13}"
 			]
 			id: "0A73662A60EA6798"
 			rewards: [{
@@ -2073,20 +2079,20 @@
 				}
 				{
 					id: "5444FBF3E69123E6"
-					title: "{ftbquests.chapter.18F4452C86824019.quest80.task_6072255222566167526.title}"
+					title: "{ftbquests.chapter.extended_electric_era.quest67.task1_title}"
 					type: "checkmark"
 				}
 			]
-			title: "{ftbquests.chapter.18F4452C86824019.quest80.title}"
-			x: -19.5d
-			y: -4.0d
+			title: "&d{ftbquests.chapter.extended_electric_era.quest67.title}"
+			x: -3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["386199214C075EB5"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest103.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest68.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest103.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest68.description2}"
 			]
 			hide_dependency_lines: true
 			id: "5C702D11B69186DB"
@@ -2105,8 +2111,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.0d
-			y: -6.0d
+			x: -4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -2115,9 +2121,9 @@
 				"5C702D11B69186DB"
 			]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest104.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest69.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest104.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest69.description2}"
 			]
 			id: "644AC8D3C74377F0"
 			rewards: [{
@@ -2135,17 +2141,17 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: -6.081292517006837d
+			x: -2.5d
+			y: -1.0812925170068368d
 		}
 		{
 			dependencies: ["386199214C075EB5"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest105.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest70.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest105.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest70.description2}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest105.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest70.description3}"
 			]
 			hide_dependency_lines: true
 			id: "003DD2EA14F523B8"
@@ -2172,17 +2178,17 @@
 					type: "item"
 				}
 			]
-			x: -11.5d
-			y: -5.0d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["386199214C075EB5"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest106.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest71.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest106.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest71.description2}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest106.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest71.description3}"
 			]
 			hide_dependency_lines: true
 			id: "650ACEC7C74E8FC5"
@@ -2201,12 +2207,12 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: -7.0d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["516E22CDCFD1611C"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest107.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest72.description1}"]
 			hide_dependency_lines: true
 			id: "386199214C075EB5"
 			rewards: [{
@@ -2218,11 +2224,12 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "3B8D9062FA33E19E"
-				title: "{ftbquests.chapter.18F4452C86824019.quest107.task_4291244774732849566.title}"
+				title: "{ftbquests.chapter.extended_electric_era.quest72.task0_title}"
 				type: "checkmark"
 			}]
-			x: -10.5d
-			y: -6.0d
+			title: "{ftbquests.chapter.extended_electric_era.quest72.title}"
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2C8844357E2D7546"]
@@ -2239,12 +2246,12 @@
 				item: "industrialupgrade:crafting_elements/crafting_23_element"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -1.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["397EE9909DAB5A57"]
-			description: ["Получите орихалк - легендарный сплав."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest74.description1}"]
 			id: "2C8844357E2D7546"
 			rewards: [{
 				count: 6
@@ -2257,12 +2264,12 @@
 				item: "industrialupgrade:itemingots/orichalcum"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -8.5d
+			x: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["4B6EE549FBF82AE5"]
-			description: ["Получите булыжник с Деймоса."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest75.description1}"]
 			id: "397EE9909DAB5A57"
 			rewards: [{
 				count: 4
@@ -2275,12 +2282,12 @@
 				item: "industrialupgrade:itemspace/deimos_boulder"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -8.5d
+			x: -9.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2C8844357E2D7546"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest25.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest76.description1}"]
 			id: "6D353E94D7F13E82"
 			rewards: [{
 				count: 4
@@ -2293,21 +2300,20 @@
 				item: "industrialupgrade:rotorupgrade_schemes"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -10.0d
+			title: "{ftbquests.chapter.extended_electric_era.quest76.title}"
+			x: -7.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2C8844357E2D7546"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest24.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest77.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest24.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest77.description2}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest24.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest77.description3}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest24.description4}"
-				""
-				"{ftbquests.chapter.18F4452C86824019.quest24.description5}"
+				"{ftbquests.chapter.extended_electric_era.quest77.description4}"
 			]
 			id: "03C7625F2FF688E7"
 			rewards: [{
@@ -2356,13 +2362,13 @@
 					type: "item"
 				}
 			]
-			title: "{ftbquests.chapter.18F4452C86824019.quest24.title}"
-			x: -8.5d
-			y: -10.0d
+			title: "{ftbquests.chapter.extended_electric_era.quest77.title}"
+			x: -5.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["4B6EE549FBF82AE5"]
-			description: ["Получите космический модуль улучшения 3 уровня."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest82.description1}"]
 			id: "0306DF666CCD7418"
 			rewards: [{
 				count: 3
@@ -2375,12 +2381,12 @@
 				item: "industrialupgrade:spaceupgrademodules/space_upgrademodule3"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -10.0d
+			x: -11.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4B6EE549FBF82AE5"]
-			description: ["Получите космический модуль улучшения 4 уровня."]
+			description: [""]
 			id: "0972522B98ABE61E"
 			rewards: [{
 				count: 3
@@ -2393,12 +2399,12 @@
 				item: "industrialupgrade:spaceupgrademodules/space_upgrademodule4"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -11.0d
+			x: -11.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4B6EE549FBF82AE5"]
-			description: ["Получите расписание космических модернизаций."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest80.description1}"]
 			id: "06DC3744206CE113"
 			rewards: [{
 				count: 4
@@ -2411,12 +2417,12 @@
 				item: "industrialupgrade:spaceupgrademodule_schedule"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -12.0d
+			x: -10.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4B6EE549FBF82AE5"]
-			description: ["Получите базовый космический модуль улучшения."]
+			description: [""]
 			id: "4FA113278C0AB797"
 			rewards: [{
 				count: 3
@@ -2429,12 +2435,12 @@
 				item: "industrialupgrade:spaceupgrademodules/space_upgrademodule"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -11.0d
+			x: -12.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4B6EE549FBF82AE5"]
-			description: ["Получите космический модуль улучшения 2 уровня."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest82.description1}"]
 			id: "31E84B7E21DA0FB8"
 			rewards: [{
 				count: 3
@@ -2447,15 +2453,15 @@
 				item: "industrialupgrade:spaceupgrademodules/space_upgrademodule2"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -10.0d
+			x: -12.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4B6EE549FBF82AE5"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest20.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest83.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest20.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest83.description2}"
 			]
 			id: "4F561A8E7DC956E7"
 			optional: true
@@ -2481,12 +2487,12 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: -10.0d
+			x: -10.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["64A058A6FF5A790E"]
-			description: ["Получите лунный булыжник с космических экспедиций."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest84.description1}"]
 			id: "09C7B7134A1FF67E"
 			rewards: [{
 				count: 4
@@ -2499,12 +2505,12 @@
 				item: "industrialupgrade:itemspace/moon_boulder"
 				type: "item"
 			}]
-			x: -14.5d
-			y: -8.5d
+			x: -9.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["09C7B7134A1FF67E"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest19.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest85.description1}"]
 			id: "4B6EE549FBF82AE5"
 			rewards: [{
 				count: 5
@@ -2517,12 +2523,12 @@
 				item: "industrialupgrade:itemingots/meteoric_iron"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -8.5d
+			x: -9.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2C8844357E2D7546"]
-			description: ["Получите марсианский булыжник."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest86.description1}"]
 			id: "59711A4F79CC9980"
 			rewards: [{
 				count: 5
@@ -2535,12 +2541,12 @@
 				item: "industrialupgrade:itemspace/mars_boulder"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -6.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["59711A4F79CC9980"]
-			description: ["Получите адамантит - сверхпрочный материал."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest87.description1}"]
 			icon: "industrialupgrade:itemingots/adamantium"
 			id: "6FCF1BF65F34315A"
 			rewards: [{
@@ -2554,12 +2560,12 @@
 				item: "industrialupgrade:itemingots/adamantium"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["6FCF1BF65F34315A"]
-			description: ["Получите исследовательскую линзу 2 уровня."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest88.description1}"]
 			id: "4C9160B466391412"
 			rewards: [{
 				count: 5
@@ -2573,12 +2579,12 @@
 				item: "industrialupgrade:research_lens/lens_2"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.5d
 			y: -10.5d
 		}
 		{
 			dependencies: ["6FCF1BF65F34315A"]
-			description: ["Получите космический модуль улучшения 1 уровня."]
+			description: [""]
 			id: "4CA9FDF157DA3FA9"
 			rewards: [{
 				count: 3
@@ -2591,7 +2597,7 @@
 				item: "industrialupgrade:spaceupgrademodules/space_upgrademodule1"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: -10.5d
 		}
 		{
@@ -2600,11 +2606,11 @@
 				"6FCF1BF65F34315A"
 			]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest30.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest90.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest30.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest90.description2}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest30.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest90.description3}"
 			]
 			id: "7170522824ACADFF"
 			rewards: [{
@@ -2660,12 +2666,13 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
+			title: "{ftbquests.chapter.extended_electric_era.quest90.title}"
+			x: -2.0d
 			y: -10.5d
 		}
 		{
 			dependencies: ["6FCF1BF65F34315A"]
-			description: ["Получите булыжник с Меркурия."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest91.description1}"]
 			id: "66F9AAD141F85177"
 			rewards: [{
 				count: 6
@@ -2678,12 +2685,12 @@
 				item: "industrialupgrade:itemspace/mercury_boulder"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -2.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["66F9AAD141F85177"]
-			description: ["Получите мифрил - магический металл."]
+			description: [""]
 			icon: "industrialupgrade:itemingots/mithril"
 			id: "3027EE8C7B28FD8C"
 			rewards: [{
@@ -2697,12 +2704,12 @@
 				item: "industrialupgrade:itemingots/mithril"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -0.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["3027EE8C7B28FD8C"]
-			description: ["Получите исследовательскую линзу 3 уровня."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest93.description1}"]
 			id: "1A7BB8FB29844133"
 			rewards: [{
 				count: 6
@@ -2716,12 +2723,12 @@
 				item: "industrialupgrade:research_lens/lens_3"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -0.5d
 			y: -10.5d
 		}
 		{
 			dependencies: ["3027EE8C7B28FD8C"]
-			description: ["Получите булыжник с Мимаса."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest94.description1}"]
 			id: "278079CC522F46D2"
 			rewards: [{
 				count: 6
@@ -2734,12 +2741,12 @@
 				item: "industrialupgrade:itemspace/mimas_boulder"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 1.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["2049A105CCE4094C"]
-			description: ["Получите космический модуль улучшения 5 уровня."]
+			description: [""]
 			id: "022B124EB30031AD"
 			rewards: [{
 				count: 4
@@ -2757,7 +2764,7 @@
 		}
 		{
 			dependencies: ["2049A105CCE4094C"]
-			description: ["Получите исследовательскую линзу 4 уровня."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest96.description1}"]
 			id: "77FE4EBA8CA4F552"
 			rewards: [{
 				count: 7
@@ -2776,7 +2783,7 @@
 		}
 		{
 			dependencies: ["2049A105CCE4094C"]
-			description: ["Получите космический модуль улучшения 6 уровня."]
+			description: [""]
 			id: "67AB0AAE057624A3"
 			rewards: [{
 				count: 4
@@ -2794,7 +2801,7 @@
 		}
 		{
 			dependencies: ["278079CC522F46D2"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest36.description1}"]
+			description: [""]
 			id: "2049A105CCE4094C"
 			rewards: [{
 				count: 9
@@ -2812,7 +2819,7 @@
 		}
 		{
 			dependencies: ["2049A105CCE4094C"]
-			description: ["Получите булыжник с Ариэля."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest99.description1}"]
 			id: "15648CF98829131B"
 			rewards: [{
 				count: 7
@@ -2831,11 +2838,11 @@
 		{
 			dependencies: ["6988F85664788F71"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest108.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest100.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest108.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest100.description2}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest108.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest100.description3}"
 			]
 			id: "6EE4342BF6FEC175"
 			optional: true
@@ -2855,7 +2862,7 @@
 		}
 		{
 			dependencies: ["6988F85664788F71"]
-			description: ["Создайте стеллит - износостойкий сплав."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest101.description1}"]
 			id: "0E065F8F412C396C"
 			rewards: [{
 				count: 5
@@ -2873,7 +2880,7 @@
 		}
 		{
 			dependencies: ["0E065F8F412C396C"]
-			description: ["Получите исследовательскую линзу 6 уровня."]
+			description: [""]
 			id: "42EE3AEF328B5CA5"
 			rewards: [{
 				count: 7
@@ -2892,7 +2899,7 @@
 		}
 		{
 			dependencies: ["15648CF98829131B"]
-			description: ["Получите драконид - экзотический материал."]
+			description: [""]
 			id: "52D7C9DDCA79262D"
 			rewards: [{
 				count: 4
@@ -2910,7 +2917,7 @@
 		}
 		{
 			dependencies: ["52D7C9DDCA79262D"]
-			description: ["Получите исследовательскую линзу 5 уровня."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest104.description1}"]
 			id: "700B3855631BC488"
 			rewards: [{
 				count: 8
@@ -2929,7 +2936,7 @@
 		}
 		{
 			dependencies: ["6988F85664788F71"]
-			description: ["Создайте сплав Вуда для электроники."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest105.description1}"]
 			id: "5175F4F86F3BD014"
 			rewards: [{
 				count: 5
@@ -2947,7 +2954,7 @@
 		}
 		{
 			dependencies: ["6988F85664788F71"]
-			description: ["Создайте пермаллой - магнитный сплав."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest106.description1}"]
 			id: "5D7B1AEEB779DE44"
 			rewards: [{
 				count: 5
@@ -2969,23 +2976,23 @@
 				"5D7B1AEEB779DE44"
 			]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest94.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest107.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest94.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest107.description2}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest94.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest107.description3}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest94.description4}"
+				"{ftbquests.chapter.extended_electric_era.quest107.description4}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest94.description5}"
+				"{ftbquests.chapter.extended_electric_era.quest107.description5}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest94.description6}"
+				"{ftbquests.chapter.extended_electric_era.quest107.description6}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest94.description7}"
+				"{ftbquests.chapter.extended_electric_era.quest107.description7}"
 			]
 			id: "0246CD67ADEB95F3"
 			rewards: [{
-				count: 7
+				count: 15
 				id: "6E8A168D442B3B65"
 				item: "libraryferret:diamond_coins_jtl"
 				type: "item"
@@ -3033,12 +3040,13 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.extended_electric_era.quest107.title}"
 			x: 11.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["5D7B1AEEB779DE44"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest96.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest108.description1}"]
 			id: "330B03217C4AA8F9"
 			rewards: [{
 				count: 4
@@ -3055,15 +3063,16 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.extended_electric_era.quest108.title}"
 			x: 11.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["5D7B1AEEB779DE44"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest121.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest109.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest121.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest109.description2}"
 			]
 			id: "6D9299C734CAAAC1"
 			rewards: [{
@@ -3083,11 +3092,11 @@
 		{
 			dependencies: ["6D9299C734CAAAC1"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest122.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest110.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest122.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest110.description2}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest122.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest110.description3}"
 			]
 			id: "719120E134373D68"
 			rewards: [{
@@ -3114,7 +3123,7 @@
 		}
 		{
 			dependencies: ["5D7B1AEEB779DE44"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest120.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest111.description1}"]
 			id: "2E3EB290D54B0B48"
 			rewards: [{
 				id: "315C41801B8F2307"
@@ -3126,6 +3135,7 @@
 				item: "industrialupgrade:adv_cokeoven/adv_coke_oven_main"
 				type: "item"
 			}]
+			title: "&e{ftbquests.chapter.extended_electric_era.quest111.title}"
 			x: 11.5d
 			y: -3.5d
 		}
@@ -3155,10 +3165,7 @@
 		}
 		{
 			dependencies: ["230A05D9F6749A2D"]
-			description: [
-				"&eОткрывает возможность покупать "
-				"[ \"\", { \"text\": \"ЭКИПИРОВКУ БОГА\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"22D2F935B140A30C\" } } ]"
-			]
+			description: ["{ftbquests.chapter.extended_electric_era.quest113.description1}"]
 			id: "6DE01C074C3C305B"
 			rewards: [
 				{
@@ -3178,7 +3185,7 @@
 				id: "2DD4C99FB4592EBC"
 				type: "checkmark"
 			}]
-			title: "&6&lЭКИПИРОВКА БОГА"
+			title: "{ftbquests.chapter.extended_electric_era.quest113.title}"
 			x: 8.5d
 			y: -4.0d
 		}
@@ -3202,7 +3209,7 @@
 		}
 		{
 			dependencies: ["5B21BF738D74D96F"]
-			description: ["Получите космический модуль улучшения 6 уровня."]
+			description: [""]
 			id: "2578E24464E39A50"
 			rewards: [{
 				count: 4
@@ -3220,7 +3227,7 @@
 		}
 		{
 			dependencies: ["6988F85664788F71"]
-			description: ["Создайте инконель - жаропрочный сплав."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest116.description1}"]
 			id: "5B21BF738D74D96F"
 			rewards: [{
 				count: 5
@@ -3238,7 +3245,7 @@
 		}
 		{
 			dependencies: ["5B21BF738D74D96F"]
-			description: ["Создайте автоматический нагреватель."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest117.description1}"]
 			id: "37A77BD8E1C51BE5"
 			rewards: [{
 				count: 4
@@ -3256,7 +3263,7 @@
 		}
 		{
 			dependencies: ["6988F85664788F71"]
-			description: ["Создайте нержавеющую сталь."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest118.description1}"]
 			id: "334C1553598DF9E8"
 			rewards: [{
 				count: 4
@@ -3278,7 +3285,7 @@
 				"6C0FDB2471E38469"
 				"36A0E4C9A9F727F4"
 			]
-			description: ["Создайте &9продвинутую обшивку корпуса &fдля продвинутого крафта."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest119.description1}"]
 			id: "2605F90649F6AD42"
 			rewards: [{
 				count: 5
@@ -3311,7 +3318,6 @@
 			}]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "Руда калорита была удалена из генерации мира."
 			tasks: [{
 				id: "7C3D6435FC8B70C4"
 				item: "ad_astra:calorite_ingot"
@@ -3323,15 +3329,14 @@
 		{
 			dependencies: ["7D82C36C04BDDB73"]
 			description: [
-				"Венера — вторая планета от Солнца, известная как «сестра Земли» из-за схожих размеров, но с адскими условиями."
+				"{ftbquests.chapter.extended_electric_era.quest121.description1}"
 				""
-				"Информация о Венере:"
-				"Гравитация: 8.87 м/с² (91% от земной)"
-				"Кислород: отсутствует (атмосфера из CO₂ и серной кислоты)"
-				"Температура: 464.0 °C (достаточно для плавления свинца)"
-				"Давление: 92 атмосферы (как на глубине 1 км в океане)"
+				"{ftbquests.chapter.extended_electric_era.quest121.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest121.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest121.description4}"
+				"{ftbquests.chapter.extended_electric_era.quest121.description5}"
 				""
-				"Поверхность покрыта вулканами, лавовыми равнинами и горными хребтами. Исследование требует максимальной подготовки."
+				"{ftbquests.chapter.extended_electric_era.quest121.description6}"
 			]
 			id: "4CC4587F308B6B37"
 			rewards: [{
@@ -3346,25 +3351,24 @@
 				dimension: "ad_astra:venus"
 				icon: "ad_astra:venus_globe"
 				id: "721AD4C6EF9B67EE"
-				title: "Венера"
+				title: "{ftbquests.chapter.extended_electric_era.quest121.task0_title}"
 				type: "dimension"
 			}]
-			title: "Экспедиция на &eВенеру"
+			title: "{ftbquests.chapter.extended_electric_era.quest121.title}"
 			x: 1.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["7D82C36C04BDDB73"]
 			description: [
-				"Меркурий — ближайшая к Солнцу планета, безжалостно обжигаемая солнечной радиацией."
+				"{ftbquests.chapter.extended_electric_era.quest122.description1}"
 				""
-				"Информация о Меркурии:"
-				"Гравитация: 3.7 м/с² (38% от земной)"
-				"Кислород: отсутствует (разреженная экзосфера)"
-				"Температура: 167.0 °C (днём), -173°C (ночью)"
-				"Сутки: 176 земных дней"
+				"{ftbquests.chapter.extended_electric_era.quest122.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest122.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest122.description4}"
+				"{ftbquests.chapter.extended_electric_era.quest122.description5}"
 				""
-				"Горячий бесплодный мир с обширными лавовыми равнинами, усеянный кратерами. Экстремальные перепады температур делают его одним из самых сложных для исследования тел Солнечной системы."
+				"{ftbquests.chapter.extended_electric_era.quest122.description6}"
 			]
 			id: "2BC190CA0169D057"
 			rewards: [{
@@ -3379,22 +3383,21 @@
 				dimension: "ad_astra:mercury"
 				icon: "ad_astra:mercury_globe"
 				id: "0562FEECD8303A00"
-				title: "на &cМер&6курий"
+				title: "{ftbquests.chapter.extended_electric_era.quest122.task0_title}"
 				type: "dimension"
 			}]
-			title: "Экспедиция на Меркурий"
+			title: "{ftbquests.chapter.extended_electric_era.quest122.title}"
 			x: 1.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["6E3A87DE859101FE"]
 			description: [
-				"Это максимальное расстояние, на которое наша текущая технология может нас доставить. &bГлацио&r — холодная планета, но на ней есть кислород для дыхания!"
+				"{ftbquests.chapter.extended_electric_era.quest123.description1}"
 				""
-				"Информация о Глацио:"
-				"Гравитация: 3.721 м/с²"
-				"Кислород: Да"
-				"Температура: -20.0 °C"
+				"{ftbquests.chapter.extended_electric_era.quest123.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest123.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest123.description4}"
 			]
 			icon: "ad_astra:glacio_globe"
 			id: "6103E3BB9E716F56"
@@ -3411,13 +3414,13 @@
 				id: "40068C63D3C7311E"
 				type: "advancement"
 			}]
-			title: "на &bГлацио"
+			title: "{ftbquests.chapter.extended_electric_era.quest123.title}"
 			x: 1.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["15B89C8C50319904"]
-			description: ["&dРакета 4-го уровня&r — это самая мощная ракета, которую мы можем сделать. Она позволит нам путешествовать за пределы нашей Солнечной системы!"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest124.description1}"]
 			id: "6E3A87DE859101FE"
 			rewards: [{
 				id: "7CC55E9264CA1B61"
@@ -3435,22 +3438,23 @@
 						BotariumData: { }
 					}
 				}
-				title: "Скрафтить &5Ракету 4 уровня&r"
+				title: "{ftbquests.chapter.extended_electric_era.quest124.task0_title}"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.extended_electric_era.quest124.title}"
 			x: 3.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["36A0E4C9A9F727F4"]
 			description: [
-				"&bРеактивный скафандр&r — это улучшенная версия &cнезеритового космического скафандра&r, предлагающая больше защиты, дополнительный запас кислорода и &eполёт&r. Он дорог в крафте, но обеспечивает высокоскоростной полёт, облегчая путешествия."
+				"{ftbquests.chapter.extended_electric_era.quest125.description1}"
 				""
-				"У него есть два режима полёта: подъём (&aПробел&r) и ускоренный (&aПробел + Влево&r). "
+				"{ftbquests.chapter.extended_electric_era.quest125.description2}"
 				""
-				"Подъём заставляет носить лететь вверх, а ускоренный режим похож на элитры, постоянно разгоняемые фейерверками."
+				"{ftbquests.chapter.extended_electric_era.quest125.description3}"
 				""
-				"&bРеактивный скафандр&r работает на энергии и должен заряжаться для полёта."
+				"{ftbquests.chapter.extended_electric_era.quest125.description4}"
 			]
 			id: "15B89C8C50319904"
 			rewards: [{
@@ -3506,16 +3510,16 @@
 					type: "item"
 				}
 			]
-			title: "Скрафтить &4Реактивный Скафандр"
+			title: "{ftbquests.chapter.extended_electric_era.quest125.title}"
 			x: 3.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["75D3E9EA5C619D47"]
 			description: [
-				"&6Крио-морозильник&r — передовая технология преобразования холода в энергию. При подаче питания преобразует холодные предметы, такие как &bлёд, спрессованный лёд, синий лёд или осколки льда,&r в &dкриотопливо&r."
+				"{ftbquests.chapter.extended_electric_era.quest126.description1}"
 				""
-				"Криотопливо в 3 раза эффективнее обычного астрального топлива. Вместо 3 вёдер &9астрального топлива&r на запуск вам понадобится всего 1 ведро &dкриотоплива&r. Крио-морозильник также может использоваться для создания систем охлаждения на космических станциях."
+				"{ftbquests.chapter.extended_electric_era.quest126.description2}"
 			]
 			id: "17FCB16F672F3E35"
 			rewards: [{
@@ -3528,18 +3532,17 @@
 				item: "ad_astra:cryo_freezer"
 				type: "item"
 			}]
-			title: "&aЭффективное топливо&r"
 			x: -3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["75D3E9EA5C619D47"]
 			description: [
-				"&6Незеритовый космический скафандр&f — улучшенная версия стандартного космического скафандра, созданная для экстремальных условий."
+				"{ftbquests.chapter.extended_electric_era.quest127.description1}"
 				""
-				"Он обеспечивает огнестойкость, радиационную защиту, повышенную прочность и позволяет выживать на &2Венере&r (464°C) и &bМеркурии&r (167°C)."
+				"{ftbquests.chapter.extended_electric_era.quest127.description2}"
 				""
-				"Перед путешествием на эти планеты обязательно скрафтите &6броню из незеритового космического скафандра,&f иначе вы сгорите заживо за считанные секунды. Каждый элемент брони требует значительных ресурсов и точной сборки."
+				"{ftbquests.chapter.extended_electric_era.quest127.description3}"
 			]
 			id: "3A2840A8D7A92BCD"
 			rewards: [{
@@ -3595,27 +3598,26 @@
 					type: "item"
 				}
 			]
-			title: "Скрафтите &4Незеритовый Космический Шлем"
+			title: "{ftbquests.chapter.extended_electric_era.quest127.title}"
 			x: -3.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["75D3E9EA5C619D47"]
-			description: ["&6Датчик кислорода&r — это устройство, которое выдаёт &credstone-сигнал,&r когда обнаружен кислород. Критически важный компонент для автоматизации систем жизнеобеспечения. Может использоваться для автоматического включения/выключения распределителей кислорода, предупреждения об утечках и мониторинга атмосферы в герметичных помещениях."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest128.description1}"]
 			id: "08C3F9EFB6255BE6"
 			tasks: [{
 				id: "4C2288131295C034"
 				item: "ad_astra:oxygen_sensor"
-				title: "Скрафтите &bДатчик Кислорода"
+				title: "{ftbquests.chapter.extended_electric_era.quest128.task0_title}"
 				type: "item"
 			}]
-			title: "Автоматизация жизнеобеспечения"
 			x: -3.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["3A2840A8D7A92BCD"]
-			description: ["Ракета третьего уровня — вершина космического кораблестроения для Солнечной системы. Создана из острумовых пластин, оснащена усовершенствованными двигателями и улучшенными системами навигации. Способна достигать Венеры и Меркурия, выдерживая экстремальные температуры и радиацию. Требует криотоплива для максимальной эффективности."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest129.description1}"]
 			id: "7D82C36C04BDDB73"
 			rewards: [{
 				count: 20
@@ -3633,47 +3635,45 @@
 						BotariumData: { }
 					}
 				}
-				title: "Скрафтите &8Ракету 3-го Уровня &3"
+				title: "{ftbquests.chapter.extended_electric_era.quest129.task0_title}"
 				type: "item"
 			}]
-			title: "Создание ракеты третьего уровня"
+			title: "{ftbquests.chapter.extended_electric_era.quest129.title}"
 			x: -1.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["7C056525139CEE2D"]
-			description: ["Острумовые пластины — обработанные листы экзотического металла, готовые к использованию в космическом кораблестроении. Обладают исключительной термостойкостью (выдерживают до 2000°C) и радиационной защитой. Являются основным материалом для корпуса ракет третьего уровня."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest130.description1}"]
 			id: "75D3E9EA5C619D47"
 			tasks: [{
 				id: "0069539477ECFF25"
 				item: "ad_astra:ostrum_plate"
 				type: "item"
 			}]
-			title: "Создать острумовые пластины"
 			x: -4.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["2A279B011D09A9EE"]
-			description: ["Острум — экзотический металл, не встречающийся в естественных условиях на Земле. Получается путём насыщения обычных металлов космической радиацией и солнечной энергией в специальной камере. Обладает повышенной термостойкостью, необходимой для полётов к Венере и Меркурию."]
+			description: ["{ftbquests.chapter.extended_electric_era.quest131.description1}"]
 			id: "7C056525139CEE2D"
 			tasks: [{
 				id: "3308E459076032CE"
 				item: "ad_astra:ostrum_ingot"
 				type: "item"
 			}]
-			title: "Получить слиток острума"
 			x: -7.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["516E22CDCFD1611C"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest109.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest132.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest109.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest132.description2}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest109.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest132.description3}"
 			]
 			hide_dependency_lines: true
 			id: "48E4837039E0C381"
@@ -3688,12 +3688,12 @@
 				item: "powerutils:converter/power_utilities_qe"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.0d
+			x: -2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["516E22CDCFD1611C"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest112.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest133.description1}"]
 			hide_dependency_lines: true
 			id: "0EAD68CB6C5487B4"
 			rewards: [{
@@ -3711,12 +3711,12 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: -0.5d
+			x: -1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["516E22CDCFD1611C"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest111.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest134.description1}"]
 			hide_dependency_lines: true
 			id: "624A8A7A5D98A577"
 			rewards: [{
@@ -3730,12 +3730,12 @@
 				item: "industrialupgrade:wiring/quantum"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -1.5d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["516E22CDCFD1611C"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest110.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest135.description1}"]
 			hide_dependency_lines: true
 			id: "7B9BA9156601497B"
 			rewards: [{
@@ -3749,60 +3749,114 @@
 				item: "quantumgenerators:qg/phsp_gen"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -1.0d
+			x: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0658B78DEB1015A4"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest119.description1}"
-				"{ftbquests.chapter.18F4452C86824019.quest119.description2}"
+				"&e{ftbquests.chapter.extended_electric_era.quest136.description2}&r"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest119.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest136.description3}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest119.description4}"
+				"{ftbquests.chapter.extended_electric_era.quest136.description4}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest119.description5}"
+				"{ftbquests.chapter.extended_electric_era.quest136.description5}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest119.description6}"
+				"{ftbquests.chapter.extended_electric_era.quest136.description6}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest119.description7}"
+				"{ftbquests.chapter.extended_electric_era.quest136.description7}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest119.description8}"
-				"{ftbquests.chapter.18F4452C86824019.quest119.description9}"
+				"{ftbquests.chapter.extended_electric_era.quest136.description8}"
+				"{ftbquests.chapter.extended_electric_era.quest136.description9}"
 				"{@pagebreak}"
-				"{ftbquests.chapter.18F4452C86824019.quest119.description10}"
+				"{ftbquests.chapter.extended_electric_era.quest136.description10}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest119.description11}"
-				"{ftbquests.chapter.18F4452C86824019.quest119.description12}"
-				"{ftbquests.chapter.18F4452C86824019.quest119.description13}"
-				"{ftbquests.chapter.18F4452C86824019.quest119.description14}"
-				"{ftbquests.chapter.18F4452C86824019.quest119.description15}"
+				"{ftbquests.chapter.extended_electric_era.quest136.description11}"
+				"{ftbquests.chapter.extended_electric_era.quest136.description12}"
+				"{ftbquests.chapter.extended_electric_era.quest136.description13}"
+				"{ftbquests.chapter.extended_electric_era.quest136.description14}"
+				"{ftbquests.chapter.extended_electric_era.quest136.description15}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest119.description16}"
+				"{ftbquests.chapter.extended_electric_era.quest136.description16}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest119.description17}"
+				"{ftbquests.chapter.extended_electric_era.quest136.description17}"
 			]
 			id: "6AB15F712859A047"
 			rewards: [{
-				count: 6
+				count: 15
 				id: "7C9C84F2F23B4CFC"
 				item: "libraryferret:diamond_coins_jtl"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "pentagon"
 			size: 1.5d
-			tasks: [{
-				id: "0450CE46D980C16E"
-				item: "industrialupgrade:steam_turbine/steam_turbine_controller"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 3.0d
+			subtitle: "{ftbquests.chapter.extended_electric_era.quest136.description1}"
+			tasks: [
+				{
+					id: "0450CE46D980C16E"
+					item: "industrialupgrade:steam_turbine/steam_turbine_controller"
+					type: "item"
+				}
+				{
+					id: "74A79DE7FCB7F517"
+					item: "industrialupgrade:steam_turbine/steam_turbine_socket"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "32E85EAC4571AB55"
+					item: "industrialupgrade:steam_turbine/steam_turbine_tank"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0B4240CC29B99F75"
+					item: { Count: 4, id: "industrialupgrade:steam_turbine/steam_turbine_exchanger" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "42DF8E0E2623949A"
+					item: { Count: 2, id: "industrialupgrade:steam_turbine/steam_turbine_coolant" }
+					type: "item"
+				}
+				{
+					id: "1B57597B844C93B4"
+					item: "industrialupgrade:steam_turbine/steam_turbine_pressure"
+					type: "item"
+				}
+				{
+					id: "3747178242C3FEEB"
+					item: "industrialupgrade:steam_turbine/steam_turbine_controller_rod"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "5CF9CE4C67E30350"
+					item: { Count: 9, id: "industrialupgrade:steam_turbine/steam_turbine_controller_rod" }
+					type: "item"
+				}
+				{
+					count: 118L
+					id: "647A82744669D05C"
+					item: { Count: 192, id: "industrialupgrade:steam_turbine/steam_turbine_casing_glass" }
+					type: "item"
+				}
+				{
+					count: 140L
+					id: "7DFE4FF383A0FC1A"
+					item: { Count: 140, id: "industrialupgrade:steam_turbine/steam_turbine_casing" }
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.extended_electric_era.quest136.title}"
+			x: -6.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6D5F9B7D63438D20"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest34.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest137.description1}"]
 			hide_dependency_lines: true
 			id: "59E36D587F32D23F"
 			rewards: [{
@@ -3816,6 +3870,7 @@
 				item: "industrialupgrade:solid/night_solidmatter"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.extended_electric_era.quest137.title}"
 			x: 0.0d
 			y: 4.5d
 		}
@@ -3842,12 +3897,13 @@
 				item: "industrialupgrade:combiner_solid_matter/combiner_solid_matter"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.extended_electric_era.quest138.title}"
 			x: 1.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["6D5F9B7D63438D20"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest29.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest139.description1}"]
 			hide_dependency_lines: true
 			id: "549E0DD5351BA984"
 			rewards: [{
@@ -3861,12 +3917,13 @@
 				item: "industrialupgrade:solid/aqua_solidmatter"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.extended_electric_era.quest139.title}"
 			x: 1.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["6D5F9B7D63438D20"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest30.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest140.description1}"]
 			hide_dependency_lines: true
 			id: "1072F3E43089919F"
 			rewards: [{
@@ -3880,12 +3937,13 @@
 				item: "industrialupgrade:solid/earth_solidmatter"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.extended_electric_era.quest140.title}"
 			x: 2.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["6D5F9B7D63438D20"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest33.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest141.description1}"]
 			hide_dependency_lines: true
 			id: "0B9ABB0329F3FC08"
 			rewards: [{
@@ -3899,12 +3957,13 @@
 				item: "industrialupgrade:solid/nether_solidmatter"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.extended_electric_era.quest141.title}"
 			x: 2.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["6D5F9B7D63438D20"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest32.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest142.description1}"]
 			hide_dependency_lines: true
 			id: "05C6D269A602CF90"
 			rewards: [{
@@ -3918,12 +3977,13 @@
 				item: "industrialupgrade:solid/solidmatter"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.extended_electric_era.quest142.title}"
 			x: 2.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["6D5F9B7D63438D20"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest35.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest143.description1}"]
 			hide_dependency_lines: true
 			id: "04B5D650F5C1F963"
 			rewards: [{
@@ -3937,12 +3997,13 @@
 				item: "industrialupgrade:solid/sun_solidmatter"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.extended_electric_era.quest143.title}"
 			x: 1.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["6D5F9B7D63438D20"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest31.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest144.description1}"]
 			hide_dependency_lines: true
 			id: "5114C50A90359617"
 			rewards: [{
@@ -3956,12 +4017,13 @@
 				item: "industrialupgrade:solid/end_solidmatter"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.extended_electric_era.quest144.title}"
 			x: -0.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["6D5F9B7D63438D20"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest28.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest145.description1}"]
 			hide_dependency_lines: true
 			id: "22AF031235DB0EA3"
 			rewards: [{
@@ -3975,17 +4037,18 @@
 				item: "industrialupgrade:solid/aer_solidmatter"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.extended_electric_era.quest145.title}"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["6D5F9B7D63438D20"]
 			description: [
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest13.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest146.description1}"
 				""
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest13.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest146.description2}"
 				""
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest13.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest146.description3}"
 			]
 			hide_dependency_lines: true
 			id: "607A3A9D11601B49"
@@ -4004,32 +4067,26 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.extended_electric_era.quest146.title}"
 			x: 3.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["685F56580025FCC8"]
 			description: [
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest37.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest147.description1}"
 				""
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest37.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest147.description2}"
 				""
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest37.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest147.description3}"
 			]
 			id: "35772A172DBBC401"
-			rewards: [
-				{
-					count: 5
-					id: "0C665487E2CF0C6F"
-					item: "libraryferret:diamond_coins_jtl"
-					type: "item"
-				}
-				{
-					id: "68497370100501B3"
-					item: "industrialupgrade:special/void_matter"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 5
+				id: "0C665487E2CF0C6F"
+				item: "libraryferret:diamond_coins_jtl"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "32F49B5EF337157C"
@@ -4040,6 +4097,7 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.extended_electric_era.quest147.title}"
 			x: 3.5d
 			y: 3.5d
 		}
@@ -4061,17 +4119,18 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.extended_electric_era.quest148.title}"
 			x: 3.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["35772A172DBBC401"]
 			description: [
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest39.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest149.description1}"
 				""
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest39.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest149.description2}"
 				""
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest39.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest149.description3}"
 			]
 			id: "1E0CB454140D7FCE"
 			rewards: [{
@@ -4085,6 +4144,7 @@
 				item: "industrialupgrade:basemachine3/neutronseparator"
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.extended_electric_era.quest149.title}"
 			x: 4.5d
 			y: 4.5d
 		}
@@ -4113,7 +4173,7 @@
 				"0551699C5C130814"
 				"63569797FB817FCD"
 			]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest15.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest151.description1}"]
 			id: "32307E6560E75401"
 			rewards: [{
 				count: 3
@@ -4137,19 +4197,19 @@
 				"1E0CB454140D7FCE"
 			]
 			description: [
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest5.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest152.description1}"
 				""
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest5.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest152.description2}"
 				""
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest5.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest152.description3}"
 				""
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest5.description4}"
+				"{ftbquests.chapter.extended_electric_era.quest152.description4}"
 				""
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest5.description5}"
+				"{ftbquests.chapter.extended_electric_era.quest152.description5}"
 				""
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest5.description6}"
+				"{ftbquests.chapter.extended_electric_era.quest152.description6}"
 				""
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest5.description7}"
+				"{ftbquests.chapter.extended_electric_era.quest152.description7}"
 			]
 			id: "20127426A7DDBD5B"
 			rewards: [{
@@ -4208,17 +4268,18 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.extended_electric_era.quest152.title}"
 			x: 5.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["1E0CB454140D7FCE"]
 			description: [
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest38.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest153.description1}"
 				""
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest38.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest153.description2}"
 				""
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest38.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest153.description3}"
 			]
 			id: "6295AF3FE8018D2D"
 			rewards: [{
@@ -4236,6 +4297,7 @@
 				}
 				type: "item"
 			}]
+			title: "{ftbquests.chapter.extended_electric_era.quest153.title}"
 			x: 4.5d
 			y: 2.5d
 		}
@@ -4335,7 +4397,7 @@
 		}
 		{
 			dependencies: ["230A05D9F6749A2D"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest1.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest159.description1}"]
 			id: "6D5F9B7D63438D20"
 			rewards: [{
 				count: 10
@@ -4360,19 +4422,19 @@
 		{
 			dependencies: ["334C1553598DF9E8"]
 			description: [
-				"{ftbquests.chapter.18F4452C86824019.quest86.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest160.description1}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest86.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest160.description2}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest86.description3}"
-				"{ftbquests.chapter.18F4452C86824019.quest86.description4}"
-				"{ftbquests.chapter.18F4452C86824019.quest86.description5}"
+				"{ftbquests.chapter.extended_electric_era.quest160.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest160.description4}"
+				"{ftbquests.chapter.extended_electric_era.quest160.description5}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest86.description6}"
+				"{ftbquests.chapter.extended_electric_era.quest160.description6}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest86.description7}"
+				"{ftbquests.chapter.extended_electric_era.quest160.description7}"
 				""
-				"{ftbquests.chapter.18F4452C86824019.quest86.description8}"
+				"{ftbquests.chapter.extended_electric_era.quest160.description8}"
 			]
 			id: "3EDD08519886CE17"
 			rewards: [{
@@ -4417,12 +4479,13 @@
 					type: "item"
 				}
 			]
+			title: "{ftbquests.chapter.extended_electric_era.quest160.title}"
 			x: 8.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["2605F90649F6AD42"]
-			description: ["{ftbquests.chapter.18F4452C86824019.quest49.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest161.description1}"]
 			id: "6988F85664788F71"
 			rewards: [{
 				count: 6
@@ -4482,9 +4545,9 @@
 				"5F83299909C82609"
 			]
 			description: [
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest11.description1}"
+				"&e{ftbquests.chapter.extended_electric_era.quest164.description1}&r"
 				""
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest11.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest164.description2}"
 			]
 			id: "2CE2E82D139ADA34"
 			rewards: [{
@@ -4503,7 +4566,7 @@
 		}
 		{
 			dependencies: ["2CE2E82D139ADA34"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest40.description1}"]
+			description: [""]
 			id: "11CADEB8CD8D7EA1"
 			rewards: [{
 				count: 8
@@ -4523,7 +4586,7 @@
 		}
 		{
 			dependencies: ["2CE2E82D139ADA34"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest40.description1}"]
+			description: [""]
 			id: "742E9E5F49008FEC"
 			rewards: [{
 				count: 8
@@ -5089,7 +5152,7 @@
 		}
 		{
 			dependencies: ["0486F00796A549BD"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest27.description1}"]
+			description: [""]
 			id: "227EA4F8F939A90D"
 			rewards: [{
 				count: 15
@@ -5111,7 +5174,7 @@
 		}
 		{
 			dependencies: ["4CBBA560E59B5C9D"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest19.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest194.description1}"]
 			id: "2F77DC8F9EA7016A"
 			optional: true
 			rewards: [{
@@ -5130,7 +5193,7 @@
 		}
 		{
 			dependencies: ["4CBBA560E59B5C9D"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest20.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest195.description1}"]
 			id: "78EC4AB3989AC6EE"
 			optional: true
 			rewards: [{
@@ -5149,7 +5212,7 @@
 		}
 		{
 			dependencies: ["4CBBA560E59B5C9D"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest21.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest196.description1}"]
 			id: "246A31936C58EB59"
 			optional: true
 			rewards: [{
@@ -5168,7 +5231,7 @@
 		}
 		{
 			dependencies: ["4CBBA560E59B5C9D"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest23.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest197.description1}"]
 			id: "23B50ECCBD9B8FCB"
 			optional: true
 			rewards: [{
@@ -5187,7 +5250,7 @@
 		}
 		{
 			dependencies: ["1DEF64F6CB4828DC"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest26.description1}"]
+			description: [""]
 			id: "0486F00796A549BD"
 			rewards: [{
 				count: 10
@@ -5209,7 +5272,7 @@
 		}
 		{
 			dependencies: ["4CBBA560E59B5C9D"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest25.description1}"]
+			description: [""]
 			id: "1DEF64F6CB4828DC"
 			rewards: [{
 				count: 8
@@ -5231,7 +5294,7 @@
 		}
 		{
 			dependencies: ["4CBBA560E59B5C9D"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest22.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest200.description1}"]
 			id: "51AECFE6E27C482A"
 			optional: true
 			rewards: [{
@@ -5250,7 +5313,7 @@
 		}
 		{
 			dependencies: ["4CBBA560E59B5C9D"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest24.description1}"]
+			description: ["{ftbquests.chapter.extended_electric_era.quest201.description1}"]
 			id: "37A793D86CA4D761"
 			optional: true
 			rewards: [{
@@ -5898,7 +5961,7 @@
 				"592C40E45B7D0C48"
 				"13BFFB4D6F93945F"
 			]
-			description: ["Создайте гидразин - важное ракетное топливо."]
+			description: [""]
 			id: "338D18EDD37A7408"
 			rewards: [{
 				count: 3
@@ -5921,13 +5984,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "{ftbquests.chapter.18F4452C86824019.quest8.title}"
-			x: -18.0d
-			y: -10.0d
+			title: "{ftbquests.chapter.extended_electric_era.quest228.title}"
+			x: -11.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6D5F9B7D63438D20"]
-			description: ["{ftbquests.chapter.0D5E7267C8F6781C.quest16.description1}"]
+			description: [""]
 			hide_dependency_lines: true
 			id: "626DB08B1AB445BB"
 			rewards: [{
@@ -5964,13 +6027,13 @@
 		{
 			dependencies: ["32307E6560E75401"]
 			description: [
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest18.description1}"
+				"{ftbquests.chapter.extended_electric_era.quest231.description1}"
 				""
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest18.description2}"
+				"{ftbquests.chapter.extended_electric_era.quest231.description2}"
 				""
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest18.description3}"
+				"{ftbquests.chapter.extended_electric_era.quest231.description3}"
 				""
-				"{ftbquests.chapter.0D5E7267C8F6781C.quest18.description4}"
+				"{ftbquests.chapter.extended_electric_era.quest231.description4}"
 			]
 			id: "4CBBA560E59B5C9D"
 			rewards: [{
@@ -6001,5 +6064,5 @@
 			y: 6.5d
 		}
 	]
-	title: "{ftbquests.chapter.18F4452C86824019.title}"
+	title: "{ftbquests.chapter.extended_electric_era.title}"
 }

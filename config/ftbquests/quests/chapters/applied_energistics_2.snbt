@@ -3239,7 +3239,7 @@
 		}
 		{
 			dependencies: ["2FB231069D2E4E77"]
-			description: ["Пусто"]
+			description: [""]
 			id: "5F78383C55919DF7"
 			rewards: [
 				{
@@ -3611,5 +3611,5 @@
 			y: 1.5d
 		}
 	]
-	title: "{ftbquests.chapter_groups_6489874184484817334.title}"
+	title: "{ftbquests.chapter.ae2.title}"
 }

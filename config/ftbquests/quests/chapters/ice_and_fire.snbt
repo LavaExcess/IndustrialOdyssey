@@ -2378,7 +2378,6 @@
 				"{ftbquests.chapter.ice_and_fire.quest43.description2}"
 				"{ftbquests.chapter.ice_and_fire.quest43.description3}"
 				"{ftbquests.chapter.ice_and_fire.quest43.description4}"
-				"{ftbquests.chapter.ice_and_fire.quest43.description5}"
 			]
 			id: "752042A08C0343CE"
 			rewards: [
@@ -2519,7 +2518,6 @@
 				"{ftbquests.chapter.ice_and_fire.quest46.description2}"
 				"{ftbquests.chapter.ice_and_fire.quest46.description3}"
 				"{ftbquests.chapter.ice_and_fire.quest46.description4}"
-				"{ftbquests.chapter.ice_and_fire.quest46.description5}"
 			]
 			id: "596E4BBBE5ECB9C5"
 			rewards: [
@@ -2660,7 +2658,6 @@
 				"{ftbquests.chapter.ice_and_fire.quest49.description2}"
 				"{ftbquests.chapter.ice_and_fire.quest49.description3}"
 				"{ftbquests.chapter.ice_and_fire.quest49.description4}"
-				"{ftbquests.chapter.ice_and_fire.quest49.description5}"
 			]
 			id: "09882BA9CA9D8453"
 			min_width: 300
@@ -2760,7 +2757,6 @@
 				"{ftbquests.chapter.ice_and_fire.quest51.description3}"
 				"{ftbquests.chapter.ice_and_fire.quest51.description4}"
 				"{ftbquests.chapter.ice_and_fire.quest51.description5}"
-				"{ftbquests.chapter.ice_and_fire.quest51.description6}"
 			]
 			id: "1EE1729CD3AEBD42"
 			min_width: 300
@@ -2824,7 +2820,6 @@
 			description: [
 				"{ftbquests.chapter.ice_and_fire.quest52.description1}"
 				"{ftbquests.chapter.ice_and_fire.quest52.description2}"
-				"{ftbquests.chapter.ice_and_fire.quest52.description3}"
 			]
 			id: "4E8A99E032F0A61D"
 			min_width: 300
@@ -2944,7 +2939,6 @@
 			description: [
 				"{ftbquests.chapter.ice_and_fire.quest55.description1}"
 				"{ftbquests.chapter.ice_and_fire.quest55.description2}"
-				"{ftbquests.chapter.ice_and_fire.quest55.description3}"
 			]
 			id: "569F7C8844F12952"
 			rewards: [
@@ -3112,7 +3106,6 @@
 			description: [
 				"{ftbquests.chapter.ice_and_fire.quest58.description1}"
 				"{ftbquests.chapter.ice_and_fire.quest58.description2}"
-				"{ftbquests.chapter.ice_and_fire.quest58.description3}"
 			]
 			id: "66764D2E1627DD07"
 			rewards: [
@@ -4384,7 +4377,6 @@
 				"{ftbquests.chapter.ice_and_fire.quest89.description5}"
 				"{ftbquests.chapter.ice_and_fire.quest89.description6}"
 				"{ftbquests.chapter.ice_and_fire.quest89.description7}"
-				"{ftbquests.chapter.ice_and_fire.quest89.description8}"
 			]
 			hide_dependency_lines: true
 			id: "5C42AD1E351785EA"
@@ -4809,5 +4801,5 @@
 			y: 0.0d
 		}
 	]
-	title: "{ftbquests.chapter_groups_6489874184484817331.title}"
+	title: "{ftbquests.chapter.iceandfire.title}"
 }
